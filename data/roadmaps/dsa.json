@@ -1,0 +1,368 @@
+{
+  "title": "Data Structures & Algorithms Roadmap",
+  "description": "A practical roadmap to master DSA fundamentals and advanced concepts.",
+  "modules": [
+    {
+      "id": "mod1",
+      "title": "Pick a Language",
+      "emoji": "🧭",
+      "description": "Choose your preferred programming language.",
+      "steps": [
+        { "id": "step1-1", "title": "C++", "emoji": "💻", "tutorial_url": "https://www.youtube.com/watch?v=vLnPwxZdW4Y" },
+        { "id": "step1-2", "title": "Python", "emoji": "🐍", "tutorial_url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc" },
+        { "id": "step1-3", "title": "Java", "emoji": "☕", "tutorial_url": "https://www.youtube.com/watch?v=eIrMbAQSU34" },
+        { "id": "step1-4", "title": "C#", "emoji": "🔵", "tutorial_url": "https://www.youtube.com/watch?v=GhQdlIFylQ8" },
+        { "id": "step1-5", "title": "JavaScript", "emoji": "🟨", "tutorial_url": "https://www.youtube.com/watch?v=W6NZfCO5SIk" },
+        { "id": "step1-6", "title": "Go", "emoji": "🐹", "tutorial_url": "https://www.youtube.com/watch?v=YS4e4q9oBaU" },
+        { "id": "step1-7", "title": "Rust", "emoji": "🦀", "tutorial_url": "https://www.youtube.com/watch?v=zF34dRivLOw" },
+        { "id": "step1-8", "title": "Ruby", "emoji": "💎", "tutorial_url": "https://www.youtube.com/watch?v=t_ispmWmdjY" }
+      ]
+    },
+    {
+      "id": "mod2",
+      "title": "Programming Fundamentals",
+      "emoji": "🔤",
+      "description": "Master the basics of programming.",
+      "steps": [
+        { "id": "step2-1", "title": "Language Syntax", "emoji": "📚", "tutorial_url": "https://www.geeksforgeeks.org/programming-language-tutorials/" },
+        { "id": "step2-2", "title": "Control Structures", "emoji": "🔄", "tutorial_url": "https://www.programiz.com/c-programming/c-if-else" },
+        { "id": "step2-3", "title": "Pseudo Code", "emoji": "📝", "tutorial_url": "https://www.geeksforgeeks.org/how-to-write-a-pseudocode/" },
+        { "id": "step2-4", "title": "Functions", "emoji": "🔧", "tutorial_url": "https://www.geeksforgeeks.org/functions-in-c/" },
+        { "id": "step2-5", "title": "OOP Basics", "emoji": "🏛️", "tutorial_url": "https://www.youtube.com/watch?v=pTB0EiLXUC8" }
+      ]
+    },
+    {
+      "id": "mod3",
+      "title": "Basic Data Structures",
+      "emoji": "📦",
+      "description": "Get familiar with essential data structures.",
+      "steps": [
+        { "id": "step3-1", "title": "Array", "emoji": "🧩", "tutorial_url": "https://www.youtube.com/watch?v=wv7KvA0lQEA" },
+        { "id": "step3-2", "title": "Linked Lists", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=njTh_OwMljA" },
+        { "id": "step3-3", "title": "Queues", "emoji": "🚦", "tutorial_url": "https://www.youtube.com/watch?v=okr-XE8yTO8" },
+        { "id": "step3-4", "title": "Stacks", "emoji": "📚", "tutorial_url": "https://www.youtube.com/watch?v=tHkWk7aLxcI" },
+        { "id": "step3-5", "title": "Hash Tables", "emoji": "🔑", "tutorial_url": "https://www.youtube.com/watch?v=shs0KM3wKv8" }
+      ]
+    },
+    {
+      "id": "mod4",
+      "title": "What are Data Structures?",
+      "emoji": "❓",
+      "description": "Understand what data structures are.",
+      "steps": [
+        { "id": "step4-1", "title": "What are Data Structures?", "emoji": "❓", "tutorial_url": "https://www.geeksforgeeks.org/data-structures/" }
+      ]
+    },
+    {
+      "id": "mod5",
+      "title": "Why are Data Structures Important?",
+      "emoji": "💡",
+      "description": "Learn why DSA matters in programming.",
+      "steps": [
+        { "id": "step5-1", "title": "Why are Data Structures Important?", "emoji": "💡", "tutorial_url": "https://www.geeksforgeeks.org/why-data-structures-are-important/" }
+      ]
+    },
+    {
+      "id": "mod6",
+      "title": "Algorithmic Complexity",
+      "emoji": "⏳",
+      "description": "Understand time and space complexity.",
+      "steps": [
+        { "id": "step6-1", "title": "Time vs Space Complexity", "emoji": "⏱️", "tutorial_url": "https://www.youtube.com/watch?v=0nVIGhCjgjw" },
+        { "id": "step6-2", "title": "How to Calculate Complexity?", "emoji": "🧮", "tutorial_url": "https://www.geeksforgeeks.org/analysis-of-algorithms-set-4-analysis-of-loops/" },
+        { "id": "step6-3", "title": "Asymptotic Notation (Big-O, Big-Ω, Big-Θ)", "emoji": "📈", "tutorial_url": "https://www.youtube.com/watch?v=D6xkbGLQesk" }
+      ]
+    },
+    {
+      "id": "mod7",
+      "title": "Common Runtimes",
+      "emoji": "⏱️",
+      "description": "Learn about different computational complexities.",
+      "steps": [
+        { "id": "step7-1", "title": "Constant, Logarithmic, Linear, Polynomial, Exponential, Factorial", "emoji": "📊", "tutorial_url": "https://www.bigocheatsheet.com/" }
+      ]
+    },
+    {
+      "id": "mod8",
+      "title": "Sorting Algorithms",
+      "emoji": "🔀",
+      "description": "Master the most common sorting algorithms.",
+      "steps": [
+        { "id": "step8-1", "title": "Bubble Sort", "emoji": "🫧", "tutorial_url": "https://www.youtube.com/watch?v=nmhjrI-aW5o" },
+        { "id": "step8-2", "title": "Insertion Sort", "emoji": "🔢", "tutorial_url": "https://www.youtube.com/watch?v=JU767SDMDvA" },
+        { "id": "step8-3", "title": "Selection Sort", "emoji": "🔢", "tutorial_url": "https://www.youtube.com/watch?v=g-PGLbMth_g" },
+        { "id": "step8-4", "title": "Merge Sort", "emoji": "🔀", "tutorial_url": "https://www.youtube.com/watch?v=JSceec-wEyw" },
+        { "id": "step8-5", "title": "Quick Sort", "emoji": "⚡", "tutorial_url": "https://www.youtube.com/watch?v=Hoixgm4-P4M" },
+        { "id": "step8-6", "title": "Heap Sort", "emoji": "⛺", "tutorial_url": "https://www.youtube.com/watch?v=MtQL_ll5KhQ" }
+      ]
+    },
+    {
+      "id": "mod9",
+      "title": "Search Algorithms",
+      "emoji": "🔎",
+      "description": "Learn basic search algorithms.",
+      "steps": [
+        { "id": "step9-1", "title": "Binary Search", "emoji": "🔎", "tutorial_url": "https://www.youtube.com/watch?v=P3YID7liBug" },
+        { "id": "step9-2", "title": "Linear Search", "emoji": "⬇️", "tutorial_url": "https://www.youtube.com/watch?v=8UqCyepX3AI" }
+      ]
+    },
+    {
+      "id": "mod10",
+      "title": "Graph Data Structures",
+      "emoji": "🌐",
+      "description": "Explore graph representations.",
+      "steps": [
+        { "id": "step10-1", "title": "Directed Graph", "emoji": "➡️", "tutorial_url": "https://www.youtube.com/watch?v=09_LlHjoEiY" },
+        { "id": "step10-2", "title": "Undirected Graph", "emoji": "🔁", "tutorial_url": "https://www.youtube.com/watch?v=09_LlHjoEiY" }
+      ]
+    },
+    {
+      "id": "mod11",
+      "title": "Tree Data Structures",
+      "emoji": "🌳",
+      "description": "Understand different tree structures and traversals.",
+      "steps": [
+        { "id": "step11-1", "title": "Binary Trees", "emoji": "🌲", "tutorial_url": "https://www.youtube.com/watch?v=6oL-0TdVy28" },
+        { "id": "step11-2", "title": "Binary Search Trees", "emoji": "🌲", "tutorial_url": "https://www.youtube.com/watch?v=6oL-0TdVy28" },
+        { "id": "step11-3", "title": "AVL Trees", "emoji": "⚖️", "tutorial_url": "https://www.youtube.com/watch?v=rbg7Qf8GkQ4" },
+        { "id": "step11-4", "title": "B-Trees", "emoji": "🌴", "tutorial_url": "https://www.youtube.com/watch?v=COZK7NATh4k" },
+        { "id": "step11-5", "title": "Heap", "emoji": "⛺", "tutorial_url": "https://www.youtube.com/watch?v=MtQL_ll5KhQ" },
+        { "id": "step11-6", "title": "In-Order Traversal", "emoji": "➡️", "tutorial_url": "https://www.youtube.com/watch?v=COZK7NATh4k" },
+        { "id": "step11-7", "title": "Pre-Order Traversal", "emoji": "⬆️", "tutorial_url": "https://www.youtube.com/watch?v=COZK7NATh4k" },
+        { "id": "step11-8", "title": "Post-Order Traversal", "emoji": "⬇️", "tutorial_url": "https://www.youtube.com/watch?v=COZK7NATh4k" },
+        { "id": "step11-9", "title": "Breadth First Search (BFS)", "emoji": "🔎", "tutorial_url": "https://www.youtube.com/watch?v=xlVX7dXLS64" },
+        { "id": "step11-10", "title": "Depth First Search (DFS)", "emoji": "🔍", "tutorial_url": "https://www.youtube.com/watch?v=pcKY4hjDrxk" }
+      ]
+    },
+    {
+      "id": "mod12",
+      "title": "Advanced Data Structures",
+      "emoji": "🔬",
+      "description": "Go deeper into advanced structures.",
+      "steps": [
+        { "id": "step12-1", "title": "Trie", "emoji": "🔠", "tutorial_url": "https://www.youtube.com/watch?v=zIjfhVPRZCg" },
+        { "id": "step12-2", "title": "Segment Trees", "emoji": "🌲", "tutorial_url": "https://www.youtube.com/watch?v=ZBHKZF5w4YU" },
+        { "id": "step12-3", "title": "Fenwick Trees", "emoji": "🌳", "tutorial_url": "https://www.youtube.com/watch?v=dp8dfKg8oME" },
+        { "id": "step12-4", "title": "Disjoint Set (Union-Find)", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=ID00PMy0-vE" },
+        { "id": "step12-5", "title": "Suffix Trees and Arrays", "emoji": "🔤", "tutorial_url": "https://www.youtube.com/watch?v=h0l3S6ZbZVI" }
+      ]
+    },
+    {
+      "id": "mod13",
+      "title": "Graph Algorithms",
+      "emoji": "🧮",
+      "description": "Classic graph algorithms and traversals.",
+      "steps": [
+        { "id": "step13-1", "title": "Breadth First Search (BFS)", "emoji": "🔎", "tutorial_url": "https://www.youtube.com/watch?v=xlVX7dXLS64" },
+        { "id": "step13-2", "title": "Depth First Search (DFS)", "emoji": "🔍", "tutorial_url": "https://www.youtube.com/watch?v=pcKY4hjDrxk" },
+        { "id": "step13-3", "title": "Dijkstra’s Algorithm", "emoji": "🛣️", "tutorial_url": "https://www.youtube.com/watch?v=GazC3A4OQTE" },
+        { "id": "step13-4", "title": "Bellman-Ford Algorithm", "emoji": "🔁", "tutorial_url": "https://www.youtube.com/watch?v=FtN3BYH2Zes" },
+        { "id": "step13-5", "title": "A* Algorithm", "emoji": "⭐", "tutorial_url": "https://www.youtube.com/watch?v=6TsL96NAZCo" },
+        { "id": "step13-6", "title": "Prim’s Algorithm", "emoji": "🌲", "tutorial_url": "https://www.youtube.com/watch?v=MhDG1A8wPe0" },
+        { "id": "step13-7", "title": "Kruskal’s Algorithm", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=71UQH7Pr9kU" }
+      ]
+    },
+    {
+      "id": "mod14",
+      "title": "Complex Data Structures",
+      "emoji": "🧬",
+      "description": "Explore more complex data structures.",
+      "steps": [
+        { "id": "step14-1", "title": "2-3 Trees", "emoji": "🌳", "tutorial_url": "https://www.geeksforgeeks.org/2-3-tree/" },
+        { "id": "step14-2", "title": "B/B+ Trees", "emoji": "🌴", "tutorial_url": "https://www.youtube.com/watch?v=COZK7NATh4k" },
+        { "id": "step14-3", "title": "Skip List", "emoji": "⏩", "tutorial_url": "https://www.youtube.com/watch?v=trli7Pd5I2w" },
+        { "id": "step14-4", "title": "ISAM", "emoji": "📁", "tutorial_url": "https://www.geeksforgeeks.org/index-sequential-access-method-isam/" }
+      ]
+    },
+    {
+      "id": "mod15",
+      "title": "Problem Solving Techniques",
+      "emoji": "🧠",
+      "description": "Learn to solve problems using different strategies.",
+      "steps": [
+        { "id": "step15-1", "title": "Brute Force", "emoji": "🔨", "tutorial_url": "https://www.geeksforgeeks.org/brute-force-approach/" },
+        { "id": "step15-2", "title": "Backtracking", "emoji": "🔙", "tutorial_url": "https://www.youtube.com/watch?v=DKCbsiDBN6c" },
+        { "id": "step15-3", "title": "Greedy Algorithms", "emoji": "💰", "tutorial_url": "https://www.youtube.com/watch?v=ARf9TLrZhG8" },
+        { "id": "step15-4", "title": "Randomised Algorithms", "emoji": "🎲", "tutorial_url": "https://www.geeksforgeeks.org/randomized-algorithms/" },
+        { "id": "step15-5", "title": "Multi-threaded", "emoji": "🔀", "tutorial_url": "https://www.geeksforgeeks.org/multithreading-in-java/" },
+        { "id": "step15-6", "title": "Divide and Conquer", "emoji": "✂️", "tutorial_url": "https://www.youtube.com/watch?v=QwPjbQoswKQ" },
+        { "id": "step15-7", "title": "Two Heaps", "emoji": "⛺⛺", "tutorial_url": "https://www.geeksforgeeks.org/two-heaps-problems/" },
+        { "id": "step15-8", "title": "Kth Element", "emoji": "🔢", "tutorial_url": "https://www.youtube.com/watch?v=FrWq2rznPLQ" },
+        { "id": "step15-9", "title": "Recursion", "emoji": "🔁", "tutorial_url": "https://www.youtube.com/watch?v=IJDJ0kBx2LM" },
+        { "id": "step15-10", "title": "Merge Intervals", "emoji": "📆", "tutorial_url": "https://www.youtube.com/watch?v=44H3cEC2fFM" },
+        { "id": "step15-11", "title": "Dynamic Programming", "emoji": "🧩", "tutorial_url": "https://www.youtube.com/watch?v=oBt53YbR9Kk" },
+        { "id": "step15-12", "title": "Cyclic Sort", "emoji": "🔄", "tutorial_url": "https://www.youtube.com/watch?v=JfinxytTYFQ" },
+        { "id": "step15-13", "title": "Two Pointer Technique", "emoji": "👆👆", "tutorial_url": "https://www.youtube.com/watch?v=boPRAE2dtQ8" },
+        { "id": "step15-14", "title": "Fast and Slow Pointers", "emoji": "🐢🐇", "tutorial_url": "https://www.youtube.com/watch?v=wjYnzkAhcNk" },
+        { "id": "step15-15", "title": "Sliding Window Technique", "emoji": "🪟", "tutorial_url": "https://www.youtube.com/watch?v=MK-NZ4hN7rs" },
+        { "id": "step15-16", "title": "Island Traversal", "emoji": "🏝️", "tutorial_url": "https://www.youtube.com/watch?v=pV2kpPD66nE" }
+      ]
+    },
+    {
+      "id": "mod16",
+      "title": "Indexing",
+      "emoji": "🔍",
+      "description": "Learn about indexing in data structures.",
+      "steps": [
+        { "id": "step16-1", "title": "Linear", "emoji": "➡️", "tutorial_url": "https://www.geeksforgeeks.org/indexing-in-databases-set-1/" },
+        { "id": "step16-2", "title": "Tree-Based", "emoji": "🌲", "tutorial_url": "https://www.geeksforgeeks.org/indexing-in-databases-set-2/" }
+      ]
+    },
+    {
+      "id": "mod17",
+      "title": "Platforms to Practice",
+      "emoji": "🏆",
+      "description": "Practice DSA with these platforms.",
+      "steps": [
+        { "id": "step17-1", "title": "LeetCode", "emoji": "💻", "tutorial_url": "https://leetcode.com/" },
+        { "id": "step17-2", "title": "Edabit", "emoji": "🎮", "tutorial_url": "https://edabit.com/challenges" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "Simple Calculator",
+      "level": "Beginner",
+      "emoji": "🧮",
+      "description": "Build a simple calculator to perform basic arithmetic operations.",
+      "concepts": ["Operators", "Functions", "Conditionals"],
+      "tutorial_url": "https://www.youtube.com/watch?v=ULg2JmVg0qs",
+      "guide_urls": [
+        { "label": "Python Calculator", "url": "https://www.programiz.com/python-programming/examples/calculator" }
+      ]
+    },
+    {
+      "id": "proj2",
+      "title": "Currency Converter",
+      "level": "Beginner",
+      "emoji": "💱",
+      "description": "Create a currency converter app.",
+      "concepts": ["Input/Output", "Arithmetic", "Conditionals"],
+      "tutorial_url": "https://www.youtube.com/watch?v=K1iu1kXkVoA",
+      "guide_urls": [
+        { "label": "JavaScript Example", "url": "https://www.geeksforgeeks.org/currency-converter-in-javascript/" }
+      ]
+    },
+    {
+      "id": "proj3",
+      "title": "To-do List Application",
+      "level": "Beginner",
+      "emoji": "📝",
+      "description": "Build a to-do list application to manage daily tasks.",
+      "concepts": ["Arrays", "CRUD", "User Input"],
+      "tutorial_url": "https://www.youtube.com/watch?v=mjO7qP2e92E",
+      "guide_urls": [
+        { "label": "Python To-Do", "url": "https://www.geeksforgeeks.org/python-todo-list-application/" }
+      ]
+    },
+    {
+      "id": "proj4",
+      "title": "Number Guessing Game",
+      "level": "Beginner",
+      "emoji": "🎲",
+      "description": "Create a number guessing game.",
+      "concepts": ["Random", "Loops", "Conditionals"],
+      "tutorial_url": "https://www.youtube.com/watch?v=8ext9G7xspg",
+      "guide_urls": [
+        { "label": "Number Guessing Guide", "url": "https://www.programiz.com/python-programming/examples/guess-number" }
+      ]
+    },
+    {
+      "id": "proj5",
+      "title": "Banking Management System",
+      "level": "Intermediate",
+      "emoji": "🏦",
+      "description": "Develop a simple banking management system.",
+      "concepts": ["OOP", "Data Structures", "File I/O"],
+      "tutorial_url": "https://www.youtube.com/watch?v=8ext9G7xspg",
+      "guide_urls": [
+        { "label": "Bank System Guide", "url": "https://www.geeksforgeeks.org/bank-management-system-project-in-c/" }
+      ]
+    },
+    {
+      "id": "proj6",
+      "title": "Plagiarism Detection System",
+      "level": "Intermediate",
+      "emoji": "🧐",
+      "description": "Build a basic plagiarism checker.",
+      "concepts": ["Strings", "Hashing", "File I/O"],
+      "tutorial_url": "https://www.youtube.com/watch?v=JPOzW6Wq0pI",
+      "guide_urls": [
+        { "label": "Plagiarism Python", "url": "https://www.geeksforgeeks.org/plagiarism-checker-python/" }
+      ]
+    },
+    {
+      "id": "proj7",
+      "title": "Snakes Game",
+      "level": "Intermediate",
+      "emoji": "🐍",
+      "description": "Develop a classic snake game.",
+      "concepts": ["Arrays", "Loops", "Game Logic"],
+      "tutorial_url": "https://www.youtube.com/watch?v=CD4qAhfFuLo",
+      "guide_urls": [
+        { "label": "Snake Game Python", "url": "https://www.geeksforgeeks.org/snake-game-in-python/" }
+      ]
+    },
+    {
+      "id": "proj8",
+      "title": "Sudoku Solver",
+      "level": "Intermediate",
+      "emoji": "🧩",
+      "description": "Write a program that solves Sudoku puzzles.",
+      "concepts": ["Backtracking", "Recursion", "Arrays"],
+      "tutorial_url": "https://www.youtube.com/watch?v=G_UYXzGuqvM",
+      "guide_urls": [
+        { "label": "Sudoku Python", "url": "https://www.geeksforgeeks.org/sudoku-backtracking-7/" }
+      ]
+    },
+    {
+      "id": "proj9",
+      "title": "Movie Recommendation System",
+      "level": "Advanced",
+      "emoji": "🎬",
+      "description": "Build a simple recommendation system using DSA concepts.",
+      "concepts": ["Recommendation", "Hashing", "Data Structures"],
+      "tutorial_url": "https://www.youtube.com/watch?v=9APSRzN0l7k",
+      "guide_urls": [
+        { "label": "Movie Rec Guide", "url": "https://realpython.com/build-recommendation-engine-collaborative-filtering/" }
+      ]
+    },
+    {
+      "id": "proj10",
+      "title": "Web Scraping Application",
+      "level": "Advanced",
+      "emoji": "🌐",
+      "description": "Scrape and process website data.",
+      "concepts": ["Web Scraping", "Data Structures", "Parsing"],
+      "tutorial_url": "https://www.youtube.com/watch?v=ng2o98k983k",
+      "guide_urls": [
+        { "label": "Python Scraping", "url": "https://realpython.com/beautiful-soup-web-scraper-python/" }
+      ]
+    },
+    {
+      "id": "proj11",
+      "title": "Chatbot with Real-Time Response Analysis",
+      "level": "Advanced",
+      "emoji": "🤖",
+      "description": "Build a chatbot that analyzes responses in real time.",
+      "concepts": ["Chatbot", "NLP", "Data Structures"],
+      "tutorial_url": "https://www.youtube.com/watch?v=8ext9G7xspg",
+      "guide_urls": [
+        { "label": "Chatbot Python", "url": "https://www.geeksforgeeks.org/chatbot-using-python/" }
+      ]
+    },
+    {
+      "id": "proj12",
+      "title": "File Zipper",
+      "level": "Advanced",
+      "emoji": "🗜️",
+      "description": "Implement a program to zip and unzip files.",
+      "concepts": ["Compression", "File I/O", "Data Structures"],
+      "tutorial_url": "https://www.youtube.com/watch?v=F4hA8l0zFvA",
+      "guide_urls": [
+        { "label": "File Zipper Python", "url": "https://www.geeksforgeeks.org/working-zip-files-python/" }
+      ]
+    }
+  ]
+}

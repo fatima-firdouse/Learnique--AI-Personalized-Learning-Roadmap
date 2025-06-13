@@ -1,0 +1,329 @@
+{
+  "title": "DevOps Engineer Roadmap",
+  "description": "A practical learning path for DevOps, covering OS, scripting, CI/CD, cloud, monitoring, and more.",
+  "modules": [
+    {
+      "id": "mod1",
+      "title": "Operating Systems",
+      "emoji": "💻",
+      "description": "Learn the basics of various operating systems relevant for DevOps.",
+      "steps": [
+        { "id": "step1-1", "title": "Linux (RHEL, Ubuntu, SUSE)", "emoji": "🐧", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" },
+        { "id": "step1-2", "title": "Unix (OpenBSD, FreeBSD, NetBSD)", "emoji": "🖥️", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" },
+        { "id": "step1-3", "title": "Windows Server Basics", "emoji": "🪟", "tutorial_url": "https://www.youtube.com/watch?v=FzFWoTQKZfU" }
+      ]
+    },
+    {
+      "id": "mod2",
+      "title": "Programming Languages",
+      "emoji": "📜",
+      "description": "Programming languages for automation, scripting and infrastructure.",
+      "steps": [
+        { "id": "step2-1", "title": "Python", "emoji": "🐍", "tutorial_url": "https://www.youtube.com/watch?v=7wnove7K-ZQ" },
+        { "id": "step2-2", "title": "Ruby", "emoji": "💎", "tutorial_url": "https://www.youtube.com/watch?v=t_ispmWmdjY" },
+        { "id": "step2-3", "title": "JavaScript / Node.js", "emoji": "🟩", "tutorial_url": "https://www.youtube.com/watch?v=Oe421EPjeBE" },
+        { "id": "step2-4", "title": "Go", "emoji": "🐹", "tutorial_url": "https://www.youtube.com/watch?v=YS4e4q9oBaU" },
+        { "id": "step2-5", "title": "Rust", "emoji": "🦀", "tutorial_url": "https://www.youtube.com/watch?v=zF34dRivLOw" }
+      ]
+    },
+    {
+      "id": "mod3",
+      "title": "Scripting and Shell",
+      "emoji": "🐚",
+      "description": "Automate tasks and manage systems with shell scripting.",
+      "steps": [
+        { "id": "step3-1", "title": "Bash Scripting", "emoji": "💻", "tutorial_url": "https://www.youtube.com/watch?v=SPwyp2NG-bU" },
+        { "id": "step3-2", "title": "PowerShell", "emoji": "🪟", "tutorial_url": "https://www.youtube.com/watch?v=3ltgkMtSCpw" },
+        { "id": "step3-3", "title": "Terminal Productivity & Text Manipulation", "emoji": "⌨️", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" },
+        { "id": "step3-4", "title": "Process & Performance Monitoring", "emoji": "📈", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" },
+        { "id": "step3-5", "title": "Networking Tools", "emoji": "🌐", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" }
+      ]
+    },
+    {
+      "id": "mod4",
+      "title": "Version Control & Platforms",
+      "emoji": "🔀",
+      "description": "Track code changes and collaborate using version control.",
+      "steps": [
+        { "id": "step4-1", "title": "Git", "emoji": "🌳", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step4-2", "title": "GitHub / GitLab / Bitbucket", "emoji": "☁️", "tutorial_url": "https://www.youtube.com/watch?v=w3jLJU7DT5E" }
+      ]
+    },
+    {
+      "id": "mod5",
+      "title": "Web Servers & Networking",
+      "emoji": "🌐",
+      "description": "Deploy and manage web servers and networking infrastructure.",
+      "steps": [
+        { "id": "step5-1", "title": "Apache / Nginx / Tomcat / IIS", "emoji": "🖥️", "tutorial_url": "https://www.youtube.com/watch?v=ltbQ3hC5XQo" },
+        { "id": "step5-2", "title": "Forward Proxy / Caching Server / Reverse Proxy / Load Balancer / Firewall", "emoji": "🛡️", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" }
+      ]
+    },
+    {
+      "id": "mod6",
+      "title": "Containers",
+      "emoji": "📦",
+      "description": "Package and run applications using containers.",
+      "steps": [
+        { "id": "step6-1", "title": "Docker", "emoji": "🐳", "tutorial_url": "https://www.youtube.com/watch?v=fqMOX6JJhGo" },
+        { "id": "step6-2", "title": "LXC", "emoji": "📦", "tutorial_url": "https://www.youtube.com/watch?v=ZK5vYCApGcA" }
+      ]
+    },
+    {
+      "id": "mod7",
+      "title": "Infrastructure as Code (IaC)",
+      "emoji": "🔧",
+      "description": "Automate provisioning of infrastructure.",
+      "steps": [
+        { "id": "step7-1", "title": "Terraform", "emoji": "🌍", "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo" },
+        { "id": "step7-2", "title": "AWS CDK / Pulumi / CloudFormation", "emoji": "☁️", "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo" }
+      ]
+    },
+    {
+      "id": "mod8",
+      "title": "CI/CD Tools",
+      "emoji": "🔁",
+      "description": "Build, test, and deploy code continuously.",
+      "steps": [
+        { "id": "step8-1", "title": "Jenkins / GitLab CI / Travis CI / GitHub Actions", "emoji": "🤖", "tutorial_url": "https://www.youtube.com/watch?v=1hHMwLxN6EM" },
+        { "id": "step8-2", "title": "TeamCity / CircleCI / Drone / Azure DevOps", "emoji": "🔃", "tutorial_url": "https://www.youtube.com/watch?v=1hHMwLxN6EM" }
+      ]
+    },
+    {
+      "id": "mod9",
+      "title": "Configuration Management",
+      "emoji": "⚙️",
+      "description": "Automate and manage server configurations.",
+      "steps": [
+        { "id": "step9-1", "title": "Ansible", "emoji": "🤖", "tutorial_url": "https://www.youtube.com/watch?v=wgQ3rHVD_cU" },
+        { "id": "step9-2", "title": "Chef / Puppet", "emoji": "🍳", "tutorial_url": "https://www.youtube.com/watch?v=wgQ3rHVD_cU" }
+      ]
+    },
+    {
+      "id": "mod10",
+      "title": "Container Orchestration",
+      "emoji": "☸️",
+      "description": "Manage large-scale container deployments.",
+      "steps": [
+        { "id": "step10-1", "title": "Docker Swarm", "emoji": "🐳", "tutorial_url": "https://www.youtube.com/watch?v=KVBON1lE-yc" },
+        { "id": "step10-2", "title": "Kubernetes / GKE / EKS / AKS / AWS ECS / Fargate", "emoji": "☸️", "tutorial_url": "https://www.youtube.com/watch?v=KVBON1lE-yc" }
+      ]
+    },
+    {
+      "id": "mod11",
+      "title": "GitOps",
+      "emoji": "🔄",
+      "description": "Manage infrastructure and apps through Git workflows.",
+      "steps": [
+        { "id": "step11-1", "title": "ArgoCD & FluxCD", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=KVBON1lE-yc" }
+      ]
+    },
+    {
+      "id": "mod12",
+      "title": "Service Mesh",
+      "emoji": "🕸️",
+      "description": "Control service-to-service communication in microservices.",
+      "steps": [
+        { "id": "step12-1", "title": "Consul / Istio / Envoy / Linkerd", "emoji": "📡", "tutorial_url": "https://www.youtube.com/watch?v=KVBON1lE-yc" }
+      ]
+    },
+    {
+      "id": "mod13",
+      "title": "Monitoring & Observability",
+      "emoji": "📈",
+      "description": "Monitor app performance and gain observability.",
+      "steps": [
+        { "id": "step13-1", "title": "Prometheus / Grafana / Zabbix / Datadog", "emoji": "📊", "tutorial_url": "https://www.youtube.com/watch?v=KVBON1lE-yc" },
+        { "id": "step13-2", "title": "Jaeger / New Relic / AppDynamics / OpenTelemetry", "emoji": "📉", "tutorial_url": "https://www.youtube.com/watch?v=KVBON1lE-yc" }
+      ]
+    },
+    {
+      "id": "mod14",
+      "title": "Logging & Log Management",
+      "emoji": "📑",
+      "description": "Centralize and analyze logs for troubleshooting.",
+      "steps": [
+        { "id": "step14-1", "title": "Elastic Stack / Graylog / Splunk / Papertrail / Loki", "emoji": "🗃️", "tutorial_url": "https://www.youtube.com/watch?v=KVBON1lE-yc" }
+      ]
+    },
+    {
+      "id": "mod15",
+      "title": "Artifact Management",
+      "emoji": "📦",
+      "description": "Store and manage build artifacts.",
+      "steps": [
+        { "id": "step15-1", "title": "Artifactory / Nexus / Cloudsmith", "emoji": "🏷️", "tutorial_url": "https://www.youtube.com/watch?v=KVBON1lE-yc" }
+      ]
+    },
+    {
+      "id": "mod16",
+      "title": "Cloud Providers",
+      "emoji": "☁️",
+      "description": "Learn about the leading cloud service providers.",
+      "steps": [
+        { "id": "step16-1", "title": "AWS / Google Cloud / Azure / Others", "emoji": "☁️", "tutorial_url": "https://www.youtube.com/watch?v=ulprqHHWlng" }
+      ]
+    },
+    {
+      "id": "mod17",
+      "title": "Serverless Computing",
+      "emoji": "⚡",
+      "description": "Run code without managing servers.",
+      "steps": [
+        { "id": "step17-1", "title": "AWS Lambda / Azure Functions / GCP Functions / Cloudflare / Vercel / Netlify", "emoji": "☁️", "tutorial_url": "https://www.youtube.com/watch?v=ulprqHHWlng" }
+      ]
+    },
+    {
+      "id": "mod18",
+      "title": "Secret Management",
+      "emoji": "🔑",
+      "description": "Securely manage sensitive credentials and secrets.",
+      "steps": [
+        { "id": "step18-1", "title": "Vault / Sealed Secrets / SOPS", "emoji": "🔐", "tutorial_url": "https://www.youtube.com/watch?v=KVBON1lE-yc" }
+      ]
+    },
+    {
+      "id": "mod19",
+      "title": "Cloud Design Patterns",
+      "emoji": "🧩",
+      "description": "Architect for reliability, scalability, and maintainability.",
+      "steps": [
+        { "id": "step19-1", "title": "Cloud Availability, Data, Design, Monitoring Patterns", "emoji": "📐", "tutorial_url": "https://www.youtube.com/watch?v=ulprqHHWlng" }
+      ]
+    },
+    {
+      "id": "mod20",
+      "title": "Networking, Security, Protocols",
+      "emoji": "🔒",
+      "description": "Understand the protocols behind secure and reliable networks.",
+      "steps": [
+        { "id": "step20-1", "title": "OSI Model, DNS, HTTP/HTTPS, FTP/SFTP, SSL/TLS, SSH, Email Protocols (SMTP, IMAPS, POP3S, DMARC, SPF, DKIM, White/Grey Listing)", "emoji": "🌐", "tutorial_url": "https://www.youtube.com/watch?v=qiQR5rTSshw" }
+      ]
+    },
+    {
+      "id": "mod21",
+      "title": "Editors & Productivity",
+      "emoji": "⌨️",
+      "description": "Boost productivity using popular text editors.",
+      "steps": [
+        { "id": "step21-1", "title": "Vim / Nano / Emacs", "emoji": "📝", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "CI/CD Pipeline with GitHub Actions",
+      "level": "Beginner",
+      "emoji": "🔁",
+      "description": "Create a basic CI/CD pipeline using GitHub Actions for automated testing and deployment.",
+      "concepts": [
+        "GitHub Actions",
+        "YAML workflow files",
+        "Automated deployment"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=R8_veQiYBjI",
+      "guide_urls": [
+        { "label": "GitHub Actions Docs", "url": "https://docs.github.com/en/actions" }
+      ]
+    },
+    {
+      "id": "proj2",
+      "title": "Dockerized Web App Deployment",
+      "level": "Beginner",
+      "emoji": "🐳",
+      "description": "Containerize a web application and deploy it using Docker Compose.",
+      "concepts": [
+        "Docker",
+        "Docker Compose",
+        "Container networking"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=Qw9zlE3t8Ko",
+      "guide_urls": [
+        { "label": "Docker Compose Docs", "url": "https://docs.docker.com/compose/" }
+      ]
+    },
+    {
+      "id": "proj3",
+      "title": "Kubernetes Cluster Setup",
+      "level": "Intermediate",
+      "emoji": "☸️",
+      "description": "Set up a local Kubernetes cluster and deploy a sample app.",
+      "concepts": [
+        "Kubernetes basics",
+        "kubectl",
+        "Deployments and services"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=X48VuDVv0do",
+      "guide_urls": [
+        { "label": "Kubernetes Docs", "url": "https://kubernetes.io/docs/tutorials/" }
+      ]
+    },
+    {
+      "id": "proj4",
+      "title": "Infrastructure as Code with Terraform",
+      "level": "Intermediate",
+      "emoji": "🌍",
+      "description": "Automate AWS infrastructure provisioning using Terraform.",
+      "concepts": [
+        "Terraform",
+        "AWS provider",
+        "Infrastructure automation"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo",
+      "guide_urls": [
+        { "label": "Terraform AWS Provider", "url": "https://registry.terraform.io/providers/hashicorp/aws/latest/docs" }
+      ]
+    },
+    {
+      "id": "proj5",
+      "title": "Monitoring with Prometheus & Grafana",
+      "level": "Intermediate",
+      "emoji": "📈",
+      "description": "Monitor app metrics by setting up Prometheus and Grafana.",
+      "concepts": [
+        "Prometheus metrics",
+        "Grafana dashboards",
+        "Alerting"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=h4Sl21AKiDg",
+      "guide_urls": [
+        { "label": "Prometheus Docs", "url": "https://prometheus.io/docs/introduction/overview/" },
+        { "label": "Grafana Docs", "url": "https://grafana.com/docs/grafana/latest/" }
+      ]
+    },
+    {
+      "id": "proj6",
+      "title": "Serverless Function with AWS Lambda",
+      "level": "Intermediate",
+      "emoji": "⚡",
+      "description": "Deploy and trigger a serverless function using AWS Lambda.",
+      "concepts": [
+        "Serverless",
+        "AWS Lambda",
+        "Event triggers"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=eOBq__h4OJ4",
+      "guide_urls": [
+        { "label": "AWS Lambda Docs", "url": "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html" }
+      ]
+    },
+    {
+      "id": "proj7",
+      "title": "Complete DevOps CI/CD Pipeline",
+      "level": "Advanced",
+      "emoji": "🚀",
+      "description": "Build an end-to-end CI/CD pipeline with code build, test, containerization, and deployment on Kubernetes.",
+      "concepts": [
+        "CI/CD",
+        "Containerization",
+        "Kubernetes",
+        "Monitoring and logging"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=9pG3Q2TOzWM",
+      "guide_urls": [
+        { "label": "CI/CD Pipeline Guide", "url": "https://www.redhat.com/en/topics/devops/what-is-ci-cd" }
+      ]
+    }
+  ]
+}

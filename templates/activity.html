@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+
+        :root {
+  /* New Color Palette */
+  --lavender: #820ed5c9;
+  --light-purple: #0c8eec;
+  --pinkish-purple: #b878fd;
+  --deep-purple:   #ff3aff;
+  --violet: #8a2be2;
+  --neon-blue: #ff6bff;
+  --neon-cyan: #f94ef9;
+  --soft-magenta: #6a0dad;
+  --pastel-blue: #a0e7ff;
+  --pastel-pink: #ffb6e6; 
+  --pinkish-purple: #9d44fc;
+  --deep-purple: #6a0dad;
+  --violet: #8a2be2;
+  --neon-blue: #00f5ff;
+  --neon-cyan: #00f5d4;
+  --soft-magenta: #fa48fa;
+  --pastel-blue: #a0e7ff;
+  --pastel-pink: #16aef4;
+  
+  /* Glassmorphism Variables */
+  --glass-bg: rgba(255, 255, 255, 0.15);
+  --glass-border: rgba(255, 255, 255, 0.18);
+  --glass-shadow: 8px 300px 0 rgba(31, 38, 135, 0.15);
+
+  /* Sidebar */
+  --sidebar-collapsed-width: 68px;
+  --sidebar-expanded-width: 250px;
+  --sidebar-bg: linear-gradient(135deg, var(--violet) 60%, var(--pastel-pink) 100%);
+  --sidebar-blur: 12px;
+  --item-active-bg: rgba(255, 255, 255, 0.2);
+  --item-active-border: rgba(255, 255, 255, 0.3);
+  --sidebar-text: rgba(255, 255, 255, 0.9);
+  --sidebar-icon: rgba(255, 255, 255, 0.9);
+  --sidebar-text-active: #fff;
+  --icon-size: 1.6em;
+  --transition: 0.35s cubic-bezier(.7,.2,.3,1);
+
+
+  --body-bg: linear-gradient(135deg, var(--lavender) 20%, var(--light-purple) 100%);}
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        :root {
+            --primary: #6a11cb;
+            --secondary: #2575fc;
+            --accent: #ff3a8e;
+            --light: #f8f9fc;
+            --dark: #232856;
+            --gray: #8c94a9;
+            --card-bg: rgba(255, 255, 255, 0.9);
+            --card-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        }
+
+/* BODY */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: var(--body-bg);
+  color: #333;
+  min-height: 100vh;
+  margin: 0;
+  background-attachment: fixed;
+}
+/* SIDEBAR */
+.sidebar {
+  width: var(--sidebar-collapsed-width);
+  height: 100vh;
+   border: 1.5px solid rgba(255,255,255,0.42); 
+  background: var(--sidebar-bg);
+  color: var(--sidebar-text);
+  box-shadow: 2px 0 32px 0 rgba(106, 13, 173, 0.3);
+  border-radius: 0 26px 26px 0;
+  padding: 34px 0 24px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(var(--sidebar-blur));
+  transition: width var(--transition), background var(--transition);
+  overflow-x: hidden;
+}
+
+.sidebar:hover,
+.sidebar:focus-within {
+  width: var(--sidebar-expanded-width);
+  align-items: flex-start;
+  background: linear-gradient(135deg, var(--violet) 0%, var(--deep-purple) 100%);
+}
+
+.logo-container {
+  margin-bottom: 38px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  transition: padding var(--transition);
+}
+.logo-image {
+  width: 1px;
+  height: 1px;
+  object-fit: contain;
+  opacity: 1;
+  transition: opacity var(--transition), padding var(--transition), width var(--transition), height var(--transition);
+  padding-left: 0;
+  filter: drop-shadow(0 1.5px 8px rgba(216, 180, 254, 0.7));
+}
+.sidebar:hover .logo-image,
+.sidebar:focus-within .logo-image {
+  width: 200px;
+  height: 100px;
+  object-fit: contain;
+  opacity: 1;
+  transition: opacity var(--transition), padding var(--transition), width var(--transition), height var(--transition);
+  padding-left: 0;
+  filter: drop-shadow(0 1.5px 8px rgba(216, 180, 254, 0.7));
+}
+.sidebar:hover .logo-container,
+.sidebar:focus-within .logo-container {
+  padding-left: 22px;
+  justify-content: flex-start;
+}
+
+.sidebar-nav {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  align-items: center;
+}
+
+
+.nav-item {
+  width: 48px;
+  height: 48px;
+  margin: 2px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 13px;
+  color: var(--sidebar-text);
+  font-size: 1.15rem;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+  background: none;
+  outline: none;
+  position: relative;
+  transition: 
+    width var(--transition), 
+    background var(--transition), 
+    color var(--transition), 
+    box-shadow var(--transition), 
+    border var(--transition),
+    padding var(--transition);
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sidebar:hover .nav-item,
+.sidebar:focus-within .nav-item {
+  width: calc(100% - 16px);
+  justify-content: flex-start;
+  padding-left: 28px;
+}
+
+.nav-item .nav-icon {
+  font-size: var(--icon-size);
+  color: var(--sidebar-icon);
+  margin-right: 0;
+  transition: color var(--transition), margin var(--transition);
+}
+
+.sidebar:hover .nav-item .nav-icon,
+.sidebar:focus-within .nav-item .nav-icon {
+  margin-right: 18px;
+}
+
+.nav-text {
+  opacity: 0;
+  max-width: 0;
+  color: var(--sidebar-text);
+  white-space: nowrap;
+  transition: opacity var(--transition), max-width var(--transition), margin var(--transition), color var(--transition);
+  overflow: hidden;
+  margin-left: 0;
+  font-size: 1.09em;
+}
+
+.sidebar:hover .nav-text,
+.sidebar:focus-within .nav-text {
+  opacity: 1;
+  max-width: 200px;
+  margin-left: 2px;
+}
+
+.nav-item.active,
+.nav-item:focus,
+.nav-item:hover {
+  background: var(--item-active-bg);
+  color: var(--sidebar-text-active);
+  box-shadow: 0 1.5px 12px 0 rgba(216, 180, 254, 0.3), 0 0.5px 1px rgba(255, 255, 255, 0.2) inset;
+  border: 1.5px solid var(--item-active-border);
+  backdrop-filter: blur(7px);
+}
+
+.nav-item.active .nav-icon,
+.nav-item:hover .nav-icon,
+.nav-item:focus .nav-icon {
+  color: var(--sidebar-text-active);
+}
+
+.nav-item.active .nav-text,
+.nav-item:hover .nav-text,
+.nav-item:focus .nav-text {
+  color: var(--sidebar-text-active);
+}
+
+/* Responsive: mobile shrinks sidebar, keeps UX */
+@media (max-width: 700px) {
+  :root {
+    --sidebar-collapsed-width: 54px;
+    --sidebar-expanded-width: 140px;
+    --icon-size: 1.18em;
+  }
+  .sidebar {
+    border-radius: 0 14px 14px 0;
+    padding: 16px 0;
+    align-items: center;
+  }
+  .logo-container { margin-bottom: 16px; }
+  .logo-image { 
+    width: 32px; 
+    height: 32px; 
+  }
+  .sidebar:hover .logo-image,
+  .sidebar:focus-within .logo-image {
+    width: 36px;
+    height: 36px;
+  }
+  .nav-item { height: 38px; font-size: 1em; }
+  .sidebar:hover .nav-item,
+  .sidebar:focus-within .nav-item {
+    padding-left: 14px;
+  }
+}
+.main-content {
+  margin-left: 84px;
+  padding: 24px;
+  min-height: 100vh;
+  background: transparent;
+  transition: margin-left 0.4s cubic-bezier(.7,.2,.3,1);
+  /* New: make sure it always expands width-wise */
+  width: auto;
+  box-sizing: border-box;
+}
+.sidebar:hover ~ .main-content {
+  margin-left: 210px;
+  width: calc(100% - 210px);
+}
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin: 20px;
+        }
+
+        .left-content {
+            flex: 1 1 350px;
+            min-width: 320px;
+            max-width: 600px;
+        }
+
+        .right-content {
+            flex: 0 1 370px;
+            min-width: 310px;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 20px;
+            box-shadow: var(--card-shadow);
+            padding: 25px;
+            backdrop-filter: blur(10px);
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+        }
+
+        .user-info h1 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--dark);
+            margin-bottom: 5px;
+        }
+
+        .user-info p {
+            font-size: 1rem;
+            color: var(--gray);
+            font-weight: 500;
+        }
+
+        .date-display {
+            background: linear-gradient(to right, var(--primary), var(--secondary));
+            color: white;
+            padding: 8px 15px;
+            border-radius: 50px;
+            font-weight: 600;
+            box-shadow: 0 4px 15px rgba(106, 17, 203, 0.3);
+        }
+
+        .categories {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+        }
+
+        .category-btn {
+            background: var(--light);
+            color: var(--dark);
+            border: none;
+            border-radius: 15px;
+            padding: 10px 20px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        .category-btn.active {
+            background: linear-gradient(to right, var(--primary), var(--secondary));
+            color: white;
+            box-shadow: 0 4px 15px rgba(106, 17, 203, 0.25);
+        }
+
+        .category-btn i {
+            font-size: 1.2rem;
+        }
+
+        .courses-section {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .course-card {
+            display: flex;
+            align-items: center;
+            gap: 18px;
+            padding: 18px;
+            border-radius: 16px;
+            background: white;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease;
+        }
+
+        .course-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .course-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 16px;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            color: white;
+        }
+
+        .course-content {
+            flex: 1;
+        }
+
+        .course-title {
+            font-size: 1.15rem;
+            font-weight: 700;
+            margin-bottom: 6px;
+            color: var(--dark);
+        }
+
+        .course-meta {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            color: var(--gray);
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+
+        .course-meta span {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .progress-container {
+            width: 100%;
+            height: 8px;
+            border-radius: 10px;
+            background: #eef2f7;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            height: 100%;
+            border-radius: 10px;
+            background: linear-gradient(90deg, var(--accent), #ff7b54);
+            width: 70%;
+        }
+
+        .stats-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--dark);
+        }
+
+        .stats-tabs {
+            display: flex;
+            gap: 8px;
+            background: #f1f3f9;
+            border-radius: 12px;
+            padding: 5px;
+        }
+
+        .stats-tab {
+            padding: 8px 16px;
+            border-radius: 10px;
+            border: none;
+            background: transparent;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .stats-tab.active {
+            background: white;
+            color: var(--primary);
+            box-shadow: 0 2px 8px rgba(106, 17, 203, 0.15);
+        }
+
+        .activity-graph {
+            width: 100%;
+            height: 220px;
+            background: #f8f9fc;
+            border-radius: 16px;
+            padding: 20px;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            gap: 16px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .graph-grid {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            pointer-events: none;
+            padding: 0 20px;
+        }
+
+        .grid-line {
+            border-bottom: 1px dashed rgba(0, 0, 0, 0.08);
+            flex: 1;
+        }
+
+        .graph-title {
+            position: absolute;
+            top: 15px;
+            left: 20px;
+            font-weight: 600;
+            color: var(--gray);
+            font-size: 0.9rem;
+        }
+
+        .bar-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100%;
+            position: relative;
+            z-index: 1;
+            width: 40px;
+        }
+
+        .bar {
+            width: 26px;
+            background: linear-gradient(to top, var(--primary), var(--accent));
+            border-radius: 8px 8px 0 0;
+            transition: height 0.6s ease, transform 0.3s;
+            position: relative;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .bar:hover {
+            transform: scaleY(1.05);
+            transform-origin: bottom;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .bar-value {
+            position: absolute;
+            top: -28px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--dark);
+            color: white;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 4px 8px;
+            border-radius: 20px;
+            opacity: 0;
+            transition: opacity 0.3s;
+            min-width: 30px;
+            text-align: center;
+        }
+
+        .bar:hover .bar-value {
+            opacity: 1;
+        }
+
+        .bar-label {
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--gray);
+            margin-top: 10px;
+            font-weight: 600;
+        }
+
+        .progress-streak-row {
+            display: flex;
+            gap: 20px;
+            margin-top: 10px;
+        }
+
+        .progress-card, .streak-card {
+            flex: 1;
+            min-width: 140px;
+            border-radius: 18px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+            box-shadow: var(--card-shadow);
+        }
+
+        /* Progress Card Gradient overrides for progress section */
+        .progress-card {
+            background: linear-gradient(135deg, #ffb0da 0%, #8ec5fc 100%);
+            box-shadow: 0 8px 32px 0 rgba(31,38,135,0.10);
+        }
+
+        .streak-card {
+            background: linear-gradient(135deg, #ffd700, #ff9d00);
+        }
+
+        .progress-label, .streak-label {
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: var(--dark);
+        }
+
+        .progress-ring {
+            width: 80px;
+            height: 80px;
+            position: relative;
+            margin-bottom: 10px;
+        }
+
+        .progress-ring circle {
+            fill: none;
+            stroke-width: 8;
+            transform: rotate(-90deg);
+            transform-origin: 50% 50%;
+        }
+
+        .progress-ring-bg {
+            stroke: #fff;
+            opacity: .3;
+        }
+
+        .progress-ring-value {
+            stroke: #fff;
+            stroke-dasharray: 251.2;
+            stroke-dashoffset: 251.2;
+            stroke-linecap: round;
+            transition: stroke-dashoffset 0.8s ease;
+        }
+
+        .progress-value {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 1.4rem;
+            font-weight: 800;
+            color: #fff;
+        }
+
+        .last-week {
+            font-size: 0.95rem;
+            color: #fff;
+            margin-bottom: 0;
+            opacity: .85;
+        }
+
+        .progress-mini-bars {
+            display: flex;
+            align-items: flex-end;
+            gap: 4px;
+            margin-top: 12px;
+        }
+
+        .progress-mini-bars div {
+            width: 7px;
+            background: rgba(255,255,255,0.8);
+            border-radius: 6px;
+        }
+
+        .streak-number {
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: #e65100;
+            margin: 5px 0;
+        }
+
+        .streak-fire {
+            font-size: 2.5rem;
+            position: absolute;
+            bottom: 15px;
+            left: 15px;
+            color: #ff5722;
+        }
+
+        .streak-unlocked {
+            position: absolute;
+            bottom: 15px;
+            right: 15px;
+            background: white;
+            color: #ff5722;
+            font-weight: 800;
+            font-size: 0.8rem;
+            border-radius: 20px;
+            padding: 4px 12px;
+            letter-spacing: 1px;
+        }
+
+        @media (max-width: 900px) {
+            .container {
+                flex-direction: column;
+            }
+            
+            .left-content, .right-content {
+                max-width: 100%;
+            }
+            
+            .progress-streak-row {
+                flex-direction: column;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .activity-graph {
+                height: 180px;
+                padding: 15px;
+                gap: 10px;
+            }
+            
+            .bar-container {
+                width: 30px;
+            }
+            
+            .bar {
+                width: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+      <!-- Sidebar Navigation -->
+ <div class="sidebar"><div class="logo-container">
+    <img src="../static/images/logo.png" alt="Roadmap Logo" class="logo-image">
+  </div>
+  <div class="sidebar-nav">
+   <a href="/interests" class="nav-item {% if active_page == 'interests' %}active{% endif %}">
+                <span class="nav-icon">📖</span>
+                <span class="nav-text">Roadmaps</span>
+            </a>
+            <a href="/activity" class="nav-item {% if active_page == 'activity' %}active{% endif %}">
+                <span class="nav-icon">🏃</span>
+                <span class="nav-text">Activity</span>
+            </a>
+            <a href="/profile" class="nav-item {% if active_page == 'profile' %}active{% endif %}">
+                <span class="nav-icon">👤</span>
+                <span class="nav-text">Profile</span>
+            </a>
+  </div>
+</div>
+
+  <div class="main-content">
+    <div class="container">
+        <!-- Left Content -->
+    <section class="left-content">
+        <div class="card">
+            <div class="header">
+                <div class="user-info">
+                    <h1>Hello {{ username }}</h1>
+                </div>
+                <div class="date-display">
+                    <i class="fas fa-calendar-alt"></i> {{ today.strftime("%B %d, %Y") }}
+                </div>
+            </div>
+            <div class="courses-section">
+                {% for course in user_courses %}
+                <div class="course-card">
+                    <div class="course-icon" {% if course.icon_bg %}style="background: {{ course.icon_bg }};"{% endif %}>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-title">{{ course.name }}</div>
+                        <div class="course-meta">
+                            <span><i class="fas fa-book"></i> {{ course.chapters }} Chapters</span>
+                            <span>|</span>
+                            <span>Enrolled: {{ course.enrolled_date }}</span>
+                        </div>
+                        <div class="progress-container">
+                            <div class="progress-bar" style="width: {{ course.progress }}%"></div>
+                        </div>
+                        <div style="margin-top:6px;color:#888;font-size:0.95em;">
+                            Progress: {{ course.progress }}%
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+                {% if not user_courses %}
+                <div style="color:#888; margin-top:1.5em;">You have not enrolled in any courses yet.</div>
+                {% endif %}
+            </div>
+        </div>
+    </section>
+    <!-- Right Content: Statistics, progress, and streak cards -->
+    <aside class="right-content">
+        <div class="card">
+            <div class="stats-header">
+                <div class="section-title">Statistics</div>
+                <div class="stats-tabs">
+                    <button class="stats-tab" data-type="day">Day</button>
+                    <button class="stats-tab active" data-type="week">Week</button>
+                    <button class="stats-tab" data-type="month">Month</button>
+                </div>
+            </div>
+            <div class="activity-graph">
+                <!-- Activity graph bars will be rendered by JS -->
+            </div>
+        </div>
+        <div class="progress-streak-row">
+            <div class="progress-card">
+                <div class="progress-label" style="color: #fff; font-weight: 700;">Progress</div>
+                <div class="progress-ring" style="margin-bottom: 14px;">
+                    <svg viewBox="0 0 100 100" width="80" height="80">
+                        <circle class="progress-ring-bg" cx="50" cy="50" r="40"/>
+                        <circle class="progress-ring-value" cx="50" cy="50" r="40"/>
+                    </svg>
+                    <div class="progress-value" style="color: #fff;">{{ user_progress }}%</div>
+                </div>
+                <div class="last-week">
+                    {{ last_week_progress }}% Last week
+                </div>
+                <div class="progress-mini-bars">
+                    {% set max_day = day_data | max %}
+                    {% for v in day_data %}
+                    <div style="height: {{30 + (v*22//max_day if max_day else 0)}}px;"></div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="streak-card">
+                <div class="streak-label">Streak Days</div>
+                <div class="streak-number">{{ user_streak }}</div>
+                <div class="streak-fire">🔥</div>
+            </div>
+        </div>
+    </aside>
+</div>
+    </div>
+    <script>
+    // Activity chart logic
+    const activityData = {
+        day: {
+            values: {{ day_data|tojson }},
+            labels: {{ day_labels|tojson }}
+        },
+        week: {
+            values: {{ week_data|tojson }},
+            labels: {{ week_labels|tojson }}
+        },
+        month: {
+            values: {{ month_data|tojson }},
+            labels: {{ month_labels|tojson }}
+        }
+    };
+
+    const activityGraph = document.querySelector('.activity-graph');
+    const tabs = document.querySelectorAll('.stats-tab');
+
+    function createChart(type) {
+        // Remove all old bars and labels
+        activityGraph.querySelectorAll('.bar-container').forEach(e => e.remove());
+
+        const data = activityData[type];
+        const maxValue = Math.max(...data.values, 1);
+        const scaleFactor = 100 / maxValue;
+
+        for (let i = 0; i < data.values.length; i++) {
+            const value = data.values[i];
+            const label = data.labels[i];
+
+            // Bar container: column flex
+            const barContainer = document.createElement('div');
+            barContainer.className = 'bar-container';
+            barContainer.style.display = 'flex';
+            barContainer.style.flexDirection = 'column';
+            barContainer.style.alignItems = 'center';
+            barContainer.style.justifyContent = 'flex-end';
+            barContainer.style.height = '100%';
+
+            // Bar (from bottom up)
+            const bar = document.createElement('div');
+            bar.className = 'bar';
+            bar.style.height = `${value * scaleFactor}%`;
+            bar.style.background = "linear-gradient(180deg, #ffb0da 0%, #8ec5fc 100%)";
+            bar.style.width = '26px';
+            bar.style.borderRadius = '8px 8px 0 0';
+            bar.style.position = 'relative';
+            bar.style.transition = 'height 0.6s ease, transform 0.3s';
+            bar.style.boxShadow = "0 4px 8px rgba(0, 0, 0, 0.1)";
+
+            // Highlight last bar (current period)
+            if (i === data.values.length - 1) {
+                bar.style.border = "2.5px solid #6a11cb";
+                bar.style.boxShadow = "0 0 0 2px #fff, 0 2px 8px #c1baff";
+            }
+
+            // Value indicator on hover (optional)
+            const barValue = document.createElement('div');
+            barValue.className = 'bar-value';
+            barValue.textContent = value;
+            barValue.style.position = 'absolute';
+            barValue.style.top = '-28px';
+            barValue.style.left = '50%';
+            barValue.style.transform = 'translateX(-50%)';
+            barValue.style.background = '#232856';
+            barValue.style.color = 'white';
+            barValue.style.fontSize = '0.75rem';
+            barValue.style.fontWeight = '600';
+            barValue.style.padding = '4px 8px';
+            barValue.style.borderRadius = '20px';
+            barValue.style.opacity = '0';
+            barValue.style.transition = 'opacity 0.3s';
+            barValue.style.minWidth = '30px';
+            barValue.style.textAlign = 'center';
+
+            bar.addEventListener('mouseenter', () => barValue.style.opacity = '1');
+            bar.addEventListener('mouseleave', () => barValue.style.opacity = '0');
+
+            bar.appendChild(barValue);
+
+            // Label below bar
+            const barLabel = document.createElement('div');
+            barLabel.className = 'bar-label';
+            barLabel.textContent = label;
+            barLabel.style.textAlign = 'center';
+            barLabel.style.fontSize = '0.85rem';
+            barLabel.style.color = i === data.values.length - 1 ? '#232856' : '#8c94a9';
+            barLabel.style.marginTop = '10px';
+            barLabel.style.fontWeight = i === data.values.length - 1 ? '700' : '600';
+
+            // Build
+            barContainer.appendChild(bar);
+            barContainer.appendChild(barLabel);
+
+            activityGraph.appendChild(barContainer);
+        }
+    }
+
+    tabs.forEach(tab => {
+        tab.addEventListener('click', function() {
+            tabs.forEach(t => t.classList.remove('active'));
+            this.classList.add('active');
+            createChart(this.dataset.type);
+        });
+    });
+
+    // Default: week (matches your UI)
+    createChart('week');
+
+    // Circular progress animation for the ring
+    document.addEventListener('DOMContentLoaded', function() {
+        const ring = document.querySelector('.progress-ring-value');
+        const percent = {{ user_progress }};
+        const radius = 40;
+        const circumference = 2 * Math.PI * radius;
+        ring.style.strokeDasharray = circumference;
+        ring.style.strokeDashoffset = circumference;
+        setTimeout(() => {
+            ring.style.strokeDashoffset = circumference - (percent / 100) * circumference;
+        }, 300);
+    });
+    </script>
+</body>
+</html>

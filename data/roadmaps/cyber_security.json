@@ -1,0 +1,231 @@
+{
+  "title": "Cybersecurity Learning Roadmap",
+  "description": "A step-by-step guide covering foundational to advanced cybersecurity topics for aspiring professionals.",
+  "modules": [
+    {
+      "id": "mod1",
+      "title": "Fundamental IT & Networking",
+      "emoji": "🧭",
+      "description": "Build foundational knowledge in IT and computer networks.",
+      "steps": [
+        { "id": "step1-1", "title": "Computer hardware components", "emoji": "💻", "tutorial_url": "https://www.youtube.com/watch?v=AkFi90lZmXA" },
+        { "id": "step1-2", "title": "Operating systems (Windows/Linux/macOS): Installation, CLI, permissions", "emoji": "🖥️", "tutorial_url": "https://www.youtube.com/watch?v=yz7nYlnXLfE" },
+        { "id": "step1-3", "title": "Networking basics: OSI model, TCP/IP, DNS, DHCP", "emoji": "🌐", "tutorial_url": "https://www.youtube.com/watch?v=qiQR5rTSshw" },
+        { "id": "step1-4", "title": "Tools: ping, tracert, nslookup, Wireshark", "emoji": "🛠️", "tutorial_url": "https://www.youtube.com/watch?v=TkCSr30UojM" }
+      ]
+    },
+    {
+      "id": "mod2",
+      "title": "Core Security Principles",
+      "emoji": "🔑",
+      "description": "Master security fundamentals and secure communications.",
+      "steps": [
+        { "id": "step2-1", "title": "CIA Triad (Confidentiality, Integrity, Availability)", "emoji": "🏛️", "tutorial_url": "https://www.youtube.com/watch?v=1iB8qwRCs4E" },
+        { "id": "step2-2", "title": "Authentication vs. Authorization (MFA, SSO, RADIUS)", "emoji": "🔒", "tutorial_url": "https://www.youtube.com/watch?v=1iB8qwRCs4E" },
+        { "id": "step2-3", "title": "Secure protocols: HTTPS, SSH, VPNs vs. insecure (FTP, Telnet)", "emoji": "🔐", "tutorial_url": "https://www.youtube.com/watch?v=1iB8qwRCs4E" }
+      ]
+    },
+    {
+      "id": "mod3",
+      "title": "Threats & Attacks",
+      "emoji": "⚠️",
+      "description": "Learn about cyber threats and attack techniques.",
+      "steps": [
+        { "id": "step3-1", "title": "Malware types: Viruses, ransomware, spyware", "emoji": "🦠", "tutorial_url": "https://www.youtube.com/watch?v=Rr1z5z6YKjQ" },
+        { "id": "step3-2", "title": "Web attacks: SQLi, XSS, CSRF", "emoji": "🌐", "tutorial_url": "https://www.youtube.com/watch?v=EkbLDK3b3A8" },
+        { "id": "step3-3", "title": "Social engineering: Phishing, tailgating, dumpster diving", "emoji": "🎭", "tutorial_url": "https://www.youtube.com/watch?v=TgKwz5Ikpc8" }
+      ]
+    },
+    {
+      "id": "mod4",
+      "title": "Defensive Security",
+      "emoji": "🛡️",
+      "description": "Defend systems with firewalls, hardening, and incident response.",
+      "steps": [
+        { "id": "step4-1", "title": "Firewalls (NGFW), IDS/IPS, SIEM", "emoji": "🚧", "tutorial_url": "https://www.youtube.com/watch?v=1iB8qwRCs4E" },
+        { "id": "step4-2", "title": "System hardening (patching, Zero Trust)", "emoji": "🔒", "tutorial_url": "https://www.youtube.com/watch?v=1iB8qwRCs4E" },
+        { "id": "step4-3", "title": "Incident response: Identification → Recovery", "emoji": "⚙️", "tutorial_url": "https://www.youtube.com/watch?v=1iB8qwRCs4E" }
+      ]
+    },
+    {
+      "id": "mod5",
+      "title": "Cryptography & Secure Communications",
+      "emoji": "🔏",
+      "description": "Understand cryptographic algorithms and their use in security.",
+      "steps": [
+        { "id": "step5-1", "title": "Hashing (SHA-256), salting, PKI", "emoji": "🔑", "tutorial_url": "https://www.youtube.com/watch?v=b4b8ktEV4Bg" },
+        { "id": "step5-2", "title": "Public-key crypto (RSA, ECDSA)", "emoji": "🗝️", "tutorial_url": "https://www.youtube.com/watch?v=GSIDS_lvRv4" },
+        { "id": "step5-3", "title": "Secure protocols: SSL/TLS, DNSSEC, IPSEC", "emoji": "📡", "tutorial_url": "https://www.youtube.com/watch?v=1iB8qwRCs4E" }
+      ]
+    },
+    {
+      "id": "mod6",
+      "title": "Offensive Security Basics",
+      "emoji": "🗡️",
+      "description": "Introduction to pen testing, tools, and hands-on platforms.",
+      "steps": [
+        { "id": "step6-1", "title": "Penetration testing phases: Recon → Exploitation", "emoji": "🕵️", "tutorial_url": "https://www.youtube.com/watch?v=Rr1z5z6YKjQ" },
+        { "id": "step6-2", "title": "Tools: Nmap, Metasploit, Burp Suite", "emoji": "🧰", "tutorial_url": "https://www.youtube.com/watch?v=Rr1z5z6YKjQ" },
+        { "id": "step6-3", "title": "CTF platforms: TryHackMe, HackTheBox", "emoji": "🏆", "tutorial_url": "https://www.youtube.com/watch?v=Rr1z5z6YKjQ" }
+      ]
+    },
+    {
+      "id": "mod7",
+      "title": "Advanced Network Security",
+      "emoji": "📶",
+      "description": "Deep dive into directory, cloud, and wireless security.",
+      "steps": [
+        { "id": "step7-1", "title": "Active Directory exploitation (Kerberoasting)", "emoji": "📂", "tutorial_url": "https://www.youtube.com/watch?v=Rr1z5z6YKjQ" },
+        { "id": "step7-2", "title": "Cloud security (AWS/GCP misconfigurations)", "emoji": "☁️", "tutorial_url": "https://www.youtube.com/watch?v=Rr1z5z6YKjQ" },
+        { "id": "step7-3", "title": "Wireless attacks: Evil Twin, WPA3 cracking", "emoji": "📡", "tutorial_url": "https://www.youtube.com/watch?v=Rr1z5z6YKjQ" }
+      ]
+    },
+    {
+      "id": "mod8",
+      "title": "Red Teaming & Advanced Threats",
+      "emoji": "🧠",
+      "description": "Simulate advanced threat actors and analyze malware.",
+      "steps": [
+        { "id": "step8-1", "title": "MITRE ATT&CK framework", "emoji": "📚", "tutorial_url": "https://www.youtube.com/watch?v=Rr1z5z6YKjQ" },
+        { "id": "step8-2", "title": "Malware analysis (static/dynamic)", "emoji": "🔬", "tutorial_url": "https://www.youtube.com/watch?v=Rr1z5z6YKjQ" },
+        { "id": "step8-3", "title": "Exploit development (buffer overflows)", "emoji": "💥", "tutorial_url": "https://www.youtube.com/watch?v=Rr1z5z6YKjQ" }
+      ]
+    },
+    {
+      "id": "mod9",
+      "title": "Governance & Compliance",
+      "emoji": "📜",
+      "description": "Study frameworks, risk management, and legal concerns.",
+      "steps": [
+        { "id": "step9-1", "title": "Frameworks: NIST, ISO 27001, CIS Controls", "emoji": "🏛️", "tutorial_url": "https://www.youtube.com/watch?v=1iB8qwRCs4E" },
+        { "id": "step9-2", "title": "Risk management, audits", "emoji": "📝", "tutorial_url": "https://www.youtube.com/watch?v=1iB8qwRCs4E" },
+        { "id": "step9-3", "title": "Legal/HR considerations in security", "emoji": "⚖️", "tutorial_url": "https://www.youtube.com/watch?v=1iB8qwRCs4E" }
+      ]
+    },
+    {
+      "id": "mod10",
+      "title": "Emerging Areas",
+      "emoji": "🚀",
+      "description": "Explore new areas in threat hunting and cloud-native security.",
+      "steps": [
+        { "id": "step10-1", "title": "Threat hunting (OSINT, Diamond Model)", "emoji": "🔎", "tutorial_url": "https://www.youtube.com/watch?v=Rr1z5z6YKjQ" },
+        { "id": "step10-2", "title": "Cloud-native security (IaC, serverless)", "emoji": "☁️", "tutorial_url": "https://www.youtube.com/watch?v=Rr1z5z6YKjQ" },
+        { "id": "step10-3", "title": "Zero-Day research & responsible disclosure", "emoji": "🧑‍💻", "tutorial_url": "https://www.youtube.com/watch?v=Rr1z5z6YKjQ" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "Network Packet Analysis with Wireshark",
+      "level": "Beginner",
+      "emoji": "🌐",
+      "description": "Capture and analyze network traffic to identify protocols and potential issues.",
+      "concepts": [
+        "Packet capturing",
+        "Protocol identification",
+        "Basic filtering"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=TkCSr30UojM",
+      "guide_urls": [
+        { "label": "Wireshark Docs", "url": "https://www.wireshark.org/docs/" }
+      ]
+    },
+    {
+      "id": "proj2",
+      "title": "Linux Hardening Checklist",
+      "level": "Beginner",
+      "emoji": "🐧",
+      "description": "Apply security best practices to harden a Linux server.",
+      "concepts": [
+        "User and permissions management",
+        "Firewall setup",
+        "SSH hardening"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=yz7nYlnXLfE",
+      "guide_urls": [
+        { "label": "Linux Security Guide", "url": "https://www.cyberciti.biz/tips/linux-security.html" }
+      ]
+    },
+    {
+      "id": "proj3",
+      "title": "Web Application Vulnerability Scan",
+      "level": "Intermediate",
+      "emoji": "🌐",
+      "description": "Scan a web app for vulnerabilities using tools like Burp Suite and identify exploits.",
+      "concepts": [
+        "Reconnaissance",
+        "Vulnerability scanning",
+        "Exploitation basics"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=EkbLDK3b3A8",
+      "guide_urls": [
+        { "label": "OWASP Top 10", "url": "https://owasp.org/www-project-top-ten/" }
+      ]
+    },
+    {
+      "id": "proj4",
+      "title": "Phishing Awareness Campaign",
+      "level": "Intermediate",
+      "emoji": "🎣",
+      "description": "Simulate a phishing campaign and measure user responses to test social engineering awareness.",
+      "concepts": [
+        "Phishing simulation",
+        "User training",
+        "Reporting"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=TgKwz5Ikpc8",
+      "guide_urls": [
+        { "label": "Phishing Awareness", "url": "https://www.cisa.gov/news-events/news/phishing-attacks-common-and-preventable" }
+      ]
+    },
+    {
+      "id": "proj5",
+      "title": "Basic Penetration Test Lab",
+      "level": "Intermediate",
+      "emoji": "🕵️",
+      "description": "Set up a local pen test lab with Kali Linux, Metasploit, and vulnerable targets.",
+      "concepts": [
+        "Lab setup",
+        "Pen test workflow",
+        "Exploitation"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=Rr1z5z6YKjQ",
+      "guide_urls": [
+        { "label": "Kali Linux Docs", "url": "https://www.kali.org/docs/" }
+      ]
+    },
+    {
+      "id": "proj6",
+      "title": "SIEM Rules & Incident Response",
+      "level": "Advanced",
+      "emoji": "📊",
+      "description": "Develop SIEM detection rules and build an incident response plan.",
+      "concepts": [
+        "Log analysis",
+        "Detection rule writing",
+        "Response playbooks"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=1iB8qwRCs4E",
+      "guide_urls": [
+        { "label": "SIEM Best Practices", "url": "https://www.splunk.com/en_us/data-insider/siem-security-information-event-management.html" }
+      ]
+    },
+    {
+      "id": "proj7",
+      "title": "Active Directory Attack Simulation",
+      "level": "Advanced",
+      "emoji": "📂",
+      "description": "Simulate and defend against common AD attacks such as Kerberoasting.",
+      "concepts": [
+        "AD setup",
+        "Attack simulation",
+        "Defense techniques"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=Rr1z5z6YKjQ",
+      "guide_urls": [
+        { "label": "Active Directory Security", "url": "https://adsecurity.org/" }
+      ]
+    }
+  ]
+}

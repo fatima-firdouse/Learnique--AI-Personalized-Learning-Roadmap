@@ -1,0 +1,217 @@
+{
+  "title": "PostgreSQL Roadmap",
+  "description": "A practical learning path for mastering PostgreSQL.",
+  "modules": [
+    {
+      "id": "mod1",
+      "title": "Introduction",
+      "emoji": "🧭",
+      "description": "Get familiar with relational databases and PostgreSQL basics.",
+      "steps": [
+        { "id": "step1-1", "title": "What are Relational Databases?", "emoji": "❓", "tutorial_url": "https://www.youtube.com/watch?v=ztHopE5Wnpc" },
+        { "id": "step1-2", "title": "RDBMS Benefits and Limitations", "emoji": "⚖️", "tutorial_url": "https://www.youtube.com/watch?v=ztHopE5Wnpc" },
+        { "id": "step1-3", "title": "PostgreSQL vs Other RDBMS", "emoji": "🤔", "tutorial_url": "https://www.youtube.com/watch?v=qw--VYLpxG4" },
+        { "id": "step1-4", "title": "PostgreSQL vs NoSQL Databases", "emoji": "🗃️", "tutorial_url": "https://www.youtube.com/watch?v=6rnt3p1QKvs" }
+      ]
+    },
+    {
+      "id": "mod2",
+      "title": "Basic RDBMS Concepts",
+      "emoji": "📚",
+      "description": "Understand RDBMS building blocks and PostgreSQL data structures.",
+      "steps": [
+        { "id": "step2-1", "title": "Object Model, Queries, Data Types", "emoji": "🔣", "tutorial_url": "https://www.youtube.com/watch?v=qw--VYLpxG4" },
+        { "id": "step2-2", "title": "Rows, Columns, Tables, Schemas", "emoji": "📊", "tutorial_url": "https://www.youtube.com/watch?v=qw--VYLpxG4" },
+        { "id": "step2-3", "title": "Databases, Relational Model, Domains, Attributes", "emoji": "🗄️", "tutorial_url": "https://www.youtube.com/watch?v=qw--VYLpxG4" },
+        { "id": "step2-4", "title": "Tuples, Relations, Constraints, NULL", "emoji": "🧩", "tutorial_url": "https://www.youtube.com/watch?v=qw--VYLpxG4" }
+      ]
+    },
+    {
+      "id": "mod3",
+      "title": "High-Level Database Concepts",
+      "emoji": "🧠",
+      "description": "Learn about transactions, ACID, MVCC, and query processing.",
+      "steps": [
+        { "id": "step3-1", "title": "ACID & MVCC", "emoji": "💾", "tutorial_url": "https://www.youtube.com/watch?v=7p7k-Z6UroM" },
+        { "id": "step3-2", "title": "Transactions, Write-ahead Log", "emoji": "📝", "tutorial_url": "https://www.youtube.com/watch?v=7p7k-Z6UroM" },
+        { "id": "step3-3", "title": "Query Processing", "emoji": "⚡", "tutorial_url": "https://www.youtube.com/watch?v=qw--VYLpxG4" }
+      ]
+    },
+    {
+      "id": "mod4",
+      "title": "Using Docker & Package Managers",
+      "emoji": "🐳",
+      "description": "Set up PostgreSQL using Docker and package managers.",
+      "steps": [
+        { "id": "step4-1", "title": "Using Docker", "emoji": "🐋", "tutorial_url": "https://www.youtube.com/watch?v=BLl32FvcdVM" },
+        { "id": "step4-2", "title": "Package Managers", "emoji": "📦", "tutorial_url": "https://www.youtube.com/watch?v=qw--VYLpxG4" },
+        { "id": "step4-3", "title": "Connect using psql", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=qw--VYLpxG4" }
+      ]
+    },
+    {
+      "id": "mod5",
+      "title": "Deployment in Cloud",
+      "emoji": "☁️",
+      "description": "Learn how to deploy PostgreSQL in cloud environments.",
+      "steps": [
+        { "id": "step5-1", "title": "Deployment in Cloud", "emoji": "🚀", "tutorial_url": "https://www.youtube.com/watch?v=blx5g4U7W2k" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "PostgreSQL Library Database",
+      "level": "Beginner",
+      "emoji": "1️⃣",
+      "description": "Design a library database to track books, authors, and borrowers using PostgreSQL.",
+      "concepts": [
+        "CREATE TABLE",
+        "FOREIGN KEY",
+        "SELECT, WHERE",
+        "INNER JOIN",
+        "INSERT and UPDATE"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=qw--VYLpxG4",
+      "guide_urls": [
+        { "label": "PostgreSQL Foreign Key", "url": "https://www.postgresqltutorial.com/postgresql-foreign-key/" }
+      ]
+    },
+    {
+      "id": "proj2",
+      "title": "Student Records System",
+      "level": "Beginner",
+      "emoji": "2️⃣",
+      "description": "Create a database to store student grades, courses, and attendance.",
+      "concepts": [
+        "INSERT, UPDATE, DELETE",
+        "WHERE, BETWEEN, LIKE",
+        "ORDER BY",
+        "GROUP BY"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=qw--VYLpxG4",
+      "guide_urls": [
+        { "label": "PostgreSQL GROUP BY", "url": "https://www.postgresqltutorial.com/postgresql-group-by/" }
+      ]
+    },
+    {
+      "id": "proj3",
+      "title": "Movie Database",
+      "level": "Beginner",
+      "emoji": "3️⃣",
+      "description": "Build a database to track movies, genres, and user ratings.",
+      "concepts": [
+        "JOIN with multiple tables",
+        "COUNT, AVG",
+        "Handling NULL values",
+        "Using DISTINCT"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=qw--VYLpxG4",
+      "guide_urls": [
+        { "label": "PostgreSQL COUNT()", "url": "https://www.postgresqltutorial.com/postgresql-count/" }
+      ]
+    },
+    {
+      "id": "proj4",
+      "title": "E-commerce Order Management System",
+      "level": "Intermediate",
+      "emoji": "1️⃣",
+      "description": "Model an e-commerce database with products, orders, and customers.",
+      "concepts": [
+        "Multiple JOINs",
+        "SUM, MAX, MIN",
+        "CASE statements",
+        "Filtering with AND, OR, IN"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=qw--VYLpxG4",
+      "guide_urls": [
+        { "label": "PostgreSQL CASE Statement", "url": "https://www.postgresqltutorial.com/postgresql-case/" }
+      ]
+    },
+    {
+      "id": "proj5",
+      "title": "Sales Data Analysis",
+      "level": "Intermediate",
+      "emoji": "2️⃣",
+      "description": "Analyze a sales dataset to identify best-selling products and performance.",
+      "concepts": [
+        "ROW_NUMBER, RANK",
+        "Moving averages, cumulative sums",
+        "Advanced filtering and grouping",
+        "CREATE VIEW"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=qw--VYLpxG4",
+      "guide_urls": [
+        { "label": "PostgreSQL CREATE VIEW", "url": "https://www.postgresqltutorial.com/postgresql-view/" }
+      ]
+    },
+    {
+      "id": "proj6",
+      "title": "HR Database System",
+      "level": "Intermediate",
+      "emoji": "3️⃣",
+      "description": "Build an HR database to store employee details, departments, and salaries.",
+      "concepts": [
+        "Subqueries",
+        "UNION and EXCEPT",
+        "CHECK, NOT NULL constraints",
+        "Indexing basics"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=qw--VYLpxG4",
+      "guide_urls": [
+        { "label": "PostgreSQL UNION", "url": "https://www.postgresqltutorial.com/postgresql-union/" }
+      ]
+    },
+    {
+      "id": "proj7",
+      "title": "Data Warehouse Design for Retail",
+      "level": "Advanced",
+      "emoji": "1️⃣",
+      "description": "Design a data warehouse schema to support business intelligence for a retail company.",
+      "concepts": [
+        "Data modeling (star/snowflake schema)",
+        "Fact and dimension tables",
+        "ETL basics",
+        "PARTITION BY for large datasets"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=qw--VYLpxG4",
+      "guide_urls": [
+        { "label": "Star vs Snowflake", "url": "https://www.sqlshack.com/star-schema-vs-snowflake-schema/" }
+      ]
+    },
+    {
+      "id": "proj8",
+      "title": "Bank Transactions Analytics",
+      "level": "Advanced",
+      "emoji": "2️⃣",
+      "description": "Analyze customer transactions to detect patterns, fraud, and segment customers.",
+      "concepts": [
+        "Window functions (LAG, LEAD, NTILE)",
+        "Recursive CTEs (WITH RECURSIVE)",
+        "Query optimization, indexing, partitioning",
+        "Triggers for real-time updates"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=qw--VYLpxG4",
+      "guide_urls": [
+        { "label": "PostgreSQL Window Functions", "url": "https://www.postgresqltutorial.com/postgresql-window-function/" }
+      ]
+    },
+    {
+      "id": "proj9",
+      "title": "Social Media Engagement Analysis",
+      "level": "Advanced",
+      "emoji": "3️⃣",
+      "description": "Analyze a social media dataset to find top posts, user engagement, and activity patterns.",
+      "concepts": [
+        "Stored procedures",
+        "Triggers for automatic updates",
+        "Temporary tables and table-valued functions",
+        "Complex queries and performance tuning"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=qw--VYLpxG4",
+      "guide_urls": [
+        { "label": "PostgreSQL Triggers", "url": "https://www.postgresqltutorial.com/postgresql-trigger/" }
+      ]
+    }
+  ]
+}

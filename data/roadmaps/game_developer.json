@@ -1,0 +1,221 @@
+{
+  "title": "Game Developer Roadmap",
+  "description": "A practical learning path for game development including programming, engines, graphics, AI, and hands-on projects.",
+  "modules": [
+    {
+      "id": "mod1",
+      "title": "Programming Languages",
+      "emoji": "👨‍💻",
+      "description": "Learn the foundational languages used in game development.",
+      "steps": [
+        { "id": "step1-1", "title": "Assembly", "emoji": "⚙️", "tutorial_url": "https://www.youtube.com/watch?v=4gwYkEK0gOk" },
+        { "id": "step1-2", "title": "C / C++", "emoji": "💾", "tutorial_url": "https://www.youtube.com/watch?v=vLnPwxZdW4Y" },
+        { "id": "step1-3", "title": "C#", "emoji": "🔷", "tutorial_url": "https://www.youtube.com/watch?v=GhQdlIFylQ8" },
+        { "id": "step1-4", "title": "Rust", "emoji": "🦀", "tutorial_url": "https://www.youtube.com/watch?v=zF34dRivLOw" },
+        { "id": "step1-5", "title": "Python", "emoji": "🐍", "tutorial_url": "https://www.youtube.com/watch?v=rfscVS0vtbw" }
+      ]
+    },
+    {
+      "id": "mod2",
+      "title": "Game Engines",
+      "emoji": "🎮",
+      "description": "Explore the most popular engines for game creation.",
+      "steps": [
+        { "id": "step2-1", "title": "Unreal Engine", "emoji": "💠", "tutorial_url": "https://www.youtube.com/watch?v=2fbrl6WoIyo" },
+        { "id": "step2-2", "title": "Unity 3D", "emoji": "⚪", "tutorial_url": "https://www.youtube.com/watch?v=5-QyjMZ0Cqk" },
+        { "id": "step2-3", "title": "Godot", "emoji": "🐧", "tutorial_url": "https://www.youtube.com/watch?v=6XyXAG9X3pE" },
+        { "id": "step2-4", "title": "Native (Custom-built engines)", "emoji": "🔧", "tutorial_url": "https://www.youtube.com/watch?v=H5v3kku4y6Q" }
+      ]
+    },
+    {
+      "id": "mod3",
+      "title": "Game AI",
+      "emoji": "🧠",
+      "description": "Design intelligent behaviors for games.",
+      "steps": [
+        { "id": "step3-1", "title": "Decision Making (Minimax, AB Pruning, MCTS)", "emoji": "♟️", "tutorial_url": "https://www.youtube.com/watch?v=l-hh51ncgDI" },
+        { "id": "step3-2", "title": "Behavior Modeling (Goal Oriented, Markov, Fuzzy Logic, Trees, State Machine)", "emoji": "🌳", "tutorial_url": "https://www.youtube.com/watch?v=6JD1R6jUuV8" },
+        { "id": "step3-3", "title": "Learning Techniques (RL, ANN, Deep Learning, Decision Tree, Naive Bayes)", "emoji": "🤖", "tutorial_url": "https://www.youtube.com/watch?v=aircAruvnKk" }
+      ]
+    },
+    {
+      "id": "mod4",
+      "title": "Game Mathematics",
+      "emoji": "➗",
+      "description": "Mathematical foundations for graphics and simulation.",
+      "steps": [
+        { "id": "step4-1", "title": "Linear Algebra, Vectors, Matrices", "emoji": "📐", "tutorial_url": "https://www.youtube.com/watch?v=ZK3O402wf1c" },
+        { "id": "step4-2", "title": "Geometry, Transformation, Orientation, Quaternion, Euler Angle", "emoji": "🔄", "tutorial_url": "https://www.youtube.com/watch?v=zc8b2Jo7mno" },
+        { "id": "step4-3", "title": "Curves & Splines (Hermite, Bezier, Catmull-Rom)", "emoji": "➰", "tutorial_url": "https://www.youtube.com/watch?v=jvPPXbo87ds" },
+        { "id": "step4-4", "title": "Projection (Perspective, Orthogonal)", "emoji": "🔭", "tutorial_url": "https://www.youtube.com/watch?v=U0_ONQQ5ZNM" }
+      ]
+    },
+    {
+      "id": "mod5",
+      "title": "Game Physics & Dynamics",
+      "emoji": "🌀",
+      "description": "Bring the game world to life with physics.",
+      "steps": [
+        { "id": "step5-1", "title": "Forces, Center of Mass, Moment of Inertia, Restitution", "emoji": "⚖️", "tutorial_url": "https://www.youtube.com/watch?v=ZtM7P8gW9NM" },
+        { "id": "step5-2", "title": "Motion, Buoyancy, Friction", "emoji": "🛷", "tutorial_url": "https://www.youtube.com/watch?v=ZtM7P8gW9NM" },
+        { "id": "step5-3", "title": "Collision Detection (CCD, SAT, EPA, GJK, BVH, AABB, OBB, etc.)", "emoji": "💥", "tutorial_url": "https://www.youtube.com/watch?v=LPzyNOHY3A4" },
+        { "id": "step5-4", "title": "Object Properties (Convex/Concave, Bounding Volumes, Spatial Partitioning)", "emoji": "📦", "tutorial_url": "https://www.youtube.com/watch?v=LPzyNOHY3A4" }
+      ]
+    },
+    {
+      "id": "mod6",
+      "title": "Computer Graphics",
+      "emoji": "🖼️",
+      "description": "Learn the basics of rendering and image generation.",
+      "steps": [
+        { "id": "step6-1", "title": "Rendering, Ray Tracing, Rasterization, Pipeline, Shaders", "emoji": "🎇", "tutorial_url": "https://www.youtube.com/watch?v=QX6BbGvL1bQ" },
+        { "id": "step6-2", "title": "Material Effects, Reflection, Mapping, Horizon", "emoji": "🌅", "tutorial_url": "https://www.youtube.com/watch?v=QX6BbGvL1bQ" },
+        { "id": "step6-3", "title": "Visual Perception, Color, Tone Reproduction", "emoji": "🌈", "tutorial_url": "https://www.youtube.com/watch?v=QX6BbGvL1bQ" },
+        { "id": "step6-4", "title": "Lighting & Shadow, Lighting Concepts", "emoji": "💡", "tutorial_url": "https://www.youtube.com/watch?v=QX6BbGvL1bQ" }
+      ]
+    },
+    {
+      "id": "mod7",
+      "title": "Graphics APIs",
+      "emoji": "🔌",
+      "description": "APIs for cross-platform graphics.",
+      "steps": [
+        { "id": "step7-1", "title": "DirectX, OpenGL, Vulkan, WebGL, OpenGL ES, Metal", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=45MIykWJ-C4" }
+      ]
+    },
+    {
+      "id": "mod8",
+      "title": "Advanced Rendering",
+      "emoji": "✨",
+      "description": "Explore modern rendering techniques.",
+      "steps": [
+        { "id": "step8-1", "title": "Real-Time Ray Tracing, PBR, Transparency, Metallicity", "emoji": "🔮", "tutorial_url": "https://www.youtube.com/watch?v=QX6BbGvL1bQ" }
+      ]
+    },
+    {
+      "id": "mod9",
+      "title": "Game AI - Movement & Board Game Mechanics",
+      "emoji": "🎲",
+      "description": "AI techniques for movement and board games.",
+      "steps": [
+        { "id": "step9-1", "title": "Movement & Board Game Mechanics", "emoji": "🚶", "tutorial_url": "https://www.youtube.com/watch?v=6JD1R6jUuV8" }
+      ]
+    },
+    {
+      "id": "mod10",
+      "title": "Shaders & Formats",
+      "emoji": "🎥",
+      "description": "Write and use shaders in various formats.",
+      "steps": [
+        { "id": "step10-1", "title": "GLSL / HLSL / SPIR-V", "emoji": "📝", "tutorial_url": "https://www.youtube.com/watch?v=H-VdQF-U5bY" }
+      ]
+    },
+    {
+      "id": "mod11",
+      "title": "Collision Techniques",
+      "emoji": "💢",
+      "description": "Efficient collision detection algorithms.",
+      "steps": [
+        { "id": "step11-1", "title": "Sort and Sweep, Acceleration Joints", "emoji": "🧹", "tutorial_url": "https://www.youtube.com/watch?v=LPzyNOHY3A4" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "Platformer Game in Unity",
+      "level": "Beginner",
+      "emoji": "🕹️",
+      "description": "Create a simple 2D platformer game using Unity and C#.",
+      "concepts": [
+        "Unity basics",
+        "C# scripting",
+        "2D physics"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=JfBMnB3bAG8",
+      "guide_urls": [
+        { "label": "Unity 2D Game Guide", "url": "https://learn.unity.com/project/2d-platformer-template" }
+      ]
+    },
+    {
+      "id": "proj2",
+      "title": "3D Endless Runner in Unreal",
+      "level": "Beginner",
+      "emoji": "🏃",
+      "description": "Build an endless runner game in Unreal Engine with Blueprints or C++.",
+      "concepts": [
+        "Unreal Blueprints",
+        "Basic C++ in Unreal",
+        "3D collision"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=F6u5rhUQ6dU",
+      "guide_urls": [
+        { "label": "Unreal Engine Docs", "url": "https://docs.unrealengine.com/5.0/en-US/" }
+      ]
+    },
+    {
+      "id": "proj3",
+      "title": "Physics-Based Puzzle Game",
+      "level": "Intermediate",
+      "emoji": "🧩",
+      "description": "Create a puzzle game using a physics engine (Unity/Unreal/Godot).",
+      "concepts": [
+        "Physics simulation",
+        "Collision detection",
+        "Puzzle design"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=drN8I1G9B9k",
+      "guide_urls": [
+        { "label": "Unity Physics Docs", "url": "https://docs.unity3d.com/Manual/PhysicsSection.html" }
+      ]
+    },
+    {
+      "id": "proj4",
+      "title": "Board Game AI (Minimax)",
+      "level": "Intermediate",
+      "emoji": "♟️",
+      "description": "Implement Minimax AI for a board game like Tic-Tac-Toe or Chess.",
+      "concepts": [
+        "Game AI",
+        "Minimax",
+        "Game state evaluation"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=l-hh51ncgDI",
+      "guide_urls": [
+        { "label": "Minimax Algorithm", "url": "https://www.geeksforgeeks.org/minimax-algorithm-in-game-theory-set-1-introduction/" }
+      ]
+    },
+    {
+      "id": "proj5",
+      "title": "First-Person Shooter (FPS)",
+      "level": "Advanced",
+      "emoji": "🔫",
+      "description": "Build a simple FPS game using Unreal or Unity.",
+      "concepts": [
+        "3D graphics",
+        "Raycasting",
+        "AI opponents"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=HFU6e6--izo",
+      "guide_urls": [
+        { "label": "Unity FPS Docs", "url": "https://learn.unity.com/project/fps-template" }
+      ]
+    },
+    {
+      "id": "proj6",
+      "title": "Procedural Terrain Generator",
+      "level": "Advanced",
+      "emoji": "🌄",
+      "description": "Create a procedural terrain generator using Perlin noise and custom shaders.",
+      "concepts": [
+        "Procedural generation",
+        "Shaders",
+        "Noise algorithms"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=MRNFcywkUSA",
+      "guide_urls": [
+        { "label": "Procedural Generation", "url": "https://catlikecoding.com/unity/tutorials/noise/" }
+      ]
+    }
+  ]
+}

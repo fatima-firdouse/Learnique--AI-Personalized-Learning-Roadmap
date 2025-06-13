@@ -1,0 +1,272 @@
+{
+  "title": "AI Engineer Roadmap",
+  "description": "A comprehensive roadmap for becoming an AI Engineer, covering theory, frameworks, and practical projects.",
+  "modules": [
+    {
+      "id": "mod1",
+      "title": "Pre-requisites (Time of Basics)",
+      "emoji": "🧮",
+      "description": "Learn the foundational math and programming required for AI.",
+      "steps": [
+        { "id": "step1-1", "title": "Linear Algebra", "emoji": "📐", "tutorial_url": "https://www.youtube.com/watch?v=kjBOesZCoqc" },
+        { "id": "step1-2", "title": "Calculus", "emoji": "📈", "tutorial_url": "https://www.youtube.com/watch?v=WUvTyaaNkzM" },
+        { "id": "step1-3", "title": "Probability", "emoji": "🎲", "tutorial_url": "https://www.youtube.com/watch?v=Kzm2b2aY3hQ" },
+        { "id": "step1-4", "title": "Python", "emoji": "🐍", "tutorial_url": "https://www.youtube.com/watch?v=rfscVS0vtbw" },
+        { "id": "step1-5", "title": "Data Structures and Algorithms", "emoji": "🧩", "tutorial_url": "https://www.youtube.com/watch?v=8hly31xKli0" }
+      ]
+    },
+    {
+      "id": "mod2",
+      "title": "Using Pre-trained Models",
+      "emoji": "🤖",
+      "description": "Understand and leverage pre-trained AI models.",
+      "steps": [
+        { "id": "step2-1", "title": "Download and Use Pretrained Models", "emoji": "⬇️", "tutorial_url": "https://www.youtube.com/watch?v=9fz4l4l5XHI" },
+        { "id": "step2-2", "title": "Transformers, CNNs, GANs, CLIP, T5, Whisper", "emoji": "🧠", "tutorial_url": "https://www.youtube.com/watch?v=9fz4l4l5XHI" },
+        { "id": "step2-3", "title": "Import Weights, Transfer Learning & Customization", "emoji": "🔄", "tutorial_url": "https://www.youtube.com/watch?v=9fz4l4l5XHI" }
+      ]
+    },
+    {
+      "id": "mod3",
+      "title": "Open AI Platform",
+      "emoji": "🌐",
+      "description": "Get started with OpenAI APIs and their applications.",
+      "steps": [
+        { "id": "step3-1", "title": "OpenAI API Key & Setup", "emoji": "🔑", "tutorial_url": "https://www.youtube.com/watch?v=Y6ENMfA4n3s" },
+        { "id": "step3-2", "title": "Prompt Engineering & LLM Applications", "emoji": "📝", "tutorial_url": "https://www.youtube.com/watch?v=8pDqJVdNa44" },
+        { "id": "step3-3", "title": "Summarization, Text Generation, Classification, Embedding", "emoji": "📄", "tutorial_url": "https://www.youtube.com/watch?v=Y6ENMfA4n3s" }
+      ]
+    },
+    {
+      "id": "mod4",
+      "title": "Using Own Data",
+      "emoji": "📊",
+      "description": "Work with your own data for AI solutions.",
+      "steps": [
+        { "id": "step4-1", "title": "Embedding Techniques (OpenAI, TF-IDF, BoW, Transformers)", "emoji": "🔤", "tutorial_url": "https://www.youtube.com/watch?v=CZ8Fv-9Pjh0" },
+        { "id": "step4-2", "title": "Vector Databases (Pinecone, Weaviate, Chroma, Qdrant, FAISS)", "emoji": "🗄️", "tutorial_url": "https://www.youtube.com/watch?v=5r4y6rR8FAE" },
+        { "id": "step4-3", "title": "RAG, Retrieval Pipelines & LLM Integration", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=5r4y6rR8FAE" }
+      ]
+    },
+    {
+      "id": "mod5",
+      "title": "Prompt Engineering",
+      "emoji": "📝",
+      "description": "Design and optimize prompts for LLMs and generative AI.",
+      "steps": [
+        { "id": "step5-1", "title": "Prompt Templates & Few/Zero Shot Prompting", "emoji": "🧩", "tutorial_url": "https://www.youtube.com/watch?v=8pDqJVdNa44" },
+        { "id": "step5-2", "title": "Open Source Prompt Tools (LangChain, LlamaIndex, Guidance, Promptify)", "emoji": "🛠️", "tutorial_url": "https://www.youtube.com/watch?v=5r4y6rR8FAE" },
+        { "id": "step5-3", "title": "Prompt Optimization, Fine-tuning, Agents", "emoji": "⚡", "tutorial_url": "https://www.youtube.com/watch?v=8pDqJVdNa44" }
+      ]
+    },
+    {
+      "id": "mod6",
+      "title": "Data Engineering",
+      "emoji": "🔧",
+      "description": "Master data tools and pipelines for AI workflows.",
+      "steps": [
+        { "id": "step6-1", "title": "Open Source Tools (DVC, W&B, MLFlow, Airflow, Kedro, Kubeflow)", "emoji": "💡", "tutorial_url": "https://www.youtube.com/watch?v=KgZRZmEc9Uo" },
+        { "id": "step6-2", "title": "Data Processing (Pandas, NumPy, Dask, Polars, Spark)", "emoji": "🛠️", "tutorial_url": "https://www.youtube.com/watch?v=vmEHCJofslg" },
+        { "id": "step6-3", "title": "APIs for Data (HuggingFace, Kaggle, Google, UCI)", "emoji": "🌍", "tutorial_url": "https://www.youtube.com/watch?v=vmEHCJofslg" }
+      ]
+    },
+    {
+      "id": "mod7",
+      "title": "Model Training",
+      "emoji": "🏋️",
+      "description": "Learn how to train, debug, and track ML models.",
+      "steps": [
+        { "id": "step7-1", "title": "Frameworks (PyTorch, TensorFlow, JAX)", "emoji": "📦", "tutorial_url": "https://www.youtube.com/watch?v=GIsg-ZUy0MY" },
+        { "id": "step7-2", "title": "Application-based Learning, Debugging, Tracking", "emoji": "🔎", "tutorial_url": "https://www.youtube.com/watch?v=GIsg-ZUy0MY" }
+      ]
+    },
+    {
+      "id": "mod8",
+      "title": "Algorithms",
+      "emoji": "📚",
+      "description": "Foundational ML algorithms for regression and classification.",
+      "steps": [
+        { "id": "step8-1", "title": "Linear Regression, Logistic Regression", "emoji": "📉", "tutorial_url": "https://www.youtube.com/watch?v=PaFPbb66DxQ" },
+        { "id": "step8-2", "title": "SVM, KNN, Decision Tree, Random Forest", "emoji": "🌳", "tutorial_url": "https://www.youtube.com/watch?v=AoeEHqVSNOw" },
+        { "id": "step8-3", "title": "Naive Bayes, K-Means", "emoji": "🤓", "tutorial_url": "https://www.youtube.com/watch?v=8pTEmbeENF4" }
+      ]
+    },
+    {
+      "id": "mod9",
+      "title": "Deep Learning",
+      "emoji": "🧠",
+      "description": "Build, train and understand deep neural networks.",
+      "steps": [
+        { "id": "step9-1", "title": "Neural Networks, Backpropagation, Loss, Optimizers", "emoji": "🔁", "tutorial_url": "https://www.youtube.com/watch?v=aircAruvnKk" },
+        { "id": "step9-2", "title": "NLP: Tokenization, Embeddings, Transformers, LLMs", "emoji": "🗣️", "tutorial_url": "https://www.youtube.com/watch?v=8rXD5-xhemo" },
+        { "id": "step9-3", "title": "Computer Vision: CNN, Object Detection, GAN, Segmentation", "emoji": "👁️", "tutorial_url": "https://www.youtube.com/watch?v=5WoItGTWV54" }
+      ]
+    },
+    {
+      "id": "mod10",
+      "title": "Generative AI",
+      "emoji": "🤖",
+      "description": "Explore text and image generative AI models.",
+      "steps": [
+        { "id": "step10-1", "title": "Text Generation, Prompt Engineering, Agents, Doc Q&A", "emoji": "📝", "tutorial_url": "https://www.youtube.com/watch?v=8pDqJVdNa44" },
+        { "id": "step10-2", "title": "Image Generation (Stable Diffusion, DALL-E, Midjourney)", "emoji": "🖼️", "tutorial_url": "https://www.youtube.com/watch?v=U8o8S_Y5RG0" }
+      ]
+    },
+    {
+      "id": "mod11",
+      "title": "Production/Deployment",
+      "emoji": "🚀",
+      "description": "Deploy and scale AI models in real-world environments.",
+      "steps": [
+        { "id": "step11-1", "title": "Model to API Deployment (FastAPI, Flask, Gradio, Streamlit)", "emoji": "🌐", "tutorial_url": "https://www.youtube.com/watch?v=0sOvCWFmrtA" },
+        { "id": "step11-2", "title": "Docker & MLOps (Cloud, AWS, GCP, Azure)", "emoji": "🐳", "tutorial_url": "https://www.youtube.com/watch?v=RrKRN9zRBWs" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "Chatbot Development",
+      "level": "Beginner",
+      "emoji": "🤖",
+      "description": "Build a simple NLP-powered chatbot using prompt engineering and LLMs.",
+      "concepts": [
+        "NLP basics",
+        "Prompt engineering",
+        "LLM integration"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=8pDqJVdNa44",
+      "guide_urls": [
+        { "label": "Prompt Engineering Guide", "url": "https://www.promptingguide.ai/" }
+      ]
+    },
+    {
+      "id": "proj2",
+      "title": "Handwritten Digit Recognition",
+      "level": "Beginner",
+      "emoji": "✍️",
+      "description": "Train a neural network to recognize handwritten digits (MNIST).",
+      "concepts": [
+        "Neural networks",
+        "Image processing",
+        "Model evaluation"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=tPYj3fFJGjk",
+      "guide_urls": [
+        { "label": "MNIST Beginner Guide", "url": "https://www.tensorflow.org/tutorials/keras/classification" }
+      ]
+    },
+    {
+      "id": "proj3",
+      "title": "Movie Recommendation System",
+      "level": "Beginner",
+      "emoji": "🎬",
+      "description": "Build a recommendation system using collaborative and content-based filtering.",
+      "concepts": [
+        "Collaborative filtering",
+        "Content-based filtering",
+        "Data preprocessing"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=9APSRzN0l7k",
+      "guide_urls": [
+        { "label": "Movie Recommendation Guide", "url": "https://realpython.com/build-recommendation-engine-collaborative-filtering/" }
+      ]
+    },
+    {
+      "id": "proj4",
+      "title": "Object Detection",
+      "level": "Intermediate",
+      "emoji": "🔎",
+      "description": "Train a model to detect objects in images using CNNs.",
+      "concepts": [
+        "CNNs",
+        "Data labeling",
+        "Model deployment"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=5WoItGTWV54",
+      "guide_urls": [
+        { "label": "Object Detection Guide", "url": "https://pytorch.org/tutorials/intermediate/torchvision_tutorial.html" }
+      ]
+    },
+    {
+      "id": "proj5",
+      "title": "Sentiment Analysis",
+      "level": "Intermediate",
+      "emoji": "😊",
+      "description": "Analyze and classify sentiment in text data.",
+      "concepts": [
+        "NLP",
+        "Text classification",
+        "Data visualization"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=8rXD5-xhemo",
+      "guide_urls": [
+        { "label": "Sentiment Analysis Guide", "url": "https://realpython.com/python-nlp-sentiment-analysis/" }
+      ]
+    },
+    {
+      "id": "proj6",
+      "title": "Resume Parsing",
+      "level": "Intermediate",
+      "emoji": "📄",
+      "description": "Extract structured information from resumes using NLP and NER.",
+      "concepts": [
+        "NER (Named Entity Recognition)",
+        "Regex/NLP",
+        "Model deployment"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=FLZvOKSCkxY",
+      "guide_urls": [
+        { "label": "Resume Parser with Spacy", "url": "https://medium.com/analytics-vidhya/building-a-resume-parser-using-nlp-spacy-237c4e60cdd4" }
+      ]
+    },
+    {
+      "id": "proj7",
+      "title": "Autonomous Driving",
+      "level": "Advanced",
+      "emoji": "🚗",
+      "description": "Build a computer vision and RL-based system for simulated autonomous driving.",
+      "concepts": [
+        "Computer vision",
+        "Reinforcement learning",
+        "Simulation"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=5WoItGTWV54",
+      "guide_urls": [
+        { "label": "Autonomous Driving Sim Guide", "url": "https://gym.openai.com/envs/CarRacing-v0/" }
+      ]
+    },
+    {
+      "id": "proj8",
+      "title": "Stock Market Analysis",
+      "level": "Advanced",
+      "emoji": "📈",
+      "description": "Analyze stock market data and predict trends using LSTM and visualization.",
+      "concepts": [
+        "Time series analysis",
+        "LSTM models",
+        "Data visualization"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=PuZY9q-aKLw",
+      "guide_urls": [
+        { "label": "LSTM Stock Prediction Guide", "url": "https://towardsdatascience.com/stock-price-prediction-using-python-and-ml-efc1f76ad5e7" }
+      ]
+    },
+    {
+      "id": "proj9",
+      "title": "Advanced AI Assistant",
+      "level": "Advanced",
+      "emoji": "🧑‍💼",
+      "description": "Create a multi-agent AI assistant with voice and vision integration.",
+      "concepts": [
+        "LLM orchestration",
+        "Multi-agent systems",
+        "Voice & vision integration"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=8pDqJVdNa44",
+      "guide_urls": [
+        { "label": "AI Assistant Guide", "url": "https://www.promptingguide.ai/" }
+      ]
+    }
+  ]
+}

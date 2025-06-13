@@ -1,0 +1,369 @@
+{
+  "title": "JavaScript Developer Roadmap",
+  "description": "A practical learning path for JavaScript development.",
+  "modules": [
+    {
+      "id": "mod1",
+      "title": "Introduction to JavaScript",
+      "emoji": "🧭",
+      "description": "Get started with the basics of JavaScript.",
+      "steps": [
+        { "id": "step1-1", "title": "What is JavaScript", "emoji": "❓", "tutorial_url": "https://www.youtube.com/watch?v=W6NZfCO5SIk" },
+        { "id": "step1-2", "title": "History of JavaScript", "emoji": "📜", "tutorial_url": "https://www.freecodecamp.org/news/a-brief-history-of-javascript-2/" },
+        { "id": "step1-3", "title": "JavaScript Versions", "emoji": "🔢", "tutorial_url": "https://www.javascripttutorial.net/es6/" },
+        { "id": "step1-4", "title": "How to run JavaScript", "emoji": "🏃", "tutorial_url": "https://www.w3schools.com/js/js_whereto.asp" }
+      ]
+    },
+    {
+      "id": "mod2",
+      "title": "All About Variables",
+      "emoji": "🔤",
+      "description": "Learn about variables and scope in JavaScript.",
+      "steps": [
+        { "id": "step2-1", "title": "var, let, const", "emoji": "🔢", "tutorial_url": "https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/" },
+        { "id": "step2-2", "title": "Variable Declarations", "emoji": "📝", "tutorial_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#declarations" },
+        { "id": "step2-3", "title": "Hoisting", "emoji": "🎈", "tutorial_url": "https://www.youtube.com/watch?v=Fnlnw8uY6jo" },
+        { "id": "step2-4", "title": "Variable Naming Rules", "emoji": "🏷️", "tutorial_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#variables" },
+        { "id": "step2-5", "title": "Variable Scopes: Block, Function, Global", "emoji": "🌍", "tutorial_url": "https://www.freecodecamp.org/news/javascript-scope/" }
+      ]
+    },
+    {
+      "id": "mod3",
+      "title": "Data Types",
+      "emoji": "🔢",
+      "description": "Understand JavaScript's data types.",
+      "steps": [
+        { "id": "step3-1", "title": "Primitive Types: string, undefined, number, bigint, boolean, null, Symbol", "emoji": "💎", "tutorial_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures" },
+        { "id": "step3-2", "title": "Object, Object Prototype, Prototypal Inheritance, typeof operator", "emoji": "🧬", "tutorial_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain" },
+        { "id": "step3-3", "title": "Built-in Objects, JSON", "emoji": "🗂️", "tutorial_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects" }
+      ]
+    },
+    {
+      "id": "mod4",
+      "title": "Type Casting",
+      "emoji": "🔀",
+      "description": "Type coercion and conversion.",
+      "steps": [
+        { "id": "step4-1", "title": "Implicit Type Casting", "emoji": "↔️", "tutorial_url": "https://www.freecodecamp.org/news/js-type-coercion-explained/" },
+        { "id": "step4-2", "title": "Explicit Type Casting", "emoji": "🔄", "tutorial_url": "https://www.freecodecamp.org/news/js-type-conversion-explained/" }
+      ]
+    },
+    {
+      "id": "mod5",
+      "title": "Equality Comparisons",
+      "emoji": "==",
+      "description": "Comparing values in JavaScript.",
+      "steps": [
+        { "id": "step5-1", "title": "Operators: ==, ===, Object.is", "emoji": "===", "tutorial_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness" },
+        { "id": "step5-2", "title": "Equality Algorithms: isLooselyEqual, isStrictlyEqual, SameValueZero, SameValue", "emoji": "🧮", "tutorial_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness" }
+      ]
+    },
+    {
+      "id": "mod6",
+      "title": "Data Structures",
+      "emoji": "📦",
+      "description": "Collections and structures in JavaScript.",
+      "steps": [
+        { "id": "step6-1", "title": "Structured Data, Keyed Collections: Map, Weak Map, Set, Weak Set", "emoji": "🔑", "tutorial_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Keyed_collections" },
+        { "id": "step6-2", "title": "Typed Arrays, Arrays, Indexed Collections", "emoji": "🗃️", "tutorial_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays" }
+      ]
+    },
+    {
+      "id": "mod7",
+      "title": "Loops and Iterations",
+      "emoji": "🔁",
+      "description": "Learn about loops and iteration patterns.",
+      "steps": [
+        { "id": "step7-1", "title": "for, for...of loop, for...in loop, do...while, while, break / continue", "emoji": "🔄", "tutorial_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration" }
+      ]
+    },
+    {
+      "id": "mod8",
+      "title": "Control Flow",
+      "emoji": "🔀",
+      "description": "Control the flow of your code.",
+      "steps": [
+        { "id": "step8-1", "title": "Conditional Statements: if...else, switch", "emoji": "🔀", "tutorial_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling" },
+        { "id": "step8-2", "title": "Exceptional Handling: throw statement, try/catch/finally, Error Objects", "emoji": "⚠️", "tutorial_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling" }
+      ]
+    },
+    {
+      "id": "mod9",
+      "title": "Expressions & Operators",
+      "emoji": "➗",
+      "description": "Master expressions and operators.",
+      "steps": [
+        { "id": "step9-1", "title": "Conditional, Comma, Unary, Assignment, Comparison, Arithmetic, Bitwise, Logical, BigInt, String Operators", "emoji": "🔢", "tutorial_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators" }
+      ]
+    },
+    {
+      "id": "mod10",
+      "title": "Functions",
+      "emoji": "🔧",
+      "description": "Functions, closures, and lexical scoping.",
+      "steps": [
+        { "id": "step10-1", "title": "Default Params, Rest, Function Parameters, Arrow Functions, IIFEs, arguments object, Scope & Function Stack, Built-in Functions, Recursion, Lexical Scoping, Closures", "emoji": "🧠", "tutorial_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions" }
+      ]
+    },
+    {
+      "id": "mod11",
+      "title": "DOM APIs",
+      "emoji": "🌐",
+      "description": "Manipulate the browser DOM.",
+      "steps": [
+        { "id": "step11-1", "title": "DOM APIs", "emoji": "🌲", "tutorial_url": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction" }
+      ]
+    },
+    {
+      "id": "mod12",
+      "title": "Strict Mode",
+      "emoji": "🚦",
+      "description": "Use strict mode for safer JavaScript.",
+      "steps": [
+        { "id": "step12-1", "title": "Strict Mode", "emoji": "🔐", "tutorial_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode" }
+      ]
+    },
+    {
+      "id": "mod13",
+      "title": "Using (this) Keyword",
+      "emoji": "👆",
+      "description": "Master the 'this' keyword in JavaScript.",
+      "steps": [
+        { "id": "step13-1", "title": "Using (this) in a method, function, alone, event handlers, arrow functions, function borrowing, explicit binding (call, apply, bind)", "emoji": "👈", "tutorial_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this" }
+      ]
+    },
+    {
+      "id": "mod14",
+      "title": "Asynchronous JavaScript",
+      "emoji": "⏳",
+      "description": "Work with async code, Promises, and the event loop.",
+      "steps": [
+        { "id": "step14-1", "title": "Event Loop, setTimeout, setInterval, Callback Hell, Callbacks, Promises, async/await, XMLHttpRequest, Fetch", "emoji": "⏲️", "tutorial_url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous" }
+      ]
+    },
+    {
+      "id": "mod15",
+      "title": "Modules in JavaScript",
+      "emoji": "📦",
+      "description": "Encapsulate code using modules.",
+      "steps": [
+        { "id": "step15-1", "title": "CommonJS, ESM", "emoji": "📦", "tutorial_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules" }
+      ]
+    },
+    {
+      "id": "mod16",
+      "title": "Iterators and Generators",
+      "emoji": "🔁",
+      "description": "Custom iteration using iterators and generators.",
+      "steps": [
+        { "id": "step16-1", "title": "Iterators and Generators", "emoji": "🔄", "tutorial_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators" }
+      ]
+    },
+    {
+      "id": "mod17",
+      "title": "Classes",
+      "emoji": "🏫",
+      "description": "Object-oriented programming with classes.",
+      "steps": [
+        { "id": "step17-1", "title": "Classes", "emoji": "🏫", "tutorial_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes" }
+      ]
+    },
+    {
+      "id": "mod18",
+      "title": "Working with APIs",
+      "emoji": "🌐",
+      "description": "Interact with external APIs.",
+      "steps": [
+        { "id": "step18-1", "title": "Working with APIs", "emoji": "🌍", "tutorial_url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction" }
+      ]
+    },
+    {
+      "id": "mod19",
+      "title": "Memory Management",
+      "emoji": "🧠",
+      "description": "Memory lifecycle and garbage collection.",
+      "steps": [
+        { "id": "step19-1", "title": "Memory Lifecycle, Garbage Collection", "emoji": "♻️", "tutorial_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management" }
+      ]
+    },
+    {
+      "id": "mod20",
+      "title": "Using Browser DevTools",
+      "emoji": "🛠️",
+      "description": "Debug and optimize your code with browser DevTools.",
+      "steps": [
+        { "id": "step20-1", "title": "Debugging Issues, Memory Leaks, Performance", "emoji": "🐞", "tutorial_url": "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Tools_and_setup/Debugging" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "Simple Calculator",
+      "level": "Beginner",
+      "emoji": "🧮",
+      "description": "Build a simple calculator using JavaScript.",
+      "concepts": ["DOM", "Events", "Functions"],
+      "tutorial_url": "https://www.youtube.com/watch?v=j59qQ7YWLxw",
+      "guide_urls": [
+        { "label": "Calculator Guide", "url": "https://www.geeksforgeeks.org/how-to-create-calculator-using-javascript/" }
+      ]
+    },
+    {
+      "id": "proj2",
+      "title": "To-Do List",
+      "level": "Beginner",
+      "emoji": "✅",
+      "description": "Create a simple to-do list app.",
+      "concepts": ["DOM", "Events", "Arrays"],
+      "tutorial_url": "https://www.youtube.com/watch?v=Ttf3CEsEwMQ",
+      "guide_urls": [
+        { "label": "To-Do Guide", "url": "https://www.geeksforgeeks.org/how-to-build-a-simple-to-do-list-app-using-javascript/" }
+      ]
+    },
+    {
+      "id": "proj3",
+      "title": "Digital Clock",
+      "level": "Beginner",
+      "emoji": "⏰",
+      "description": "Display a real-time digital clock.",
+      "concepts": ["Date", "setInterval", "DOM"],
+      "tutorial_url": "https://www.youtube.com/watch?v=wF36gnnOeHM",
+      "guide_urls": [
+        { "label": "Clock Guide", "url": "https://www.geeksforgeeks.org/how-to-create-a-digital-clock-using-javascript/" }
+      ]
+    },
+    {
+      "id": "proj4",
+      "title": "Tip Calculator",
+      "level": "Beginner",
+      "emoji": "💰",
+      "description": "Build a tip calculator for restaurants.",
+      "concepts": ["DOM", "Math", "Events"],
+      "tutorial_url": "https://www.youtube.com/watch?v=FAT5IgOJJyI",
+      "guide_urls": [
+        { "label": "Tip Calculator Guide", "url": "https://www.geeksforgeeks.org/how-to-create-a-tip-calculator-using-html-css-and-javascript/" }
+      ]
+    },
+    {
+      "id": "proj5",
+      "title": "Quiz App",
+      "level": "Beginner",
+      "emoji": "❓",
+      "description": "Develop a simple quiz application.",
+      "concepts": ["DOM", "Events", "Arrays"],
+      "tutorial_url": "https://www.youtube.com/watch?v=PBcqGxrr9g8",
+      "guide_urls": [
+        { "label": "Quiz App Guide", "url": "https://www.geeksforgeeks.org/how-to-build-a-simple-quiz-in-javascript/" }
+      ]
+    },
+    {
+      "id": "proj6",
+      "title": "Currency Converter",
+      "level": "Intermediate",
+      "emoji": "💱",
+      "description": "Create a currency converter using an API.",
+      "concepts": ["APIs", "DOM", "Fetch"],
+      "tutorial_url": "https://www.youtube.com/watch?v=K1iu1kXkVoA",
+      "guide_urls": [
+        { "label": "Currency Converter Guide", "url": "https://www.geeksforgeeks.org/currency-converter-in-javascript/" }
+      ]
+    },
+    {
+      "id": "proj7",
+      "title": "Weather App",
+      "level": "Intermediate",
+      "emoji": "⛅",
+      "description": "Fetch and display weather data from an API.",
+      "concepts": ["APIs", "DOM", "Fetch"],
+      "tutorial_url": "https://www.youtube.com/watch?v=KqZGuzrY9D4",
+      "guide_urls": [
+        { "label": "Weather App Guide", "url": "https://www.geeksforgeeks.org/weather-app-using-javascript/" }
+      ]
+    },
+    {
+      "id": "proj8",
+      "title": "Whack-a-Mole Game",
+      "level": "Intermediate",
+      "emoji": "🐹",
+      "description": "Create a classic Whack-a-Mole game.",
+      "concepts": ["DOM", "Events", "Timing"],
+      "tutorial_url": "https://www.youtube.com/watch?v=lhNdUVh3qCc",
+      "guide_urls": [
+        { "label": "Whack-a-Mole Guide", "url": "https://www.geeksforgeeks.org/how-to-create-a-whack-a-mole-game-using-javascript/" }
+      ]
+    },
+    {
+      "id": "proj9",
+      "title": "Single Page Application (SPA)",
+      "level": "Intermediate",
+      "emoji": "📄",
+      "description": "Build a simple SPA using vanilla JavaScript.",
+      "concepts": ["Routing", "DOM", "Events"],
+      "tutorial_url": "https://www.youtube.com/watch?v=6BozpmSjk-Y",
+      "guide_urls": [
+        { "label": "SPA Guide", "url": "https://www.freecodecamp.org/news/how-to-build-a-single-page-application-with-vanilla-javascript/" }
+      ]
+    },
+    {
+      "id": "proj10",
+      "title": "E-Commerce Platform",
+      "level": "Advanced",
+      "emoji": "🛒",
+      "description": "Build a simple e-commerce site frontend.",
+      "concepts": ["Cart", "APIs", "SPA"],
+      "tutorial_url": "https://www.youtube.com/watch?v=U0Z5q1g6yJM",
+      "guide_urls": [
+        { "label": "E-Commerce Guide", "url": "https://www.geeksforgeeks.org/how-to-build-an-ecommerce-application-using-javascript/" }
+      ]
+    },
+    {
+      "id": "proj11",
+      "title": "Social Media Clone",
+      "level": "Advanced",
+      "emoji": "🌐",
+      "description": "Build a basic social media web app.",
+      "concepts": ["APIs", "UI", "SPA"],
+      "tutorial_url": "https://www.youtube.com/watch?v=ldwlOzRvYOU",
+      "guide_urls": [
+        { "label": "Social Media Guide", "url": "https://medium.com/@rossbulat/creating-a-simple-social-network-with-javascript-part-1-building-the-backend-8e7d0ee3c1c9" }
+      ]
+    },
+    {
+      "id": "proj12",
+      "title": "Chat Application",
+      "level": "Advanced",
+      "emoji": "💬",
+      "description": "Make a real-time chat app using JavaScript.",
+      "concepts": ["WebSockets", "Events", "APIs"],
+      "tutorial_url": "https://www.youtube.com/watch?v=ZwFA3YMfkoc",
+      "guide_urls": [
+        { "label": "Chat App Guide", "url": "https://www.geeksforgeeks.org/node-js-chat-application-using-socket-io/" }
+      ]
+    },
+    {
+      "id": "proj13",
+      "title": "Resume Builder",
+      "level": "Advanced",
+      "emoji": "📄",
+      "description": "Build a resume builder web app.",
+      "concepts": ["DOM", "Forms", "Download"],
+      "tutorial_url": "https://www.youtube.com/watch?v=U0Z5q1g6yJM",
+      "guide_urls": [
+        { "label": "Resume Builder Guide", "url": "https://www.geeksforgeeks.org/how-to-build-a-resume-builder-app-using-html-css-javascript/" }
+      ]
+    },
+    {
+      "id": "proj14",
+      "title": "Personalized App",
+      "level": "Advanced",
+      "emoji": "🎯",
+      "description": "Develop a web app that uses personalization.",
+      "concepts": ["Storage", "User Input", "DOM"],
+      "tutorial_url": "https://www.youtube.com/watch?v=U0Z5q1g6yJM",
+      "guide_urls": [
+        { "label": "Personalized App Guide", "url": "https://www.geeksforgeeks.org/how-to-create-a-personalized-greeting-app-using-javascript/" }
+      ]
+    }
+  ]
+}

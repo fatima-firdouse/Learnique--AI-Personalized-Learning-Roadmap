@@ -1,0 +1,397 @@
+{
+  "title": "Git & GitHub Roadmap",
+  "description": "A comprehensive learning path for mastering Git and GitHub, from basics to advanced workflows.",
+  "modules": [
+    {
+      "id": "mod1",
+      "title": "Learn the Basics",
+      "emoji": "🧭",
+      "description": "Understand version control, initialization, and configuration.",
+      "steps": [
+        { "id": "step1-1", "title": "What is Version Control?", "emoji": "📚", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step1-2", "title": "Why use Version Control?", "emoji": "🚀", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step1-3", "title": "Git vs Other VCS", "emoji": "⚖️", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step1-4", "title": "Installing Git Locally", "emoji": "💻", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step1-5", "title": "What is a Repository", "emoji": "📦", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step1-6", "title": "git init, git config", "emoji": "⚙️", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step1-7", "title": "Local vs Global Config", "emoji": "🌍", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step1-8", "title": "Repository Initialization", "emoji": "🔄", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" }
+      ]
+    },
+    {
+      "id": "mod2",
+      "title": "Intro and Git Commands",
+      "emoji": "🔧",
+      "description": "Explore working directory, staging, commits, and .gitignore.",
+      "steps": [
+        { "id": "step2-1", "title": "Working Directory", "emoji": "📂", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step2-2", "title": "Staging Area", "emoji": "🗂️", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step2-3", "title": "Committing Changes", "emoji": "💾", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step2-4", "title": ".gitignore", "emoji": "🚫", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step2-5", "title": "Viewing Commit History", "emoji": "📜", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" }
+      ]
+    },
+    {
+      "id": "mod3",
+      "title": "Branching Basics",
+      "emoji": "🌿",
+      "description": "Master creating, renaming, deleting, and merging branches.",
+      "steps": [
+        { "id": "step3-1", "title": "Creating Branch", "emoji": "🌱", "tutorial_url": "https://www.youtube.com/watch?v=JTE2Fn_sCZs" },
+        { "id": "step3-2", "title": "Renaming Branch", "emoji": "✏️", "tutorial_url": "https://www.youtube.com/watch?v=JTE2Fn_sCZs" },
+        { "id": "step3-3", "title": "Deleting Branch", "emoji": "🗑️", "tutorial_url": "https://www.youtube.com/watch?v=JTE2Fn_sCZs" },
+        { "id": "step3-4", "title": "Checkout Branch", "emoji": "🔄", "tutorial_url": "https://www.youtube.com/watch?v=JTE2Fn_sCZs" },
+        { "id": "step3-5", "title": "Merging Basics", "emoji": "🔀", "tutorial_url": "https://www.youtube.com/watch?v=JTE2Fn_sCZs" }
+      ]
+    },
+    {
+      "id": "mod4",
+      "title": "Basic Collaboration",
+      "emoji": "🤝",
+      "description": "Learn remote repositories, pushing, pulling, and profiles.",
+      "steps": [
+        { "id": "step4-1", "title": "GitHub Essentials", "emoji": "⭐", "tutorial_url": "https://www.youtube.com/watch?v=w3jLJU7DT5E" },
+        { "id": "step4-2", "title": "Creating Account", "emoji": "👤", "tutorial_url": "https://www.youtube.com/watch?v=w3jLJU7DT5E" },
+        { "id": "step4-3", "title": "GitHub Interface", "emoji": "🖥️", "tutorial_url": "https://www.youtube.com/watch?v=w3jLJU7DT5E" },
+        { "id": "step4-4", "title": "Setting up Profile", "emoji": "⚙️", "tutorial_url": "https://www.youtube.com/watch?v=w3jLJU7DT5E" },
+        { "id": "step4-5", "title": "Creating Repositories", "emoji": "📦", "tutorial_url": "https://www.youtube.com/watch?v=w3jLJU7DT5E" },
+        { "id": "step4-6", "title": "Profile README", "emoji": "📄", "tutorial_url": "https://www.youtube.com/watch?v=w3jLJU7DT5E" },
+        { "id": "step4-7", "title": "Private vs Public", "emoji": "🔒", "tutorial_url": "https://www.youtube.com/watch?v=w3jLJU7DT5E" },
+        { "id": "step4-8", "title": "Git Remotes", "emoji": "🌐", "tutorial_url": "https://www.youtube.com/watch?v=w3jLJU7DT5E" },
+        { "id": "step4-9", "title": "Managing Remotes", "emoji": "🗂️", "tutorial_url": "https://www.youtube.com/watch?v=w3jLJU7DT5E" },
+        { "id": "step4-10", "title": "Pushing / Pulling Changes", "emoji": "⬆️⬇️", "tutorial_url": "https://www.youtube.com/watch?v=w3jLJU7DT5E" },
+        { "id": "step4-11", "title": "Fetch without Merge", "emoji": "📥", "tutorial_url": "https://www.youtube.com/watch?v=w3jLJU7DT5E" }
+      ]
+    },
+    {
+      "id": "mod5",
+      "title": "Collaboration on GitHub",
+      "emoji": "🔗",
+      "description": "Work with forks, pull requests, issues, and collaboration workflows.",
+      "steps": [
+        { "id": "step5-1", "title": "Forking vs Cloning", "emoji": "🍴", "tutorial_url": "https://www.youtube.com/watch?v=HbSjyU2vf6Y" },
+        { "id": "step5-2", "title": "Issues", "emoji": "❗", "tutorial_url": "https://www.youtube.com/watch?v=KLRQv8G-UmY" },
+        { "id": "step5-3", "title": "Cloning Repositories", "emoji": "📥", "tutorial_url": "https://www.youtube.com/watch?v=HbSjyU2vf6Y" },
+        { "id": "step5-4", "title": "Pull Requests", "emoji": "🔃", "tutorial_url": "https://www.youtube.com/watch?v=rgbCcBNZcdQ" },
+        { "id": "step5-5", "title": "PR from a Fork", "emoji": "🍴", "tutorial_url": "https://www.youtube.com/watch?v=rgbCcBNZcdQ" },
+        { "id": "step5-6", "title": "Collaborators", "emoji": "👥", "tutorial_url": "https://www.youtube.com/watch?v=HbSjyU2vf6Y" },
+        { "id": "step5-7", "title": "Creating PR", "emoji": "📤", "tutorial_url": "https://www.youtube.com/watch?v=rgbCcBNZcdQ" },
+        { "id": "step5-8", "title": "Labelling Issues / PRs", "emoji": "🏷️", "tutorial_url": "https://www.youtube.com/watch?v=KLRQv8G-UmY" },
+        { "id": "step5-9", "title": "Saved Replies", "emoji": "💬", "tutorial_url": "https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/about-saved-replies" },
+        { "id": "step5-10", "title": "Mentions", "emoji": "🔔", "tutorial_url": "https://www.youtube.com/watch?v=KLRQv8G-UmY" },
+        { "id": "step5-11", "title": "Reactions", "emoji": "👍", "tutorial_url": "https://www.youtube.com/watch?v=KLRQv8G-UmY" },
+        { "id": "step5-12", "title": "Commenting", "emoji": "💬", "tutorial_url": "https://www.youtube.com/watch?v=KLRQv8G-UmY" },
+        { "id": "step5-13", "title": "Merge Strategies", "emoji": "🔀", "tutorial_url": "https://www.youtube.com/watch?v=rgbCcBNZcdQ" },
+        { "id": "step5-14", "title": "Fast-Forward vs Non-FF", "emoji": "⏩", "tutorial_url": "https://www.youtube.com/watch?v=rgbCcBNZcdQ" },
+        { "id": "step5-15", "title": "Handling Conflicts", "emoji": "⚔️", "tutorial_url": "https://www.youtube.com/watch?v=JrO5y8KLm_c" },
+        { "id": "step5-16", "title": "Rebase, Squash", "emoji": "🧹", "tutorial_url": "https://www.youtube.com/watch?v=JrO5y8KLm_c" },
+        { "id": "step5-17", "title": "Cherry Picking Commits", "emoji": "🍒", "tutorial_url": "https://www.youtube.com/watch?v=JrO5y8KLm_c" }
+      ]
+    },
+    {
+      "id": "mod6",
+      "title": "Best Practices",
+      "emoji": "🌟",
+      "description": "Write clean commit messages, branch names, and contribute effectively.",
+      "steps": [
+        { "id": "step6-1", "title": "Commit Messages", "emoji": "📝", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step6-2", "title": "Branch Naming", "emoji": "🏷️", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step6-3", "title": "PR Guidelines", "emoji": "📑", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step6-4", "title": "Code Reviews", "emoji": "👀", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step6-5", "title": "Contribution Guidelines", "emoji": "📜", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" }
+      ]
+    },
+    {
+      "id": "mod7",
+      "title": "Documentation",
+      "emoji": "📄",
+      "description": "Document your projects and contributions effectively.",
+      "steps": [
+        { "id": "step7-1", "title": "Markdown", "emoji": "📝", "tutorial_url": "https://www.markdownguide.org/basic-syntax/" },
+        { "id": "step7-2", "title": "Project README", "emoji": "📖", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step7-3", "title": "GitHub Wikis", "emoji": "📚", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step7-4", "title": "Clean Git History", "emoji": "🧹", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step7-5", "title": "Working in a Team", "emoji": "👥", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" }
+      ]
+    },
+    {
+      "id": "mod8",
+      "title": "GitHub Organizations",
+      "emoji": "🏢",
+      "description": "Manage organizations and teams on GitHub.",
+      "steps": [
+        { "id": "step8-1", "title": "Collaborators / Members", "emoji": "👥", "tutorial_url": "https://www.youtube.com/watch?v=w3jLJU7DT5E" },
+        { "id": "step8-2", "title": "Teams within Organization", "emoji": "👨‍👩‍👧‍👦", "tutorial_url": "https://www.youtube.com/watch?v=w3jLJU7DT5E" }
+      ]
+    },
+    {
+      "id": "mod9",
+      "title": "GitHub Projects",
+      "emoji": "📊",
+      "description": "Plan, track, and automate work with GitHub Projects.",
+      "steps": [
+        { "id": "step9-1", "title": "Project Planning", "emoji": "🗺️", "tutorial_url": "https://www.youtube.com/watch?v=KLRQv8G-UmY" },
+        { "id": "step9-2", "title": "Kanban Boards", "emoji": "🗂️", "tutorial_url": "https://www.youtube.com/watch?v=KLRQv8G-UmY" },
+        { "id": "step9-3", "title": "Roadmaps", "emoji": "🛣️", "tutorial_url": "https://www.youtube.com/watch?v=KLRQv8G-UmY" },
+        { "id": "step9-4", "title": "Automations", "emoji": "🤖", "tutorial_url": "https://www.youtube.com/watch?v=KLRQv8G-UmY" },
+        { "id": "step9-5", "title": "GitHub Discussions", "emoji": "💬", "tutorial_url": "https://www.youtube.com/watch?v=KLRQv8G-UmY" }
+      ]
+    },
+    {
+      "id": "mod10",
+      "title": "Intermediate Git Topics",
+      "emoji": "🚀",
+      "description": "Advanced Git operations, history, diffs, and tags.",
+      "steps": [
+        { "id": "step10-1", "title": "Git Stash Basics", "emoji": "📦", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step10-2", "title": "History", "emoji": "🕰️", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step10-3", "title": "Linear vs Non-Linear", "emoji": "🔀", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step10-4", "title": "HEAD", "emoji": "💡", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step10-5", "title": "Detached HEAD", "emoji": "🗡️", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step10-6", "title": "git log options", "emoji": "📜", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step10-7", "title": "Undoing Changes", "emoji": "↩️", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step10-8", "title": "git revert", "emoji": "⏪", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step10-9", "title": "git reset (--soft, --hard, --mixed)", "emoji": "🔄", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step10-10", "title": "Viewing Diffs", "emoji": "🔍", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step10-11", "title": "Between Commits", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step10-12", "title": "Between Branches", "emoji": "🌴", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step10-13", "title": "Staged Changes", "emoji": "🗂️", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step10-14", "title": "Unstaged Changes", "emoji": "📂", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step10-15", "title": "Rewriting History", "emoji": "📝", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step10-16", "title": "git commit --amend", "emoji": "✏️", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step10-17", "title": "git rebase", "emoji": "🔃", "tutorial_url": "https://www.youtube.com/watch?v=JrO5y8KLm_c" },
+        { "id": "step10-18", "title": "git filter-branch", "emoji": "🧹", "tutorial_url": "https://www.youtube.com/watch?v=JrO5y8KLm_c" },
+        { "id": "step10-19", "title": "git push --force", "emoji": "💥", "tutorial_url": "https://www.youtube.com/watch?v=JrO5y8KLm_c" },
+        { "id": "step10-20", "title": "Tagging", "emoji": "🏷️", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step10-21", "title": "Managing Tags", "emoji": "📛", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step10-22", "title": "Pushing Tags", "emoji": "⬆️", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step10-23", "title": "Checkout Tags", "emoji": "🔖", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step10-24", "title": "GitHub Releases", "emoji": "🚀", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" }
+      ]
+    },
+    {
+      "id": "mod11",
+      "title": "Git Hooks",
+      "emoji": "🪝",
+      "description": "Automate workflows with Git hooks.",
+      "steps": [
+        { "id": "step11-1", "title": "What and Why?", "emoji": "❓", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step11-2", "title": "Client vs Server Hooks", "emoji": "🖥️", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step11-3", "title": "commit-msg, post-checkout, post-update, pre-commit, pre-push", "emoji": "📝", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step11-4", "title": "Common Hooks", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" }
+      ]
+    },
+    {
+      "id": "mod12",
+      "title": "Submodules",
+      "emoji": "🧩",
+      "description": "Track dependencies with submodules.",
+      "steps": [
+        { "id": "step12-1", "title": "Adding / Updating", "emoji": "➕", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step12-2", "title": "What and Why use?", "emoji": "❓", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" }
+      ]
+    },
+    {
+      "id": "mod13",
+      "title": "GitHub Workflow",
+      "emoji": "🔄",
+      "description": "Automate development with GitHub Actions and CLI.",
+      "steps": [
+        { "id": "step13-1", "title": "GitHub CLI", "emoji": "⌨️", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step13-2", "title": "Installation and Setup", "emoji": "💻", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step13-3", "title": "Repository management", "emoji": "📦", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step13-4", "title": "Issue Management", "emoji": "❗", "tutorial_url": "https://www.youtube.com/watch?v=KLRQv8G-UmY" },
+        { "id": "step13-5", "title": "Pull Requests", "emoji": "🔃", "tutorial_url": "https://www.youtube.com/watch?v=rgbCcBNZcdQ" },
+        { "id": "step13-6", "title": "GitHub Actions", "emoji": "🤖", "tutorial_url": "https://www.youtube.com/watch?v=R8_veQiYBjI" },
+        { "id": "step13-7", "title": "YAML Syntax", "emoji": "📄", "tutorial_url": "https://www.youtube.com/watch?v=R8_veQiYBjI" },
+        { "id": "step13-8", "title": "Workflow Triggers", "emoji": "🔔", "tutorial_url": "https://www.youtube.com/watch?v=R8_veQiYBjI" },
+        { "id": "step13-9", "title": "Scheduled Workflows", "emoji": "⏰", "tutorial_url": "https://www.youtube.com/watch?v=R8_veQiYBjI" },
+        { "id": "step13-10", "title": "Workflow Runners", "emoji": "🏃", "tutorial_url": "https://www.youtube.com/watch?v=R8_veQiYBjI" },
+        { "id": "step13-11", "title": "Workflow Context", "emoji": "🔎", "tutorial_url": "https://www.youtube.com/watch?v=R8_veQiYBjI" },
+        { "id": "step13-12", "title": "Secrets and Env Vars", "emoji": "🔐", "tutorial_url": "https://www.youtube.com/watch?v=R8_veQiYBjI" },
+        { "id": "step13-13", "title": "Caching Dependencies", "emoji": "📦", "tutorial_url": "https://www.youtube.com/watch?v=R8_veQiYBjI" },
+        { "id": "step13-14", "title": "Storing Artifacts", "emoji": "🗃️", "tutorial_url": "https://www.youtube.com/watch?v=R8_veQiYBjI" },
+        { "id": "step13-15", "title": "Workflow Status", "emoji": "🔄", "tutorial_url": "https://www.youtube.com/watch?v=R8_veQiYBjI" },
+        { "id": "step13-16", "title": "Marketplace Actions", "emoji": "🏪", "tutorial_url": "https://www.youtube.com/watch?v=R8_veQiYBjI" },
+        { "id": "step13-17", "title": "Use in Automation", "emoji": "🤖", "tutorial_url": "https://www.youtube.com/watch?v=R8_veQiYBjI" }
+      ]
+    },
+    {
+      "id": "mod14",
+      "title": "Git Patch",
+      "emoji": "🩹",
+      "description": "Work with Git patches for sharing and applying changes.",
+      "steps": [
+        { "id": "step14-1", "title": "Git Patch", "emoji": "🩹", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" }
+      ]
+    },
+    {
+      "id": "mod15",
+      "title": "Advanced Git Topics",
+      "emoji": "🧠",
+      "description": "Explore reflog, bisect, worktree, and LFS.",
+      "steps": [
+        { "id": "step15-1", "title": "Git Reflog", "emoji": "📜", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step15-2", "title": "Git Bisect", "emoji": "🔍", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step15-3", "title": "Git Worktree", "emoji": "🌳", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step15-4", "title": "Git Attributes", "emoji": "🏷️", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step15-5", "title": "Git LFS", "emoji": "🗄️", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" }
+      ]
+    },
+    {
+      "id": "mod16",
+      "title": "GitHub Developer Tools",
+      "emoji": "🛠️",
+      "description": "Explore GitHub APIs, Apps, and Webhooks.",
+      "steps": [
+        { "id": "step16-1", "title": "GitHub API", "emoji": "🌐", "tutorial_url": "https://docs.github.com/en/rest" },
+        { "id": "step16-2", "title": "REST API", "emoji": "🛠️", "tutorial_url": "https://docs.github.com/en/rest" },
+        { "id": "step16-3", "title": "GraphQL API", "emoji": "🔗", "tutorial_url": "https://docs.github.com/en/graphql" },
+        { "id": "step16-4", "title": "Creating Apps", "emoji": "⚙️", "tutorial_url": "https://docs.github.com/en/apps" },
+        { "id": "step16-5", "title": "GitHub Apps", "emoji": "📱", "tutorial_url": "https://docs.github.com/en/apps/creating-github-apps" },
+        { "id": "step16-6", "title": "OAuth Apps", "emoji": "🔐", "tutorial_url": "https://docs.github.com/en/apps/oauth-apps" },
+        { "id": "step16-7", "title": "Webhooks", "emoji": "🔔", "tutorial_url": "https://docs.github.com/en/webhooks" }
+      ]
+    },
+    {
+      "id": "mod17",
+      "title": "More GitHub Features",
+      "emoji": "✨",
+      "description": "Explore GitHub's advanced features and integrations.",
+      "steps": [
+        { "id": "step17-1", "title": "GitHub Sponsors", "emoji": "💸", "tutorial_url": "https://github.com/sponsors" },
+        { "id": "step17-2", "title": "GitHub Pages", "emoji": "🌐", "tutorial_url": "https://pages.github.com/" },
+        { "id": "step17-3", "title": "GitHub Gists", "emoji": "📄", "tutorial_url": "https://gist.github.com/" },
+        { "id": "step17-4", "title": "GitHub Packages", "emoji": "📦", "tutorial_url": "https://github.com/features/packages" },
+        { "id": "step17-5", "title": "Deploying Static Websites", "emoji": "🚀", "tutorial_url": "https://pages.github.com/" },
+        { "id": "step17-6", "title": "Custom Domains", "emoji": "🌎", "tutorial_url": "https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site" },
+        { "id": "step17-7", "title": "Static Site Generators", "emoji": "⚡", "tutorial_url": "https://www.youtube.com/watch?v=Zz6eOVaaelI" },
+        { "id": "step17-8", "title": "GitHub Codespaces", "emoji": "💻", "tutorial_url": "https://www.youtube.com/watch?v=G4vv1LTA6rY" }
+      ]
+    },
+    {
+      "id": "mod18",
+      "title": "GitHub Education",
+      "emoji": "🎓",
+      "description": "Leverage GitHub education for students and teachers.",
+      "steps": [
+        { "id": "step18-1", "title": "Student Developer Pack", "emoji": "🎒", "tutorial_url": "https://education.github.com/pack" },
+        { "id": "step18-2", "title": "GitHub Classroom", "emoji": "🏫", "tutorial_url": "https://classroom.github.com/" },
+        { "id": "step18-3", "title": "Campus Program", "emoji": "🏢", "tutorial_url": "https://education.github.com/campus-program" }
+      ]
+    },
+    {
+      "id": "mod19",
+      "title": "GitHub Marketplace",
+      "emoji": "🏪",
+      "description": "Find and use tools from GitHub Marketplace.",
+      "steps": [
+        { "id": "step19-1", "title": "GitHub Marketplace", "emoji": "🏪", "tutorial_url": "https://github.com/marketplace" }
+      ]
+    },
+    {
+      "id": "mod20",
+      "title": "GitHub Security",
+      "emoji": "🔒",
+      "description": "Keep your projects secure with GitHub's security features.",
+      "steps": [
+        { "id": "step20-1", "title": "GitHub Security", "emoji": "🔐", "tutorial_url": "https://docs.github.com/en/code-security" }
+      ]
+    },
+    {
+      "id": "mod21",
+      "title": "GitHub Models",
+      "emoji": "🤖",
+      "description": "Learn about AI-powered GitHub features.",
+      "steps": [
+        { "id": "step21-1", "title": "GitHub Copilot", "emoji": "🧑‍💻", "tutorial_url": "https://github.com/features/copilot" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "Personal Portfolio Website with GitHub Pages",
+      "level": "Beginner",
+      "emoji": "🌐",
+      "description": "Create and deploy a personal portfolio using GitHub Pages.",
+      "concepts": [
+        "GitHub Pages",
+        "Custom Domains",
+        "Markdown",
+        "Static Site Generators"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=2MsN8gpT6jY",
+      "guide_urls": [
+        { "label": "GitHub Pages Guide", "url": "https://pages.github.com/" }
+      ]
+    },
+    {
+      "id": "proj2",
+      "title": "Team Collaboration Workflow Project",
+      "level": "Intermediate",
+      "emoji": "🤝",
+      "description": "Simulate a team GitHub workflow with issues, PRs, and code reviews.",
+      "concepts": [
+        "Issues",
+        "Pull Requests",
+        "Branching",
+        "Code Reviews"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=KLRQv8G-UmY",
+      "guide_urls": [
+        { "label": "Collaboration Guide", "url": "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests" }
+      ]
+    },
+    {
+      "id": "proj3",
+      "title": "GitHub Actions CI/CD Pipeline",
+      "level": "Intermediate",
+      "emoji": "🤖",
+      "description": "Set up automated CI/CD pipeline for a project using GitHub Actions.",
+      "concepts": [
+        "GitHub Actions",
+        "Workflow YAML",
+        "Continuous Integration"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=R8_veQiYBjI",
+      "guide_urls": [
+        { "label": "Actions Workflow Guide", "url": "https://docs.github.com/en/actions/using-workflows/about-workflows" }
+      ]
+    },
+    {
+      "id": "proj4",
+      "title": "Advanced Git Branching Strategies",
+      "level": "Advanced",
+      "emoji": "🌲",
+      "description": "Implement and practice advanced branching strategies like Git Flow.",
+      "concepts": [
+        "Git Flow",
+        "Feature Branches",
+        "Release Branches",
+        "Hotfixes"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=A47zwWsjXgs",
+      "guide_urls": [
+        { "label": "Git Flow Guide", "url": "https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow" }
+      ]
+    },
+    {
+      "id": "proj5",
+      "title": "Automated Release with GitHub Releases",
+      "level": "Advanced",
+      "emoji": "🚀",
+      "description": "Automate release management using GitHub Releases and tags.",
+      "concepts": [
+        "GitHub Releases",
+        "Tagging",
+        "Changelog",
+        "Artifacts"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE",
+      "guide_urls": [
+        { "label": "Release Guide", "url": "https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases" }
+      ]
+    }
+  ]
+}

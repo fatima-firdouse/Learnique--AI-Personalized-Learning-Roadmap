@@ -1,0 +1,281 @@
+{
+  "title": "Flutter Developer Roadmap",
+  "description": "A practical learning path for Flutter development.",
+  "modules": [
+    {
+      "id": "mod1",
+      "title": "Learn the Basics of Dart",
+      "emoji": "💡",
+      "description": "Get started with Dart programming language.",
+      "steps": [
+        { "id": "step1-1", "title": "Dart Pad", "emoji": "💻", "tutorial_url": "https://dartpad.dev/" },
+        { "id": "step1-2", "title": "Variables & Built-in Types", "emoji": "🔢", "tutorial_url": "https://dart.dev/codelabs/dart-cheatsheet#variables" },
+        { "id": "step1-3", "title": "Functions & Operators", "emoji": "🔧", "tutorial_url": "https://dart.dev/codelabs/dart-cheatsheet#functions" },
+        { "id": "step1-4", "title": "Control Flow Statements", "emoji": "🔄", "tutorial_url": "https://dart.dev/codelabs/dart-cheatsheet#control-flow-statements" }
+      ]
+    },
+    {
+      "id": "mod2",
+      "title": "Setup Development Environment",
+      "emoji": "🛠️",
+      "description": "Set up your local machine for Flutter development.",
+      "steps": [
+        { "id": "step2-1", "title": "Flutter CLI", "emoji": "🔧", "tutorial_url": "https://docs.flutter.dev/get-started/install" },
+        { "id": "step2-2", "title": "VS Code / Android Studio / IntelliJ IDEA", "emoji": "💻", "tutorial_url": "https://docs.flutter.dev/get-started/editor?tab=vscode" },
+        { "id": "step2-3", "title": "FVM (Flutter Version Management)", "emoji": "📦", "tutorial_url": "https://fvm.app/docs/getting_started/installation/" }
+      ]
+    },
+    {
+      "id": "mod3",
+      "title": "Widgets",
+      "emoji": "🧩",
+      "description": "Understand the building blocks of Flutter UI.",
+      "steps": [
+        { "id": "step3-1", "title": "Stateless & Stateful Widgets", "emoji": "🏗️", "tutorial_url": "https://www.youtube.com/watch?v=wE7khGHVkYY" },
+        { "id": "step3-2", "title": "Material & Cupertino Widgets", "emoji": "📱", "tutorial_url": "https://docs.flutter.dev/ui/widgets/material" },
+        { "id": "step3-3", "title": "Inherited & Responsive Widgets", "emoji": "🔄", "tutorial_url": "https://www.youtube.com/watch?v=pg4knf6Al_s" },
+        { "id": "step3-4", "title": "Styled Widgets", "emoji": "🎨", "tutorial_url": "https://www.youtube.com/watch?v=lkF0TQJO0bA" }
+      ]
+    },
+    {
+      "id": "mod4",
+      "title": "Working with Assets",
+      "emoji": "🖼️",
+      "description": "Learn to add and use fonts and images.",
+      "steps": [
+        { "id": "step4-1", "title": "Fonts", "emoji": "🔤", "tutorial_url": "https://docs.flutter.dev/cookbook/design/fonts" },
+        { "id": "step4-2", "title": "Images & File Types", "emoji": "🖼️", "tutorial_url": "https://docs.flutter.dev/cookbook/images/network-image" }
+      ]
+    },
+    {
+      "id": "mod5",
+      "title": "Version Control Systems",
+      "emoji": "🔗",
+      "description": "Track changes in your codebase.",
+      "steps": [
+        { "id": "step5-1", "title": "Git", "emoji": "🌱", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" }
+      ]
+    },
+    {
+      "id": "mod6",
+      "title": "Repo Hosting Services",
+      "emoji": "🌐",
+      "description": "Host and share your Flutter projects.",
+      "steps": [
+        { "id": "step6-1", "title": "GitHub", "emoji": "🐙", "tutorial_url": "https://www.youtube.com/watch?v=w3jLJU7DT5E" }
+      ]
+    },
+    {
+      "id": "mod7",
+      "title": "Design Principles",
+      "emoji": "📏",
+      "description": "Learn essential design principles for scalable apps.",
+      "steps": [
+        { "id": "step7-1", "title": "Dependency Injection", "emoji": "🔌", "tutorial_url": "https://www.youtube.com/watch?v=KjE2IDphA_U" },
+        { "id": "step7-2", "title": "Design Patterns & SOLID Principles", "emoji": "🧠", "tutorial_url": "https://www.youtube.com/watch?v=0ycw4uaVQ6I" },
+        { "id": "step7-3", "title": "OOP in Dart", "emoji": "🏛️", "tutorial_url": "https://dart.dev/codelabs/object-oriented-programming" }
+      ]
+    },
+    {
+      "id": "mod8",
+      "title": "Package Manager",
+      "emoji": "📦",
+      "description": "Manage dependencies and packages.",
+      "steps": [
+        { "id": "step8-1", "title": "pub.dev & flutter pub", "emoji": "🔗", "tutorial_url": "https://docs.flutter.dev/packages-and-plugins/using-packages" }
+      ]
+    },
+    {
+      "id": "mod9",
+      "title": "Working with APIs",
+      "emoji": "🌍",
+      "description": "Connect your app to the web.",
+      "steps": [
+        { "id": "step9-1", "title": "JSON Serialize / Deserialize", "emoji": "🔄", "tutorial_url": "https://docs.flutter.dev/data-and-backend/json" },
+        { "id": "step9-2", "title": "RESTful APIs & Web Sockets", "emoji": "🌐", "tutorial_url": "https://www.youtube.com/watch?v=R6rt7kQ3-uE" },
+        { "id": "step9-3", "title": "GraphQL", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=V1vRfr2SWQI" }
+      ]
+    },
+    {
+      "id": "mod10",
+      "title": "Storage",
+      "emoji": "💾",
+      "description": "Persist and manage data locally or with the cloud.",
+      "steps": [
+        { "id": "step10-1", "title": "SQLite", "emoji": "🗄️", "tutorial_url": "https://www.youtube.com/watch?v=UpKrhZ0Hppk" },
+        { "id": "step10-2", "title": "Shared Preferences", "emoji": "🔑", "tutorial_url": "https://www.youtube.com/watch?v=R9C5KMJKluE" },
+        { "id": "step10-3", "title": "Firebase", "emoji": "🔥", "tutorial_url": "https://www.youtube.com/watch?v=EvWB5gdRtMM" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "BMI Calculator",
+      "level": "Beginner",
+      "emoji": "⚖️",
+      "description": "A simple BMI calculator app using Flutter.",
+      "concepts": ["Dart basics", "Widgets", "Simple UI"],
+      "tutorial_url": "https://www.youtube.com/watch?v=ZlZ0oGvW3yA",
+      "guide_urls": [
+        { "label": "Flutter BMI Calculator Guide", "url": "https://docs.flutter.dev/cookbook/design/drawer" }
+      ]
+    },
+    {
+      "id": "proj2",
+      "title": "Hello World App",
+      "level": "Beginner",
+      "emoji": "👋",
+      "description": "Your first Flutter application to print 'Hello World'.",
+      "concepts": ["Flutter setup", "Hot reload", "Basic widgets"],
+      "tutorial_url": "https://www.youtube.com/watch?v=x0uinJvhNxI",
+      "guide_urls": [
+        { "label": "Flutter Hello World", "url": "https://docs.flutter.dev/get-started/codelab" }
+      ]
+    },
+    {
+      "id": "proj3",
+      "title": "Dice Roller App",
+      "level": "Beginner",
+      "emoji": "🎲",
+      "description": "Create a fun dice-roller using Flutter widgets.",
+      "concepts": ["Widgets", "Random", "Stateful widget"],
+      "tutorial_url": "https://www.youtube.com/watch?v=5n-e6lOhVq0",
+      "guide_urls": [
+        { "label": "Dice App Guide", "url": "https://docs.flutter.dev/cookbook/images/fading-in-images" }
+      ]
+    },
+    {
+      "id": "proj4",
+      "title": "Todo App",
+      "level": "Beginner",
+      "emoji": "📝",
+      "description": "A Flutter app to manage your daily tasks.",
+      "concepts": ["Stateful", "List", "CRUD"],
+      "tutorial_url": "https://www.youtube.com/watch?v=KJpkjHGiI5A",
+      "guide_urls": [
+        { "label": "Flutter ToDo Guide", "url": "https://docs.flutter.dev/cookbook/persistence/sqlite" }
+      ]
+    },
+    {
+      "id": "proj5",
+      "title": "Habit Tracker",
+      "level": "Intermediate",
+      "emoji": "📅",
+      "description": "Track your habits and routines.",
+      "concepts": ["Persistence", "Notifications", "State management"],
+      "tutorial_url": "https://www.youtube.com/watch?v=1jvLqOHXoEw",
+      "guide_urls": [
+        { "label": "Habit Tracker Flutter", "url": "https://www.youtube.com/watch?v=1jvLqOHXoEw" }
+      ]
+    },
+    {
+      "id": "proj6",
+      "title": "Music Player",
+      "level": "Intermediate",
+      "emoji": "🎶",
+      "description": "A modern looking Flutter music player.",
+      "concepts": ["Audio", "UI", "Animations"],
+      "tutorial_url": "https://www.youtube.com/watch?v=R9C5KMJKluE",
+      "guide_urls": [
+        { "label": "Flutter Music Player", "url": "https://www.youtube.com/watch?v=R9C5KMJKluE" }
+      ]
+    },
+    {
+      "id": "proj7",
+      "title": "Netflix Clone",
+      "level": "Intermediate",
+      "emoji": "🎬",
+      "description": "A simple Netflix UI clone in Flutter.",
+      "concepts": ["UI clone", "API", "Navigation"],
+      "tutorial_url": "https://www.youtube.com/watch?v=POtoEH-7k24",
+      "guide_urls": [
+        { "label": "Flutter Netflix Guide", "url": "https://www.youtube.com/watch?v=POtoEH-7k24" }
+      ]
+    },
+    {
+      "id": "proj8",
+      "title": "Chat App",
+      "level": "Intermediate",
+      "emoji": "💬",
+      "description": "A chat application with Firebase backend.",
+      "concepts": ["Firebase", "Authentication", "Real-time DB"],
+      "tutorial_url": "https://www.youtube.com/watch?v=EvWB5gdRtMM",
+      "guide_urls": [
+        { "label": "Flutter Chat App", "url": "https://firebase.flutter.dev/docs/overview/" }
+      ]
+    },
+    {
+      "id": "proj9",
+      "title": "E-Commerce App",
+      "level": "Intermediate",
+      "emoji": "🛒",
+      "description": "A fully functional e-commerce Flutter app.",
+      "concepts": ["State management", "Cart", "API"],
+      "tutorial_url": "https://www.youtube.com/watch?v=5Cw5YBCMGpo",
+      "guide_urls": [
+        { "label": "Flutter E-Commerce", "url": "https://www.youtube.com/watch?v=5Cw5YBCMGpo" }
+      ]
+    },
+    {
+      "id": "proj10",
+      "title": "Google Clone",
+      "level": "High-level",
+      "emoji": "🔍",
+      "description": "A Google Search UI clone in Flutter (Web).",
+      "concepts": ["Web", "UI clone", "Search"],
+      "tutorial_url": "https://www.youtube.com/watch?v=r6tGLvEMb9A",
+      "guide_urls": [
+        { "label": "Flutter Web Guide", "url": "https://docs.flutter.dev/development/platform-integration/web" }
+      ]
+    },
+    {
+      "id": "proj11",
+      "title": "Instagram Clone",
+      "level": "High-level",
+      "emoji": "📸",
+      "description": "Instagram clone with authentication and Firestore.",
+      "concepts": ["Firestore", "Authentication", "UI"],
+      "tutorial_url": "https://www.youtube.com/watch?v=bbvR2G2FpU0",
+      "guide_urls": [
+        { "label": "Flutter Instagram Guide", "url": "https://www.youtube.com/watch?v=bbvR2G2FpU0" }
+      ]
+    },
+    {
+      "id": "proj12",
+      "title": "EBook App",
+      "level": "High-level",
+      "emoji": "📚",
+      "description": "A feature-rich EBook reader app in Flutter.",
+      "concepts": ["Persistence", "UI", "Pagination"],
+      "tutorial_url": "https://www.youtube.com/watch?v=UQdiV6yKqYw",
+      "guide_urls": [
+        { "label": "Flutter EBook Guide", "url": "https://www.youtube.com/watch?v=UQdiV6yKqYw" }
+      ]
+    },
+    {
+      "id": "proj13",
+      "title": "AI Integration",
+      "level": "High-level",
+      "emoji": "🤖",
+      "description": "Integrate AI/ML models in your Flutter app.",
+      "concepts": ["AI", "ML", "Flutter plugins"],
+      "tutorial_url": "https://www.youtube.com/watch?v=G3gFj1rIpZg",
+      "guide_urls": [
+        { "label": "Flutter AI Integration", "url": "https://pub.dev/packages/tflite_flutter" }
+      ]
+    },
+    {
+      "id": "proj14",
+      "title": "Building Custom Widgets",
+      "level": "High-level",
+      "emoji": "🛠️",
+      "description": "Learn to create fully custom widgets in Flutter.",
+      "concepts": ["Custom widgets", "Composition", "Reusable UI"],
+      "tutorial_url": "https://www.youtube.com/watch?v=lkF0TQJO0bA",
+      "guide_urls": [
+        { "label": "Flutter Custom Widgets", "url": "https://docs.flutter.dev/development/ui/widgets-intro" }
+      ]
+    }
+  ]
+}

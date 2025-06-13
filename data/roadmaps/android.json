@@ -1,0 +1,520 @@
+{
+  "title": "Android Developer Roadmap",
+  "description": "A step-by-step learning path for Android app development using Kotlin.",
+  "modules": [
+    {
+      "id": "mod1",
+      "title": "Introduction to Android Development",
+      "emoji": "🧭",
+      "description": "Get started with Android Studio and Kotlin basics.",
+      "steps": [
+        { "id": "step1-1", "title": "Why You Need to Learn Kotlin for Mobile Development", "emoji": "🤔", "tutorial_url": "https://developer.android.com/kotlin" },
+        { "id": "step1-2", "title": "Starting First Project", "emoji": "🚀", "tutorial_url": "https://developer.android.com/training/basics/firstapp/creating-project" },
+        { "id": "step1-3", "title": "Android Studio Interface", "emoji": "💻", "tutorial_url": "https://developer.android.com/studio/intro" },
+        { "id": "step1-4", "title": "Quick Overview of Android Studio UI", "emoji": "🖥️", "tutorial_url": "https://developer.android.com/studio/intro" },
+        { "id": "step1-5", "title": "Android Studio Editor (XML & Code)", "emoji": "👨‍💻", "tutorial_url": "https://developer.android.com/studio/write" }
+      ]
+    },
+    {
+      "id": "mod2",
+      "title": "Setting Up Android Studio Development Environment",
+      "emoji": "🔧",
+      "description": "Set up your environment and emulator for development.",
+      "steps": [
+        { "id": "step2-1", "title": "First Steps to Creating an Android Project", "emoji": "🆕", "tutorial_url": "https://developer.android.com/training/basics/firstapp/creating-project" },
+        { "id": "step2-2", "title": "Creating AVD and Configuring", "emoji": "📱", "tutorial_url": "https://developer.android.com/studio/run/managing-avds" }
+      ]
+    },
+    {
+      "id": "mod3",
+      "title": "Anatomy of Android Architecture",
+      "emoji": "🏛️",
+      "description": "Learn about the components of Android system architecture.",
+      "steps": [
+        { "id": "step3-1", "title": "The Android System Architecture", "emoji": "🏗️", "tutorial_url": "https://developer.android.com/guide/platform" }
+      ]
+    },
+    {
+      "id": "mod4",
+      "title": "Kotlin Basics",
+      "emoji": "📚",
+      "description": "Learn the foundations of Kotlin programming.",
+      "steps": [
+        { "id": "step4-1", "title": "Kotlin Variables", "emoji": "🔤", "tutorial_url": "https://kotlinlang.org/docs/variables-basic-types.html" },
+        { "id": "step4-2", "title": "Defining Variables", "emoji": "✍️", "tutorial_url": "https://kotlinlang.org/docs/variables-basic-types.html" },
+        { "id": "step4-3", "title": "Kotlin Semicolon", "emoji": "🔗", "tutorial_url": "https://kotlinlang.org/docs/basic-syntax.html#using-semicolons" },
+        { "id": "step4-4", "title": "Assignment, Addition, and Subtraction Operators", "emoji": "➕➖", "tutorial_url": "https://kotlinlang.org/docs/basic-syntax.html#using-operators" },
+        { "id": "step4-5", "title": "Division, Multiplication, Increment, and Decrement Operators", "emoji": "✖️➗", "tutorial_url": "https://kotlinlang.org/docs/basic-syntax.html#using-operators" },
+        { "id": "step4-6", "title": "Demo Application with String Templates", "emoji": "📝", "tutorial_url": "https://kotlinlang.org/docs/basic-syntax.html#string-templates" }
+      ]
+    },
+    {
+      "id": "mod5",
+      "title": "Kotlin Operators",
+      "emoji": "🔢",
+      "description": "Explore operators in Kotlin.",
+      "steps": [
+        { "id": "step5-1", "title": "Kotlin Equality Operators", "emoji": "=", "tutorial_url": "https://kotlinlang.org/docs/equality.html" },
+        { "id": "step5-2", "title": "Kotlin Logical AND, Logical OR Operators", "emoji": "&& ||", "tutorial_url": "https://kotlinlang.org/docs/boolean.html" }
+      ]
+    },
+    {
+      "id": "mod6",
+      "title": "Kotlin Conditions",
+      "emoji": "🔀",
+      "description": "Conditionals in Kotlin programming.",
+      "steps": [
+        { "id": "step6-1", "title": "If and Else Conditions", "emoji": "🔎", "tutorial_url": "https://kotlinlang.org/docs/control-flow.html#if-expression" },
+        { "id": "step6-2", "title": "Kotlin Nested If", "emoji": "🪜", "tutorial_url": "https://kotlinlang.org/docs/control-flow.html#if-expression" },
+        { "id": "step6-3", "title": "When Conditions", "emoji": "⏱️", "tutorial_url": "https://kotlinlang.org/docs/control-flow.html#when-expression" }
+      ]
+    },
+    {
+      "id": "mod7",
+      "title": "Kotlin Loops",
+      "emoji": "🔁",
+      "description": "Loop constructs in Kotlin.",
+      "steps": [
+        { "id": "step7-1", "title": "While and Do-While Loop", "emoji": "🔄", "tutorial_url": "https://kotlinlang.org/docs/control-flow.html#while-loops" },
+        { "id": "step7-2", "title": "For Loops", "emoji": "🔂", "tutorial_url": "https://kotlinlang.org/docs/control-flow.html#for-loops" }
+      ]
+    },
+    {
+      "id": "mod8",
+      "title": "Kotlin Functions",
+      "emoji": "🧩",
+      "description": "Define and use functions in Kotlin.",
+      "steps": [
+        { "id": "step8-1", "title": "Introduction to Kotlin Functions", "emoji": "🔢", "tutorial_url": "https://kotlinlang.org/docs/functions.html" },
+        { "id": "step8-2", "title": "Return Keyword", "emoji": "↩️", "tutorial_url": "https://kotlinlang.org/docs/functions.html#return-in-functions" },
+        { "id": "step8-3", "title": "Kotlin Advanced Function Arguments", "emoji": "🔣", "tutorial_url": "https://kotlinlang.org/docs/functions.html#default-arguments" },
+        { "id": "step8-4", "title": "Declaring Functions", "emoji": "📄", "tutorial_url": "https://kotlinlang.org/docs/functions.html#function-syntax" },
+        { "id": "step8-5", "title": "Function Parameters", "emoji": "🔠", "tutorial_url": "https://kotlinlang.org/docs/functions.html#default-arguments" }
+      ]
+    },
+    {
+      "id": "mod9",
+      "title": "Kotlin Object-Oriented Programming (OOP)",
+      "emoji": "🏛️",
+      "description": "Object-oriented principles with Kotlin.",
+      "steps": [
+        { "id": "step9-1", "title": "Class Functions", "emoji": "🔧", "tutorial_url": "https://kotlinlang.org/docs/classes.html#member-functions" },
+        { "id": "step9-2", "title": "Class Variables", "emoji": "📦", "tutorial_url": "https://kotlinlang.org/docs/classes.html#properties" },
+        { "id": "step9-3", "title": "Encapsulation", "emoji": "🔒", "tutorial_url": "https://kotlinlang.org/docs/classes.html#visibility-modifiers" },
+        { "id": "step9-4", "title": "Visibility Modifiers (Public & Private)", "emoji": "🔓", "tutorial_url": "https://kotlinlang.org/docs/visibility-modifiers.html" },
+        { "id": "step9-5", "title": "Visibility Modifiers (Final)", "emoji": "🏁", "tutorial_url": "https://kotlinlang.org/docs/classes.html#inheritance" },
+        { "id": "step9-6", "title": "Primary and Secondary Constructors", "emoji": "🏗️", "tutorial_url": "https://kotlinlang.org/docs/classes.html#constructors" },
+        { "id": "step9-7", "title": "Game Development with OOP (Parts 1-3)", "emoji": "🎮", "tutorial_url": "https://www.youtube.com/watch?v=fis26HvvDII" },
+        { "id": "step9-8", "title": "Kotlin Inheritance", "emoji": "🧬", "tutorial_url": "https://kotlinlang.org/docs/inheritance.html" },
+        { "id": "step9-9", "title": "Abstract Class", "emoji": "🧱", "tutorial_url": "https://kotlinlang.org/docs/classes.html#abstract-classes" },
+        { "id": "step9-10", "title": "Super Class", "emoji": "🏛️", "tutorial_url": "https://kotlinlang.org/docs/inheritance.html" },
+        { "id": "step9-11", "title": "Final Game Development with OOP", "emoji": "🎮", "tutorial_url": "https://www.youtube.com/watch?v=fis26HvvDII" }
+      ]
+    },
+    {
+      "id": "mod10",
+      "title": "ViewBinding in Android",
+      "emoji": "🔗",
+      "description": "Use ViewBinding for safer Android UI code.",
+      "steps": [
+        { "id": "step10-1", "title": "Enabling ViewBinding", "emoji": "🔓", "tutorial_url": "https://developer.android.com/topic/libraries/view-binding" },
+        { "id": "step10-2", "title": "Practical Examples with ViewBinding", "emoji": "🧑‍💻", "tutorial_url": "https://developer.android.com/topic/libraries/view-binding" }
+      ]
+    },
+    {
+      "id": "mod11",
+      "title": "UI Design & RecyclerView",
+      "emoji": "📝",
+      "description": "Build complex UI with RecyclerView.",
+      "steps": [
+        { "id": "step11-1", "title": "Creating a Notes App", "emoji": "🗒️", "tutorial_url": "https://www.youtube.com/watch?v=BBWyXo-3JGQ" },
+        { "id": "step11-2", "title": "Designing UI for Notes App (Parts 1-2)", "emoji": "🎨", "tutorial_url": "https://www.youtube.com/watch?v=BBWyXo-3JGQ" },
+        { "id": "step11-3", "title": "Creating Project and Adding RecyclerView", "emoji": "📦", "tutorial_url": "https://developer.android.com/guide/topics/ui/layout/recyclerview" },
+        { "id": "step11-4", "title": "Designing UI", "emoji": "🎨", "tutorial_url": "https://developer.android.com/guide/topics/ui/layout/recyclerview" },
+        { "id": "step11-5", "title": "Coding ViewHolder", "emoji": "🔵", "tutorial_url": "https://developer.android.com/guide/topics/ui/layout/recyclerview" }
+      ]
+    },
+    {
+      "id": "mod12",
+      "title": "Android UI Widgets",
+      "emoji": "🧩",
+      "description": "Work with built-in Android UI widgets.",
+      "steps": [
+        { "id": "step12-1", "title": "Creating Widgets from Kotlin Code", "emoji": "⚒️", "tutorial_url": "https://developer.android.com/develop/ui/views/components/widgets" },
+        { "id": "step12-2", "title": "Playing with Widgets", "emoji": "🕹️", "tutorial_url": "https://developer.android.com/develop/ui/views/components/widgets" }
+      ]
+    },
+    {
+      "id": "mod13",
+      "title": "Android Activity Lifecycle",
+      "emoji": "🔄",
+      "description": "Understand the Android activity lifecycle.",
+      "steps": [
+        { "id": "step13-1", "title": "Foreground Processes in Android", "emoji": "🔆", "tutorial_url": "https://developer.android.com/guide/components/activities/activity-lifecycle" },
+        { "id": "step13-2", "title": "Low Priority Processes", "emoji": "🌑", "tutorial_url": "https://developer.android.com/guide/components/activities/activity-lifecycle" },
+        { "id": "step13-3", "title": "Android onCreate Method", "emoji": "🛠️", "tutorial_url": "https://developer.android.com/reference/android/app/Activity#onCreate(android.os.Bundle)" },
+        { "id": "step13-4", "title": "Override Methods", "emoji": "🔁", "tutorial_url": "https://developer.android.com/guide/components/activities/activity-lifecycle" },
+        { "id": "step13-5", "title": "Illustrating Activity Lifecycle Events", "emoji": "🎬", "tutorial_url": "https://developer.android.com/guide/components/activities/activity-lifecycle" },
+        { "id": "step13-6", "title": "Saving and Restoring Instance State", "emoji": "💾", "tutorial_url": "https://developer.android.com/topic/libraries/architecture/saving-states" }
+      ]
+    },
+    {
+      "id": "mod14",
+      "title": "Constraint Layout",
+      "emoji": "📐",
+      "description": "Responsive layouts with ConstraintLayout.",
+      "steps": [
+        { "id": "step14-1", "title": "Introduction and Key Concepts", "emoji": "📏", "tutorial_url": "https://developer.android.com/develop/ui/views/layout/constraint-layout" },
+        { "id": "step14-2", "title": "Chains and Guidelines", "emoji": "🔗", "tutorial_url": "https://developer.android.com/develop/ui/views/layout/constraint-layout#chains" },
+        { "id": "step14-3", "title": "ConstraintLayout Widget", "emoji": "📦", "tutorial_url": "https://developer.android.com/develop/ui/views/layout/constraint-layout" }
+      ]
+    },
+    {
+      "id": "mod15",
+      "title": "UI Development with Kotlin",
+      "emoji": "🎨",
+      "description": "Bridge Kotlin and XML for UI.",
+      "steps": [
+        { "id": "step15-1", "title": "UI Bridge Between Kotlin and XML", "emoji": "🔗", "tutorial_url": "https://developer.android.com/guide/topics/ui/declaring-layout" },
+        { "id": "step15-2", "title": "UI Example with Interfaces", "emoji": "🧑‍💻", "tutorial_url": "https://developer.android.com/reference/android/view/View.OnClickListener" },
+        { "id": "step15-3", "title": "Constraint Layout Chains", "emoji": "⛓️", "tutorial_url": "https://developer.android.com/develop/ui/views/layout/constraint-layout#chains" }
+      ]
+    },
+    {
+      "id": "mod16",
+      "title": "Android UI Widgets II",
+      "emoji": "🧩",
+      "description": "Advanced UI widgets in Android.",
+      "steps": [
+        { "id": "step16-1", "title": "RadioGroup and RadioButtons with Lambda", "emoji": "🔘", "tutorial_url": "https://developer.android.com/reference/android/widget/RadioGroup" },
+        { "id": "step16-2", "title": "Switch Widget", "emoji": "🔀", "tutorial_url": "https://developer.android.com/reference/android/widget/Switch" },
+        { "id": "step16-3", "title": "CheckBox Widget", "emoji": "☑️", "tutorial_url": "https://developer.android.com/reference/android/widget/CheckBox" },
+        { "id": "step16-4", "title": "Dialogs", "emoji": "💬", "tutorial_url": "https://developer.android.com/guide/topics/ui/dialogs" },
+        { "id": "step16-5", "title": "Layout Editor", "emoji": "📝", "tutorial_url": "https://developer.android.com/studio/write/layout-editor" }
+      ]
+    },
+    {
+      "id": "mod17",
+      "title": "Navigation in Android",
+      "emoji": "🧭",
+      "description": "Implement navigation in Android apps.",
+      "steps": [
+        { "id": "step17-1", "title": "Navigation Application (Parts 1-4)", "emoji": "🧭", "tutorial_url": "https://developer.android.com/guide/navigation" }
+      ]
+    },
+    {
+      "id": "mod18",
+      "title": "Arrays & Data Structures",
+      "emoji": "🗄️",
+      "description": "Learn about arrays and collections in Kotlin.",
+      "steps": [
+        { "id": "step18-1", "title": "ArrayLists and HashMap", "emoji": "🗂️", "tutorial_url": "https://kotlinlang.org/docs/collections-overview.html" },
+        { "id": "step18-2", "title": "Arrays of Arrays", "emoji": "🧬", "tutorial_url": "https://kotlinlang.org/docs/arrays.html" },
+        { "id": "step18-3", "title": "Arrays in Kotlin", "emoji": "📚", "tutorial_url": "https://kotlinlang.org/docs/arrays.html" }
+      ]
+    },
+    {
+      "id": "mod19",
+      "title": "RecyclerView & RecyclerAdapter",
+      "emoji": "🔄",
+      "description": "Work with RecyclerView and adapters.",
+      "steps": [
+        { "id": "step19-1", "title": "Inner Class and RecyclerView Fundamentals", "emoji": "🔄", "tutorial_url": "https://developer.android.com/guide/topics/ui/layout/recyclerview" },
+        { "id": "step19-2", "title": "RecyclerView App (Parts 1-2)", "emoji": "📱", "tutorial_url": "https://developer.android.com/guide/topics/ui/layout/recyclerview" }
+      ]
+    },
+    {
+      "id": "mod20",
+      "title": "Fragments",
+      "emoji": "🧩",
+      "description": "Build modular UIs with fragments.",
+      "steps": [
+        { "id": "step20-1", "title": "Fragments Tutorial", "emoji": "📚", "tutorial_url": "https://developer.android.com/guide/fragments" },
+        { "id": "step20-2", "title": "Fragment Project", "emoji": "💡", "tutorial_url": "https://developer.android.com/guide/fragments" }
+      ]
+    },
+    {
+      "id": "mod21",
+      "title": "Android App Architecture with Jetpack",
+      "emoji": "🏗️",
+      "description": "Use Jetpack components for scalable apps.",
+      "steps": [
+        { "id": "step21-1", "title": "Introduction to Jetpack", "emoji": "🧰", "tutorial_url": "https://developer.android.com/jetpack" },
+        { "id": "step21-2", "title": "Fragment + ViewModel Example App", "emoji": "🧩", "tutorial_url": "https://developer.android.com/jetpack/guide" },
+        { "id": "step21-3", "title": "LiveData Example Application", "emoji": "🔴", "tutorial_url": "https://developer.android.com/topic/libraries/architecture/livedata" },
+        { "id": "step21-4", "title": "DataBinding (Parts 1-2)", "emoji": "🔗", "tutorial_url": "https://developer.android.com/topic/libraries/data-binding" }
+      ]
+    },
+    {
+      "id": "mod22",
+      "title": "Android Lifecycle",
+      "emoji": "🔄",
+      "description": "Understand lifecycle management in Android.",
+      "steps": [
+        { "id": "step22-1", "title": "Lifecycle Fundamentals", "emoji": "📈", "tutorial_url": "https://developer.android.com/guide/components/activities/activity-lifecycle" },
+        { "id": "step22-2", "title": "Lifecycle Example Application (Parts 1-2)", "emoji": "📊", "tutorial_url": "https://developer.android.com/topic/libraries/architecture/lifecycle" }
+      ]
+    },
+    {
+      "id": "mod23",
+      "title": "Motion Layout",
+      "emoji": "🎥",
+      "description": "Add modern motion to Android UIs.",
+      "steps": [
+        { "id": "step23-1", "title": "Motion Layout Fundamentals", "emoji": "🎬", "tutorial_url": "https://developer.android.com/develop/ui/views/animations/motionlayout" },
+        { "id": "step23-2", "title": "Motion Layout Application Example (Parts 1-2)", "emoji": "📲", "tutorial_url": "https://developer.android.com/develop/ui/views/animations/motionlayout" },
+        { "id": "step23-3", "title": "Android KeyCycle Fundamentals", "emoji": "🔄", "tutorial_url": "https://developer.android.com/develop/ui/views/animations/motionlayout-keyframe" }
+      ]
+    },
+    {
+      "id": "mod24",
+      "title": "Material Design",
+      "emoji": "🎨",
+      "description": "Follow Material Design principles in Android.",
+      "steps": [
+        { "id": "step24-1", "title": "Material Design Principles", "emoji": "📐", "tutorial_url": "https://m3.material.io/develop/android" },
+        { "id": "step24-2", "title": "Floating Action Button (FAB) Example", "emoji": "⚡", "tutorial_url": "https://developer.android.com/guide/topics/ui/floating-action-button" },
+        { "id": "step24-3", "title": "FAB with SnackBar", "emoji": "🍫", "tutorial_url": "https://developer.android.com/guide/topics/ui/floating-action-button#snackbar" },
+        { "id": "step24-4", "title": "TabLayout (Parts 1-2)", "emoji": "📑", "tutorial_url": "https://developer.android.com/reference/com/google/android/material/tabs/TabLayout" },
+        { "id": "step24-5", "title": "RecyclerView Recap", "emoji": "♻️", "tutorial_url": "https://developer.android.com/guide/topics/ui/layout/recyclerview" }
+      ]
+    },
+    {
+      "id": "mod25",
+      "title": "Intents in Android",
+      "emoji": "📤",
+      "description": "Communicate between components using intents.",
+      "steps": [
+        { "id": "step25-1", "title": "Explicit Intents Example App (Parts 1-2)", "emoji": "📲", "tutorial_url": "https://developer.android.com/guide/components/intents-filters" },
+        { "id": "step25-2", "title": "Implicit Intents Example App (Parts 1-2)", "emoji": "🔗", "tutorial_url": "https://developer.android.com/guide/components/intents-common" },
+        { "id": "step25-3", "title": "Broadcast Intent Fundamentals", "emoji": "📡", "tutorial_url": "https://developer.android.com/guide/components/broadcasts" },
+        { "id": "step25-4", "title": "Broadcast Intent Sender & Receiver", "emoji": "📡", "tutorial_url": "https://developer.android.com/guide/components/broadcasts" }
+      ]
+    },
+    {
+      "id": "mod26",
+      "title": "Threads & Coroutines",
+      "emoji": "🔄",
+      "description": "Concurrency and background work in Android.",
+      "steps": [
+        { "id": "step26-1", "title": "Android Thread Example Application", "emoji": "🔁", "tutorial_url": "https://developer.android.com/guide/background/threading" },
+        { "id": "step26-2", "title": "Coroutines Tutorial", "emoji": "🌀", "tutorial_url": "https://developer.android.com/kotlin/coroutines" },
+        { "id": "step26-3", "title": "Coroutines Example Application", "emoji": "🧑‍💻", "tutorial_url": "https://developer.android.com/kotlin/coroutines" }
+      ]
+    },
+    {
+      "id": "mod27",
+      "title": "Android Services",
+      "emoji": "🛠️",
+      "description": "Background work with Android Services.",
+      "steps": [
+        { "id": "step27-1", "title": "Android Services Fundamentals", "emoji": "🛠️", "tutorial_url": "https://developer.android.com/guide/components/services" },
+        { "id": "step27-2", "title": "Started Services (Parts 1-2)", "emoji": "🔥", "tutorial_url": "https://developer.android.com/guide/components/services" }
+      ]
+    },
+    {
+      "id": "mod28",
+      "title": "Event Handling in Android",
+      "emoji": "🖱️",
+      "description": "Handle user input and events.",
+      "steps": [
+        { "id": "step28-1", "title": "Event Handling Under the Hood", "emoji": "⚙️", "tutorial_url": "https://developer.android.com/guide/topics/ui/ui-events" },
+        { "id": "step28-2", "title": "OnClick Event from XML", "emoji": "🖱️", "tutorial_url": "https://developer.android.com/guide/topics/ui/ui-events" },
+        { "id": "step28-3", "title": "Different Types of Listeners", "emoji": "🔔", "tutorial_url": "https://developer.android.com/guide/topics/ui/ui-events" },
+        { "id": "step28-4", "title": "Setting OnClickListener on a Button", "emoji": "🅾️", "tutorial_url": "https://developer.android.com/guide/topics/ui/ui-events" },
+        { "id": "step28-5", "title": "Setting OnLongClickListener", "emoji": "🅻", "tutorial_url": "https://developer.android.com/guide/topics/ui/ui-events" },
+        { "id": "step28-6", "title": "Motion Events", "emoji": "🏃‍♂️", "tutorial_url": "https://developer.android.com/reference/android/view/MotionEvent" }
+      ]
+    },
+    {
+      "id": "mod29",
+      "title": "Android Studio Layout Editor",
+      "emoji": "📝",
+      "description": "Design UIs visually with Layout Editor.",
+      "steps": [
+        { "id": "step29-1", "title": "Editing Basic Activity", "emoji": "✏️", "tutorial_url": "https://developer.android.com/studio/write/layout-editor" },
+        { "id": "step29-2", "title": "Using Android Studio Layout Editor", "emoji": "📝", "tutorial_url": "https://developer.android.com/studio/write/layout-editor" }
+      ]
+    },
+    {
+      "id": "mod30",
+      "title": "Debugging & Error Handling",
+      "emoji": "🐞",
+      "description": "Find and fix bugs in your app.",
+      "steps": [
+        { "id": "step30-1", "title": "Fixing Errors in Kotlin", "emoji": "🛠️", "tutorial_url": "https://developer.android.com/studio/debug" },
+        { "id": "step30-2", "title": "Developing Bugs in Applications", "emoji": "🐛", "tutorial_url": "https://developer.android.com/studio/debug" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "Guessing the Number Game using Android Studio",
+      "level": "Basic",
+      "emoji": "🎲",
+      "description": "Create a simple guessing game app in Android Studio.",
+      "concepts": ["Kotlin basics", "UI", "Random number"],
+      "tutorial_url": "https://www.youtube.com/watch?v=3S8a180uYBM",
+      "guide_urls": [
+        { "label": "Guessing Game Guide", "url": "https://www.geeksforgeeks.org/guess-the-number-android-app-in-kotlin/" }
+      ]
+    },
+    {
+      "id": "proj2",
+      "title": "Simple Flashlight/TorchLight Android App",
+      "level": "Basic",
+      "emoji": "🔦",
+      "description": "Build a flashlight app that toggles the device's torch.",
+      "concepts": ["Camera", "UI", "Permissions"],
+      "tutorial_url": "https://www.youtube.com/watch?v=6u5s2nP0y1w",
+      "guide_urls": [
+        { "label": "Flashlight App Guide", "url": "https://www.geeksforgeeks.org/how-to-build-a-simple-flashlight-application-in-android/" }
+      ]
+    },
+    {
+      "id": "proj3",
+      "title": "Spin the Bottle Game Application in Android",
+      "level": "Basic",
+      "emoji": "🍾",
+      "description": "Create a spin the bottle game in Android Studio.",
+      "concepts": ["Animation", "UI", "Random"],
+      "tutorial_url": "https://www.youtube.com/watch?v=yiwIevX2AKc",
+      "guide_urls": [
+        { "label": "Spin the Bottle Guide", "url": "https://www.geeksforgeeks.org/spin-the-bottle-android-app-in-kotlin/" }
+      ]
+    },
+    {
+      "id": "proj4",
+      "title": "Simple Notes App in Android",
+      "level": "Basic",
+      "emoji": "📝",
+      "description": "Build a simple notes application.",
+      "concepts": ["RecyclerView", "CRUD", "UI"],
+      "tutorial_url": "https://www.youtube.com/watch?v=BBWyXo-3JGQ",
+      "guide_urls": [
+        { "label": "Notes App Guide", "url": "https://www.geeksforgeeks.org/how-to-create-a-notes-app-in-android/" }
+      ]
+    },
+    {
+      "id": "proj5",
+      "title": "Image Filters like Instagram in Android",
+      "level": "Intermediate",
+      "emoji": "🖼️",
+      "description": "Apply image filters to photos in an Android app.",
+      "concepts": ["Image processing", "UI", "Filters"],
+      "tutorial_url": "https://www.youtube.com/watch?v=y_r5dRCawTg",
+      "guide_urls": [
+        { "label": "Image Filter Guide", "url": "https://www.geeksforgeeks.org/how-to-add-photo-filters-in-android/" }
+      ]
+    },
+    {
+      "id": "proj6",
+      "title": "Get City and State Name from Pincode in Android",
+      "level": "Intermediate",
+      "emoji": "📍",
+      "description": "Fetch city and state information from a pincode.",
+      "concepts": ["API", "Networking", "UI"],
+      "tutorial_url": "https://www.youtube.com/watch?v=HcG7u3GH-1E",
+      "guide_urls": [
+        { "label": "Pincode Guide", "url": "https://www.geeksforgeeks.org/how-to-get-city-and-state-name-from-pincode-in-android/" }
+      ]
+    },
+    {
+      "id": "proj7",
+      "title": "Get Bank Details from IFSC Code in Android",
+      "level": "Intermediate",
+      "emoji": "🏦",
+      "description": "Retrieve bank details using IFSC code in your app.",
+      "concepts": ["API", "Networking", "UI"],
+      "tutorial_url": "https://www.youtube.com/watch?v=6d9O2B1t7hI",
+      "guide_urls": [
+        { "label": "IFSC Guide", "url": "https://www.geeksforgeeks.org/how-to-get-bank-details-from-ifsc-code-in-android/" }
+      ]
+    },
+    {
+      "id": "proj8",
+      "title": "Build a Weather App in Android",
+      "level": "Intermediate",
+      "emoji": "⛅",
+      "description": "Build a weather forecast app using an external API.",
+      "concepts": ["API", "Networking", "RecyclerView"],
+      "tutorial_url": "https://www.youtube.com/watch?v=7dAt-JMSCVQ",
+      "guide_urls": [
+        { "label": "Weather App Guide", "url": "https://www.geeksforgeeks.org/how-to-build-a-weather-app-using-openweathermap-api-in-android/" }
+      ]
+    },
+    {
+      "id": "proj9",
+      "title": "Text Detector in Android using Firebase ML Kit",
+      "level": "Advanced",
+      "emoji": "🔍",
+      "description": "Detect text in images using Firebase ML Kit.",
+      "concepts": ["Firebase", "ML Kit", "Image processing"],
+      "tutorial_url": "https://www.youtube.com/watch?v=0E8w-1XFp1c",
+      "guide_urls": [
+        { "label": "Text Detector Guide", "url": "https://www.geeksforgeeks.org/text-recognition-in-android-using-ml-kit/" }
+      ]
+    },
+    {
+      "id": "proj10",
+      "title": "Chatbot in Android with BrainShop API",
+      "level": "Advanced",
+      "emoji": "🤖",
+      "description": "Create a chatbot app using BrainShop API.",
+      "concepts": ["API", "Chatbot", "Networking"],
+      "tutorial_url": "https://www.youtube.com/watch?v=K6QwRLWn2o0",
+      "guide_urls": [
+        { "label": "Chatbot Guide", "url": "https://www.geeksforgeeks.org/how-to-create-an-ai-chatbot-in-android-using-brainshop-api/" }
+      ]
+    },
+    {
+      "id": "proj11",
+      "title": "Language Translator in Android using Firebase ML Kit",
+      "level": "Advanced",
+      "emoji": "🌐",
+      "description": "Translate text using Firebase ML Kit's translation capabilities.",
+      "concepts": ["Firebase", "ML Kit", "Translation"],
+      "tutorial_url": "https://www.youtube.com/watch?v=FqQ7q8wHcW8",
+      "guide_urls": [
+        { "label": "Language Translator Guide", "url": "https://www.geeksforgeeks.org/language-translation-in-android-using-ml-kit/" }
+      ]
+    },
+    {
+      "id": "proj12",
+      "title": "Firebase ML Kit Smart Replies in Android",
+      "level": "Advanced",
+      "emoji": "💬",
+      "description": "Implement smart reply feature using Firebase ML Kit.",
+      "concepts": ["Firebase", "ML Kit", "Smart Reply"],
+      "tutorial_url": "https://www.youtube.com/watch?v=ZCkYfIY8w-8",
+      "guide_urls": [
+        { "label": "Smart Reply Guide", "url": "https://www.geeksforgeeks.org/smart-reply-in-android-using-ml-kit/" }
+      ]
+    },
+    {
+      "id": "proj13",
+      "title": "Debugging Techniques",
+      "level": "Advanced",
+      "emoji": "🐞",
+      "description": "Learn advanced debugging techniques for Android apps.",
+      "concepts": ["Debugging", "Crash logs", "Error handling"],
+      "tutorial_url": "https://www.youtube.com/watch?v=2X0vWZkL2tA",
+      "guide_urls": [
+        { "label": "Debugging Guide", "url": "https://developer.android.com/studio/debug" }
+      ]
+    },
+    {
+      "id": "proj14",
+      "title": "Final Bug Fixing",
+      "level": "Advanced",
+      "emoji": "🔧",
+      "description": "Apply bug fixing and QA strategies to Android projects.",
+      "concepts": ["Bug fixing", "Testing", "QA"],
+      "tutorial_url": "https://www.youtube.com/watch?v=2X0vWZkL2tA",
+      "guide_urls": [
+        { "label": "Bug Fixing Guide", "url": "https://developer.android.com/studio/debug" }
+      ]
+    }
+  ]
+}

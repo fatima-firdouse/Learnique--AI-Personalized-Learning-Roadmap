@@ -1,0 +1,250 @@
+{
+  "title": "Data Analyst Roadmap",
+  "description": "A practical learning path for aspiring data analysts.",
+  "modules": [
+    {
+      "id": "mod1",
+      "title": "Introduction to Data Analytics",
+      "emoji": "🧭",
+      "description": "Get started with data analytics and understand its importance.",
+      "steps": [
+        { "id": "step1-1", "title": "What is Data Analytics?", "emoji": "❓", "tutorial_url": "https://www.youtube.com/watch?v=RkBdvI7p6h8" }
+      ]
+    },
+    {
+      "id": "mod2",
+      "title": "Types of Data Analytics",
+      "emoji": "📊",
+      "description": "Learn the four primary types of data analytics.",
+      "steps": [
+        { "id": "step2-1", "title": "Descriptive Analytics", "emoji": "📝", "tutorial_url": "https://www.youtube.com/watch?v=w6PzU4p5p4Y" },
+        { "id": "step2-2", "title": "Diagnostic Analytics", "emoji": "🔍", "tutorial_url": "https://www.youtube.com/watch?v=w6PzU4p5p4Y" },
+        { "id": "step2-3", "title": "Predictive Analytics", "emoji": "🔮", "tutorial_url": "https://www.youtube.com/watch?v=w6PzU4p5p4Y" },
+        { "id": "step2-4", "title": "Prescriptive Analytics", "emoji": "💡", "tutorial_url": "https://www.youtube.com/watch?v=w6PzU4p5p4Y" }
+      ]
+    },
+    {
+      "id": "mod3",
+      "title": "Key Concepts for Data Analytics",
+      "emoji": "🗝️",
+      "description": "Fundamental concepts: collection, cleaning, and exploring data.",
+      "steps": [
+        { "id": "step3-1", "title": "Data Collection", "emoji": "📥", "tutorial_url": "https://www.youtube.com/watch?v=kg6bFjYcB-Y" },
+        { "id": "step3-2", "title": "Data Cleanup", "emoji": "🧹", "tutorial_url": "https://www.youtube.com/watch?v=kg6bFjYcB-Y" },
+        { "id": "step3-3", "title": "Data Exploration", "emoji": "🔎", "tutorial_url": "https://www.youtube.com/watch?v=kg6bFjYcB-Y" },
+        { "id": "step3-4", "title": "Data Visualization", "emoji": "📊", "tutorial_url": "https://www.youtube.com/watch?v=kg6bFjYcB-Y" },
+        { "id": "step3-5", "title": "Statistical Analysis", "emoji": "📉", "tutorial_url": "https://www.youtube.com/watch?v=kg6bFjYcB-Y" },
+        { "id": "step3-6", "title": "Machine Learning", "emoji": "🤖", "tutorial_url": "https://www.youtube.com/watch?v=kg6bFjYcB-Y" }
+      ]
+    },
+    {
+      "id": "mod4",
+      "title": "Excel & SQL Foundations",
+      "emoji": "📑",
+      "description": "Gain mastery over Excel and SQL for data manipulation.",
+      "steps": [
+        { "id": "step4-1", "title": "Excel: Basic Functions", "emoji": "📗", "tutorial_url": "https://www.youtube.com/watch?v=2wM-4E6Dn0o" },
+        { "id": "step4-2", "title": "Excel: Pivot Tables", "emoji": "🔄", "tutorial_url": "https://www.youtube.com/watch?v=m0wI61ahfLc" },
+        { "id": "step4-3", "title": "Excel: Charting", "emoji": "📈", "tutorial_url": "https://www.youtube.com/watch?v=QFpn_bG7X1Y" },
+        { "id": "step4-4", "title": "SQL Roadmap", "emoji": "🗄️", "tutorial_url": "https://www.youtube.com/watch?v=HXV3zeQKqGY" }
+      ]
+    },
+    {
+      "id": "mod5",
+      "title": "Programming Skills",
+      "emoji": "👨‍💻",
+      "description": "Learn Python, R, and essential libraries for data analysis.",
+      "steps": [
+        { "id": "step5-1", "title": "Python for Data Analysis", "emoji": "🐍", "tutorial_url": "https://www.youtube.com/watch?v=vmEHCJofslg" },
+        { "id": "step5-2", "title": "R for Data Analysis", "emoji": "📘", "tutorial_url": "https://www.youtube.com/watch?v=_V8eKsto3Ug" },
+        { "id": "step5-3", "title": "pandas (Python)", "emoji": "📚", "tutorial_url": "https://www.youtube.com/watch?v=vmEHCJofslg" },
+        { "id": "step5-4", "title": "dplyr (R)", "emoji": "🧰", "tutorial_url": "https://www.youtube.com/watch?v=jba3PN6B4bE" },
+        { "id": "step5-5", "title": "matplotlib (Python)", "emoji": "📊", "tutorial_url": "https://www.youtube.com/watch?v=UO98lJQ3QGI" },
+        { "id": "step5-6", "title": "ggplot2 (R)", "emoji": "🎨", "tutorial_url": "https://www.youtube.com/watch?v=HeqHMM4ziXA" }
+      ]
+    },
+    {
+      "id": "mod6",
+      "title": "Data Handling",
+      "emoji": "📦",
+      "description": "Get and clean data from multiple sources.",
+      "steps": [
+        { "id": "step6-1", "title": "Collecting Data from Databases, CSV, APIs, Web Scraping", "emoji": "🗂️", "tutorial_url": "https://www.youtube.com/watch?v=ng2o98k983k" },
+        { "id": "step6-2", "title": "Data Cleaning: Missing Data, Duplicates, Outliers", "emoji": "🧹", "tutorial_url": "https://www.youtube.com/watch?v=4RKuDpHr6pg" },
+        { "id": "step6-3", "title": "Data Transformation (pandas/dplyr)", "emoji": "🔧", "tutorial_url": "https://www.youtube.com/watch?v=vmEHCJofslg" }
+      ]
+    },
+    {
+      "id": "mod7",
+      "title": "Data Analysis Techniques",
+      "emoji": "🧮",
+      "description": "Master statistical and mathematical techniques for analysis.",
+      "steps": [
+        { "id": "step7-1", "title": "Descriptive Analysis (Mean, Mode, Median, Average)", "emoji": "🧾", "tutorial_url": "https://www.youtube.com/watch?v=4EXNedimDMs" },
+        { "id": "step7-2", "title": "Dispersion Analysis (Range, Variance, Std. Deviation)", "emoji": "📏", "tutorial_url": "https://www.youtube.com/watch?v=4EXNedimDMs" },
+        { "id": "step7-3", "title": "Distribution Shape (Skewness, Kurtosis)", "emoji": "📐", "tutorial_url": "https://www.youtube.com/watch?v=4EXNedimDMs" }
+      ]
+    },
+    {
+      "id": "mod8",
+      "title": "Charting & Data Visualization",
+      "emoji": "📊",
+      "description": "Visualize data with a variety of chart types.",
+      "steps": [
+        { "id": "step8-1", "title": "Bar Charts", "emoji": "📊", "tutorial_url": "https://www.youtube.com/watch?v=V6ZlOs6A1Rc" },
+        { "id": "step8-2", "title": "Histograms", "emoji": "📊", "tutorial_url": "https://www.youtube.com/watch?v=V6ZlOs6A1Rc" },
+        { "id": "step8-3", "title": "Line Charts", "emoji": "📈", "tutorial_url": "https://www.youtube.com/watch?v=V6ZlOs6A1Rc" },
+        { "id": "step8-4", "title": "Stacked Charts", "emoji": "📊", "tutorial_url": "https://www.youtube.com/watch?v=V6ZlOs6A1Rc" },
+        { "id": "step8-5", "title": "Scatter Plots", "emoji": "🔬", "tutorial_url": "https://www.youtube.com/watch?v=V6ZlOs6A1Rc" },
+        { "id": "step8-6", "title": "Funnel Charts", "emoji": "🔻", "tutorial_url": "https://www.youtube.com/watch?v=V6ZlOs6A1Rc" },
+        { "id": "step8-7", "title": "Heatmaps", "emoji": "🌡️", "tutorial_url": "https://www.youtube.com/watch?v=V6ZlOs6A1Rc" },
+        { "id": "step8-8", "title": "Pie Charts", "emoji": "🥧", "tutorial_url": "https://www.youtube.com/watch?v=V6ZlOs6A1Rc" }
+      ]
+    },
+    {
+      "id": "mod9",
+      "title": "Statistical Analysis",
+      "emoji": "📈",
+      "description": "Perform hypothesis testing and regression analysis.",
+      "steps": [
+        { "id": "step9-1", "title": "Hypothesis Testing", "emoji": "🔬", "tutorial_url": "https://www.youtube.com/watch?v=0zZYBALbZgg" },
+        { "id": "step9-2", "title": "Correlation Analysis", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=0zZYBALbZgg" },
+        { "id": "step9-3", "title": "Regression", "emoji": "📉", "tutorial_url": "https://www.youtube.com/watch?v=0zZYBALbZgg" }
+      ]
+    },
+    {
+      "id": "mod10",
+      "title": "Advanced Topics",
+      "emoji": "🚀",
+      "description": "Explore machine learning and model evaluation.",
+      "steps": [
+        { "id": "step10-1", "title": "Machine Learning Basics", "emoji": "🤖", "tutorial_url": "https://www.youtube.com/watch?v=Gv9_4yMHFhI" },
+        { "id": "step10-2", "title": "Types: Supervised, Unsupervised, Reinforcement", "emoji": "🧠", "tutorial_url": "https://www.youtube.com/watch?v=Gv9_4yMHFhI" },
+        { "id": "step10-3", "title": "Popular Algorithms: Decision Trees, Logistic Regression, K-Means, Naive Bayes, KNN", "emoji": "🌲", "tutorial_url": "https://www.youtube.com/watch?v=Gv9_4yMHFhI" },
+        { "id": "step10-4", "title": "Model Evaluation Techniques", "emoji": "📊", "tutorial_url": "https://www.youtube.com/watch?v=Gv9_4yMHFhI" }
+      ]
+    },
+    {
+      "id": "mod11",
+      "title": "Big Data Technologies",
+      "emoji": "🗄️",
+      "description": "Learn about Hadoop, Spark, and scalable data solutions.",
+      "steps": [
+        { "id": "step11-1", "title": "Big Data Concepts", "emoji": "💾", "tutorial_url": "https://www.youtube.com/watch?v=2V4v1y8AoUI" },
+        { "id": "step11-2", "title": "Processing: Hadoop, Spark", "emoji": "⚡", "tutorial_url": "https://www.youtube.com/watch?v=2V4v1y8AoUI" },
+        { "id": "step11-3", "title": "Storage Solutions", "emoji": "🗃️", "tutorial_url": "https://www.youtube.com/watch?v=2V4v1y8AoUI" },
+        { "id": "step11-4", "title": "Processing: MapReduce, Parallel Processing, MPI", "emoji": "🔀", "tutorial_url": "https://www.youtube.com/watch?v=2V4v1y8AoUI" }
+      ]
+    },
+    {
+      "id": "mod12",
+      "title": "Deep Learning (Optional)",
+      "emoji": "🧠",
+      "description": "Understand neural networks, CNNs, and advanced use cases.",
+      "steps": [
+        { "id": "step12-1", "title": "Basics of Neural Networks", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=aircAruvnKk" },
+        { "id": "step12-2", "title": "CNNs, RNNs", "emoji": "🧬", "tutorial_url": "https://www.youtube.com/watch?v=aircAruvnKk" },
+        { "id": "step12-3", "title": "Frameworks: TensorFlow, PyTorch", "emoji": "🔧", "tutorial_url": "https://www.youtube.com/watch?v=aircAruvnKk" },
+        { "id": "step12-4", "title": "Practice: Image Recognition, NLP, Sales Trend Prediction", "emoji": "🖼️", "tutorial_url": "https://www.youtube.com/watch?v=aircAruvnKk" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "Sales Dashboard with Excel",
+      "level": "Beginner",
+      "emoji": "📊",
+      "description": "Build an interactive sales dashboard using Excel charts and pivot tables.",
+      "concepts": [
+        "Excel functions",
+        "Pivot tables",
+        "Charts"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=m0wI61ahfLc",
+      "guide_urls": [
+        { "label": "Excel Dashboard Guide", "url": "https://trumpexcel.com/create-dashboard-excel/" }
+      ]
+    },
+    {
+      "id": "proj2",
+      "title": "Data Cleaning with Python (pandas)",
+      "level": "Beginner",
+      "emoji": "🐍",
+      "description": "Clean a messy CSV dataset using pandas for missing values and outlier detection.",
+      "concepts": [
+        "pandas",
+        "Data cleaning",
+        "Missing values"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=4RKuDpHr6pg",
+      "guide_urls": [
+        { "label": "pandas Data Cleaning", "url": "https://pandas.pydata.org/docs/user_guide/missing_data.html" }
+      ]
+    },
+    {
+      "id": "proj3",
+      "title": "Exploratory Data Analysis (EDA)",
+      "level": "Intermediate",
+      "emoji": "🔎",
+      "description": "Perform EDA on a public dataset and create various plots using matplotlib and seaborn.",
+      "concepts": [
+        "EDA",
+        "matplotlib",
+        "seaborn"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=ZyTO4SwhSeE",
+      "guide_urls": [
+        { "label": "EDA Guide", "url": "https://www.datacamp.com/tutorial/exploratory-data-analysis-python" }
+      ]
+    },
+    {
+      "id": "proj4",
+      "title": "SQL Data Exploration",
+      "level": "Intermediate",
+      "emoji": "🗄️",
+      "description": "Use SQL to analyze and summarize a retail transaction dataset.",
+      "concepts": [
+        "GROUP BY",
+        "Joins",
+        "Aggregation"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=HXV3zeQKqGY",
+      "guide_urls": [
+        { "label": "SQL GROUP BY", "url": "https://www.sqltutorial.org/sql-group-by/" }
+      ]
+    },
+    {
+      "id": "proj5",
+      "title": "Predictive Model: Linear Regression",
+      "level": "Intermediate",
+      "emoji": "📉",
+      "description": "Build and evaluate a linear regression model for sales prediction.",
+      "concepts": [
+        "Scikit-learn",
+        "Model evaluation",
+        "Regression"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=ZkjP5RJLQF4",
+      "guide_urls": [
+        { "label": "Linear Regression in Python", "url": "https://scikit-learn.org/stable/auto_examples/linear_model/plot_ols.html" }
+      ]
+    },
+    {
+      "id": "proj6",
+      "title": "Big Data Project with Spark",
+      "level": "Advanced",
+      "emoji": "⚡",
+      "description": "Analyze large datasets using Apache Spark with PySpark.",
+      "concepts": [
+        "PySpark",
+        "Big Data",
+        "Parallel processing"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=_C8kWso4ne4",
+      "guide_urls": [
+        { "label": "PySpark Guide", "url": "https://spark.apache.org/docs/latest/api/python/getting_started/index.html" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "title": "MLOps Roadmap",
+  "description": "A practical learning path for Machine Learning Operations (MLOps).",
+  "modules": [
+    {
+      "id": "mod1",
+      "title": "Programming Fundamentals",
+      "emoji": "🧭",
+      "description": "Master the essential programming languages for MLOps.",
+      "steps": [
+        { "id": "step1-1", "title": "Python", "emoji": "🐍", "tutorial_url": "https://www.youtube.com/watch?v=rfscVS0vtbw" },
+        { "id": "step1-2", "title": "Go", "emoji": "🐹", "tutorial_url": "https://www.youtube.com/watch?v=YS4e4q9oBaU" },
+        { "id": "step1-3", "title": "Bash", "emoji": "💻", "tutorial_url": "https://www.youtube.com/watch?v=SPwyp2NG-bU" }
+      ]
+    },
+    {
+      "id": "mod2",
+      "title": "Version Control Systems",
+      "emoji": "🔀",
+      "description": "Track code and collaborate using version control.",
+      "steps": [
+        { "id": "step2-1", "title": "Git", "emoji": "🌳", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step2-2", "title": "GitHub", "emoji": "🐱", "tutorial_url": "https://www.youtube.com/watch?v=w3jLJU7DT5E" }
+      ]
+    },
+    {
+      "id": "mod3",
+      "title": "Cloud Computing",
+      "emoji": "☁️",
+      "description": "Leverage cloud platforms for scalable ML workflows.",
+      "steps": [
+        { "id": "step3-1", "title": "AWS / Azure / GCP", "emoji": "☁️", "tutorial_url": "https://www.youtube.com/watch?v=ulprqHHWlng" },
+        { "id": "step3-2", "title": "Cloud-native ML Services", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=ulprqHHWlng" }
+      ]
+    },
+    {
+      "id": "mod4",
+      "title": "Containerization",
+      "emoji": "📦",
+      "description": "Package and deploy ML workloads using containers.",
+      "steps": [
+        { "id": "step4-1", "title": "Docker", "emoji": "🐳", "tutorial_url": "https://www.youtube.com/watch?v=fqMOX6JJhGo" },
+        { "id": "step4-2", "title": "Kubernetes", "emoji": "☸️", "tutorial_url": "https://www.youtube.com/watch?v=KVBON1lE-yc" }
+      ]
+    },
+    {
+      "id": "mod5",
+      "title": "Machine Learning Fundamentals",
+      "emoji": "🧠",
+      "description": "Understand the basics of machine learning and modeling.",
+      "steps": [
+        { "id": "step5-1", "title": "General ML Knowledge", "emoji": "🤖", "tutorial_url": "https://www.youtube.com/watch?v=Gv9_4yMHFhI" }
+      ]
+    },
+    {
+      "id": "mod6",
+      "title": "Data Engineering Fundamentals",
+      "emoji": "🔧",
+      "description": "Build robust data pipelines for ML.",
+      "steps": [
+        { "id": "step6-1", "title": "Data Pipelines", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=kg6bFjYcB-Y" },
+        { "id": "step6-2", "title": "Data Lakes & Warehouses", "emoji": "💾", "tutorial_url": "https://www.youtube.com/watch?v=kg6bFjYcB-Y" },
+        { "id": "step6-3", "title": "Data Ingestion Architecture", "emoji": "📥", "tutorial_url": "https://www.youtube.com/watch?v=kg6bFjYcB-Y" },
+        { "id": "step6-4", "title": "Airflow", "emoji": "🌬️", "tutorial_url": "https://www.youtube.com/watch?v=ci5jUmxXv1U" },
+        { "id": "step6-5", "title": "Spark", "emoji": "⚡", "tutorial_url": "https://www.youtube.com/watch?v=_C8kWso4ne4" },
+        { "id": "step6-6", "title": "Kafka", "emoji": "🦒", "tutorial_url": "https://www.youtube.com/watch?v=9pG3Q2TOzWM" },
+        { "id": "step6-7", "title": "Flink", "emoji": "💧", "tutorial_url": "https://www.youtube.com/watch?v=1opA4hi2wPU" }
+      ]
+    },
+    {
+      "id": "mod7",
+      "title": "MLOps Principles",
+      "emoji": "📚",
+      "description": "Learn the foundations and motivation behind MLOps.",
+      "steps": [
+        { "id": "step7-1", "title": "MLOps Concepts Overview", "emoji": "📘", "tutorial_url": "https://www.youtube.com/watch?v=06-AZXmwHjo" }
+      ]
+    },
+    {
+      "id": "mod8",
+      "title": "MLOps Components",
+      "emoji": "🛠️",
+      "description": "Explore the critical components of the MLOps lifecycle.",
+      "steps": [
+        { "id": "step8-1", "title": "Version Control", "emoji": "🔀", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step8-2", "title": "CI/CD", "emoji": "🔁", "tutorial_url": "https://www.youtube.com/watch?v=1hHMwLxN6EM" },
+        { "id": "step8-3", "title": "Orchestration", "emoji": "🎛️", "tutorial_url": "https://www.youtube.com/watch?v=ci5jUmxXv1U" },
+        { "id": "step8-4", "title": "Experiment Tracking & Model Registry", "emoji": "📈", "tutorial_url": "https://www.youtube.com/watch?v=06-AZXmwHjo" },
+        { "id": "step8-5", "title": "Data Lineage & Feature Stores", "emoji": "🧬", "tutorial_url": "https://www.youtube.com/watch?v=06-AZXmwHjo" },
+        { "id": "step8-6", "title": "Model Training & Serving", "emoji": "🛰️", "tutorial_url": "https://www.youtube.com/watch?v=06-AZXmwHjo" },
+        { "id": "step8-7", "title": "Monitoring & Observability", "emoji": "📊", "tutorial_url": "https://www.youtube.com/watch?v=06-AZXmwHjo" }
+      ]
+    },
+    {
+      "id": "mod9",
+      "title": "Infrastructure as Code",
+      "emoji": "🌍",
+      "description": "Automate and manage infrastructure for ML workloads.",
+      "steps": [
+        { "id": "step9-1", "title": "Infrastructure as Code Overview (Terraform, Ansible, etc.)", "emoji": "📝", "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "ML Model Training & Deployment Pipeline",
+      "level": "Beginner",
+      "emoji": "🚀",
+      "description": "Build and deploy a simple machine learning model using Docker and a CI/CD pipeline.",
+      "concepts": [
+        "Python",
+        "Docker",
+        "CI/CD",
+        "Model deployment"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=1hHMwLxN6EM",
+      "guide_urls": [
+        { "label": "MLOps Pipeline Guide", "url": "https://mlflow.org/docs/latest/tutorials-and-examples/index.html" }
+      ]
+    },
+    {
+      "id": "proj2",
+      "title": "Data Pipeline with Airflow",
+      "level": "Beginner",
+      "emoji": "🌬️",
+      "description": "Create a reproducible data pipeline using Apache Airflow.",
+      "concepts": [
+        "Airflow",
+        "Data pipeline",
+        "Automation"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=ci5jUmxXv1U",
+      "guide_urls": [
+        { "label": "Airflow Quick Start", "url": "https://airflow.apache.org/docs/apache-airflow/stable/start.html" }
+      ]
+    },
+    {
+      "id": "proj3",
+      "title": "Experiment Tracking with MLflow",
+      "level": "Intermediate",
+      "emoji": "📈",
+      "description": "Track ML experiments and register models using MLflow.",
+      "concepts": [
+        "Experiment tracking",
+        "Model registry",
+        "MLflow"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=06-AZXmwHjo",
+      "guide_urls": [
+        { "label": "MLflow Tracking", "url": "https://mlflow.org/docs/latest/tracking.html" }
+      ]
+    },
+    {
+      "id": "proj4",
+      "title": "Serving Models with Docker & FastAPI",
+      "level": "Intermediate",
+      "emoji": "📦",
+      "description": "Serve a trained ML model as an API using FastAPI and Docker.",
+      "concepts": [
+        "FastAPI",
+        "Docker",
+        "Model serving"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=0sOvCWFmrtA",
+      "guide_urls": [
+        { "label": "FastAPI Docker Guide", "url": "https://fastapi.tiangolo.com/deployment/docker/" }
+      ]
+    },
+    {
+      "id": "proj5",
+      "title": "Kubernetes Model Deployment",
+      "level": "Advanced",
+      "emoji": "☸️",
+      "description": "Deploy machine learning models on Kubernetes for scalable inference.",
+      "concepts": [
+        "Kubernetes",
+        "Model deployment",
+        "Scalability"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=KVBON1lE-yc",
+      "guide_urls": [
+        { "label": "Kubernetes ML Guide", "url": "https://www.kubeflow.org/docs/" }
+      ]
+    },
+    {
+      "id": "proj6",
+      "title": "End-to-End MLOps with Terraform",
+      "level": "Advanced",
+      "emoji": "🌍",
+      "description": "Automate an ML workflow from infrastructure to deployment using Terraform.",
+      "concepts": [
+        "Terraform",
+        "Infrastructure as Code",
+        "ML workflow automation"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo",
+      "guide_urls": [
+        { "label": "Terraform for MLOps", "url": "https://learn.microsoft.com/en-us/azure/architecture/example-scenario/mlops/mlops-terraform" }
+      ]
+    }
+  ]
+}

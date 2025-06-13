@@ -1,0 +1,215 @@
+{
+  "title": "Full Stack Developer Roadmap",
+  "description": "A practical learning path for full stack development.",
+  "modules": [
+    {
+      "id": "mod1",
+      "title": "HTML & CSS Fundamentals",
+      "emoji": "🧭",
+      "description": "Master the essentials of web structure and styling.",
+      "steps": [
+        { "id": "step1-1", "title": "HTML5 Semantic Elements", "emoji": "📄", "tutorial_url": "https://www.youtube.com/watch?v=UB1O30fR-EE" },
+        { "id": "step1-2", "title": "CSS Box Model & Flexbox", "emoji": "📦", "tutorial_url": "https://www.youtube.com/watch?v=fYq5PXgSsbE" },
+        { "id": "step1-3", "title": "CSS Grid Layout", "emoji": "🔲", "tutorial_url": "https://www.youtube.com/watch?v=0xMQfnTU6oo" },
+        { "id": "step1-4", "title": "Responsive Design Principles", "emoji": "📱", "tutorial_url": "https://www.youtube.com/watch?v=srvUrASNj0s" }
+      ]
+    },
+    {
+      "id": "mod2",
+      "title": "JavaScript Essentials",
+      "emoji": "📜",
+      "description": "Learn the universal language of the web.",
+      "steps": [
+        { "id": "step2-1", "title": "Variables, Data Types & Operators", "emoji": "🔣", "tutorial_url": "https://www.youtube.com/watch?v=W6NZfCO5SIk" },
+        { "id": "step2-2", "title": "Functions & Scope", "emoji": "🔄", "tutorial_url": "https://www.youtube.com/watch?v=W6NZfCO5SIk" },
+        { "id": "step2-3", "title": "DOM Manipulation", "emoji": "🖥️", "tutorial_url": "https://www.youtube.com/watch?v=0ik6X4DJKCc" },
+        { "id": "step2-4", "title": "ES6+ Features", "emoji": "✨", "tutorial_url": "https://www.youtube.com/watch?v=NCwa_xi0Uuc" }
+      ]
+    },
+    {
+      "id": "mod3",
+      "title": "Version Control",
+      "emoji": "🔀",
+      "description": "Track and manage code changes with Git and GitHub.",
+      "steps": [
+        { "id": "step3-1", "title": "Git Basics", "emoji": "🌳", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step3-2", "title": "GitHub Collaboration", "emoji": "☁️", "tutorial_url": "https://www.youtube.com/watch?v=w3jLJU7DT5E" }
+      ]
+    },
+    {
+      "id": "mod4",
+      "title": "Frontend Frameworks",
+      "emoji": "⚛️",
+      "description": "Build modern UIs with popular frontend frameworks.",
+      "steps": [
+        { "id": "step4-1", "title": "React", "emoji": "🔤", "tutorial_url": "https://www.youtube.com/watch?v=bMknfKXIFA8" },
+        { "id": "step4-2", "title": "Tailwind CSS", "emoji": "💨", "tutorial_url": "https://www.youtube.com/watch?v=6zIuAyLZPH0" }
+      ]
+    },
+    {
+      "id": "mod5",
+      "title": "Backend Development",
+      "emoji": "🖥️",
+      "description": "Create robust server-side applications.",
+      "steps": [
+        { "id": "step5-1", "title": "Node.js Fundamentals", "emoji": "🟩", "tutorial_url": "https://www.youtube.com/watch?v=Oe421EPjeBE&list=PLV8vIYTIdSnaLJKmA1NmbzCks6p2bgyxO&index=8" },
+        { "id": "step5-2", "title": "Express.js & RESTful APIs", "emoji": "🌐", "tutorial_url": "https://www.youtube.com/watch?v=pKd0Rpw7O48" },
+        { "id": "step5-3", "title": "Other Backend Languages (optional)", "emoji": "🗣️", "tutorial_url": "https://www.youtube.com/watch?v=7wnove7K-ZQ" }
+      ]
+    },
+    {
+      "id": "mod6",
+      "title": "Databases",
+      "emoji": "🗄️",
+      "description": "Store and manage application data.",
+      "steps": [
+        { "id": "step6-1", "title": "PostgreSQL", "emoji": "🐘", "tutorial_url": "https://www.youtube.com/watch?v=qw--VYLpxG4" }
+      ]
+    },
+    {
+      "id": "mod7",
+      "title": "Auth & REST APIs",
+      "emoji": "🔑",
+      "description": "Secure your apps and design robust APIs.",
+      "steps": [
+        { "id": "step7-1", "title": "RESTful API Design", "emoji": "🗺️", "tutorial_url": "https://www.youtube.com/watch?v=lsMQRaeKNDk" },
+        { "id": "step7-2", "title": "JWT Authentication", "emoji": "🔓", "tutorial_url": "https://www.youtube.com/watch?v=2jqok-WgelI" }
+      ]
+    },
+    {
+      "id": "mod8",
+      "title": "Performance & Caching",
+      "emoji": "⚡",
+      "description": "Optimize app performance and scale with caching.",
+      "steps": [
+        { "id": "step8-1", "title": "Redis", "emoji": "🧠", "tutorial_url": "https://www.youtube.com/watch?v=Hbt56gFj998" }
+      ]
+    },
+    {
+      "id": "mod9",
+      "title": "DevOps Basics",
+      "emoji": "🛠️",
+      "description": "Learn the basics of deployment, automation, and monitoring.",
+      "steps": [
+        { "id": "step9-1", "title": "Linux Basics", "emoji": "🐧", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" },
+        { "id": "step9-2", "title": "Basic AWS Services (EC2, VPC, Route53, SES, S3)", "emoji": "☁️", "tutorial_url": "https://www.youtube.com/watch?v=ulprqHHWlng" },
+        { "id": "step9-3", "title": "GitHub Actions", "emoji": "🔁", "tutorial_url": "https://www.youtube.com/watch?v=R8_veQiYBjI" },
+        { "id": "step9-4", "title": "Monitoring (Monit)", "emoji": "📈", "tutorial_url": "https://www.youtube.com/watch?v=KVBON1lE-yc" },
+        { "id": "step9-5", "title": "Deployment & Automation (Ansible)", "emoji": "🤖", "tutorial_url": "https://www.youtube.com/watch?v=wgQ3rHVD_cU" }
+      ]
+    },
+    {
+      "id": "mod10",
+      "title": "Infrastructure Management",
+      "emoji": "🏗️",
+      "description": "Automate and manage cloud infrastructure.",
+      "steps": [
+        { "id": "step10-1", "title": "Terraform", "emoji": "🌍", "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "Responsive Portfolio Website",
+      "level": "Beginner",
+      "emoji": "🌐",
+      "description": "Build a personal portfolio using HTML5, CSS3, and responsive layouts.",
+      "concepts": [
+        "HTML5",
+        "CSS3",
+        "Responsive design"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=UB1O30fR-EE",
+      "guide_urls": [
+        { "label": "Responsive Design Guide", "url": "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design" }
+      ]
+    },
+    {
+      "id": "proj2",
+      "title": "Full Stack Todo App",
+      "level": "Beginner",
+      "emoji": "✅",
+      "description": "Create a Todo List app using React for frontend and Node.js/Express for backend.",
+      "concepts": [
+        "React",
+        "Node.js",
+        "Express",
+        "REST API"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=Ey4udt6pHjA",
+      "guide_urls": [
+        { "label": "MERN Stack Todo Guide", "url": "https://www.freecodecamp.org/news/how-to-create-a-mern-stack-application/" }
+      ]
+    },
+    {
+      "id": "proj3",
+      "title": "Authentication System",
+      "level": "Intermediate",
+      "emoji": "🔑",
+      "description": "Build a login/signup system with JWT authentication and secure password storage.",
+      "concepts": [
+        "JWT",
+        "Password hashing",
+        "Express.js",
+        "MongoDB"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=2jqok-WgelI",
+      "guide_urls": [
+        { "label": "JWT Auth with Node.js", "url": "https://jasonwatmore.com/post/2020/07/18/nodejs-mongodb-api-jwt-authentication-with-mongoose" }
+      ]
+    },
+    {
+      "id": "proj4",
+      "title": "E-commerce REST API",
+      "level": "Intermediate",
+      "emoji": "🛒",
+      "description": "Develop a backend REST API for an e-commerce platform using Express and PostgreSQL.",
+      "concepts": [
+        "REST API",
+        "Express.js",
+        "PostgreSQL",
+        "CRUD operations"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=pKd0Rpw7O48",
+      "guide_urls": [
+        { "label": "REST API Design", "url": "https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/" }
+      ]
+    },
+    {
+      "id": "proj5",
+      "title": "Real-Time Chat App",
+      "level": "Advanced",
+      "emoji": "💬",
+      "description": "Create a real-time chat application using React, WebSockets, and Node.js.",
+      "concepts": [
+        "WebSockets",
+        "React",
+        "Node.js",
+        "Real-time communication"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=ZKEqqIO7n-k",
+      "guide_urls": [
+        { "label": "WebSockets Guide", "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API" }
+      ]
+    },
+    {
+      "id": "proj6",
+      "title": "Full Stack Deployment Pipeline",
+      "level": "Advanced",
+      "emoji": "🚀",
+      "description": "Set up CI/CD and deploy a full stack app to AWS using GitHub Actions and Terraform.",
+      "concepts": [
+        "CI/CD",
+        "GitHub Actions",
+        "AWS",
+        "Terraform"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=R8_veQiYBjI",
+      "guide_urls": [
+        { "label": "Terraform AWS Provider", "url": "https://registry.terraform.io/providers/hashicorp/aws/latest/docs" },
+        { "label": "GitHub Actions Docs", "url": "https://docs.github.com/en/actions" }
+      ]
+    }
+  ]
+}

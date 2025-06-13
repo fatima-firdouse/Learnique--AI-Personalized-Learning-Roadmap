@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login & Signup</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+:root {
+  /* New Color Palette */
+  --lavender: #820ed5c9;
+  --light-purple: #0c8eec;
+  --pinkish-purple: #b878fd;
+  --deep-purple:   #ff3aff;
+  --violet: #8a2be2;
+  --neon-blue: #ff6bff;
+  --neon-cyan: #f94ef9;
+  --soft-magenta: #6a0dad;
+  --pastel-blue: #a0e7ff;
+  --pastel-pink: #ffb6e6; 
+  --pinkish-purple: #9d44fc;
+  --deep-purple: #6a0dad;
+  --violet: #8a2be2;
+  --neon-blue: #00f5ff;
+  --neon-cyan: #00f5d4;
+  --soft-magenta: #fa48fa;
+  --pastel-blue: #a0e7ff;
+  --pastel-pink: #16aef4;
+
+  /* Glassmorphism Variables */
+  --glass-bg: rgba(255, 255, 255, 0.15);
+  --glass-border: rgba(255, 255, 255, 0.18);
+  --glass-shadow: 0 8px 32px 0 rgba(31,38,135,0.15);
+
+  /* Gradient for body */
+  --body-bg: linear-gradient(135deg, var(--lavender) 20%, var(--light-purple) 100%);
+
+  /* Extra for this UI */
+  --btn-gradient: linear-gradient(90deg, var(--deep-purple) 0%, var(--pastel-pink) 100%);
+  --btn-gradient-hover: linear-gradient(90deg, var(--violet) 0%, var(--deep-purple) 100%);
+  --input-bg: rgba(255,255,255,0.19);
+  --input-border: 1.5px solid rgba(255,255,255,0.28);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: var(--body-bg);
+  color: #333;
+  min-height: 100vh;
+  margin: 0;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.bg-text-huge {
+  position: absolute;
+  top: 6%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: min(16vw, 8rem);
+  font-weight: 900;
+  color: #fff;
+  opacity: 0.17;
+  z-index: 1;
+  letter-spacing: 2px;
+  user-select: none;
+  pointer-events: none;
+  white-space: nowrap;
+  width: 100vw;
+  text-align: center;
+}
+.bg-art-circle {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 320px;
+  height: 200px;
+  background: radial-gradient(circle at 70% 80%, #fff9, #f6b0f800 80%);
+  z-index: 1;
+  pointer-events: none;
+}
+.auth-container {
+  position: relative;
+  z-index: 2;
+  width: 98vw;
+  max-width: 410px;
+  min-width: 280px;
+  min-height: 420px;
+  padding: 44px 34px 34px 34px;
+  margin: 0 auto;
+  background: var(--glass-bg);
+  border-radius: 28px;
+  box-shadow: var(--glass-shadow);
+  border: 1.5px solid var(--glass-border);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  backdrop-filter: blur(20px);
+}
+.tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+  width: 100%;
+  z-index: 2;
+}
+.tab {
+  flex: 1;
+  padding: 13px 0;
+  background: none;
+  border: none;
+  font-size: 1.21rem;
+  font-weight: 600;
+  color: #fff;
+  border-bottom: 2.5px solid transparent;
+  cursor: pointer;
+  transition: color 0.19s, border-bottom 0.19s;
+  outline: none;
+  letter-spacing: 1px;
+  opacity: 0.85;
+}
+.tab.active {
+  color: var(--deep-purple);
+  border-bottom: 2.5px solid var(--deep-purple);
+  background: none;
+  opacity: 1;
+}
+.form {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.form.active {
+  display: flex;
+  animation: fadeIn 0.5s;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(18px);}
+  to   { opacity: 1; transform: none;}
+}
+.form h2 {
+  margin: 0 0 22px 0;
+  font-size: 2.05rem;
+  color: var(--deep-purple);
+  font-weight: 800;
+  letter-spacing: 1.2px;
+  text-align: center;
+  text-shadow: 0 1px 6px #fff5;
+}
+.input-group {
+  width: 100%;
+  margin-bottom: 18px;
+}
+.input-group label {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--violet);
+  font-size: 1.06rem;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+}
+.input-group input {
+  width: 100%;
+  padding: 13px 15px;
+  border: var(--input-border);
+  border-radius: 9px;
+  font-size: 1.07rem;
+  background: var(--input-bg);
+  color: #fff;
+  outline: none;
+  transition: border 0.2s, box-shadow 0.2s, background 0.2s;
+  box-shadow: 0 2px 7px 0 rgba(44,62,80,0.06);
+  font-weight: 500;
+}
+.input-group input:focus {
+  border: 1.7px solid var(--neon-blue);
+  background: rgba(255,255,255,0.32);
+}
+.auth-btn {
+  margin-top: 10px;
+  padding: 12px 0;
+  width: 100%;
+  background: var(--btn-gradient);
+  color: #fff;
+  border: 1.5px solid var(--glass-border);
+  border-radius: 9px;
+  font-size: 1.11rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 2px 12px 0 rgba(44,62,80,0.09);
+  text-shadow: 0 1px 4px #fff4;
+  letter-spacing: 0.7px;
+  transition: box-shadow 0.17s, background 0.23s;
+}
+.auth-btn:hover {
+  background: var(--btn-gradient-hover);
+  box-shadow: 0 4px 18px 0 rgba(44,62,80,0.16);
+}
+.switch-text {
+  margin-top: 18px;
+  text-align: center;
+  color: var(--soft-magenta);
+  font-size: 1.04rem;
+  letter-spacing: 0.2px;
+}
+.switch-text a {
+  color: var(--deep-purple);
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.flash {
+  padding: 12px 18px;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  font-size: 1.08rem;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  background: rgba(255,255,255,0.22);
+  color: #e64c4c;
+  border: 1.5px solid #f5bebe;
+  font-weight: 600;
+}
+.flash.success {
+  color: #1a7f37;
+  background: #e6f7e9c0;
+  border: 1.5px solid #b2e2c0;
+}
+@media (max-width: 600px) {
+  .auth-container {
+    max-width: 99vw;
+    padding: 18vw 2vw 7vw 2vw;
+    min-width: 0;
+  }
+  .bg-text-huge {
+    font-size: 12vw;
+  }
+}
+    </style>
+</head>
+<body>
+    <div class="bg-text-huge">Sign In</div>
+    <div class="bg-art-circle"></div>
+    <div class="auth-container">
+        <div class="tabs">
+            <button id="loginTab" class="tab active" onclick="showTab('login')">Login</button>
+            <button id="registerTab" class="tab" onclick="showTab('register')">Sign Up</button>
+        </div>
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="flash {{ category }}">{{ message }}</div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+        <form id="loginForm" class="form active" action="{{ url_for('login') }}" method="post" autocomplete="off">
+            <h2>Welcome Back!</h2>
+            <div class="input-group">
+                <label for="login-username">Username</label>
+                <input type="text" name="username" id="login-username" required>
+            </div>
+            <div class="input-group">
+                <label for="login-password">Password</label>
+                <input type="password" name="password" id="login-password" required>
+            </div>
+            <button class="auth-btn" type="submit">Login</button>
+            <p class="switch-text">Don't have an account? <a href="#" onclick="showTab('register'); return false;">Sign Up</a></p>
+        </form>
+        <form id="registerForm" class="form" action="{{ url_for('register') }}" method="post" autocomplete="off">
+            <h2>Create Account</h2>
+            <div class="input-group">
+                <label for="reg-username">Username</label>
+                <input type="text" name="username" id="reg-username" required>
+            </div>
+            <div class="input-group">
+                <label for="reg-email">Email</label>
+                <input type="email" name="email" id="reg-email" required>
+            </div>
+            <div class="input-group">
+                <label for="reg-password">Password</label>
+                <input type="password" name="password" id="reg-password" required>
+            </div>
+            <button class="auth-btn" type="submit">Sign Up</button>
+            <p class="switch-text">Already have an account? <a href="#" onclick="showTab('login'); return false;">Login</a></p>
+        </form>
+    </div>
+    <script>
+    function showTab(tab) {
+        document.getElementById('loginTab').classList.remove('active');
+        document.getElementById('registerTab').classList.remove('active');
+        document.getElementById('loginForm').classList.remove('active');
+        document.getElementById('registerForm').classList.remove('active');
+        if(tab === 'login') {
+            document.getElementById('loginTab').classList.add('active');
+            document.getElementById('loginForm').classList.add('active');
+        } else {
+            document.getElementById('registerTab').classList.add('active');
+            document.getElementById('registerForm').classList.add('active');
+        }
+        document.querySelector('.auth-container').scrollIntoView({ behavior: "smooth" });
+    }
+    window.onload = function() {
+        if(window.location.hash === "#register") {
+            showTab('register');
+        }
+    }
+    </script>
+</body>
+</html>

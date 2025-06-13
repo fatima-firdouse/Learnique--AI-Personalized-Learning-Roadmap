@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Learning Roadmaps</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>:root {
+  /* New Color Palette */
+  --lavender: #820ed5c9;
+  --light-purple: #0c8eec;
+  --pinkish-purple: #b878fd;
+  --deep-purple:   #ff3aff;
+  --violet: #8a2be2;
+  --neon-blue: #ff6bff;
+  --neon-cyan: #f94ef9;
+  --soft-magenta: #6a0dad;
+  --pastel-blue: #a0e7ff;
+  --pastel-pink: #ffb6e6; 
+  --pinkish-purple: #9d44fc;
+  --deep-purple: #6a0dad;
+  --violet: #8a2be2;
+  --neon-blue: #00f5ff;
+  --neon-cyan: #00f5d4;
+  --soft-magenta: #fa48fa;
+  --pastel-blue: #a0e7ff;
+  --pastel-pink: #16aef4;
+  
+  /* Glassmorphism Variables */
+  --glass-bg: rgba(255, 255, 255, 0.15);
+  --glass-border: rgba(255, 255, 255, 0.18);
+  --glass-shadow: 8px 300px 0 rgba(31, 38, 135, 0.15);
+
+  /* Sidebar */
+  --sidebar-collapsed-width: 68px;
+  --sidebar-expanded-width: 250px;
+  --sidebar-bg: linear-gradient(135deg, var(--violet) 60%, var(--pastel-pink) 100%);
+  --sidebar-blur: 12px;
+  --item-active-bg: rgba(255, 255, 255, 0.2);
+  --item-active-border: rgba(255, 255, 255, 0.3);
+  --sidebar-text: rgba(255, 255, 255, 0.9);
+  --sidebar-icon: rgba(255, 255, 255, 0.9);
+  --sidebar-text-active: #fff;
+  --icon-size: 1.6em;
+  --transition: 0.35s cubic-bezier(.7,.2,.3,1);
+
+  /* Card */
+  --card-bg: var(--glass-bg);
+  --card-bg-hover: rgba(255, 255, 255, 0.25);
+  --card-border: var(--glass-border);
+  --card-shadow: var(--glass-shadow);
+  --card-shadow-hover: 0 12px 36px 0 rgba(138, 43, 226, 0.25);
+
+  --icon-bg: linear-gradient(135deg, var(--pinkish-purple) 60%, var(--pastel-pink) 100%);
+  --icon-shadow: 0 4px 18px 0 rgba(216, 180, 254, 0.4);
+  --icon-3d-highlight: linear-gradient(111deg, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.1) 100%);
+
+  /* Text */
+  --primary-text: #fff;
+  --secondary-text: rgba(255, 255, 255, 0.8);
+  --muted-text: rgba(255, 255, 255, 0.6);
+  --accent: var(--neon-blue);
+  --accent-light: var(--pastel-blue);
+
+  --body-bg: linear-gradient(135deg, var(--lavender) 20%, var(--light-purple) 100%);
+}
+
+/* BODY */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: var(--body-bg); /* This uses both colors in gradient */
+  color: #333;
+  min-height: 100vh;
+  margin: 0;
+  background-attachment: fixed; /* Makes gradient cover entire page */
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: var(--sidebar-collapsed-width);
+  height: 100vh;
+   border: 1.5px solid rgba(255,255,255,0.42); 
+  background: var(--sidebar-bg);
+  color: var(--sidebar-text);
+  box-shadow: 2px 0 32px 0 rgba(106, 13, 173, 0.3);
+  border-radius: 0 26px 26px 0;
+  padding: 34px 0 24px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(var(--sidebar-blur));
+  transition: width var(--transition), background var(--transition);
+  overflow-x: hidden;
+}
+
+.sidebar:hover,
+.sidebar:focus-within {
+  width: var(--sidebar-expanded-width);
+  align-items: flex-start;
+  background: linear-gradient(135deg, var(--violet) 0%, var(--deep-purple) 100%);
+}
+
+.logo-container {
+  margin-bottom: 38px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  transition: padding var(--transition);
+}
+.logo-image {
+  width: 1px;
+  height: 1px;
+  object-fit: contain;
+  opacity: 1;
+  transition: opacity var(--transition), padding var(--transition), width var(--transition), height var(--transition);
+  padding-left: 0;
+  filter: drop-shadow(0 1.5px 8px rgba(216, 180, 254, 0.7));
+}
+.sidebar:hover .logo-image,
+.sidebar:focus-within .logo-image {
+  width: 200px;
+  height: 100px;
+  object-fit: contain;
+  opacity: 1;
+  transition: opacity var(--transition), padding var(--transition), width var(--transition), height var(--transition);
+  padding-left: 0;
+  filter: drop-shadow(0 1.5px 8px rgba(216, 180, 254, 0.7));
+}
+.sidebar:hover .logo-container,
+.sidebar:focus-within .logo-container {
+  padding-left: 22px;
+  justify-content: flex-start;
+}
+
+.sidebar-nav {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  align-items: center;
+}
+
+
+.nav-item {
+  width: 48px;
+  height: 48px;
+  margin: 2px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 13px;
+  color: var(--sidebar-text);
+  font-size: 1.15rem;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+  background: none;
+  outline: none;
+  position: relative;
+  transition: 
+    width var(--transition), 
+    background var(--transition), 
+    color var(--transition), 
+    box-shadow var(--transition), 
+    border var(--transition),
+    padding var(--transition);
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sidebar:hover .nav-item,
+.sidebar:focus-within .nav-item {
+  width: calc(100% - 16px);
+  justify-content: flex-start;
+  padding-left: 28px;
+}
+
+.nav-item .nav-icon {
+  font-size: var(--icon-size);
+  color: var(--sidebar-icon);
+  margin-right: 0;
+  transition: color var(--transition), margin var(--transition);
+}
+
+.sidebar:hover .nav-item .nav-icon,
+.sidebar:focus-within .nav-item .nav-icon {
+  margin-right: 18px;
+}
+
+.nav-text {
+  opacity: 0;
+  max-width: 0;
+  color: var(--sidebar-text);
+  white-space: nowrap;
+  transition: opacity var(--transition), max-width var(--transition), margin var(--transition), color var(--transition);
+  overflow: hidden;
+  margin-left: 0;
+  font-size: 1.09em;
+}
+
+.sidebar:hover .nav-text,
+.sidebar:focus-within .nav-text {
+  opacity: 1;
+  max-width: 200px;
+  margin-left: 2px;
+}
+
+.nav-item.active,
+.nav-item:focus,
+.nav-item:hover {
+  background: var(--item-active-bg);
+  color: var(--sidebar-text-active);
+  box-shadow: 0 1.5px 12px 0 rgba(216, 180, 254, 0.3), 0 0.5px 1px rgba(255, 255, 255, 0.2) inset;
+  border: 1.5px solid var(--item-active-border);
+  backdrop-filter: blur(7px);
+}
+
+.nav-item.active .nav-icon,
+.nav-item:hover .nav-icon,
+.nav-item:focus .nav-icon {
+  color: var(--sidebar-text-active);
+}
+
+.nav-item.active .nav-text,
+.nav-item:hover .nav-text,
+.nav-item:focus .nav-text {
+  color: var(--sidebar-text-active);
+}
+
+/* Responsive: mobile shrinks sidebar, keeps UX */
+@media (max-width: 700px) {
+  :root {
+    --sidebar-collapsed-width: 54px;
+    --sidebar-expanded-width: 140px;
+    --icon-size: 1.18em;
+  }
+  .sidebar {
+    border-radius: 0 14px 14px 0;
+    padding: 16px 0;
+    align-items: center;
+  }
+  .logo-container { margin-bottom: 16px; }
+  .logo-image { 
+    width: 32px; 
+    height: 32px; 
+  }
+  .sidebar:hover .logo-image,
+  .sidebar:focus-within .logo-image {
+    width: 36px;
+    height: 36px;
+  }
+  .nav-item { height: 38px; font-size: 1em; }
+  .sidebar:hover .nav-item,
+  .sidebar:focus-within .nav-item {
+    padding-left: 14px;
+  }
+}
+.main-content {
+  margin-left: 84px;
+  padding: 24px;
+  width: calc(100% - 84px);
+  min-height: 100vh;
+  background: transparent;
+  transition: margin-left 0.4s cubic-bezier(.7,.2,.3,1);
+}
+.sidebar:hover ~ .main-content {
+  margin-left: 210px;
+  width: calc(100% - 210px);
+}
+.interests-container {
+  min-height: 100vh;
+  padding: 16px;
+}
+.interests-content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-radius: 24px;
+  padding: 2.3rem 1.6rem;
+  background: rgba(255, 255, 255, 0.22);
+  border: 1.3px solid rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(168, 129, 255, 0.18);
+  backdrop-filter: blur(12px);
+  text-align: center;
+  transition: background 0.25s;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(1.8rem, 5vw, 2.5rem);
+  margin-bottom: 1.1rem;
+  color: var(--deep-purple);
+  font-weight: 700;
+  text-shadow: 0 1.5px 7px rgba(255, 255, 255, 0.4);
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(1.2rem, 3vw, 1.6rem);
+  margin: 2rem 0 1rem;
+  color: var(--violet);
+  position: relative;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+h2::after {
+  content: '';
+  position: absolute;
+  bottom: -7px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 45px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--pinkish-purple) 40%, var(--pastel-blue) 100%);
+  border-radius: 2px;
+}
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 1.6rem;
+  margin: 2rem 0;
+}
+.cards-grid a {
+  text-decoration: none !important;
+}
+
+/* Glassy 3D card */
+.card {
+  background: rgba(255, 255, 255, 0.3);
+  border: 1.5px solid rgba(255, 255, 255, 0.45);
+  box-shadow: 0 8px 32px 0 rgba(168, 129, 255, 0.15);
+  border-radius: 18px;
+  padding: 1.4rem 1.0rem;
+  min-height: 155px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-text);
+  text-decoration: none;
+  position: relative;
+  overflow: visible;
+  transition:
+    background 0.25s,
+    box-shadow 0.25s,
+    transform 0.18s;
+  cursor: pointer;
+  outline: none;
+}
+.card:focus-visible {
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 0 3px rgba(216, 180, 254, 0.4), var(--card-shadow);
+}
+.card:hover, .card:focus, .card:active {
+  background: var(--card-bg-hover);
+  box-shadow: var(--card-shadow-hover);
+  transform: translateY(-5px) scale(1.032);
+}
+
+.card .icon {
+  font-size: 2.4rem;
+  margin-bottom: 1.0rem;
+  color: white;
+  z-index: 2;
+  background: var(--icon-bg);
+  border-radius: 16px;
+  padding: 17px;
+  box-shadow: var(--icon-shadow);
+  position: relative;
+  transition:
+    filter 0.3s,
+    box-shadow 0.3s,
+    transform 0.20s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card .icon::before {
+  content: '';
+  position: absolute;
+  left: 16%;
+  top: 15%;
+  width: 55%;
+  height: 37%;
+  background: var(--icon-3d-highlight);
+  border-radius: 60% 40% 60% 40%/70% 30% 60% 40%;
+  filter: blur(2.5px);
+  z-index: 3;
+  pointer-events: none;
+}
+.card .icon::after {
+  content: '';
+  position: absolute;
+  right: 9%;
+  bottom: 8%;
+  width: 10px;
+  height: 7px;
+  background: radial-gradient(circle, #ffffff 35%, #fff0 100%);
+  opacity: 0.16;
+  z-index: 3;
+  pointer-events: none;
+}
+.card:hover .icon,
+.card:focus .icon {
+  color: white;
+  filter: brightness(1.14);
+  box-shadow: 0 7px 22px 0 rgba(0, 245, 255, 0.3);
+  transform: scale(1.06) perspective(80px) rotateX(2deg) rotateY(-4deg);
+}
+.card h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(1.02rem, 2vw, 1.15rem);
+  color: var(--primary-text);
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  z-index: 2;
+  text-shadow: 0 1px 5px rgba(106, 13, 173, 0.4);
+  transition: color 0.3s;
+}
+.card:hover h3, .card:focus h3 { 
+  color: white;
+  text-shadow: 0 0 8px var(--neon-blue);
+}
+.card .level {
+  font-size: 0.92rem;
+  color: var(--primary-text);
+  background: rgba(255, 255, 255, 0.2);
+  padding: 6px 14px;
+  border-radius: 12px;
+  margin-top: 1px;
+  font-weight: 500;
+  transition: all 0.22s;
+  box-shadow: 0 0 6px rgba(216, 180, 254, 0.2);
+  z-index: 2;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.card:hover .level, .card:focus .level {
+  background: var(--pinkish-purple);
+  color: white;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+  .cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.1rem;
+  }
+  .main-content { padding: 10px; }
+  .interests-content { padding: 1.2rem; }
+}
+@media (max-width: 600px) {
+  .sidebar { width: 54px; }
+  .sidebar:hover { width: 130px;}
+  .main-content { margin-left: 54px; width: calc(100% - 54px);}
+  .sidebar:hover ~ .main-content { margin-left: 130px; width: calc(100% - 130px);}
+  .nav-item { width: 38px; height: 38px; }
+  .nav-item .nav-icon { font-size: 17px; min-width: 22px; height: 22px; }
+  .cards-grid { grid-template-columns: 1fr; gap: 0.7rem;}
+  .card { min-height: 100px; padding: 0.5rem;}
+}
+
+/* Neon glow effects */
+.neon-effect {
+  text-shadow: 0 0 5px var(--neon-blue), 0 0 10px var(--neon-blue), 0 0 15px var(--neon-blue);
+  transition: text-shadow 0.3s ease;
+}
+
+/* Gradient overlays */
+.gradient-overlay {
+  position: relative;
+}
+
+.gradient-overlay::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(138, 43, 226, 0.1) 0%, rgba(216, 180, 254, 0.1) 100%);
+  border-radius: inherit;
+  pointer-events: none;
+}
+    </style>
+</head>
+<body>
+  <!-- Sidebar Navigation -->
+ <div class="sidebar">
+  <div class="logo-container">
+    <img src="../static/images/logo.png" alt="Roadmap Logo" class="logo-image">
+  </div>
+  <div class="sidebar-nav">
+    <a href="/interests" class="nav-item {% if active_page == 'interests' %}active{% endif %}">
+                <span class="nav-icon">📖</span>
+                <span class="nav-text">Roadmaps</span>
+            </a>
+            <a href="/activity" class="nav-item {% if active_page == 'activity' %}active{% endif %}">
+                <span class="nav-icon">🏃</span>
+                <span class="nav-text">Activity</span>
+            </a>
+            <a href="/profile" class="nav-item {% if active_page == 'profile' %}active{% endif %}">
+                <span class="nav-icon">👤</span>
+                <span class="nav-text">Profile</span>
+            </a>
+  </div>
+</div>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <div class="interests-container">
+        <div class="interests-content">
+            <h1>What do you want to learn today?</h1>
+            
+            <h2>Role-Based Roadmaps</h2>
+            <div class="cards-grid">
+                <a href="{{ card_links['Frontend'] }}">
+                    <div class="card" data-interest="frontend" tabindex="0" role="button" aria-label="Frontend">
+                      <div class="icon"><i class="fas fa-laptop-code"></i></div>
+                      <h3>Frontend</h3>
+                      <span class="level">Web Development</span>
+                    </div> 
+                </a>
+                <a href="{{ card_links['Backend'] }}">
+                    <div class="card" data-interest="backend" tabindex="0" role="button" aria-label="Backend">
+                        <div class="icon"><i class="fas fa-server"></i></div>
+                        <h3>Backend</h3>
+                        <span class="level">Server-side</span>
+                    </div>
+                </a>
+                <a href="/index?role=DevOps">
+                    <div class="card" data-interest="devops" tabindex="0" role="button" aria-label="DevOps">
+                        <div class="icon"><i class="fas fa-cogs"></i></div>
+                        <h3>DevOps</h3>
+                        <span class="level">Infrastructure</span>
+                    </div>
+                </a>
+                <a href="/index?role=Full_Stack">
+                    <div class="card" data-interest="fullstack" tabindex="0" role="button" aria-label="Full Stack">
+                        <div class="icon"><i class="fas fa-layer-group"></i></div>
+                        <h3>Full Stack</h3>
+                        <span class="level">End-to-End</span>
+                    </div>
+                </a>
+                <a href="/index?role=AI_Engineer">
+                    <div class="card" data-interest="AI_Engineer" tabindex="0" role="button" aria-label="AI Engineer">
+                        <div class="icon"><i class="fas fa-robot"></i></div>
+                        <h3>AI Engineer</h3>
+                        <span class="level">Machine Learning</span>
+                    </div>
+                </a>
+                <a href="/index?role=Data_Analyst">
+                    <div class="card" data-interest="data-analyst" tabindex="0" role="button" aria-label="Data Analyst">
+                        <div class="icon"><i class="fas fa-chart-line"></i></div>
+                        <h3>Data Analyst</h3>
+                        <span class="level">Analytics</span>
+                    </div>
+                </a>
+                <a href="/index?role=AI&Data_Scientist">
+                    <div class="card" data-interest="AI_Data_Scientist" tabindex="0" role="button" aria-label="AI and Data Scientist">
+                        <div class="icon"><i class="fas fa-microscope"></i></div>
+                        <h3>AI & Data Scientist</h3>
+                        <span class="level">Advanced Analytics</span>
+                    </div>
+                </a>
+                <a href="/index?role=Android">
+                    <div class="card" data-interest="android" tabindex="0" role="button" aria-label="Android">
+                        <div class="icon"><i class="fab fa-android"></i></div>
+                        <h3>Android</h3>
+                        <span class="level">Mobile</span>
+                    </div>
+                </a>
+                <a href="/index?role=iOS">
+                    <div class="card" data-interest="ios" tabindex="0" role="button" aria-label="iOS">
+                        <div class="icon"><i class="fab fa-apple"></i></div>
+                        <h3>iOS</h3>
+                        <span class="level">Mobile</span>
+                    </div>
+                </a>
+                <a href="/index?role=PostgreSQL">
+                    <div class="card" data-interest="postgresql" tabindex="0" role="button" aria-label="PostgreSQL">
+                        <div class="icon"><i class="fas fa-database"></i></div>
+                        <h3>PostgreSQL</h3>
+                        <span class="level">Database</span>
+                    </div>
+                </a>
+                <a href="/index?role=Blockchain">
+                    <div class="card" data-interest="blockchain" tabindex="0" role="button" aria-label="Blockchain">
+                        <div class="icon"><i class="fas fa-link"></i></div>
+                        <h3>Blockchain</h3>
+                        <span class="level">Distributed Systems</span>
+                    </div>
+                </a>
+                <a href="/index?role=Software_Architect">
+                    <div class="card" data-interest="software-architect" tabindex="0" role="button" aria-label="Software Architect">
+                        <div class="icon"><i class="fas fa-project-diagram"></i></div>
+                        <h3>Software Architect</h3>
+                        <span class="level">System Design</span>
+                    </div>
+                </a>
+                <a href="/index?role=Cyber_Security">
+                    <div class="card" data-interest="cyber-security" tabindex="0" role="button" aria-label="Cyber Security">
+                        <div class="icon"><i class="fas fa-shield-alt"></i></div>
+                        <h3>Cyber Security</h3>
+                        <span class="level">Security</span>
+                    </div>
+                </a>
+                <a href="/index?role=UX_Design">
+                    <div class="card" data-interest="ux-design" tabindex="0" role="button" aria-label="UX Design">
+                        <div class="icon"><i class="fas fa-paint-brush"></i></div>
+                        <h3>UX Design</h3>
+                        <span class="level">Design</span>
+                    </div>
+                </a>
+                <a href="/index?role=Game_Developer">
+                    <div class="card" data-interest="game-developer" tabindex="0" role="button" aria-label="Game Developer">
+                        <div class="icon"><i class="fas fa-gamepad"></i></div>
+                        <h3>Game Developer</h3>
+                        <span class="level">Gaming</span>
+                    </div>
+                </a>
+                <a href="/index?role=Technical_Writer">
+                    <div class="card" data-interest="technical-writer" tabindex="0" role="button" aria-label="Technical Writer">
+                        <div class="icon"><i class="fas fa-pen-fancy"></i></div>
+                        <h3>Technical Writer</h3>
+                        <span class="level">Documentation</span>
+                    </div>
+                </a>
+                <a href="/index?role=MLOps">
+                    <div class="card" data-interest="mlops" tabindex="0" role="button" aria-label="MLOps">
+                        <div class="icon"><i class="fas fa-robot"></i></div>
+                        <h3>MLOps</h3>
+                        <span class="level">AI Operations</span>
+                    </div>
+                </a>
+                <a href="/index?role=Product_Manager">
+                    <div class="card" data-interest="product-manager" tabindex="0" role="button" aria-label="Product Manager">
+                        <div class="icon"><i class="fas fa-tasks"></i></div>
+                        <h3>Product Manager</h3>
+                        <span class="level">Management</span>
+                    </div>
+                </a>
+            </div>
+            
+            <h2>Skill-based Roadmaps</h2>
+            <div class="cards-grid">
+                <a href="/index?role=SQL">
+                    <div class="card" data-interest="sql" tabindex="0" role="button" aria-label="SQL">
+                     <div class="icon"><i class="fas fa-database"></i></div>
+                        <h3>SQL</h3>
+                        <span class="level">Essential</span>
+                    </div>
+                </a>
+                <a href="/index?role=React">
+                    <div class="card" data-interest="react" tabindex="0" role="button" aria-label="React">
+                        <div class="icon"><i class="fab fa-react"></i></div>
+                        <h3>React</h3>
+                        <span class="level">Frontend</span>
+                    </div>
+                </a>
+                <a href="/index?role=Python">
+                    <div class="card" data-interest="python" tabindex="0" role="button" aria-label="Python">
+                        <div class="icon"><i class="fab fa-python"></i></div>
+                        <h3>Python</h3>
+                        <span class="level">Versatile</span>
+                    </div>
+                </a>
+                <a href="/index?role=JavaScript">
+                    <div class="card" data-interest="javascript" tabindex="0" role="button" aria-label="JavaScript">
+                        <div class="icon"><i class="fab fa-js"></i></div>
+                        <h3>JavaScript</h3>
+                        <span class="level">Core</span>
+                    </div>
+                </a>
+                <a href="/index?role=AWS">
+                    <div class="card" data-interest="aws" tabindex="0" role="button" aria-label="AWS">
+                          <div class="icon"><i class="fab fa-aws"></i></div>
+                        <h3>AWS</h3>
+                        <span class="level">Cloud</span>
+                    </div>
+                </a>
+                <a href="/index?role=Docker">
+                    <div class="card" data-interest="docker" tabindex="0" role="button" aria-label="Docker">
+                        <div class="icon"><i class="fab fa-docker"></i></div>
+                        <h3>Docker</h3>
+                        <span class="level">DevOps</span>
+                    </div>
+                </a>
+                <a href="/index?role=Git&GitHub">
+                    <div class="card" data-interest="git" tabindex="0" role="button" aria-label="Git">
+                        <div class="icon"><i class="fab fa-git-alt"></i></div>
+                        <h3>Git & GitHub</h3>
+                        <span class="level">Essential</span>
+                    </div>
+                </a>
+                <a href="/index?role=Node_js">
+                    <div class="card" data-interest="nodejs" tabindex="0" role="button" aria-label="Node.js">
+                        <div class="icon"><i class="fab fa-node-js"></i></div>
+                        <h3>Node.js</h3>
+                        <span class="level">Backend</span>
+                    </div>
+                </a>
+                <a href="/index?role=TypeScript">
+                    <div class="card" data-interest="typescript" tabindex="0" role="button" aria-label="TypeScript">
+                        <div class="icon"><i class="fas fa-code"></i></div>
+                        <h3>TypeScript</h3>
+                        <span class="level">Advanced</span>
+                    </div>
+                </a>
+                <a href="/index?role=GraphQL">
+                    <div class="card" data-interest="graphql" tabindex="0" role="button" aria-label="GraphQL">
+                        <div class="icon"><i class="fas fa-project-diagram"></i></div>
+                        <h3>GraphQL</h3>
+                        <span class="level">API</span>
+                    </div>
+                </a>
+                <a href="/index?role=Kubernetes">
+                    <div class="card" data-interest="kubernetes" tabindex="0" role="button" aria-label="Kubernetes">
+                        <div class="icon"><i class="fas fa-ship"></i></div>
+                        <h3>Kubernetes</h3>
+                        <span class="level">Advanced</span>
+                    </div>
+                </a>
+                <a href="/index?role=Flutter">
+                    <div class="card" data-interest="flutter" tabindex="0" role="button" aria-label="Flutter">
+                        <div class="icon"><i class="fas fa-mobile-alt"></i></div>
+                        <h3>Flutter</h3>
+                        <span class="level">Mobile</span>
+                    </div>
+                </a>
+                <a href="/index?role=DSA">
+                    <div class="card" data-interest="algorithms" tabindex="0" role="button" aria-label="Algorithms">
+                       <div class="icon"><i class="fas fa-sort-amount-up"></i></div>
+                        <h3>DSA</h3>
+                        <span class="level">Core</span>
+                    </div>
+                </a>
+                <a href="/index?role=Linux">
+                    <div class="card" data-interest="linux" tabindex="0" role="button" aria-label="Linux">
+                     <div class="icon"><i class="fab fa-linux"></i></div>
+                        <h3>Linux</h3>
+                        <span class="level">System</span>
+                    </div>
+                </a>
+                <a href="/index?role=Prompt_Engineering">
+                    <div class="card" data-interest="prompt-engineering" tabindex="0" role="button" aria-label="Prompt Engineering">
+                        <div class="icon"><i class="fas fa-comment-dots"></i></div>
+                        <h3>Prompt Engineering</h3>
+                        <span class="level">AI</span>
+                    </div>
+                </a>
+                <a href="/index?role=Terraform">
+                    <div class="card" data-interest="terraform" tabindex="0" role="button" aria-label="Terraform">
+                         <div class="icon"><i class="fas fa-cloud"></i></div>
+                        <h3>Terraform</h3>
+                        <span class="level">IaC</span>
+                    </div>
+                </a>
+                <a href="/index?role=PHP">
+                    <div class="card" data-interest="php" tabindex="0" role="button" aria-label="PHP">
+                         <div class="icon"><i class="fab fa-php"></i></div>
+                        <h3>PHP</h3>
+                        <span class="level">Backend</span>
+                    </div>
+                </a>
+                <a href="/index?role=Cloudflare">
+                    <div class="card" data-interest="cloudflare" tabindex="0" role="button" aria-label="Cloudflare">
+                          <div class="icon"><i class="fas fa-cloud"></i></div>
+                        <h3>Cloudflare</h3>
+                        <span class="level">Networking</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+  </div>
+  
+
+        <script>
+            // Tab switching functionality
+            const roadmapTab = document.getElementById('roadmapTab');
+            const projectsTab = document.getElementById('projectsTab');
+            const roadmapSection = document.getElementById('roadmapSection');
+            const projectsSection = document.getElementById('projectsSection');
+
+            roadmapTab.addEventListener('click', function () {
+                roadmapTab.classList.add('active');
+                projectsTab.classList.remove('active');
+                roadmapSection.style.display = 'block';
+                projectsSection.style.display = 'none';
+            });
+
+            projectsTab.addEventListener('click', function () {
+                projectsTab.classList.add('active');
+                roadmapTab.classList.remove('active');
+                projectsSection.style.display = 'block';
+                roadmapSection.style.display = 'none';
+            });
+            const backBtn = document.getElementById('backButton');
+            if (backBtn) {
+                backBtn.addEventListener('click', function () {
+                    window.location.href = 'index.html';
+                });
+            }
+
+            // Share button functionality
+            document.getElementById('shareButton').addEventListener('click', function () {
+                if (navigator.share) {
+                    navigator.share({
+                        title: 'Frontend Developer Roadmap 2025',
+                        text: 'Check out this comprehensive frontend developer roadmap for 2025!',
+                        url: window.location.href
+                    }).catch(err => {
+                        console.log('Error sharing:', err);
+                    });
+                } else {
+                    // Fallback for browsers that don't support Web Share API
+                    alert('Share this URL: ' + window.location.href);
+                }
+            });
+
+            // Download button functionality - now working with html2pdf
+            document.getElementById('downloadButton').addEventListener('click', function () {
+                const element = document.getElementById('roadmapSection');
+                const opt = {
+                    margin: 10,
+                    filename: 'frontend-developer-roadmap-2025.pdf',
+                    image: { type: 'jpeg', quality: 0.98 },
+                    html2canvas: { scale: 2 },
+                    jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+                };
+
+                // New Promise-based usage:
+                html2pdf().set(opt).from(element).save();
+            });
+
+            // Progress saving with Flask backend
+            document.querySelectorAll('.step input[type="checkbox"]').forEach(checkbox => {
+                // Load saved state from Flask backend
+                fetch('/get_progress?item=${checkbox.id}')
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.checked) {
+                            checkbox.checked = true;
+                            checkbox.nextElementSibling.parentElement.classList.add('completed');
+                        }
+                    });
+
+                // Save state when changed
+                checkbox.addEventListener('change', function () {
+                    const label = this.nextElementSibling;
+                    if (this.checked) {
+                        label.parentElement.classList.add('completed');
+                    } else {
+                        label.parentElement.classList.remove('completed');
+                    }
+
+                    // Send update to Flask backend
+                    fetch('/save_progress', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({
+                            item: this.id,
+                            checked: this.checked
+                        })
+                    });
+                });
+            });
+
+
+            document.addEventListener('DOMContentLoaded', function () {
+                // Use URL params only to avoid Jinja/Flask issues
+                const params = new URLSearchParams(window.location.search);
+                const startDateStr = params.get('start');
+                const endDateStr = params.get('end');
+                if (!startDateStr || !endDateStr) return;
+
+                const modules = document.querySelectorAll('.module');
+                const n = modules.length;
+                const startDate = new Date(startDateStr);
+                const endDate = new Date(endDateStr);
+                const totalMs = endDate - startDate;
+                const perModuleMs = Math.floor(totalMs / n);
+
+                modules.forEach((mod, i) => {
+                    const deadline = new Date(startDate.getTime() + perModuleMs * (i + 1));
+                    if (i === n - 1) deadline.setTime(endDate.getTime());
+                    const deadlineStr = deadline.toISOString().slice(0, 10);
+
+                    const deadlineDiv = document.createElement('div');
+                    deadlineDiv.style.cssText = 'margin-top:10px;color:#008C8F;font-weight:bold;font-size:1rem;';
+                    deadlineDiv.innerHTML = `<i class="fas fa-calendar-alt"></i> Complete by: <span>${deadlineStr}</span>`;
+                    const desc = mod.querySelector('.module-desc');
+                    if (desc) desc.after(deadlineDiv);
+                });
+            });
+
+
+            // --- PROGRESS TRACKING AND AI DAILY TASK ---
+
+            // Load progress for each checkbox and update UI
+            document.querySelectorAll('.step input[type="checkbox"]').forEach(checkbox => {
+                fetch(`/get_progress?item=${checkbox.id}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.checked) {
+                            checkbox.checked = true;
+                            checkbox.closest('.step').classList.add('completed');
+                        }
+                    });
+                checkbox.addEventListener('change', function () {
+                    if (this.checked) {
+                        this.closest('.step').classList.add('completed');
+                    } else {
+                        this.closest('.step').classList.remove('completed');
+                    }
+                    fetch('/save_progress', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ item: this.id, checked: this.checked })
+                    }).then(resp => resp.json()).then(data => {
+                        if ('streak' in data) {
+                            document.getElementById('streakDays').textContent = data.streak;
+                        }
+                    });
+                });
+            });
+
+            // Show streak count on load
+            fetch('/api/load-progress').then(res => res.json()).then(data => {
+                document.getElementById('streakDays').textContent = data.streak || 0;
+            });
+
+          
+             
+        </script>
+</body>
+
+</html>

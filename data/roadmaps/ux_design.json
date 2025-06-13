@@ -1,0 +1,187 @@
+{
+  "title": "UX Design Roadmap",
+  "description": "A practical learning path for UX Design, focused on behavioral science, product understanding, and prototyping.",
+  "modules": [
+    {
+      "id": "mod1",
+      "title": "Understanding Human Decision Making",
+      "emoji": "🧠",
+      "description": "Learn the behavioral models and frameworks that drive user decisions.",
+      "steps": [
+        { "id": "step1-1", "title": "BJ Fogg’s Behavior Model", "emoji": "📈", "tutorial_url": "https://www.behaviormodel.org/" },
+        { "id": "step1-2", "title": "Stephen Wendell’s CREATE Action Funnel", "emoji": "🔄", "tutorial_url": "https://stephaniewalter.design/blog/quick-guide-to-the-create-action-funnel/" },
+        { "id": "step1-3", "title": "Spectrum of Thinking Interventions", "emoji": "🌈", "tutorial_url": "https://uxdesign.cc/behavioral-design-spectrum-of-interventions-672e7c7d9c5" },
+        { "id": "step1-4", "title": "Dual Process Theory", "emoji": "⚖️", "tutorial_url": "https://www.interaction-design.org/literature/topics/dual-process-theory" },
+        { "id": "step1-5", "title": "Frameworks: Nudge Theory, Persuasive Technology, Behavioral Science, Behavior Design, Behavioral Economics", "emoji": "🧩", "tutorial_url": "https://uxdesign.cc/behavioral-design-frameworks-and-how-to-use-them-7c3a39f20e4a" }
+      ]
+    },
+    {
+      "id": "mod2",
+      "title": "Behavior Change Strategies",
+      "emoji": "🔄",
+      "description": "Explore proven methods for changing user behavior.",
+      "steps": [
+        { "id": "step2-1", "title": "BJ Fogg’s Behavior Grid", "emoji": "🗺️", "tutorial_url": "https://www.behaviorgrid.org/" },
+        { "id": "step2-2", "title": "Changing User’s Behavior & Existing/New Behavior Models", "emoji": "🔬", "tutorial_url": "https://uxdesign.cc/ux-for-behavior-change-10-examples-and-principles-bd6f2b8b4e4e" },
+        { "id": "step2-3", "title": "Nir Eyal’s Hook Model", "emoji": "🪝", "tutorial_url": "https://www.productplan.com/glossary/hook-model/" }
+      ]
+    },
+    {
+      "id": "mod3",
+      "title": "Understanding the Product",
+      "emoji": "📦",
+      "description": "Deep-dive into product goals, outcomes, and user personas.",
+      "steps": [
+        { "id": "step3-1", "title": "Clarify Product & Target Outcome", "emoji": "🎯", "tutorial_url": "https://uxdesign.cc/how-to-define-product-goals-and-metrics-fd8e5e4a8b8f" },
+        { "id": "step3-2", "title": "Target Actor, Action & User Personas", "emoji": "🧑‍💼", "tutorial_url": "https://www.interaction-design.org/literature/topics/user-personas" }
+      ]
+    },
+    {
+      "id": "mod4",
+      "title": "Business Model",
+      "emoji": "🏢",
+      "description": "Understand business models and how they impact UX.",
+      "steps": [
+        { "id": "step4-1", "title": "Business Model Canvas, Lean Canvas, Inspirator", "emoji": "📝", "tutorial_url": "https://www.strategyzer.com/canvas/business-model-canvas" }
+      ]
+    },
+    {
+      "id": "mod5",
+      "title": "Competitor Analysis",
+      "emoji": "🔎",
+      "description": "Analyze competitors and define your target audience.",
+      "steps": [
+        { "id": "step5-1", "title": "Five Forces Model & SWOT Analysis", "emoji": "⚔️", "tutorial_url": "https://www.mindtools.com/pages/article/newTMC_05.htm" },
+        { "id": "step5-2", "title": "Define Target Users", "emoji": "🎯", "tutorial_url": "https://www.interaction-design.org/literature/article/target-audience-analysis-in-user-experience-ux-research" }
+      ]
+    },
+    {
+      "id": "mod6",
+      "title": "Conceptual Design",
+      "emoji": "🗺️",
+      "description": "Visualize the user's journey with mapping and flowcharts.",
+      "steps": [
+        { "id": "step6-1", "title": "Customer Experience Map, Simple Flowchart, EPC, BPMN", "emoji": "🗺️", "tutorial_url": "https://www.nngroup.com/articles/customer-journey-mapping/" }
+      ]
+    },
+    {
+      "id": "mod7",
+      "title": "Wireframing",
+      "emoji": "✏️",
+      "description": "Turn ideas into tangible wireframes and prototypes.",
+      "steps": [
+        { "id": "step7-1", "title": "User Stories, Adobe XD, Sketch, Balsamiq, Figma", "emoji": "📐", "tutorial_url": "https://www.youtube.com/watch?v=O6Xo21L0ybE" },
+        { "id": "step7-2", "title": "Create Product Backlog", "emoji": "📋", "tutorial_url": "https://www.interaction-design.org/literature/topics/user-stories" }
+      ]
+    },
+    {
+      "id": "mod8",
+      "title": "Good Layout Rules & UX Patterns",
+      "emoji": "🖼️",
+      "description": "Learn rules and patterns to make layouts engaging and intuitive.",
+      "steps": [
+        { "id": "step8-1", "title": "Attention, Reminders, Gamification, Social Sharing, Tutorials", "emoji": "🎮", "tutorial_url": "https://uxdesign.cc/ux-patterns-you-should-know-8e67ac5f2d72" }
+      ]
+    },
+    {
+      "id": "mod9",
+      "title": "UX Best Practices",
+      "emoji": "✅",
+      "description": "Apply advanced UX best practices for impactful designs.",
+      "steps": [
+        { "id": "step9-1", "title": "Attention, Cognitive & Emotional Techniques, Positive Intuitive Reaction, Conscious Evaluation, Creating Urgency", "emoji": "⚡", "tutorial_url": "https://www.smashingmagazine.com/2013/09/psychology-of-ux/" }
+      ]
+    },
+    {
+      "id": "mod10",
+      "title": "Measuring the Impact",
+      "emoji": "📊",
+      "description": "Test, measure, and iterate on your UX designs.",
+      "steps": [
+        { "id": "step10-1", "title": "A/B Testing, Multivariate Testing, Gathering Lessons, Continuous Improvement", "emoji": "🧪", "tutorial_url": "https://www.optimizely.com/optimization-glossary/ab-testing/" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "User Persona and Journey Map",
+      "level": "Beginner",
+      "emoji": "🧑‍💼",
+      "description": "Create a user persona and customer journey map for a digital product.",
+      "concepts": [
+        "User personas",
+        "Journey mapping",
+        "Empathy mapping"
+      ],
+      "tutorial_url": "https://www.nngroup.com/articles/customer-journey-mapping/",
+      "guide_urls": [
+        { "label": "Persona Guide", "url": "https://www.interaction-design.org/literature/topics/user-personas" }
+      ]
+    },
+    {
+      "id": "proj2",
+      "title": "Wireframe a Mobile App",
+      "level": "Beginner",
+      "emoji": "📱",
+      "description": "Build wireframes for a simple mobile app using Figma or Adobe XD.",
+      "concepts": [
+        "Wireframing",
+        "Prototyping",
+        "Mobile UX"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=O6Xo21L0ybE",
+      "guide_urls": [
+        { "label": "Figma Wireframing Guide", "url": "https://help.figma.com/hc/en-us/articles/360040450373-Create-wireframes-in-Figma" }
+      ]
+    },
+    {
+      "id": "proj3",
+      "title": "A/B Test a Signup Flow",
+      "level": "Intermediate",
+      "emoji": "🧪",
+      "description": "Design and test two versions of a signup flow to optimize conversion.",
+      "concepts": [
+        "A/B testing",
+        "Conversion optimization",
+        "Analytics"
+      ],
+      "tutorial_url": "https://www.optimizely.com/optimization-glossary/ab-testing/",
+      "guide_urls": [
+        { "label": "A/B Testing Guide", "url": "https://uxdesign.cc/a-b-testing-for-ux-designers-bf3a2f8b4c71" }
+      ]
+    },
+    {
+      "id": "proj4",
+      "title": "Competitor UX Analysis",
+      "level": "Intermediate",
+      "emoji": "⚔️",
+      "description": "Perform a competitor UX analysis using SWOT and Five Forces models.",
+      "concepts": [
+        "SWOT analysis",
+        "Five Forces",
+        "Competitive UX"
+      ],
+      "tutorial_url": "https://www.mindtools.com/pages/article/newTMC_05.htm",
+      "guide_urls": [
+        { "label": "SWOT Analysis Guide", "url": "https://www.smartsheet.com/how-to-do-a-swot-analysis" }
+      ]
+    },
+    {
+      "id": "proj5",
+      "title": "Gamified Feature Prototype",
+      "level": "Advanced",
+      "emoji": "🎮",
+      "description": "Design and prototype a gamified feature for an app to drive engagement.",
+      "concepts": [
+        "Gamification",
+        "UX patterns",
+        "Prototyping"
+      ],
+      "tutorial_url": "https://uxdesign.cc/ux-patterns-you-should-know-8e67ac5f2d72",
+      "guide_urls": [
+        { "label": "Gamification Guide", "url": "https://www.interaction-design.org/literature/topics/gamification" }
+      ]
+    }
+  ]
+}

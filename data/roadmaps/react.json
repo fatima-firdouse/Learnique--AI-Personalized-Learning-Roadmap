@@ -1,0 +1,342 @@
+{
+  "title": "React Developer Roadmap",
+  "description": "A practical learning path for React development.",
+  "modules": [
+    {
+      "id": "mod1",
+      "title": "JavaScript Roadmap (Pre-React)",
+      "emoji": "🧭",
+      "description": "Master JavaScript fundamentals before diving into React.",
+      "steps": [
+        {
+          "id": "step1-1",
+          "title": "Beginner JavaScript Topics",
+          "emoji": "📚",
+          "tutorial_url": "https://www.youtube.com/watch?v=PkZNo7MFNFg"
+        }
+      ]
+    },
+    {
+      "id": "mod2",
+      "title": "CLI Tools",
+      "emoji": "⚙️",
+      "description": "Set up your React project with modern CLI tools.",
+      "steps": [
+        {
+          "id": "step2-1",
+          "title": "Vite",
+          "emoji": "⚡",
+          "tutorial_url": "https://www.youtube.com/watch?v=vd7q4bHt-F4"
+        }
+      ]
+    },
+    {
+      "id": "mod3",
+      "title": "Components",
+      "emoji": "🧩",
+      "description": "Understand the building blocks of React.",
+      "steps": [
+        { "id": "step3-1", "title": "Functional Components", "emoji": "🛠️", "tutorial_url": "https://react.dev/learn/your-first-component" },
+        { "id": "step3-2", "title": "JSX", "emoji": "🔤", "tutorial_url": "https://react.dev/learn/writing-markup-with-jsx" },
+        { "id": "step3-3", "title": "Props vs State", "emoji": "🔄", "tutorial_url": "https://www.youtube.com/watch?v=IYvD9oBCuJI" },
+        { "id": "step3-4", "title": "Conditional Rendering", "emoji": "🔀", "tutorial_url": "https://react.dev/learn/conditional-rendering" },
+        { "id": "step3-5", "title": "Composition", "emoji": "🧬", "tutorial_url": "https://react.dev/learn/passing-props-to-a-component" },
+        { "id": "step3-6", "title": "Component Basics", "emoji": "🔧", "tutorial_url": "https://react.dev/learn/your-first-component" }
+      ]
+    },
+    {
+      "id": "mod4",
+      "title": "Hooks",
+      "emoji": "🪝",
+      "description": "Supercharge your React components with hooks.",
+      "steps": [
+        { "id": "step4-1", "title": "useState", "emoji": "🔄", "tutorial_url": "https://react.dev/reference/react/useState" },
+        { "id": "step4-2", "title": "useEffect", "emoji": "⚡", "tutorial_url": "https://react.dev/reference/react/useEffect" },
+        { "id": "step4-3", "title": "useCallback", "emoji": "🔁", "tutorial_url": "https://react.dev/reference/react/useCallback" },
+        { "id": "step4-4", "title": "useMemo", "emoji": "🧠", "tutorial_url": "https://react.dev/reference/react/useMemo" },
+        { "id": "step4-5", "title": "useRef", "emoji": "📌", "tutorial_url": "https://react.dev/reference/react/useRef" },
+        { "id": "step4-6", "title": "useReducer", "emoji": "➖", "tutorial_url": "https://react.dev/reference/react/useReducer" },
+        { "id": "step4-7", "title": "useContext", "emoji": "🌐", "tutorial_url": "https://react.dev/reference/react/useContext" },
+        { "id": "step4-8", "title": "Creating Custom Hooks", "emoji": "🛠️", "tutorial_url": "https://react.dev/learn/reusing-logic-with-custom-hooks" },
+        { "id": "step4-9", "title": "Hooks Best Practices", "emoji": "✅", "tutorial_url": "https://www.youtube.com/watch?v=TNhaISOUy6Q" }
+      ]
+    },
+    {
+      "id": "mod5",
+      "title": "Rendering",
+      "emoji": "🖥️",
+      "description": "Master the React rendering process.",
+      "steps": [
+        { "id": "step5-1", "title": "Component Lifecycle", "emoji": "⏳", "tutorial_url": "https://www.youtube.com/watch?v=UJE1D8VfJZo" },
+        { "id": "step5-2", "title": "Lists and Keys", "emoji": "🔑", "tutorial_url": "https://react.dev/learn/rendering-lists" },
+        { "id": "step5-3", "title": "Render Props", "emoji": "🎭", "tutorial_url": "https://www.freecodecamp.org/news/react-render-props-pattern/" },
+        { "id": "step5-4", "title": "Refs", "emoji": "🔗", "tutorial_url": "https://react.dev/learn/referencing-values-with-refs" },
+        { "id": "step5-5", "title": "Events", "emoji": "⚡", "tutorial_url": "https://react.dev/learn/responding-to-events" },
+        { "id": "step5-6", "title": "High Order Components", "emoji": "🔝", "tutorial_url": "https://react.dev/reference/react/Component#higher-order-components" }
+      ]
+    },
+    {
+      "id": "mod6",
+      "title": "Component / Libraries",
+      "emoji": "📦",
+      "description": "Explore popular component libraries.",
+      "steps": [
+        { "id": "step6-1", "title": "Material UI", "emoji": "🎨", "tutorial_url": "https://mui.com/getting-started/usage/" },
+        { "id": "step6-2", "title": "Chakra UI", "emoji": "💠", "tutorial_url": "https://chakra-ui.com/getting-started" },
+        { "id": "step6-3", "title": "Shadcn UI", "emoji": "🌗", "tutorial_url": "https://ui.shadcn.com/docs/installation" }
+      ]
+    },
+    {
+      "id": "mod7",
+      "title": "Writing CSS",
+      "emoji": "🎨",
+      "description": "Style your React apps with modern CSS solutions.",
+      "steps": [
+        { "id": "step7-1", "title": "Panda CSS", "emoji": "🐼", "tutorial_url": "https://panda-css.com/docs/introduction" },
+        { "id": "step7-2", "title": "CSS Modules", "emoji": "📦", "tutorial_url": "https://www.youtube.com/watch?v=Eln6vR0wJdE" },
+        { "id": "step7-3", "title": "Tailwind CSS", "emoji": "💨", "tutorial_url": "https://tailwindcss.com/docs/guides/create-react-app" }
+      ]
+    },
+    {
+      "id": "mod8",
+      "title": "State Management",
+      "emoji": "🗃️",
+      "description": "Manage state in your React apps.",
+      "steps": [
+        { "id": "step8-1", "title": "MobX", "emoji": "🔁", "tutorial_url": "https://mobx.js.org/intro/overview.html" },
+        { "id": "step8-2", "title": "Context", "emoji": "🌐", "tutorial_url": "https://react.dev/learn/passing-data-deeply-with-context" },
+        { "id": "step8-3", "title": "Zustand", "emoji": "🐻", "tutorial_url": "https://docs.pmnd.rs/zustand/getting-started/introduction" },
+        { "id": "step8-4", "title": "Jotai", "emoji": "⚛️", "tutorial_url": "https://jotai.org/docs/introduction" }
+      ]
+    },
+    {
+      "id": "mod9",
+      "title": "Routers",
+      "emoji": "🗺️",
+      "description": "Navigate between pages in React.",
+      "steps": [
+        { "id": "step9-1", "title": "React Router", "emoji": "🚦", "tutorial_url": "https://reactrouter.com/en/main/start/tutorial" },
+        { "id": "step9-2", "title": "Tanstack Router", "emoji": "🛣️", "tutorial_url": "https://tanstack.com/router/v1/docs/overview" }
+      ]
+    },
+    {
+      "id": "mod10",
+      "title": "Headless Component Libraries",
+      "emoji": "👤",
+      "description": "Build accessible UIs with headless libraries.",
+      "steps": [
+        { "id": "step10-1", "title": "Radix UI", "emoji": "📐", "tutorial_url": "https://www.radix-ui.com/docs/primitives/overview/introduction" },
+        { "id": "step10-2", "title": "React Aria", "emoji": "🦻", "tutorial_url": "https://react-spectrum.adobe.com/react-aria/getting-started.html" },
+        { "id": "step10-3", "title": "Ark UI", "emoji": "🧰", "tutorial_url": "https://ark-ui.com/react/installation" }
+      ]
+    },
+    {
+      "id": "mod11",
+      "title": "API Calls",
+      "emoji": "🔗",
+      "description": "Fetch and manage remote data in React.",
+      "steps": [
+        { "id": "step11-1", "title": "GraphQL: Apollo, Relay, urql", "emoji": "🔮", "tutorial_url": "https://www.apollographql.com/docs/react/get-started/" },
+        { "id": "step11-2", "title": "REST: axios, swr, react-query, rtk-query", "emoji": "🌐", "tutorial_url": "https://www.youtube.com/watch?v=8SW4F1PM7MQ" }
+      ]
+    },
+    {
+      "id": "mod12",
+      "title": "Testing",
+      "emoji": "🧪",
+      "description": "Ensure your React apps work as expected.",
+      "steps": [
+        { "id": "step12-1", "title": "Vitest", "emoji": "🟦", "tutorial_url": "https://vitest.dev/guide/" },
+        { "id": "step12-2", "title": "Jest", "emoji": "🟨", "tutorial_url": "https://jestjs.io/docs/getting-started" },
+        { "id": "step12-3", "title": "react-testing-library", "emoji": "🧪", "tutorial_url": "https://testing-library.com/docs/react-testing-library/intro/" },
+        { "id": "step12-4", "title": "Cypress", "emoji": "🌲", "tutorial_url": "https://docs.cypress.io/guides/getting-started/installing-cypress" },
+        { "id": "step12-5", "title": "Playwright", "emoji": "🎭", "tutorial_url": "https://playwright.dev/docs/intro" }
+      ]
+    },
+    {
+      "id": "mod13",
+      "title": "Types & Validation",
+      "emoji": "🔍",
+      "description": "Add static typing and data validation to your React code.",
+      "steps": [
+        { "id": "step13-1", "title": "TypeScript", "emoji": "🔡", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/react.html" },
+        { "id": "step13-2", "title": "Zod", "emoji": "🧩", "tutorial_url": "https://zod.dev/?id=usage-with-react" }
+      ]
+    },
+    {
+      "id": "mod14",
+      "title": "Forms",
+      "emoji": "📝",
+      "description": "Build complex and accessible forms in React.",
+      "steps": [
+        { "id": "step14-1", "title": "React Hook Form", "emoji": "🪝", "tutorial_url": "https://react-hook-form.com/get-started" },
+        { "id": "step14-2", "title": "Formik", "emoji": "📄", "tutorial_url": "https://formik.org/docs/overview" }
+      ]
+    },
+    {
+      "id": "mod15",
+      "title": "Frameworks",
+      "emoji": "🦄",
+      "description": "Build large scale React apps with frameworks.",
+      "steps": [
+        { "id": "step15-1", "title": "react-router", "emoji": "🗺️", "tutorial_url": "https://reactrouter.com/en/main/start/tutorial" },
+        { "id": "step15-2", "title": "Astro", "emoji": "✨", "tutorial_url": "https://docs.astro.build/en/getting-started/" },
+        { "id": "step15-3", "title": "Next.js", "emoji": "🚀", "tutorial_url": "https://nextjs.org/learn" }
+      ]
+    },
+    {
+      "id": "mod16",
+      "title": "Advanced Topics",
+      "emoji": "🚀",
+      "description": "Go beyond the basics with advanced React techniques.",
+      "steps": [
+        { "id": "step16-1", "title": "Animation: Framer Motion, react-spring, GSock", "emoji": "🎞️", "tutorial_url": "https://www.youtube.com/watch?v=1tavDv5hXpo" },
+        { "id": "step16-2", "title": "Error Boundaries", "emoji": "🚧", "tutorial_url": "https://react.dev/reference/react/Component#catching-rendering-errors-with-an-error-boundary" },
+        { "id": "step16-3", "title": "Server APIs", "emoji": "🖥️", "tutorial_url": "https://nextjs.org/docs/app/building-your-application/routing/api-routes" },
+        { "id": "step16-4", "title": "Suspense", "emoji": "⏳", "tutorial_url": "https://react.dev/reference/react/Suspense" },
+        { "id": "step16-5", "title": "Portals", "emoji": "🌀", "tutorial_url": "https://react.dev/reference/react-dom/createPortal" }
+      ]
+    },
+    {
+      "id": "mod17",
+      "title": "Mobile Applications",
+      "emoji": "📱",
+      "description": "Go mobile with React Native.",
+      "steps": [
+        { "id": "step17-1", "title": "React Native", "emoji": "📲", "tutorial_url": "https://reactnative.dev/docs/environment-setup" }
+      ]
+    },
+    {
+      "id": "mod18",
+      "title": "Related Roadmaps",
+      "emoji": "🗺️",
+      "description": "Expand your knowledge with related roadmaps.",
+      "steps": [
+        { "id": "step18-1", "title": "Frontend Roadmap", "emoji": "🌐", "tutorial_url": "https://roadmap.sh/frontend" },
+        { "id": "step18-2", "title": "TypeScript Roadmap", "emoji": "🔠", "tutorial_url": "https://roadmap.sh/typescript" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "Todo App",
+      "level": "Beginner",
+      "emoji": "📝",
+      "description": "Build a simple Todo App to learn core React concepts.",
+      "concepts": ["Components", "useState", "Props", "Events"],
+      "tutorial_url": "https://www.youtube.com/watch?v=pCA4qpQDZD8",
+      "guide_urls": [
+        { "label": "React Docs: State", "url": "https://react.dev/learn/state-a-components-memory" }
+      ]
+    },
+    {
+      "id": "proj2",
+      "title": "Weather App",
+      "level": "Beginner",
+      "emoji": "⛅",
+      "description": "Create a weather app using an API.",
+      "concepts": ["API", "useEffect", "State", "Events"],
+      "tutorial_url": "https://www.youtube.com/watch?v=GuA0_Z1llYU",
+      "guide_urls": [
+        { "label": "React Docs: Fetching Data", "url": "https://react.dev/learn/synchronizing-with-effects" }
+      ]
+    },
+    {
+      "id": "proj3",
+      "title": "Movie Search App",
+      "level": "Beginner",
+      "emoji": "🎬",
+      "description": "Build a movie search app using OMDB API.",
+      "concepts": ["API", "useState", "useEffect"],
+      "tutorial_url": "https://www.youtube.com/watch?v=jcOKU9f86XE",
+      "guide_urls": [
+        { "label": "React Docs: useEffect", "url": "https://react.dev/reference/react/useEffect" }
+      ]
+    },
+    {
+      "id": "proj4",
+      "title": "Blog CRUD App",
+      "level": "Intermediate",
+      "emoji": "✍️",
+      "description": "Create a blog app with CRUD operations.",
+      "concepts": ["CRUD", "API", "Routing", "State Management"],
+      "tutorial_url": "https://www.youtube.com/watch?v=I2UBjN5ER4s",
+      "guide_urls": [
+        { "label": "React Router Guide", "url": "https://reactrouter.com/en/main/start/tutorial" }
+      ]
+    },
+    {
+      "id": "proj5",
+      "title": "E-commerce Cart",
+      "level": "Intermediate",
+      "emoji": "🛒",
+      "description": "Develop a shopping cart with add/remove and quantity features.",
+      "concepts": ["State", "Props", "Events", "Context"],
+      "tutorial_url": "https://www.youtube.com/watch?v=Oe421EPjeBE",
+      "guide_urls": [
+        { "label": "React Context Guide", "url": "https://react.dev/learn/passing-data-deeply-with-context" }
+      ]
+    },
+    {
+      "id": "proj6",
+      "title": "Authentication with Firebase",
+      "level": "Intermediate",
+      "emoji": "🔐",
+      "description": "Add Firebase authentication to a React app.",
+      "concepts": ["Firebase", "useEffect", "Context"],
+      "tutorial_url": "https://www.youtube.com/watch?v=PKwu15ldZ7k",
+      "guide_urls": [
+        { "label": "Firebase with React", "url": "https://firebase.google.com/docs/auth/web/start" }
+      ]
+    },
+    {
+      "id": "proj7",
+      "title": "Chat App with Socket.io",
+      "level": "Intermediate",
+      "emoji": "💬",
+      "description": "Create a real-time chat app using Socket.io.",
+      "concepts": ["Socket.io", "useEffect", "Events"],
+      "tutorial_url": "https://www.youtube.com/watch?v=ZwFA3YMfkoc",
+      "guide_urls": [
+        { "label": "Socket.io Guide", "url": "https://socket.io/docs/v4/client-api/" }
+      ]
+    },
+    {
+      "id": "proj8",
+      "title": "Dashboard with Charts",
+      "level": "Advanced",
+      "emoji": "📊",
+      "description": "Develop an analytics dashboard with charts.",
+      "concepts": ["Chart.js", "Hooks", "API"],
+      "tutorial_url": "https://www.youtube.com/watch?v=LYI4e6SEI4w",
+      "guide_urls": [
+        { "label": "Chart.js Guide", "url": "https://react-chartjs-2.js.org/" }
+      ]
+    },
+    {
+      "id": "proj9",
+      "title": "Kanban Board",
+      "level": "Advanced",
+      "emoji": "🗂️",
+      "description": "Create a drag-and-drop kanban board.",
+      "concepts": ["DnD", "State Management", "Hooks"],
+      "tutorial_url": "https://www.youtube.com/watch?v=1nVUfZg2dSA",
+      "guide_urls": [
+        { "label": "React Beautiful DnD", "url": "https://github.com/atlassian/react-beautiful-dnd" }
+      ]
+    },
+    {
+      "id": "proj10",
+      "title": "Next.js Blog with Markdown",
+      "level": "Advanced",
+      "emoji": "📚",
+      "description": "Build a blog using Next.js and markdown files.",
+      "concepts": ["Next.js", "File System", "Static Generation"],
+      "tutorial_url": "https://www.youtube.com/watch?v=8pKjULHzs0s",
+      "guide_urls": [
+        { "label": "Next.js Blog Tutorial", "url": "https://nextjs.org/learn/blog" }
+      ]
+    }
+  ]
+}

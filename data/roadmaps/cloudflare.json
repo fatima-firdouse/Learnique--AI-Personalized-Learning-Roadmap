@@ -1,0 +1,342 @@
+{
+  "title": "Cloudflare Developer Roadmap",
+  "description": "A comprehensive learning path for Cloudflare edge, serverless, and modern web development.",
+  "modules": [
+    {
+      "id": "mod1",
+      "title": "Introduction to Cloudflare & Web Basics",
+      "emoji": "🧭",
+      "description": "Get started with Cloudflare and web fundamentals.",
+      "steps": [
+        { "id": "step1-1", "title": "What is Cloudflare?", "emoji": "☁️", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" },
+        { "id": "step1-2", "title": "Importance in web performance & security", "emoji": "⚡", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" },
+        { "id": "step1-3", "title": "JavaScript fundamentals", "emoji": "📜", "tutorial_url": "https://www.youtube.com/watch?v=W6NZfCO5SIk" },
+        { "id": "step1-4", "title": "Basic command-line usage", "emoji": "💻", "tutorial_url": "https://www.youtube.com/watch?v=yz7nYlnXLfE" },
+        { "id": "step1-5", "title": "HTTP and web protocols overview", "emoji": "🌐", "tutorial_url": "https://www.youtube.com/watch?v=8wE3BH9L1G4" },
+        { "id": "step1-6", "title": "Git basics", "emoji": "🔀", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" }
+      ]
+    },
+    {
+      "id": "mod2",
+      "title": "Foundational Development Tools & Languages",
+      "emoji": "🛠️",
+      "description": "Essential tools and languages for Cloudflare development.",
+      "steps": [
+        { "id": "step2-1", "title": "Node.js and NPM essentials", "emoji": "🟩", "tutorial_url": "https://www.youtube.com/watch?v=TlB_eWDSMt4" },
+        { "id": "step2-2", "title": "TypeScript fundamentals", "emoji": "🔡", "tutorial_url": "https://www.youtube.com/watch?v=BwuLxPH8IDs" }
+      ]
+    },
+    {
+      "id": "mod3",
+      "title": "Serverless & Edge Computing Concepts",
+      "emoji": "🌍",
+      "description": "Learn the principles of serverless and edge computing.",
+      "steps": [
+        { "id": "step3-1", "title": "What is serverless architecture?", "emoji": "🛎️", "tutorial_url": "https://www.youtube.com/watch?v=UCdP4j8Ue0k" },
+        { "id": "step3-2", "title": "Edge computing: principles & benefits", "emoji": "🛰️", "tutorial_url": "https://www.youtube.com/watch?v=UCdP4j8Ue0k" },
+        { "id": "step3-3", "title": "Cloudflare Workers: core concepts", "emoji": "👷", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" }
+      ]
+    },
+    {
+      "id": "mod4",
+      "title": "Workers Runtime & Lifecycle",
+      "emoji": "🔁",
+      "description": "Deep dive into Cloudflare Workers runtime.",
+      "steps": [
+        { "id": "step4-1", "title": "Workers runtime environment", "emoji": "🖥️", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" },
+        { "id": "step4-2", "title": "Request/response handling in Workers", "emoji": "📥", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" },
+        { "id": "step4-3", "title": "Fetch API & runtime APIs", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" },
+        { "id": "step4-4", "title": "Workers lifecycle management", "emoji": "🔄", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" }
+      ]
+    },
+    {
+      "id": "mod5",
+      "title": "Service Bindings & Middleware Patterns",
+      "emoji": "🔌",
+      "description": "Use service bindings and middleware for advanced logic.",
+      "steps": [
+        { "id": "step5-1", "title": "Using service bindings", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" },
+        { "id": "step5-2", "title": "Caching strategies at the edge", "emoji": "🗄️", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" },
+        { "id": "step5-3", "title": "Middleware design patterns for Workers", "emoji": "🧩", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" }
+      ]
+    },
+    {
+      "id": "mod6",
+      "title": "Frameworks & Tools for Development",
+      "emoji": "🧰",
+      "description": "Boost productivity with frameworks and tools.",
+      "steps": [
+        { "id": "step6-1", "title": "Hono framework", "emoji": "🤝", "tutorial_url": "https://www.youtube.com/watch?v=FkH6d8Z5h7w" },
+        { "id": "step6-2", "title": "Itty Router", "emoji": "🛣️", "tutorial_url": "https://www.youtube.com/watch?v=FkH6d8Z5h7w" },
+        { "id": "step6-3", "title": "Wrangler CLI for deployment", "emoji": "🚀", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" },
+        { "id": "step6-4", "title": "DevTools integration for debugging", "emoji": "🪛", "tutorial_url": "https://www.youtube.com/watch?v=FkH6d8Z5h7w" },
+        { "id": "step6-5", "title": "CI/CD pipelines & API routers", "emoji": "🔄", "tutorial_url": "https://www.youtube.com/watch?v=FkH6d8Z5h7w" }
+      ]
+    },
+    {
+      "id": "mod7",
+      "title": "Frontend Frameworks & Integrations",
+      "emoji": "💡",
+      "description": "Integrate with React, Angular, Vue, and more.",
+      "steps": [
+        { "id": "step7-1", "title": "Integrating with any frontend framework (React, Angular, Vue)", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" },
+        { "id": "step7-2", "title": "Building & deploying frontend apps with Workers", "emoji": "📦", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" }
+      ]
+    },
+    {
+      "id": "mod8",
+      "title": "Storage Solutions & Workers KV",
+      "emoji": "🗂️",
+      "description": "Learn how to persist data at the edge.",
+      "steps": [
+        { "id": "step8-1", "title": "Workers KV: key-value store operations", "emoji": "🔑", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" },
+        { "id": "step8-2", "title": "Metadata handling & bulk operations", "emoji": "📄", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" },
+        { "id": "step8-3", "title": "Caching patterns for performance", "emoji": "⚡", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" }
+      ]
+    },
+    {
+      "id": "mod9",
+      "title": "Object Storage with R2",
+      "emoji": "🪣",
+      "description": "Use R2 for scalable object storage.",
+      "steps": [
+        { "id": "step9-1", "title": "What is R2?", "emoji": "❓", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" },
+        { "id": "step9-2", "title": "Object storage essentials", "emoji": "🗃️", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" },
+        { "id": "step9-3", "title": "Large file handling", "emoji": "📂", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" },
+        { "id": "step9-4", "title": "Asset management with buckets", "emoji": "🗳️", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" },
+        { "id": "step9-5", "title": "Bucket lifecycle management", "emoji": "🔄", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" }
+      ]
+    },
+    {
+      "id": "mod10",
+      "title": "Relational Database with D1",
+      "emoji": "🗄️",
+      "description": "Explore relational data storage with D1.",
+      "steps": [
+        { "id": "step10-1", "title": "Introduction to D1 database", "emoji": "📖", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" },
+        { "id": "step10-2", "title": "Schema management & migrations", "emoji": "✏️", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" },
+        { "id": "step10-3", "title": "Query optimization techniques", "emoji": "⚙️", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" },
+        { "id": "step10-4", "title": "Using Drizzle & Prisma with D1", "emoji": "🧑‍💻", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" }
+      ]
+    },
+    {
+      "id": "mod11",
+      "title": "Queues for Background Jobs & Rate Limiting",
+      "emoji": "📬",
+      "description": "Modern asynchronous processing and rate limiting.",
+      "steps": [
+        { "id": "step11-1", "title": "Message processing & queue basics", "emoji": "📨", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" },
+        { "id": "step11-2", "title": "Background jobs implementation", "emoji": "🛠️", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" },
+        { "id": "step11-3", "title": "Rate limiting strategies", "emoji": "🚦", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" },
+        { "id": "step11-4", "title": "Handling dead letter queues", "emoji": "📪", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" }
+      ]
+    },
+    {
+      "id": "mod12",
+      "title": "Durable Objects & State Management",
+      "emoji": "🧱",
+      "description": "Keep state at the edge with Durable Objects.",
+      "steps": [
+        { "id": "step12-1", "title": "State management with Durable Objects", "emoji": "📊", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" },
+        { "id": "step12-2", "title": "Coordination across Workers", "emoji": "🤝", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" },
+        { "id": "step12-3", "title": "Persistence & transactional operations", "emoji": "🔄", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" },
+        { "id": "step12-4", "title": "Designing workflows with Durable Objects", "emoji": "⚙️", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" }
+      ]
+    },
+    {
+      "id": "mod13",
+      "title": "Advanced Features: AI & Multimedia",
+      "emoji": "🧠",
+      "description": "Explore AI and multimedia capabilities at the edge.",
+      "steps": [
+        { "id": "step13-1", "title": "Workers AI: text generation, image processing, speech recognition", "emoji": "🤖", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" },
+        { "id": "step13-2", "title": "AI model integration & vector search (Vectorize)", "emoji": "🔎", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" },
+        { "id": "step13-3", "title": "AI-powered search for applications", "emoji": "📈", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" },
+        { "id": "step13-4", "title": "Stream: video delivery, live streaming, video processing", "emoji": "📹", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" },
+        { "id": "step13-5", "title": "Images & Calls for real-time interactions", "emoji": "📞", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" }
+      ]
+    },
+    {
+      "id": "mod14",
+      "title": "Logging, Monitoring & Debugging",
+      "emoji": "📊",
+      "description": "Monitor and debug Cloudflare apps effectively.",
+      "steps": [
+        { "id": "step14-1", "title": "Logging and monitoring best practices", "emoji": "🔍", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" },
+        { "id": "step14-2", "title": "Debugging techniques & tools", "emoji": "🪛", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" },
+        { "id": "step14-3", "title": "Setting up tunnels for local testing", "emoji": "🚇", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" }
+      ]
+    },
+    {
+      "id": "mod15",
+      "title": "Email Workers & Edge Functions",
+      "emoji": "✉️",
+      "description": "Send, filter, and process emails at the edge.",
+      "steps": [
+        { "id": "step15-1", "title": "Email routing, processing & filtering", "emoji": "📧", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" },
+        { "id": "step15-2", "title": "Pages functions for static & dynamic content", "emoji": "📄", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" },
+        { "id": "step15-3", "title": "Event-driven architectures for scalable applications", "emoji": "⚡", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" }
+      ]
+    },
+    {
+      "id": "mod16",
+      "title": "Security & Performance Enhancements",
+      "emoji": "🔒",
+      "description": "Enhance security and boost performance at the edge.",
+      "steps": [
+        { "id": "step16-1", "title": "Workers security model & isolates architecture", "emoji": "🛡️", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" },
+        { "id": "step16-2", "title": "Web security headers implementation", "emoji": "🔖", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" },
+        { "id": "step16-3", "title": "Advanced rate limiting techniques", "emoji": "🚦", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" },
+        { "id": "step16-4", "title": "Cache API for dynamic caching", "emoji": "🗂️", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" },
+        { "id": "step16-5", "title": "HTML rewriting for edge personalization", "emoji": "📝", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" },
+        { "id": "step16-6", "title": "Edge SSL/TLS for secure traffic", "emoji": "🔐", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" },
+        { "id": "step16-7", "title": "Bot management strategies", "emoji": "🤖", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" }
+      ]
+    },
+    {
+      "id": "mod17",
+      "title": "Integration & Workflows",
+      "emoji": "🔗",
+      "description": "Integrate external APIs and design workflows.",
+      "steps": [
+        { "id": "step17-1", "title": "Service bindings & inter-worker communication", "emoji": "🧩", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" },
+        { "id": "step17-2", "title": "External API integration & webhook handling", "emoji": "🌐", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" },
+        { "id": "step17-3", "title": "Event-driven architectures for microservices", "emoji": "⚡", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" }
+      ]
+    },
+    {
+      "id": "mod18",
+      "title": "Development Tools & Testing",
+      "emoji": "🧪",
+      "description": "Master deployment, local testing, and monitoring.",
+      "steps": [
+        { "id": "step18-1", "title": "Wrangler: deployment & management", "emoji": "🚀", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" },
+        { "id": "step18-2", "title": "Miniflare for local testing", "emoji": "🔬", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" },
+        { "id": "step18-3", "title": "DevTools for debugging", "emoji": "🧰", "tutorial_url": "https://www.youtube.com/watch?v=FkH6d8Z5h7w" },
+        { "id": "step18-4", "title": "Testing frameworks", "emoji": "🧪", "tutorial_url": "https://www.youtube.com/watch?v=FkH6d8Z5h7w" },
+        { "id": "step18-5", "title": "Monitoring tools for production apps", "emoji": "📡", "tutorial_url": "https://www.youtube.com/watch?v=0rJ9JAFfZjg" }
+      ]
+    },
+    {
+      "id": "mod19",
+      "title": "Node Operation & Infrastructure",
+      "emoji": "🖥️",
+      "description": "Operate full and edge nodes, and integrate with blockchain RPCs.",
+      "steps": [
+        { "id": "step19-1", "title": "Running full nodes & edge nodes", "emoji": "🖧", "tutorial_url": "https://www.youtube.com/watch?v=Ba6lH69e6sk" },
+        { "id": "step19-2", "title": "RPC providers (Infura, QuickNode, Alchemy) for blockchain integrations", "emoji": "🔌", "tutorial_url": "https://www.youtube.com/watch?v=Ba6lH69e6sk" }
+      ]
+    },
+    {
+      "id": "mod20",
+      "title": "Advanced Security & Future Trends",
+      "emoji": "🔭",
+      "description": "Edge security, privacy, and next-generation trends.",
+      "steps": [
+        { "id": "step20-1", "title": "Fuzz testing with advanced tools", "emoji": "🦔", "tutorial_url": "https://www.youtube.com/watch?v=FkH6d8Z5h7w" },
+        { "id": "step20-2", "title": "Formal verification for critical systems", "emoji": "📐", "tutorial_url": "https://www.youtube.com/watch?v=FkH6d8Z5h7w" },
+        { "id": "step20-3", "title": "Zero-Knowledge Proofs & privacy-focused edge applications", "emoji": "🕵️", "tutorial_url": "https://www.youtube.com/watch?v=FkH6d8Z5h7w" },
+        { "id": "step20-4", "title": "Exploring modular blockchains and hybrid architectures", "emoji": "🧩", "tutorial_url": "https://www.youtube.com/watch?v=FkH6d8Z5h7w" },
+        { "id": "step20-5", "title": "Trends like account abstraction & next-gen edge computing", "emoji": "⚡", "tutorial_url": "https://www.youtube.com/watch?v=FkH6d8Z5h7w" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "Serverless URL Shortener",
+      "level": "Beginner",
+      "emoji": "🔗",
+      "description": "Build a simple URL shortener using Cloudflare Workers and KV.",
+      "concepts": [
+        "Workers basics",
+        "KV storage",
+        "API endpoints"
+      ],
+      "tutorial_url": "https://developers.cloudflare.com/workers/tutorials/build-a-url-shortener/",
+      "guide_urls": [
+        { "label": "Cloudflare Workers Docs", "url": "https://developers.cloudflare.com/workers/" }
+      ]
+    },
+    {
+      "id": "proj2",
+      "title": "Edge Markdown Blog",
+      "level": "Beginner",
+      "emoji": "📝",
+      "description": "Serve markdown-based blog posts from KV or R2 using Cloudflare Workers.",
+      "concepts": [
+        "Workers",
+        "KV or R2",
+        "Markdown parsing"
+      ],
+      "tutorial_url": "https://developers.cloudflare.com/workers/tutorials/build-a-blog/",
+      "guide_urls": [
+        { "label": "Workers KV Docs", "url": "https://developers.cloudflare.com/workers/learning/how-kv-works/" }
+      ]
+    },
+    {
+      "id": "proj3",
+      "title": "Cloudflare Worker API with JWT Auth",
+      "level": "Intermediate",
+      "emoji": "🔐",
+      "description": "Create a RESTful API with authentication using JWT and Cloudflare Workers.",
+      "concepts": [
+        "Workers",
+        "JWT authentication",
+        "API routing"
+      ],
+      "tutorial_url": "https://developers.cloudflare.com/workers/tutorials/jwt/",
+      "guide_urls": [
+        { "label": "JWT on Edge", "url": "https://developers.cloudflare.com/workers/recipes/jwt/" }
+      ]
+    },
+    {
+      "id": "proj4",
+      "title": "Serverless Image Resizer",
+      "level": "Intermediate",
+      "emoji": "🖼️",
+      "description": "Resize and optimize images on the fly using Cloudflare Images and Workers.",
+      "concepts": [
+        "Workers",
+        "Image transformation",
+        "Edge optimization"
+      ],
+      "tutorial_url": "https://developers.cloudflare.com/images/cloudflare-images/resize-images/",
+      "guide_urls": [
+        { "label": "Cloudflare Images Docs", "url": "https://developers.cloudflare.com/images/" }
+      ]
+    },
+    {
+      "id": "proj5",
+      "title": "Real-time Chat App with Durable Objects",
+      "level": "Advanced",
+      "emoji": "💬",
+      "description": "Implement a real-time chat backend using Durable Objects for state.",
+      "concepts": [
+        "Durable Objects",
+        "WebSockets",
+        "State management"
+      ],
+      "tutorial_url": "https://developers.cloudflare.com/durable-objects/tutorials/chat/",
+      "guide_urls": [
+        { "label": "Durable Objects Docs", "url": "https://developers.cloudflare.com/durable-objects/" }
+      ]
+    },
+    {
+      "id": "proj6",
+      "title": "Cloudflare AI Image Classifier",
+      "level": "Advanced",
+      "emoji": "🤖",
+      "description": "Deploy and use an AI model for image classification on the edge.",
+      "concepts": [
+        "Workers AI",
+        "Image analysis",
+        "Edge inference"
+      ],
+      "tutorial_url": "https://developers.cloudflare.com/workers-ai/examples/image-classification/",
+      "guide_urls": [
+        { "label": "Workers AI Docs", "url": "https://developers.cloudflare.com/workers-ai/" }
+      ]
+    }
+  ]
+}

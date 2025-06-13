@@ -1,0 +1,357 @@
+{
+  "title": "Blockchain Developer Roadmap",
+  "description": "A comprehensive learning path for blockchain development.",
+  "modules": [
+    {
+      "id": "mod1",
+      "title": "What is Blockchain?",
+      "emoji": "⛓️",
+      "description": "Understand the fundamentals of blockchain technology.",
+      "steps": [
+        { "id": "step1-1", "title": "Definition, History (Bitcoin whitepaper, Satoshi Nakamoto)", "emoji": "📖", "tutorial_url": "https://www.youtube.com/watch?v=SSo_EIwHSd4" },
+        { "id": "step1-2", "title": "Key Characteristics: Decentralization, Immutability, Transparency", "emoji": "🔎", "tutorial_url": "https://www.youtube.com/watch?v=SSo_EIwHSd4" },
+        { "id": "step1-3", "title": "Types: Public, Private, Consortium, Hybrid", "emoji": "🗂️", "tutorial_url": "https://www.youtube.com/watch?v=3xGLc-zz9cA" }
+      ]
+    },
+    {
+      "id": "mod2",
+      "title": "How Blockchain Works",
+      "emoji": "⚙️",
+      "description": "Explore the inner workings of blockchain.",
+      "steps": [
+        { "id": "step2-1", "title": "Blocks, Hashes, Chains", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=_160oMzblY8" },
+        { "id": "step2-2", "title": "Transactions & Digital Signatures", "emoji": "✍️", "tutorial_url": "https://www.youtube.com/watch?v=fRV6c2l8g9w" },
+        { "id": "step2-3", "title": "Nodes, Miners, and Network Participants", "emoji": "🌐", "tutorial_url": "https://www.youtube.com/watch?v=baJYhYsHkLM" }
+      ]
+    },
+    {
+      "id": "mod3",
+      "title": "Decentralization & Trust Models",
+      "emoji": "🤝",
+      "description": "Learn why decentralization is important and how trust is built.",
+      "steps": [
+        { "id": "step3-1", "title": "Why Decentralization Matters", "emoji": "🌍", "tutorial_url": "https://www.youtube.com/watch?v=Pl8OlkkwRpc" },
+        { "id": "step3-2", "title": "Trustless Systems vs. Traditional Banking", "emoji": "🏦", "tutorial_url": "https://www.youtube.com/watch?v=Pl8OlkkwRpc" },
+        { "id": "step3-3", "title": "Role of Cryptography", "emoji": "🔐", "tutorial_url": "https://www.youtube.com/watch?v=6WG7D47tGb0" }
+      ]
+    },
+    {
+      "id": "mod4",
+      "title": "Consensus Mechanisms",
+      "emoji": "🤔",
+      "description": "Discover how consensus is reached in blockchains.",
+      "steps": [
+        { "id": "step4-1", "title": "Proof of Work (PoW) vs. Proof of Stake (PoS)", "emoji": "🛠️", "tutorial_url": "https://www.youtube.com/watch?v=YQ_xWvX1n9g" },
+        { "id": "step4-2", "title": "Other Models: DPoS, PBFT, PoA", "emoji": "🔄", "tutorial_url": "https://www.youtube.com/watch?v=YQ_xWvX1n9g" }
+      ]
+    },
+    {
+      "id": "mod5",
+      "title": "Cryptography Basics",
+      "emoji": "🔑",
+      "description": "Grasp the cryptographic foundations of blockchain.",
+      "steps": [
+        { "id": "step5-1", "title": "Hash Functions (SHA-256, Keccak)", "emoji": "🔢", "tutorial_url": "https://www.youtube.com/watch?v=b4b8ktEV4Bg" },
+        { "id": "step5-2", "title": "Public-key Cryptography (ECDSA)", "emoji": "🗝️", "tutorial_url": "https://www.youtube.com/watch?v=GSIDS_lvRv4" },
+        { "id": "step5-3", "title": "Merkle Trees", "emoji": "🌳", "tutorial_url": "https://www.youtube.com/watch?v=SFsyF9mNq6I" }
+      ]
+    },
+    {
+      "id": "mod6",
+      "title": "Blockchain Structure & Operations",
+      "emoji": "🏗️",
+      "description": "Dive into the structure and technical operations of blockchains.",
+      "steps": [
+        { "id": "step6-1", "title": "UTXO (Bitcoin) vs. Account-based (Ethereum) Models", "emoji": "⚖️", "tutorial_url": "https://www.youtube.com/watch?v=Ba6lH69e6sk" },
+        { "id": "step6-2", "title": "Gas Fees, Transaction Lifecycle", "emoji": "⛽", "tutorial_url": "https://www.youtube.com/watch?v=Ba6lH69e6sk" },
+        { "id": "step6-3", "title": "Forks (Hard Fork vs. Soft Fork)", "emoji": "🍴", "tutorial_url": "https://www.youtube.com/watch?v=5mFv5K4Wm6M" }
+      ]
+    },
+    {
+      "id": "mod7",
+      "title": "Cryptocurrencies & Wallets",
+      "emoji": "💸",
+      "description": "Understand cryptocurrencies and wallet management.",
+      "steps": [
+        { "id": "step7-1", "title": "Bitcoin, Ethereum, Stablecoins", "emoji": "🪙", "tutorial_url": "https://www.youtube.com/watch?v=SSo_EIwHSd4" },
+        { "id": "step7-2", "title": "Hot vs. Cold Wallets (MetaMask, Ledger)", "emoji": "👜", "tutorial_url": "https://www.youtube.com/watch?v=Af_lQ1zUnoM" },
+        { "id": "step7-3", "title": "Seed Phrases & Security Best Practices", "emoji": "🔒", "tutorial_url": "https://www.youtube.com/watch?v=Af_lQ1zUnoM" }
+      ]
+    },
+    {
+      "id": "mod8",
+      "title": "Mining & Staking",
+      "emoji": "⛏️",
+      "description": "Explore mining and staking concepts in blockchain.",
+      "steps": [
+        { "id": "step8-1", "title": "How Mining Works (PoW)", "emoji": "⚒️", "tutorial_url": "https://www.youtube.com/watch?v=GmOzih6I1zs" },
+        { "id": "step8-2", "title": "Staking & Validators (PoS)", "emoji": "🗳️", "tutorial_url": "https://www.youtube.com/watch?v=YQ_xWvX1n9g" },
+        { "id": "step8-3", "title": "Incentive Models & Rewards", "emoji": "🎁", "tutorial_url": "https://www.youtube.com/watch?v=GmOzih6I1zs" }
+      ]
+    },
+    {
+      "id": "mod9",
+      "title": "Smart Contracts Basics",
+      "emoji": "📜",
+      "description": "Get introduced to the concept of smart contracts.",
+      "steps": [
+        { "id": "step9-1", "title": "What are Smart Contracts?", "emoji": "📄", "tutorial_url": "https://www.youtube.com/watch?v=ZE2HxTmxfrI" },
+        { "id": "step9-2", "title": "Ethereum Virtual Machine (EVM)", "emoji": "🖥️", "tutorial_url": "https://www.youtube.com/watch?v=JxJf5u2b6rk" },
+        { "id": "step9-3", "title": "Common Use Cases (DeFi, NFTs)", "emoji": "💡", "tutorial_url": "https://www.youtube.com/watch?v=ZE2HxTmxfrI" }
+      ]
+    },
+    {
+      "id": "mod10",
+      "title": "Smart Contract Development",
+      "emoji": "💻",
+      "description": "Learn to develop smart contracts on major blockchains.",
+      "steps": [
+        { "id": "step10-1", "title": "Languages: Solidity (Ethereum), Rust (Solana), Vyper", "emoji": "📝", "tutorial_url": "https://www.youtube.com/watch?v=M576WGiDBdQ" },
+        { "id": "step10-2", "title": "ERC Standards: ERC-20, ERC-721, ERC-1155", "emoji": "🏷️", "tutorial_url": "https://www.youtube.com/watch?v=tcjA0-xTz1I" },
+        { "id": "step10-3", "title": "Tools: Remix IDE, Hardhat, Foundry", "emoji": "🧰", "tutorial_url": "https://www.youtube.com/watch?v=gyMwXuJrbJQ" }
+      ]
+    },
+    {
+      "id": "mod11",
+      "title": "Deploying Smart Contracts",
+      "emoji": "🚀",
+      "description": "Deploy and verify smart contracts effectively.",
+      "steps": [
+        { "id": "step11-1", "title": "Testnets (Goerli, Sepolia) vs. Mainnet", "emoji": "🧪", "tutorial_url": "https://www.youtube.com/watch?v=gyMwXuJrbJQ" },
+        { "id": "step11-2", "title": "Gas Optimization", "emoji": "⛽", "tutorial_url": "https://www.youtube.com/watch?v=gyMwXuJrbJQ" },
+        { "id": "step11-3", "title": "Verifying Contracts (Etherscan)", "emoji": "🔍", "tutorial_url": "https://www.youtube.com/watch?v=gyMwXuJrbJQ" }
+      ]
+    },
+    {
+      "id": "mod12",
+      "title": "dApp Development",
+      "emoji": "🌐",
+      "description": "Build decentralized applications with modern tools.",
+      "steps": [
+        { "id": "step12-1", "title": "Frontend: React + Ethers.js / Web3.js", "emoji": "📱", "tutorial_url": "https://www.youtube.com/watch?v=6Gf_kRE4MJU" },
+        { "id": "step12-2", "title": "Backend: Node.js, Moralis, Alchemy", "emoji": "🖥️", "tutorial_url": "https://www.youtube.com/watch?v=G4t6gU2K4dg" },
+        { "id": "step12-3", "title": "IPFS for Decentralized Storage", "emoji": "🗄️", "tutorial_url": "https://www.youtube.com/watch?v=6RHPytQeF7o" }
+      ]
+    },
+    {
+      "id": "mod13",
+      "title": "Security & Auditing",
+      "emoji": "🕵️",
+      "description": "Secure your smart contracts and dApps.",
+      "steps": [
+        { "id": "step13-1", "title": "Common Vulnerabilities (Reentrancy, Overflow)", "emoji": "⚠️", "tutorial_url": "https://www.youtube.com/watch?v=FjEULZi3b8g" },
+        { "id": "step13-2", "title": "Tools: Slither, MythX, OpenZeppelin Defender", "emoji": "🛡️", "tutorial_url": "https://www.youtube.com/watch?v=FjEULZi3b8g" },
+        { "id": "step13-3", "title": "Best Practices (Checks-Effects-Interactions)", "emoji": "✅", "tutorial_url": "https://www.youtube.com/watch?v=FjEULZi3b8g" }
+      ]
+    },
+    {
+      "id": "mod14",
+      "title": "Layer 2 & Scaling Solutions",
+      "emoji": "🧩",
+      "description": "Explore scaling solutions for blockchains.",
+      "steps": [
+        { "id": "step14-1", "title": "Rollups (Optimistic, ZK-Rollups)", "emoji": "🌀", "tutorial_url": "https://www.youtube.com/watch?v=HfKkzj4lG8w" },
+        { "id": "step14-2", "title": "Sidechains (Polygon, Gnosis Chain)", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=HfKkzj4lG8w" },
+        { "id": "step14-3", "title": "State Channels (Lightning Network)", "emoji": "⚡", "tutorial_url": "https://www.youtube.com/watch?v=HfKkzj4lG8w" }
+      ]
+    },
+    {
+      "id": "mod15",
+      "title": "DeFi (Decentralized Finance)",
+      "emoji": "💱",
+      "description": "Dive into the world of decentralized finance.",
+      "steps": [
+        { "id": "step15-1", "title": "AMMs (Uniswap, Curve)", "emoji": "🔄", "tutorial_url": "https://www.youtube.com/watch?v=9Jr6Azzj6t8" },
+        { "id": "step15-2", "title": "Lending (Aave, Compound)", "emoji": "🏦", "tutorial_url": "https://www.youtube.com/watch?v=9Jr6Azzj6t8" },
+        { "id": "step15-3", "title": "Stablecoins (DAI, USDC)", "emoji": "🪙", "tutorial_url": "https://www.youtube.com/watch?v=9Jr6Azzj6t8" }
+      ]
+    },
+    {
+      "id": "mod16",
+      "title": "DAOs & Governance",
+      "emoji": "🏛️",
+      "description": "Learn about DAOs and on-chain governance.",
+      "steps": [
+        { "id": "step16-1", "title": "How DAOs Work", "emoji": "👥", "tutorial_url": "https://www.youtube.com/watch?v=ZpzxWGN5c3Q" },
+        { "id": "step16-2", "title": "Voting Mechanisms (Snapshot, Token-weighted)", "emoji": "🗳️", "tutorial_url": "https://www.youtube.com/watch?v=ZpzxWGN5c3Q" },
+        { "id": "step16-3", "title": "Treasury Management", "emoji": "💰", "tutorial_url": "https://www.youtube.com/watch?v=ZpzxWGN5c3Q" }
+      ]
+    },
+    {
+      "id": "mod17",
+      "title": "NFTs & Digital Ownership",
+      "emoji": "🎨",
+      "description": "Understand non-fungible tokens and digital ownership.",
+      "steps": [
+        { "id": "step17-1", "title": "Minting NFTs (OpenZeppelin Standards)", "emoji": "🖼️", "tutorial_url": "https://www.youtube.com/watch?v=tcjA0-xTz1I" },
+        { "id": "step17-2", "title": "Marketplaces (OpenSea, Blur)", "emoji": "🏪", "tutorial_url": "https://www.youtube.com/watch?v=tcjA0-xTz1I" },
+        { "id": "step17-3", "title": "Royalties & Metadata", "emoji": "🎼", "tutorial_url": "https://www.youtube.com/watch?v=tcjA0-xTz1I" }
+      ]
+    },
+    {
+      "id": "mod18",
+      "title": "Oracles & Hybrid Contracts",
+      "emoji": "🔮",
+      "description": "Leverage off-chain data with oracles.",
+      "steps": [
+        { "id": "step18-1", "title": "Chainlink, Band Protocol", "emoji": "⛓️", "tutorial_url": "https://www.youtube.com/watch?v=gyMwXuJrbJQ" },
+        { "id": "step18-2", "title": "Price Feeds, Randomness (VRF)", "emoji": "🎲", "tutorial_url": "https://www.youtube.com/watch?v=gyMwXuJrbJQ" }
+      ]
+    },
+    {
+      "id": "mod19",
+      "title": "Blockchain Interoperability",
+      "emoji": "🔗",
+      "description": "Explore cross-chain solutions and interoperability.",
+      "steps": [
+        { "id": "step19-1", "title": "Bridges (Wormhole, LayerZero)", "emoji": "🌉", "tutorial_url": "https://www.youtube.com/watch?v=qv6UVOQ0F44" },
+        { "id": "step19-2", "title": "Cross-chain Protocols (Cosmos IBC, Polkadot XCM)", "emoji": "🌐", "tutorial_url": "https://www.youtube.com/watch?v=qv6UVOQ0F44" }
+      ]
+    },
+    {
+      "id": "mod20",
+      "title": "Node Operation & Infrastructure",
+      "emoji": "🖥️",
+      "description": "Set up and maintain blockchain infrastructure.",
+      "steps": [
+        { "id": "step20-1", "title": "Running Full Nodes (Geth, Erigon)", "emoji": "🖧", "tutorial_url": "https://www.youtube.com/watch?v=Ba6lH69e6sk" },
+        { "id": "step20-2", "title": "RPC Providers (Infura, QuickNode)", "emoji": "🔌", "tutorial_url": "https://www.youtube.com/watch?v=Ba6lH69e6sk" }
+      ]
+    },
+    {
+      "id": "mod21",
+      "title": "Advanced Security & Formal Verification",
+      "emoji": "🧪",
+      "description": "Ensure contract safety with advanced tools.",
+      "steps": [
+        { "id": "step21-1", "title": "Fuzz Testing (Echidna)", "emoji": "🦔", "tutorial_url": "https://www.youtube.com/watch?v=FjEULZi3b8g" },
+        { "id": "step21-2", "title": "Formal Methods (TLA+, Certora)", "emoji": "📐", "tutorial_url": "https://www.youtube.com/watch?v=FjEULZi3b8g" }
+      ]
+    },
+    {
+      "id": "mod22",
+      "title": "Blockchain Architecture & Enterprise Use",
+      "emoji": "🏢",
+      "description": "Adopt blockchain in enterprise settings.",
+      "steps": [
+        { "id": "step22-1", "title": "Hyperledger Fabric, Corda", "emoji": "🧱", "tutorial_url": "https://www.youtube.com/watch?v=1Fq2Xvb5bLk" },
+        { "id": "step22-2", "title": "Private vs. Public Blockchain Tradeoffs", "emoji": "⚖️", "tutorial_url": "https://www.youtube.com/watch?v=1Fq2Xvb5bLk" }
+      ]
+    },
+    {
+      "id": "mod23",
+      "title": "Future Trends",
+      "emoji": "🔭",
+      "description": "Stay up to date with the latest trends in blockchain.",
+      "steps": [
+        { "id": "step23-1", "title": "Zero-Knowledge Proofs (ZKPs, zkEVMs)", "emoji": "🕵️", "tutorial_url": "https://www.youtube.com/watch?v=8lhxIOAfDss" },
+        { "id": "step23-2", "title": "Account Abstraction (ERC-4337)", "emoji": "🧱", "tutorial_url": "https://www.youtube.com/watch?v=8lhxIOAfDss" },
+        { "id": "step23-3", "title": "Modular Blockchains (Celestia, EigenDA)", "emoji": "🧩", "tutorial_url": "https://www.youtube.com/watch?v=8lhxIOAfDss" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "ERC-20 Token Smart Contract",
+      "level": "Beginner",
+      "emoji": "🪙",
+      "description": "Create your own fungible token on Ethereum using Solidity and deploy it to a testnet.",
+      "concepts": [
+        "Solidity basics",
+        "ERC-20 standard",
+        "Remix IDE",
+        "Deploying to Goerli"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=tcjA0-xTz1I",
+      "guide_urls": [
+        { "label": "ERC-20 Standard", "url": "https://docs.openzeppelin.com/contracts/4.x/erc20" }
+      ]
+    },
+    {
+      "id": "proj2",
+      "title": "NFT Minting dApp",
+      "level": "Beginner",
+      "emoji": "🎨",
+      "description": "Build and deploy a simple NFT minting smart contract and connect it to a React frontend.",
+      "concepts": [
+        "Solidity",
+        "ERC-721 standard",
+        "IPFS storage",
+        "React + Ethers.js"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=tcjA0-xTz1I",
+      "guide_urls": [
+        { "label": "NFT Tutorial", "url": "https://docs.openzeppelin.com/contracts/4.x/erc721" }
+      ]
+    },
+    {
+      "id": "proj3",
+      "title": "Decentralized Voting App",
+      "level": "Intermediate",
+      "emoji": "🗳️",
+      "description": "Implement a voting smart contract and a frontend for decentralized polling.",
+      "concepts": [
+        "Solidity",
+        "Voting logic",
+        "Web3.js",
+        "React"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=6Gf_kRE4MJU",
+      "guide_urls": [
+        { "label": "Voting Contract Example", "url": "https://solidity-by-example.org/app/voting/" }
+      ]
+    },
+    {
+      "id": "proj4",
+      "title": "ERC-20 Token Crowdsale",
+      "level": "Intermediate",
+      "emoji": "💰",
+      "description": "Create a smart contract to sell your ERC-20 tokens in exchange for ETH.",
+      "concepts": [
+        "Solidity",
+        "Crowdsale logic",
+        "Remix IDE",
+        "Ether transfers"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=M576WGiDBdQ",
+      "guide_urls": [
+        { "label": "Crowdsale Example", "url": "https://docs.openzeppelin.com/contracts/3.x/crowdsales" }
+      ]
+    },
+    {
+      "id": "proj5",
+      "title": "Decentralized Exchange (DEX)",
+      "level": "Advanced",
+      "emoji": "💱",
+      "description": "Build a basic Uniswap-style DEX smart contract and web frontend.",
+      "concepts": [
+        "Solidity",
+        "AMM logic",
+        "ERC-20 tokens",
+        "React"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=9Jr6Azzj6t8",
+      "guide_urls": [
+        { "label": "Uniswap Docs", "url": "https://docs.uniswap.org/" }
+      ]
+    },
+    {
+      "id": "proj6",
+      "title": "DAO Governance Platform",
+      "level": "Advanced",
+      "emoji": "🏛️",
+      "description": "Develop a DAO contract and governance interface using tokens for voting.",
+      "concepts": [
+        "Solidity",
+        "Governance tokens",
+        "Voting logic",
+        "Frontend integration"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=ZpzxWGN5c3Q",
+      "guide_urls": [
+        { "label": "DAO Example", "url": "https://solidity-by-example.org/app/dao/" }
+      ]
+    }
+  ]
+}

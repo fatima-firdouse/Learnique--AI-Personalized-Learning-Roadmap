@@ -1,0 +1,425 @@
+{
+  "title": "Product Manager Roadmap",
+  "description": "A comprehensive roadmap for mastering Product Management.",
+  "modules": [
+    {
+      "id": "mod1",
+      "title": "Introduction",
+      "emoji": "🧭",
+      "description": "Understand the fundamentals and phases of product management.",
+      "steps": [
+        { "id": "step1-1", "title": "What is Product Management?", "emoji": "❓", "tutorial_url": "https://www.youtube.com/watch?v=U1c5q8hQK70" },
+        { "id": "step1-2", "title": "Product vs Product Management", "emoji": "⚖️", "tutorial_url": "https://www.youtube.com/watch?v=U1c5q8hQK70" },
+        { "id": "step1-3", "title": "Roles and Responsibilities", "emoji": "👤", "tutorial_url": "https://www.youtube.com/watch?v=U1c5q8hQK70" },
+        { "id": "step1-4", "title": "Key Skills", "emoji": "🎯", "tutorial_url": "https://www.youtube.com/watch?v=U1c5q8hQK70" },
+        { "id": "step1-5", "title": "Product Development Lifecycle: Development", "emoji": "🔄", "tutorial_url": "https://www.youtube.com/watch?v=U1c5q8hQK70" },
+        { "id": "step1-6", "title": "Introduction", "emoji": "📝", "tutorial_url": "https://www.youtube.com/watch?v=U1c5q8hQK70" },
+        { "id": "step1-7", "title": "Growth", "emoji": "📈", "tutorial_url": "https://www.youtube.com/watch?v=U1c5q8hQK70" },
+        { "id": "step1-8", "title": "Maturity", "emoji": "🏆", "tutorial_url": "https://www.youtube.com/watch?v=U1c5q8hQK70" },
+        { "id": "step1-9", "title": "Decline", "emoji": "⬇️", "tutorial_url": "https://www.youtube.com/watch?v=U1c5q8hQK70" }
+      ]
+    },
+    {
+      "id": "mod2",
+      "title": "Idea Generation",
+      "emoji": "💡",
+      "description": "Generate, collect, and organize product ideas.",
+      "steps": [
+        { "id": "step2-1", "title": "Mind Mapping", "emoji": "🧠", "tutorial_url": "https://www.youtube.com/watch?v=t8Ql2b4Q2yo" },
+        { "id": "step2-2", "title": "Brainwriting", "emoji": "✍️", "tutorial_url": "https://www.youtube.com/watch?v=2k9T1jI6nqU" },
+        { "id": "step2-3", "title": "SCAMPER", "emoji": "🔍", "tutorial_url": "https://www.youtube.com/watch?v=0tAZeM8oARw" },
+        { "id": "step2-4", "title": "Brainstorming Techniques", "emoji": "💭", "tutorial_url": "https://www.youtube.com/watch?v=0tAZeM8oARw" }
+      ]
+    },
+    {
+      "id": "mod3",
+      "title": "Discovery & Selection",
+      "emoji": "🔎",
+      "description": "Validate and select product ideas.",
+      "steps": [
+        { "id": "step3-1", "title": "Validation", "emoji": "✔️", "tutorial_url": "https://www.youtube.com/watch?v=8N8lNq1wM5k" },
+        { "id": "step3-2", "title": "Iterative Process", "emoji": "🔄", "tutorial_url": "https://www.youtube.com/watch?v=8N8lNq1wM5k" }
+      ]
+    },
+    {
+      "id": "mod4",
+      "title": "Execution Tools & Frameworks",
+      "emoji": "🔧",
+      "description": "Apply frameworks to execute product strategy.",
+      "steps": [
+        { "id": "step4-1", "title": "Blue Ocean Strategy", "emoji": "🌊", "tutorial_url": "https://www.youtube.com/watch?v=clp-HT3SOMg" },
+        { "id": "step4-2", "title": "TRIZ (Theory of Inventive Problem Solving)", "emoji": "🛠️", "tutorial_url": "https://www.youtube.com/watch?v=2k9T1jI6nqU" },
+        { "id": "step4-3", "title": "Problem Framing", "emoji": "🖼️", "tutorial_url": "https://www.youtube.com/watch?v=8N8lNq1wM5k" }
+      ]
+    },
+    {
+      "id": "mod5",
+      "title": "Product Identification",
+      "emoji": "🔍",
+      "description": "Identify user needs and market fit.",
+      "steps": [
+        { "id": "step5-1", "title": "Market Analysis", "emoji": "📊", "tutorial_url": "https://www.youtube.com/watch?v=9QnfWhtujPA" },
+        { "id": "step5-2", "title": "User Research", "emoji": "🧑‍🔬", "tutorial_url": "https://www.youtube.com/watch?v=9QnfWhtujPA" },
+        { "id": "step5-3", "title": "Positioning", "emoji": "📍", "tutorial_url": "https://www.youtube.com/watch?v=9QnfWhtujPA" },
+        { "id": "step5-4", "title": "Identifying Market Needs", "emoji": "🔦", "tutorial_url": "https://www.youtube.com/watch?v=9QnfWhtujPA" },
+        { "id": "step5-5", "title": "Competitive Analysis", "emoji": "⚔️", "tutorial_url": "https://www.youtube.com/watch?v=9QnfWhtujPA" },
+        { "id": "step5-6", "title": "Emerging Market Trends", "emoji": "🌱", "tutorial_url": "https://www.youtube.com/watch?v=9QnfWhtujPA" }
+      ]
+    },
+    {
+      "id": "mod6",
+      "title": "User Research",
+      "emoji": "🕵️",
+      "description": "Research user needs and behaviors.",
+      "steps": [
+        { "id": "step6-1", "title": "User Personas", "emoji": "👤", "tutorial_url": "https://www.youtube.com/watch?v=9QnfWhtujPA" },
+        { "id": "step6-2", "title": "User Interviews", "emoji": "🎤", "tutorial_url": "https://www.youtube.com/watch?v=9QnfWhtujPA" },
+        { "id": "step6-3", "title": "Surveys and Questionnaires", "emoji": "📋", "tutorial_url": "https://www.youtube.com/watch?v=9QnfWhtujPA" },
+        { "id": "step6-4", "title": "Ethnographic Research", "emoji": "🌍", "tutorial_url": "https://www.youtube.com/watch?v=9QnfWhtujPA" },
+        { "id": "step6-5", "title": "USP (Unique Selling Proposition)", "emoji": "🎁", "tutorial_url": "https://www.youtube.com/watch?v=9QnfWhtujPA" }
+      ]
+    },
+    {
+      "id": "mod7",
+      "title": "Defining & Communicating the Product",
+      "emoji": "📢",
+      "description": "Define and communicate the product vision and market fit.",
+      "steps": [
+        { "id": "step7-1", "title": "Market Segmentation", "emoji": "🔖", "tutorial_url": "https://www.youtube.com/watch?v=9QnfWhtujPA" },
+        { "id": "step7-2", "title": "Case Studies", "emoji": "📚", "tutorial_url": "https://www.youtube.com/watch?v=9QnfWhtujPA" }
+      ]
+    },
+    {
+      "id": "mod8",
+      "title": "Market and User Research",
+      "emoji": "🔬",
+      "description": "Craft vision, mission, and the product narrative.",
+      "steps": [
+        { "id": "step8-1", "title": "Vision & Mission", "emoji": "🌟", "tutorial_url": "https://www.youtube.com/watch?v=2k9T1jI6nqU" },
+        { "id": "step8-2", "title": "Statement", "emoji": "📝", "tutorial_url": "https://www.youtube.com/watch?v=2k9T1jI6nqU" },
+        { "id": "step8-3", "title": "Proposition", "emoji": "🎉", "tutorial_url": "https://www.youtube.com/watch?v=2k9T1jI6nqU" },
+        { "id": "step8-4", "title": "Capabilities", "emoji": "💪", "tutorial_url": "https://www.youtube.com/watch?v=2k9T1jI6nqU" },
+        { "id": "step8-5", "title": "Solved & Future Constraints", "emoji": "🔒", "tutorial_url": "https://www.youtube.com/watch?v=2k9T1jI6nqU" },
+        { "id": "step8-6", "title": "Reference Materials", "emoji": "📚", "tutorial_url": "https://www.youtube.com/watch?v=2k9T1jI6nqU" },
+        { "id": "step8-7", "title": "Narrative", "emoji": "📖", "tutorial_url": "https://www.youtube.com/watch?v=2k9T1jI6nqU" }
+      ]
+    },
+    {
+      "id": "mod9",
+      "title": "Defining Goals",
+      "emoji": "🎯",
+      "description": "Set clear, actionable product goals.",
+      "steps": [
+        { "id": "step9-1", "title": "Target", "emoji": "🎯", "tutorial_url": "https://www.youtube.com/watch?v=2k9T1jI6nqU" },
+        { "id": "step9-2", "title": "Baseline", "emoji": "📏", "tutorial_url": "https://www.youtube.com/watch?v=2k9T1jI6nqU" },
+        { "id": "step9-3", "title": "Trend", "emoji": "📈", "tutorial_url": "https://www.youtube.com/watch?v=2k9T1jI6nqU" },
+        { "id": "step9-4", "title": "Timeframe", "emoji": "⏳", "tutorial_url": "https://www.youtube.com/watch?v=2k9T1jI6nqU" },
+        { "id": "step9-5", "title": "Goal Types", "emoji": "🗂️", "tutorial_url": "https://www.youtube.com/watch?v=2k9T1jI6nqU" }
+      ]
+    },
+    {
+      "id": "mod10",
+      "title": "Value Proposition",
+      "emoji": "💎",
+      "description": "Define and refine your product's value proposition.",
+      "steps": [
+        { "id": "step10-1", "title": "Defining Value Proposition", "emoji": "💎", "tutorial_url": "https://www.youtube.com/watch?v=lzPpESz4AOs" },
+        { "id": "step10-2", "title": "Value Proposition Canvas", "emoji": "📋", "tutorial_url": "https://www.youtube.com/watch?v=lzPpESz4AOs" },
+        { "id": "step10-3", "title": "Value vs Features", "emoji": "⚖️", "tutorial_url": "https://www.youtube.com/watch?v=lzPpESz4AOs" },
+        { "id": "step10-4", "title": "Finding Balance", "emoji": "🎢", "tutorial_url": "https://www.youtube.com/watch?v=lzPpESz4AOs" },
+        { "id": "step10-5", "title": "Feature Creep", "emoji": "🦠", "tutorial_url": "https://www.youtube.com/watch?v=lzPpESz4AOs" }
+      ]
+    },
+    {
+      "id": "mod11",
+      "title": "Strategic Thinking",
+      "emoji": "🧠",
+      "description": "Think and act strategically to win in the market.",
+      "steps": [
+        { "id": "step11-1", "title": "Competitive Strategy", "emoji": "⚔️", "tutorial_url": "https://www.youtube.com/watch?v=vz0NTWJ1UqA" },
+        { "id": "step11-2", "title": "Five Forces Analysis", "emoji": "🌟", "tutorial_url": "https://www.youtube.com/watch?v=K8mkO6cSvw8" },
+        { "id": "step11-3", "title": "Competitive Advantage", "emoji": "🏅", "tutorial_url": "https://www.youtube.com/watch?v=vz0NTWJ1UqA" }
+      ]
+    },
+    {
+      "id": "mod12",
+      "title": "Strategic Partnerships",
+      "emoji": "🤝",
+      "description": "Build and manage partnerships for product success.",
+      "steps": [
+        { "id": "step12-1", "title": "Identify Partners", "emoji": "🔍", "tutorial_url": "https://www.youtube.com/watch?v=2k9T1jI6nqU" },
+        { "id": "step12-2", "title": "Managing Partnerships", "emoji": "🧑‍💼", "tutorial_url": "https://www.youtube.com/watch?v=2k9T1jI6nqU" }
+      ]
+    },
+    {
+      "id": "mod13",
+      "title": "Product Planning",
+      "emoji": "🗺️",
+      "description": "Plan, prioritize, and roadmap your product.",
+      "steps": [
+        { "id": "step13-1", "title": "Product Requirements", "emoji": "📜", "tutorial_url": "https://www.youtube.com/watch?v=wQhQbqZbKkY" },
+        { "id": "step13-2", "title": "Writing PRDs", "emoji": "✍️", "tutorial_url": "https://www.youtube.com/watch?v=wQhQbqZbKkY" },
+        { "id": "step13-3", "title": "User Stories", "emoji": "📋", "tutorial_url": "https://www.youtube.com/watch?v=wQhQbqZbKkY" },
+        { "id": "step13-4", "title": "Job Stories", "emoji": "🧳", "tutorial_url": "https://www.youtube.com/watch?v=wQhQbqZbKkY" },
+        { "id": "step13-5", "title": "Product Roadmap: Creating a Roadmap", "emoji": "🛣️", "tutorial_url": "https://www.youtube.com/watch?v=wQhQbqZbKkY" },
+        { "id": "step13-6", "title": "Prioritising Features", "emoji": "📊", "tutorial_url": "https://www.youtube.com/watch?v=wQhQbqZbKkY" },
+        { "id": "step13-7", "title": "Continuous Roadmapping", "emoji": "🔄", "tutorial_url": "https://www.youtube.com/watch?v=wQhQbqZbKkY" },
+        { "id": "step13-8", "title": "Outcome-Based Roadmaps", "emoji": "🎯", "tutorial_url": "https://www.youtube.com/watch?v=wQhQbqZbKkY" },
+        { "id": "step13-9", "title": "Communicating the Roadmap", "emoji": "📢", "tutorial_url": "https://www.youtube.com/watch?v=wQhQbqZbKkY" }
+      ]
+    },
+    {
+      "id": "mod14",
+      "title": "Backlog Management",
+      "emoji": "📋",
+      "description": "Manage and prioritize the product backlog.",
+      "steps": [
+        { "id": "step14-1", "title": "Prioritization Techniques", "emoji": "🔢", "tutorial_url": "https://www.youtube.com/watch?v=wQhQbqZbKkY" },
+        { "id": "step14-2", "title": "Grooming Sessions", "emoji": "✂️", "tutorial_url": "https://www.youtube.com/watch?v=wQhQbqZbKkY" },
+        { "id": "step14-3", "title": "User Story Mapping", "emoji": "🗺️", "tutorial_url": "https://www.youtube.com/watch?v=wQhQbqZbKkY" }
+      ]
+    },
+    {
+      "id": "mod15",
+      "title": "Product Design",
+      "emoji": "🎨",
+      "description": "Master the fundamentals of product and UX/UI design.",
+      "steps": [
+        { "id": "step15-1", "title": "UX / UI Design", "emoji": "🖌️", "tutorial_url": "https://www.youtube.com/watch?v=O6Xo21L0ybE" },
+        { "id": "step15-2", "title": "Principles of UX Design", "emoji": "💡", "tutorial_url": "https://www.youtube.com/watch?v=O6Xo21L0ybE" },
+        { "id": "step15-3", "title": "Wireframing and Prototyping", "emoji": "✏️", "tutorial_url": "https://www.youtube.com/watch?v=O6Xo21L0ybE" },
+        { "id": "step15-4", "title": "Design Thinking", "emoji": "🧠", "tutorial_url": "https://www.youtube.com/watch?v=M66ZU2PCIcM" },
+        { "id": "step15-5", "title": "Service Design", "emoji": "🛎️", "tutorial_url": "https://www.youtube.com/watch?v=O6Xo21L0ybE" },
+        { "id": "step15-6", "title": "Interaction Design", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=O6Xo21L0ybE" }
+      ]
+    },
+    {
+      "id": "mod16",
+      "title": "User Testing",
+      "emoji": "🧪",
+      "description": "Test your product with actual users.",
+      "steps": [
+        { "id": "step16-1", "title": "Usability Testing", "emoji": "✅", "tutorial_url": "https://www.youtube.com/watch?v=O6Xo21L0ybE" },
+        { "id": "step16-2", "title": "A/B Testing", "emoji": "🧪", "tutorial_url": "https://www.optimizely.com/optimization-glossary/ab-testing/" },
+        { "id": "step16-3", "title": "Remote User Testing", "emoji": "🌍", "tutorial_url": "https://www.youtube.com/watch?v=O6Xo21L0ybE" }
+      ]
+    },
+    {
+      "id": "mod17",
+      "title": "Development and Launch",
+      "emoji": "🚀",
+      "description": "Work with engineering teams and plan for launch.",
+      "steps": [
+        { "id": "step17-1", "title": "Agile Methodology", "emoji": "🏃", "tutorial_url": "https://www.youtube.com/watch?v=Z9QbYZh1YXY" },
+        { "id": "step17-2", "title": "Working with Engineering Teams", "emoji": "🧑‍💻", "tutorial_url": "https://www.youtube.com/watch?v=Z9QbYZh1YXY" },
+        { "id": "step17-3", "title": "Scrum Basics", "emoji": "🍰", "tutorial_url": "https://www.youtube.com/watch?v=9TycLR0TqFA" },
+        { "id": "step17-4", "title": "Kanban Basics", "emoji": "🗂️", "tutorial_url": "https://www.youtube.com/watch?v=R8dYLbJiTUE" },
+        { "id": "step17-5", "title": "Sprint Planning", "emoji": "📅", "tutorial_url": "https://www.youtube.com/watch?v=9TycLR0TqFA" },
+        { "id": "step17-6", "title": "Daily Standups", "emoji": "⏰", "tutorial_url": "https://www.youtube.com/watch?v=9TycLR0TqFA" },
+        { "id": "step17-7", "title": "Retrospectives", "emoji": "🔄", "tutorial_url": "https://www.youtube.com/watch?v=9TycLR0TqFA" },
+        { "id": "step17-8", "title": "MVP (Minimum Viable Product)", "emoji": "🛠️", "tutorial_url": "https://www.youtube.com/watch?v=QRCpA8pAgos" },
+        { "id": "step17-9", "title": "Go-to-Market Strategy: Launch Planning", "emoji": "🚦", "tutorial_url": "https://www.youtube.com/watch?v=QRCpA8pAgos" },
+        { "id": "step17-10", "title": "Go-to-Market Strategy: Marketing Strategies", "emoji": "📢", "tutorial_url": "https://www.youtube.com/watch?v=QRCpA8pAgos" },
+        { "id": "step17-11", "title": "Go-to-Market Strategy: Growth Hacking", "emoji": "📈", "tutorial_url": "https://www.youtube.com/watch?v=QRCpA8pAgos" },
+        { "id": "step17-12", "title": "Release Strategies: Feature Toggles", "emoji": "🎛️", "tutorial_url": "https://www.youtube.com/watch?v=QRCpA8pAgos" },
+        { "id": "step17-13", "title": "Release Strategies: Phased Rollouts", "emoji": "🚥", "tutorial_url": "https://www.youtube.com/watch?v=QRCpA8pAgos" },
+        { "id": "step17-14", "title": "Release Strategies: Dark Launches", "emoji": "🌚", "tutorial_url": "https://www.youtube.com/watch?v=QRCpA8pAgos" }
+      ]
+    },
+    {
+      "id": "mod18",
+      "title": "Product Metrics",
+      "emoji": "📊",
+      "description": "Measure and analyze product performance.",
+      "steps": [
+        { "id": "step18-1", "title": "DAU (Daily Active Users)", "emoji": "📆", "tutorial_url": "https://www.youtube.com/watch?v=0tAZeM8oARw" },
+        { "id": "step18-2", "title": "MAU (Monthly Active Users)", "emoji": "🗓️", "tutorial_url": "https://www.youtube.com/watch?v=0tAZeM8oARw" },
+        { "id": "step18-3", "title": "Conversion Rate", "emoji": "🔁", "tutorial_url": "https://www.youtube.com/watch?v=0tAZeM8oARw" },
+        { "id": "step18-4", "title": "Retention Rate", "emoji": "♻️", "tutorial_url": "https://www.youtube.com/watch?v=0tAZeM8oARw" },
+        { "id": "step18-5", "title": "Churn Rate", "emoji": "🔄", "tutorial_url": "https://www.youtube.com/watch?v=0tAZeM8oARw" },
+        { "id": "step18-6", "title": "LTV (Lifetime Value)", "emoji": "💰", "tutorial_url": "https://www.youtube.com/watch?v=0tAZeM8oARw" },
+        { "id": "step18-7", "title": "CAC (Customer Acquisition Cost)", "emoji": "💵", "tutorial_url": "https://www.youtube.com/watch?v=0tAZeM8oARw" },
+        { "id": "step18-8", "title": "North Star Metric", "emoji": "🌟", "tutorial_url": "https://www.youtube.com/watch?v=0tAZeM8oARw" }
+      ]
+    },
+    {
+      "id": "mod19",
+      "title": "Data-Driven Decision Making",
+      "emoji": "📈",
+      "description": "Leverage analytics to make data-driven product decisions.",
+      "steps": [
+        { "id": "step19-1", "title": "A/B Testing", "emoji": "🧪", "tutorial_url": "https://www.optimizely.com/optimization-glossary/ab-testing/" },
+        { "id": "step19-2", "title": "Cohort Analysis", "emoji": "👥", "tutorial_url": "https://www.youtube.com/watch?v=0tAZeM8oARw" },
+        { "id": "step19-3", "title": "Predictive Analytics", "emoji": "🔮", "tutorial_url": "https://www.youtube.com/watch?v=0tAZeM8oARw" },
+        { "id": "step19-4", "title": "Feedback Loops", "emoji": "🔄", "tutorial_url": "https://www.youtube.com/watch?v=0tAZeM8oARw" }
+      ]
+    },
+    {
+      "id": "mod20",
+      "title": "Stakeholder Management",
+      "emoji": "🤝",
+      "description": "Engage, communicate, and align with stakeholders.",
+      "steps": [
+        { "id": "step20-1", "title": "Communication Skills", "emoji": "📢", "tutorial_url": "https://www.youtube.com/watch?v=8lQF5J9w5dE" },
+        { "id": "step20-2", "title": "Interpersonal Skills", "emoji": "🧑‍🤝‍🧑", "tutorial_url": "https://www.youtube.com/watch?v=8lQF5J9w5dE" },
+        { "id": "step20-3", "title": "Business Communication Techniques", "emoji": "🗣️", "tutorial_url": "https://www.youtube.com/watch?v=8lQF5J9w5dE" },
+        { "id": "step20-4", "title": "Difficult Conversations", "emoji": "💬", "tutorial_url": "https://www.youtube.com/watch?v=8lQF5J9w5dE" },
+        { "id": "step20-5", "title": "Active Listening", "emoji": "👂", "tutorial_url": "https://www.youtube.com/watch?v=8lQF5J9w5dE" },
+        { "id": "step20-6", "title": "Conflict Resolution", "emoji": "🕊️", "tutorial_url": "https://www.youtube.com/watch?v=8lQF5J9w5dE" },
+        { "id": "step20-7", "title": "Alignment & Buy-In", "emoji": "🤲", "tutorial_url": "https://www.youtube.com/watch?v=8lQF5J9w5dE" },
+        { "id": "step20-8", "title": "Showing Impact", "emoji": "💥", "tutorial_url": "https://www.youtube.com/watch?v=8lQF5J9w5dE" },
+        { "id": "step20-9", "title": "Identifying Stakeholders", "emoji": "🔎", "tutorial_url": "https://www.youtube.com/watch?v=8lQF5J9w5dE" },
+        { "id": "step20-10", "title": "Stakeholder Mapping", "emoji": "🗺️", "tutorial_url": "https://www.youtube.com/watch?v=8lQF5J9w5dE" },
+        { "id": "step20-11", "title": "Stakeholder Engagement", "emoji": "🤝", "tutorial_url": "https://www.youtube.com/watch?v=8lQF5J9w5dE" },
+        { "id": "step20-12", "title": "Remote Stakeholders", "emoji": "🌐", "tutorial_url": "https://www.youtube.com/watch?v=8lQF5J9w5dE" }
+      ]
+    },
+    {
+      "id": "mod21",
+      "title": "Product Management Tools",
+      "emoji": "🛠️",
+      "description": "Explore the tools of the trade for product managers.",
+      "steps": [
+        { "id": "step21-1", "title": "Roadmapping Tools", "emoji": "🗺️", "tutorial_url": "https://www.youtube.com/watch?v=wQhQbqZbKkY" },
+        { "id": "step21-2", "title": "Project Management Tools", "emoji": "📆", "tutorial_url": "https://www.youtube.com/watch?v=wQhQbqZbKkY" },
+        { "id": "step21-3", "title": "Analytics Tools", "emoji": "📊", "tutorial_url": "https://www.youtube.com/watch?v=wQhQbqZbKkY" },
+        { "id": "step21-4", "title": "Communication Tools", "emoji": "💬", "tutorial_url": "https://www.youtube.com/watch?v=wQhQbqZbKkY" },
+        { "id": "step21-5", "title": "Product Board", "emoji": "📋", "tutorial_url": "https://www.youtube.com/watch?v=wQhQbqZbKkY" },
+        { "id": "step21-6", "title": "Aha", "emoji": "💡", "tutorial_url": "https://www.youtube.com/watch?v=wQhQbqZbKkY" },
+        { "id": "step21-7", "title": "Notion", "emoji": "📓", "tutorial_url": "https://www.youtube.com/watch?v=wQhQbqZbKkY" },
+        { "id": "step21-8", "title": "Jira", "emoji": "🗂️", "tutorial_url": "https://www.youtube.com/watch?v=wQhQbqZbKkY" },
+        { "id": "step21-9", "title": "Linear", "emoji": "📈", "tutorial_url": "https://www.youtube.com/watch?v=wQhQbqZbKkY" },
+        { "id": "step21-10", "title": "Trello", "emoji": "📋", "tutorial_url": "https://www.youtube.com/watch?v=wQhQbqZbKkY" },
+        { "id": "step21-11", "title": "Amplitude", "emoji": "📊", "tutorial_url": "https://www.youtube.com/watch?v=wQhQbqZbKkY" },
+        { "id": "step21-12", "title": "Heap", "emoji": "🔎", "tutorial_url": "https://www.youtube.com/watch?v=wQhQbqZbKkY" },
+        { "id": "step21-13", "title": "Looker", "emoji": "🔭", "tutorial_url": "https://www.youtube.com/watch?v=wQhQbqZbKkY" },
+        { "id": "step21-14", "title": "Slack", "emoji": "💬", "tutorial_url": "https://www.youtube.com/watch?v=wQhQbqZbKkY" },
+        { "id": "step21-15", "title": "Teams", "emoji": "👥", "tutorial_url": "https://www.youtube.com/watch?v=wQhQbqZbKkY" },
+        { "id": "step21-16", "title": "Discord", "emoji": "💬", "tutorial_url": "https://www.youtube.com/watch?v=wQhQbqZbKkY" }
+      ]
+    },
+    {
+      "id": "mod22",
+      "title": "Risk Management",
+      "emoji": "☂️",
+      "description": "Identify, assess, and mitigate product risks.",
+      "steps": [
+        { "id": "step22-1", "title": "Identifying Risks", "emoji": "🔎", "tutorial_url": "https://www.youtube.com/watch?v=F2X7n6T8QLU" },
+        { "id": "step22-2", "title": "Risk Identification Techniques", "emoji": "📝", "tutorial_url": "https://www.youtube.com/watch?v=F2X7n6T8QLU" },
+        { "id": "step22-3", "title": "Risk Register", "emoji": "📋", "tutorial_url": "https://www.youtube.com/watch?v=F2X7n6T8QLU" },
+        { "id": "step22-4", "title": "Risk Assessment: Qualitative", "emoji": "⚖️", "tutorial_url": "https://www.youtube.com/watch?v=F2X7n6T8QLU" },
+        { "id": "step22-5", "title": "Risk Assessment: Quantitative", "emoji": "📊", "tutorial_url": "https://www.youtube.com/watch?v=F2X7n6T8QLU" },
+        { "id": "step22-6", "title": "Risk Mitigation: Mitigation Strategies", "emoji": "🛡️", "tutorial_url": "https://www.youtube.com/watch?v=F2X7n6T8QLU" },
+        { "id": "step22-7", "title": "Risk Mitigation: Contingency Planning", "emoji": "🗂️", "tutorial_url": "https://www.youtube.com/watch?v=F2X7n6T8QLU" },
+        { "id": "step22-8", "title": "Monitoring and Controlling Risks: Risk Monitoring Tools", "emoji": "⌚", "tutorial_url": "https://www.youtube.com/watch?v=F2X7n6T8QLU" },
+        { "id": "step22-9", "title": "Monitoring and Controlling Risks: Risk Audits", "emoji": "🔍", "tutorial_url": "https://www.youtube.com/watch?v=F2X7n6T8QLU" }
+      ]
+    },
+    {
+      "id": "mod23",
+      "title": "Advanced Topics",
+      "emoji": "🚀",
+      "description": "Explore advanced product management topics.",
+      "steps": [
+        { "id": "step23-1", "title": "Scaling Products", "emoji": "📈", "tutorial_url": "https://www.youtube.com/watch?v=0tAZeM8oARw" },
+        { "id": "step23-2", "title": "Growth Strategies", "emoji": "🌱", "tutorial_url": "https://www.youtube.com/watch?v=0tAZeM8oARw" },
+        { "id": "step23-3", "title": "Internationalization", "emoji": "🌍", "tutorial_url": "https://www.youtube.com/watch?v=0tAZeM8oARw" },
+        { "id": "step23-4", "title": "Platform Thinking", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=0tAZeM8oARw" },
+        { "id": "step23-5", "title": "Portfolio Management", "emoji": "🗃️", "tutorial_url": "https://www.youtube.com/watch?v=0tAZeM8oARw" },
+        { "id": "step23-6", "title": "Advanced Analysis", "emoji": "🔬", "tutorial_url": "https://www.youtube.com/watch?v=0tAZeM8oARw" },
+        { "id": "step23-7", "title": "Predictive Analytics", "emoji": "🔮", "tutorial_url": "https://www.youtube.com/watch?v=0tAZeM8oARw" },
+        { "id": "step23-8", "title": "ML in Product Management", "emoji": "🤖", "tutorial_url": "https://www.youtube.com/watch?v=0tAZeM8oARw" },
+        { "id": "step23-9", "title": "AI in Product Management", "emoji": "🧠", "tutorial_url": "https://www.youtube.com/watch?v=0tAZeM8oARw" },
+        { "id": "step23-10", "title": "Building and Leading Teams", "emoji": "👥", "tutorial_url": "https://www.youtube.com/watch?v=0tAZeM8oARw" },
+        { "id": "step23-11", "title": "Influencing without Authority", "emoji": "🗣️", "tutorial_url": "https://www.youtube.com/watch?v=0tAZeM8oARw" },
+        { "id": "step23-12", "title": "Emotional Intelligence", "emoji": "🧠", "tutorial_url": "https://www.youtube.com/watch?v=0tAZeM8oARw" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "Product Requirement Document (PRD) for a SaaS Tool",
+      "level": "Beginner",
+      "emoji": "📝",
+      "description": "Write a Product Requirement Document for a B2B SaaS tool.",
+      "concepts": ["PRD", "Requirements Gathering", "Stakeholder Alignment"],
+      "tutorial_url": "https://www.youtube.com/watch?v=wQhQbqZbKkY",
+      "guide_urls": [
+        { "label": "PRD Guide", "url": "https://www.productplan.com/learn/product-requirements-document-prd/" }
+      ]
+    },
+    {
+      "id": "proj2",
+      "title": "Market Analysis Report",
+      "level": "Beginner",
+      "emoji": "📊",
+      "description": "Conduct a market analysis for a new product.",
+      "concepts": ["Market Research", "Competitive Analysis", "Positioning"],
+      "tutorial_url": "https://www.youtube.com/watch?v=9QnfWhtujPA",
+      "guide_urls": [
+        { "label": "Market Analysis Guide", "url": "https://www.productplan.com/learn/market-analysis/" }
+      ]
+    },
+    {
+      "id": "proj3",
+      "title": "User Persona & Journey Map",
+      "level": "Beginner",
+      "emoji": "🧑‍💼",
+      "description": "Create a user persona and journey map for a digital product.",
+      "concepts": ["User Persona", "Empathy Mapping", "Journey Mapping"],
+      "tutorial_url": "https://www.youtube.com/watch?v=9QnfWhtujPA",
+      "guide_urls": [
+        { "label": "Persona Guide", "url": "https://www.interaction-design.org/literature/topics/user-personas" }
+      ]
+    },
+    {
+      "id": "proj4",
+      "title": "Product Roadmap for MVP",
+      "level": "Intermediate",
+      "emoji": "🗺️",
+      "description": "Create a product roadmap for a minimum viable product.",
+      "concepts": ["Roadmapping", "MVP", "Prioritization"],
+      "tutorial_url": "https://www.youtube.com/watch?v=wQhQbqZbKkY",
+      "guide_urls": [
+        { "label": "Roadmapping Guide", "url": "https://www.productplan.com/learn/how-to-create-a-product-roadmap/" }
+      ]
+    },
+    {
+      "id": "proj5",
+      "title": "Backlog Management Simulation",
+      "level": "Intermediate",
+      "emoji": "📋",
+      "description": "Simulate backlog management and run prioritization exercises.",
+      "concepts": ["Backlog", "Prioritization", "Agile"],
+      "tutorial_url": "https://www.youtube.com/watch?v=wQhQbqZbKkY",
+      "guide_urls": [
+        { "label": "Backlog Management", "url": "https://www.atlassian.com/agile/backlogs" }
+      ]
+    },
+    {
+      "id": "proj6",
+      "title": "Go-To-Market (GTM) Strategy",
+      "level": "Advanced",
+      "emoji": "🚀",
+      "description": "Develop and document a go-to-market strategy for a new product.",
+      "concepts": ["GTM", "Launch Planning", "Marketing"],
+      "tutorial_url": "https://www.youtube.com/watch?v=QRCpA8pAgos",
+      "guide_urls": [
+        { "label": "GTM Strategy Guide", "url": "https://www.productplan.com/learn/go-to-market-strategy/" }
+      ]
+    },
+    {
+      "id": "proj7",
+      "title": "Product Metrics Dashboard",
+      "level": "Advanced",
+      "emoji": "📊",
+      "description": "Create a metrics dashboard with DAU, MAU, retention, and growth metrics.",
+      "concepts": ["Metrics", "Analytics", "Dashboard"],
+      "tutorial_url": "https://www.youtube.com/watch?v=0tAZeM8oARw",
+      "guide_urls": [
+        { "label": "Metrics Guide", "url": "https://www.productplan.com/learn/product-metrics/" }
+      ]
+    }
+  ]
+}

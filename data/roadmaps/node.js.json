@@ -1,0 +1,385 @@
+{
+  "title": "Node.js Developer Roadmap",
+  "description": "A practical learning path for Node.js backend development.",
+  "modules": [
+    {
+      "id": "mod1",
+      "title": "Introduction to Node.js",
+      "emoji": "🧭",
+      "description": "Get started with Node.js, its history, and environment.",
+      "steps": [
+        { "id": "step1-1", "title": "What is Node.js?", "emoji": "❓", "tutorial_url": "https://www.youtube.com/watch?v=TlB_eWDSMt4" },
+        { "id": "step1-2", "title": "Why use Node.js?", "emoji": "🚀", "tutorial_url": "https://www.youtube.com/watch?v=TlB_eWDSMt4" },
+        { "id": "step1-3", "title": "History of Node.js", "emoji": "📜", "tutorial_url": "https://www.freecodecamp.org/news/the-history-of-node-js-5022b7c52910/" },
+        { "id": "step1-4", "title": "Node.js vs Browser", "emoji": "🌍", "tutorial_url": "https://nodejs.org/en/docs/guides/differences-between-nodejs-and-browser" },
+        { "id": "step1-5", "title": "Running Node.js Code", "emoji": "🏃", "tutorial_url": "https://nodejs.dev/en/learn/run-nodejs-scripts-from-the-command-line/" }
+      ]
+    },
+    {
+      "id": "mod2",
+      "title": "Modules",
+      "emoji": "📦",
+      "description": "Understand CommonJS, ESM, and globals.",
+      "steps": [
+        { "id": "step2-1", "title": "CommonJS", "emoji": "🔗", "tutorial_url": "https://nodejs.org/en/learn/modules/intro-to-modules/" },
+        { "id": "step2-2", "title": "ESM", "emoji": "📦", "tutorial_url": "https://nodejs.org/api/esm.html" },
+        { "id": "step2-3", "title": "Creating & Importing", "emoji": "➕", "tutorial_url": "https://nodejs.dev/en/learn/introduction-to-nodejs-modules/" },
+        { "id": "step2-4", "title": "[global] keyword", "emoji": "🌐", "tutorial_url": "https://nodejs.org/api/globals.html" }
+      ]
+    },
+    {
+      "id": "mod3",
+      "title": "npm",
+      "emoji": "📦",
+      "description": "Work with npm for package management.",
+      "steps": [
+        { "id": "step3-1", "title": "Global Installation", "emoji": "🌍", "tutorial_url": "https://docs.npmjs.com/downloading-and-installing-packages-globally" },
+        { "id": "step3-2", "title": "Local Installation", "emoji": "📁", "tutorial_url": "https://docs.npmjs.com/downloading-and-installing-packages-locally" },
+        { "id": "step3-3", "title": "Installing Packages", "emoji": "⬇️", "tutorial_url": "https://docs.npmjs.com/cli/v10/commands/npm-install" },
+        { "id": "step3-4", "title": "Updating Packages", "emoji": "🔄", "tutorial_url": "https://docs.npmjs.com/cli/v10/commands/npm-update" },
+        { "id": "step3-5", "title": "Running Scripts", "emoji": "📝", "tutorial_url": "https://docs.npmjs.com/cli/v10/commands/npm-run-script" },
+        { "id": "step3-6", "title": "npm workspaces", "emoji": "🏢", "tutorial_url": "https://docs.npmjs.com/cli/v10/using-npm/workspaces" },
+        { "id": "step3-7", "title": "Creating Packages", "emoji": "📦", "tutorial_url": "https://docs.npmjs.com/creating-and-publishing-unscoped-public-packages" },
+        { "id": "step3-8", "title": "Semantic Versioning", "emoji": "🔢", "tutorial_url": "https://semver.org/" }
+      ]
+    },
+    {
+      "id": "mod4",
+      "title": "npx",
+      "emoji": "⚡",
+      "description": "Run binaries from npm packages.",
+      "steps": [
+        { "id": "step4-1", "title": "npx", "emoji": "⚡", "tutorial_url": "https://www.freecodecamp.org/news/npx-node-package-runner-explained/" }
+      ]
+    },
+    {
+      "id": "mod5",
+      "title": "Async Programming",
+      "emoji": "⏳",
+      "description": "Handle asynchronous code in Node.js.",
+      "steps": [
+        { "id": "step5-1", "title": "Promises, async/await, Callbacks", "emoji": "🔄", "tutorial_url": "https://nodejs.dev/en/learn/understanding-javascript-async-await/" },
+        { "id": "step5-2", "title": "Writing Async Code: setTimeout, setInterval, setImmediate, process.nextTick", "emoji": "⏲️", "tutorial_url": "https://nodejs.dev/en/learn/understanding-javascript-timers/" },
+        { "id": "step5-3", "title": "Event Emitter, Event Loop", "emoji": "🎡", "tutorial_url": "https://nodejs.dev/en/learn/the-nodejs-event-loop/" }
+      ]
+    },
+    {
+      "id": "mod6",
+      "title": "Error Handling",
+      "emoji": "⚠️",
+      "description": "Handle errors in Node.js applications.",
+      "steps": [
+        { "id": "step6-1", "title": "System Errors, User Specified Errors, Assertion Errors, JavaScript Errors, Types of Errors, Uncaught Exceptions", "emoji": "❌", "tutorial_url": "https://nodejs.org/en/learn/error-handling/errors--what-they-are-and-how-to-handle-them" },
+        { "id": "step6-2", "title": "Handling Async Errors, Callback / Stack Trace, Using Debugger", "emoji": "🐞", "tutorial_url": "https://nodejs.org/en/learn/error-handling/how-to-catch-unhandled-errors-in-nodejs" }
+      ]
+    },
+    {
+      "id": "mod7",
+      "title": "Command Line Apps",
+      "emoji": "💻",
+      "description": "Write CLI tools with Node.js.",
+      "steps": [
+        { "id": "step7-1", "title": "Environment Variables: process.env, dotenv package", "emoji": "🌱", "tutorial_url": "https://www.digitalocean.com/community/tutorials/how-to-use-env-files-node-js" },
+        { "id": "step7-2", "title": "Taking Input: process.stdin, Inquirer Package, prompts package", "emoji": "📝", "tutorial_url": "https://www.npmjs.com/package/inquirer" },
+        { "id": "step7-3", "title": "Printing Output: stdout / stderr, chalk package, figlet package, cli-progress", "emoji": "🖨️", "tutorial_url": "https://www.npmjs.com/package/chalk" },
+        { "id": "step7-4", "title": "Command Line Args: process.argv, commander", "emoji": "📄", "tutorial_url": "https://www.npmjs.com/package/commander" },
+        { "id": "step7-5", "title": "Exiting / Exit Codes", "emoji": "🚪", "tutorial_url": "https://nodejs.dev/en/learn/how-to-exit-from-a-nodejs-program/" }
+      ]
+    },
+    {
+      "id": "mod8",
+      "title": "Working with Files",
+      "emoji": "📂",
+      "description": "Read, write, and watch files with Node.js.",
+      "steps": [
+        { "id": "step8-1", "title": "__dirname, __filename, process.cwd(), path module, fs module", "emoji": "📁", "tutorial_url": "https://nodejs.org/en/learn/file-system/how-to-work-with-files-using-the-fs-module" },
+        { "id": "step8-2", "title": "Open Source Packages: glob, globby, fs-extra, chokidar", "emoji": "🔍", "tutorial_url": "https://www.npmjs.com/package/glob" }
+      ]
+    },
+    {
+      "id": "mod9",
+      "title": "Building & Consuming APIs",
+      "emoji": "🌐",
+      "description": "Create and consume REST APIs with Node.js.",
+      "steps": [
+        { "id": "step9-1", "title": "Building & Consuming APIs", "emoji": "🔗", "tutorial_url": "https://www.digitalocean.com/community/tutorials/how-to-build-a-rest-api-with-express-js" }
+      ]
+    },
+    {
+      "id": "mod10",
+      "title": "Monitor Changes (Dev)",
+      "emoji": "👀",
+      "description": "Automatically reload code on changes.",
+      "steps": [
+        { "id": "step10-1", "title": "--watch, nodemon", "emoji": "🔁", "tutorial_url": "https://www.npmjs.com/package/nodemon" }
+      ]
+    },
+    {
+      "id": "mod11",
+      "title": "Template Engines",
+      "emoji": "📝",
+      "description": "Render dynamic HTML with template engines.",
+      "steps": [
+        { "id": "step11-1", "title": "ejs, pug, marko", "emoji": "📄", "tutorial_url": "https://www.digitalocean.com/community/tutorials/how-to-use-ejs-to-template-your-node-application" }
+      ]
+    },
+    {
+      "id": "mod12",
+      "title": "Working with Databases",
+      "emoji": "🗄️",
+      "description": "Connect Node.js with NoSQL and SQL databases.",
+      "steps": [
+        { "id": "step12-1", "title": "NoSQL DBs: Mongoose, Prisma, Native Drivers", "emoji": "🍃", "tutorial_url": "https://www.mongodb.com/languages/mern-stack-tutorial" },
+        { "id": "step12-2", "title": "Relational DBs: Drizzle, TypeORM, Knex, Sequelize, Prisma, Native Drivers", "emoji": "💾", "tutorial_url": "https://sequelize.org/docs/v6/getting-started/" }
+      ]
+    },
+    {
+      "id": "mod13",
+      "title": "Authentication",
+      "emoji": "🔐",
+      "description": "Authenticate users in your Node.js apps.",
+      "steps": [
+        { "id": "step13-1", "title": "jsonwebtoken, passport.js", "emoji": "🔑", "tutorial_url": "https://www.digitalocean.com/community/tutorials/api-authentication-with-json-web-tokensjwt-and-passport" }
+      ]
+    },
+    {
+      "id": "mod14",
+      "title": "Frameworks",
+      "emoji": "🏗️",
+      "description": "Popular Node.js backend frameworks.",
+      "steps": [
+        { "id": "step14-1", "title": "Express.js, fastify, NestJS, Hono", "emoji": "🚧", "tutorial_url": "https://expressjs.com/en/starter/installing.html" }
+      ]
+    },
+    {
+      "id": "mod15",
+      "title": "Making API Calls",
+      "emoji": "🔗",
+      "description": "Make HTTP requests from Node.js.",
+      "steps": [
+        { "id": "step15-1", "title": "http module, axios, ky, fetch, got package", "emoji": "🌐", "tutorial_url": "https://www.digitalocean.com/community/tutorials/how-to-use-axios-with-node-js" }
+      ]
+    },
+    {
+      "id": "mod16",
+      "title": "Testing",
+      "emoji": "🧪",
+      "description": "Test your Node.js applications.",
+      "steps": [
+        { "id": "step16-1", "title": "Vitest, Jest, node:test, Cypress, Playwright", "emoji": "🧪", "tutorial_url": "https://jestjs.io/docs/getting-started" }
+      ]
+    },
+    {
+      "id": "mod17",
+      "title": "Logging",
+      "emoji": "📝",
+      "description": "Log and monitor Node.js apps.",
+      "steps": [
+        { "id": "step17-1", "title": "Winston, Morgan", "emoji": "📋", "tutorial_url": "https://www.digitalocean.com/community/tutorials/how-to-use-winston-to-log-node-js-applications" }
+      ]
+    },
+    {
+      "id": "mod18",
+      "title": "Keep App Running",
+      "emoji": "🚦",
+      "description": "Keep your Node.js apps running in production.",
+      "steps": [
+        { "id": "step18-1", "title": "pm2", "emoji": "⚙️", "tutorial_url": "https://www.digitalocean.com/community/tutorials/how-to-use-pm2-to-setup-a-node-js-production-environment-on-an-ubuntu-vps" }
+      ]
+    },
+    {
+      "id": "mod19",
+      "title": "Threads",
+      "emoji": "🧵",
+      "description": "Work with threads and parallelism.",
+      "steps": [
+        { "id": "step19-1", "title": "Child Process, Cluster, Worker Threads", "emoji": "🔀", "tutorial_url": "https://www.digitalocean.com/community/tutorials/how-to-use-worker-threads-in-node-js" }
+      ]
+    },
+    {
+      "id": "mod20",
+      "title": "Streams",
+      "emoji": "🌊",
+      "description": "Handle streaming data in Node.js.",
+      "steps": [
+        { "id": "step20-1", "title": "Streams", "emoji": "🌀", "tutorial_url": "https://nodejs.dev/en/learn/nodejs-streams/" }
+      ]
+    },
+    {
+      "id": "mod21",
+      "title": "Debugging",
+      "emoji": "🐞",
+      "description": "Debug your Node.js applications.",
+      "steps": [
+        { "id": "step21-1", "title": "Garbage Collection, Memory Leaks, node --inspect, Using APM", "emoji": "🔍", "tutorial_url": "https://www.digitalocean.com/community/tutorials/how-to-debug-node-js-with-the-built-in-debugger" }
+      ]
+    },
+    {
+      "id": "mod22",
+      "title": "Common Built-in Modules",
+      "emoji": "🔧",
+      "description": "Explore Node.js built-in modules.",
+      "steps": [
+        { "id": "step22-1", "title": "Common Built-in Modules", "emoji": "📚", "tutorial_url": "https://nodejs.org/api/" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "Portfolio Website",
+      "level": "Beginner",
+      "emoji": "🌐",
+      "description": "Build a personal portfolio site with Node.js backend.",
+      "concepts": ["Express", "EJS", "Static Files"],
+      "tutorial_url": "https://www.youtube.com/watch?v=fgTGADljAeg",
+      "guide_urls": [
+        { "label": "Portfolio Node.js Guide", "url": "https://dev.to/aspittel/how-to-build-a-portfolio-site-with-node-js-and-express-3k5g" }
+      ]
+    },
+    {
+      "id": "proj2",
+      "title": "To-Do List App",
+      "level": "Beginner",
+      "emoji": "📝",
+      "description": "A simple To-Do List app with Node.js and Express.",
+      "concepts": ["Express", "CRUD", "MongoDB"],
+      "tutorial_url": "https://www.youtube.com/watch?v=SBvmnHTQIPY",
+      "guide_urls": [
+        { "label": "To-Do App Guide", "url": "https://www.freecodecamp.org/news/build-a-todo-app-with-express-js/" }
+      ]
+    },
+    {
+      "id": "proj3",
+      "title": "URL Shortener",
+      "level": "Beginner",
+      "emoji": "🔗",
+      "description": "Create a simple URL shortener service.",
+      "concepts": ["Express", "Routing", "MongoDB"],
+      "tutorial_url": "https://www.youtube.com/watch?v=Fa4cRMaTDUI",
+      "guide_urls": [
+        { "label": "URL Shortener Guide", "url": "https://www.freecodecamp.org/news/build-a-url-shortener-with-node-and-express/" }
+      ]
+    },
+    {
+      "id": "proj4",
+      "title": "Real Time Chat Application",
+      "level": "Beginner",
+      "emoji": "💬",
+      "description": "Build a real-time chat app using Socket.io.",
+      "concepts": ["Socket.io", "WebSockets", "Express"],
+      "tutorial_url": "https://www.youtube.com/watch?v=3dclmFvVqOA",
+      "guide_urls": [
+        { "label": "Chat App Guide", "url": "https://www.digitalocean.com/community/tutorials/nodejs-chat-app" }
+      ]
+    },
+    {
+      "id": "proj5",
+      "title": "Email Sender",
+      "level": "Beginner",
+      "emoji": "📧",
+      "description": "Send emails from a Node.js app with Nodemailer.",
+      "concepts": ["Nodemailer", "Express", "SMTP"],
+      "tutorial_url": "https://www.youtube.com/watch?v=Va9UKGs1bwI",
+      "guide_urls": [
+        { "label": "Email Sender Guide", "url": "https://www.freecodecamp.org/news/send-an-email-using-nodemailer/" }
+      ]
+    },
+    {
+      "id": "proj6",
+      "title": "Sleep Tracker App",
+      "level": "Intermediate",
+      "emoji": "😴",
+      "description": "Build a sleep tracker REST API.",
+      "concepts": ["REST", "CRUD", "MongoDB"],
+      "tutorial_url": "https://www.youtube.com/watch?v=ENrzD9HAZK4",
+      "guide_urls": [
+        { "label": "Sleep Tracker Guide", "url": "https://www.freecodecamp.org/news/how-to-build-a-rest-api-with-express-js/" }
+      ]
+    },
+    {
+      "id": "proj7",
+      "title": "Library Management System",
+      "level": "Intermediate",
+      "emoji": "📚",
+      "description": "Create a library management backend.",
+      "concepts": ["REST", "CRUD", "MongoDB"],
+      "tutorial_url": "https://www.youtube.com/watch?v=1Sjy3xjB7gk",
+      "guide_urls": [
+        { "label": "Library System Guide", "url": "https://www.geeksforgeeks.org/library-management-system-using-node-js/" }
+      ]
+    },
+    {
+      "id": "proj8",
+      "title": "Video Streaming Platform",
+      "level": "Intermediate",
+      "emoji": "🎬",
+      "description": "Develop a simple video streaming backend.",
+      "concepts": ["Streams", "Express", "Routing"],
+      "tutorial_url": "https://www.youtube.com/watch?v=7CqJlxBYj-M",
+      "guide_urls": [
+        { "label": "Video Streaming Guide", "url": "https://www.freecodecamp.org/news/how-to-build-a-video-streaming-app-with-node-js/" }
+      ]
+    },
+    {
+      "id": "proj9",
+      "title": "Music Streaming Application",
+      "level": "Intermediate",
+      "emoji": "🎵",
+      "description": "Build a simple music streaming backend.",
+      "concepts": ["Streams", "Express", "MongoDB"],
+      "tutorial_url": "https://www.youtube.com/watch?v=7CqJlxBYj-M",
+      "guide_urls": [
+        { "label": "Music Streaming Guide", "url": "https://www.section.io/engineering-education/build-music-streaming-app-nodejs/" }
+      ]
+    },
+    {
+      "id": "proj10",
+      "title": "Photo Collage Tool",
+      "level": "Advanced",
+      "emoji": "🖼️",
+      "description": "Create a photo collage app using Node.js.",
+      "concepts": ["Image processing", "Express", "Sharp"],
+      "tutorial_url": "https://www.youtube.com/watch?v=7CqJlxBYj-M",
+      "guide_urls": [
+        { "label": "Photo Collage Guide", "url": "https://dev.to/tqbit/how-to-create-a-photo-collage-maker-in-node-js-1p6h" }
+      ]
+    },
+    {
+      "id": "proj11",
+      "title": "Payment Reminder Application",
+      "level": "Advanced",
+      "emoji": "💵",
+      "description": "Send payment reminders with Node.js backend.",
+      "concepts": ["Scheduler", "Nodemailer", "Express"],
+      "tutorial_url": "https://www.youtube.com/watch?v=Va9UKGs1bwI",
+      "guide_urls": [
+        { "label": "Payment Reminder Guide", "url": "https://medium.com/@marco_tavora/payment-reminder-app-with-nodejs-express-and-mongodb-3e0c9f43bce1" }
+      ]
+    },
+    {
+      "id": "proj12",
+      "title": "Movie Reservation System",
+      "level": "Advanced",
+      "emoji": "🎟️",
+      "description": "Backend for booking and managing movie reservations.",
+      "concepts": ["CRUD", "MongoDB", "Express"],
+      "tutorial_url": "https://www.youtube.com/watch?v=ENrzD9HAZK4",
+      "guide_urls": [
+        { "label": "Movie Reservation Guide", "url": "https://www.geeksforgeeks.org/movie-reservation-system-using-node-js/" }
+      ]
+    },
+    {
+      "id": "proj13",
+      "title": "Scalable E-commerce Platform",
+      "level": "Advanced",
+      "emoji": "🛒",
+      "description": "Build a scalable e-commerce backend.",
+      "concepts": ["REST", "MongoDB", "Express", "Authentication"],
+      "tutorial_url": "https://www.youtube.com/watch?v=7CqJlxBYj-M",
+      "guide_urls": [
+        { "label": "E-commerce Node.js Guide", "url": "https://www.freecodecamp.org/news/build-an-e-commerce-app-with-node-js/" }
+      ]
+    }
+  ]
+}

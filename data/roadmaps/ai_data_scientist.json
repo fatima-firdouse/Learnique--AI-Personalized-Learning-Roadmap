@@ -1,0 +1,205 @@
+{
+  "title": "AI Data Scientist Roadmap",
+  "description": "A practical learning path for AI/Data Science.",
+  "modules": [
+    {
+      "id": "mod1",
+      "title": "Mathematics for AI",
+      "emoji": "🧮",
+      "description": "Build a strong mathematical foundation for AI and Data Science.",
+      "steps": [
+        { "id": "step1-1", "title": "Linear Algebra, Calculus, Mathematical Analysis", "emoji": "📐", "tutorial_url": "https://www.youtube.com/watch?v=kjBOesZCoqc" },
+        { "id": "step1-2", "title": "Mathematics for Machine Learning (Course)", "emoji": "📚", "tutorial_url": "https://www.youtube.com/watch?v=aircAruvnKk" },
+        { "id": "step1-3", "title": "Differential Calculus", "emoji": "📈", "tutorial_url": "https://www.youtube.com/watch?v=WUvTyaaNkzM" }
+      ]
+    },
+    {
+      "id": "mod2",
+      "title": "Statistics & Probability",
+      "emoji": "🎲",
+      "description": "Essential statistics and probability concepts for data science.",
+      "steps": [
+        { "id": "step2-1", "title": "Statistics, Central Limit Theorem", "emoji": "📊", "tutorial_url": "https://www.youtube.com/watch?v=XXDLpGqPLwA" },
+        { "id": "step2-2", "title": "Hypothesis Testing", "emoji": "✏️", "tutorial_url": "https://www.youtube.com/watch?v=0zZYBALbZgg" },
+        { "id": "step2-3", "title": "Probability and Sampling", "emoji": "🎲", "tutorial_url": "https://www.youtube.com/watch?v=Kzm2b2aY3hQ" },
+        { "id": "step2-4", "title": "AB Testing & Experiment Design", "emoji": "🧪", "tutorial_url": "https://www.youtube.com/watch?v=CO8kFHCyGJg" },
+        { "id": "step2-5", "title": "Increasing Test Sensitivity & Ratio Metrics", "emoji": "⚖️", "tutorial_url": "https://www.youtube.com/watch?v=CO8kFHCyGJg" }
+      ]
+    },
+    {
+      "id": "mod3",
+      "title": "Econometrics & Time Series",
+      "emoji": "📈",
+      "description": "Analyze, model, and forecast time series data.",
+      "steps": [
+        { "id": "step3-1", "title": "Pre-requisites of Econometrics & Fundamentals", "emoji": "📑", "tutorial_url": "https://www.youtube.com/watch?v=GU7DpgHINWQ" },
+        { "id": "step3-2", "title": "Regressions, Time Series, Fitting Distributions", "emoji": "📉", "tutorial_url": "https://www.youtube.com/watch?v=GU7DpgHINWQ" },
+        { "id": "step3-3", "title": "Forecasting & ARIMA Models", "emoji": "🔮", "tutorial_url": "https://www.youtube.com/watch?v=YwjsZP0Gh2I" }
+      ]
+    },
+    {
+      "id": "mod4",
+      "title": "Coding & Programming",
+      "emoji": "💻",
+      "description": "Learn the programming languages and algorithms crucial for data science.",
+      "steps": [
+        { "id": "step4-1", "title": "Python Programming Language", "emoji": "🐍", "tutorial_url": "https://www.youtube.com/watch?v=rfscVS0vtbw" },
+        { "id": "step4-2", "title": "Data Structures and Algorithms (Python)", "emoji": "🧩", "tutorial_url": "https://www.youtube.com/watch?v=8hly31xKli0" },
+        { "id": "step4-3", "title": "SQL", "emoji": "💾", "tutorial_url": "https://www.youtube.com/watch?v=HXV3zeQKqGY" }
+      ]
+    },
+    {
+      "id": "mod5",
+      "title": "Exploratory Data Analysis (EDA)",
+      "emoji": "🧪",
+      "description": "Analyze and visualize data for machine learning.",
+      "steps": [
+        { "id": "step5-1", "title": "Data Analysis and Visualization with Python", "emoji": "📊", "tutorial_url": "https://www.youtube.com/watch?v=vmEHCJofslg" },
+        { "id": "step5-2", "title": "EDA for Machine Learning", "emoji": "🔍", "tutorial_url": "https://www.youtube.com/watch?v=1ekp8m1a3rA" },
+        { "id": "step5-3", "title": "Visualization with Seaborn", "emoji": "🖌️", "tutorial_url": "https://www.youtube.com/watch?v=GcXcSZ0gQps" }
+      ]
+    },
+    {
+      "id": "mod6",
+      "title": "Machine Learning",
+      "emoji": "🤖",
+      "description": "Build, train, and evaluate machine learning models.",
+      "steps": [
+        { "id": "step6-1", "title": "Supervised & Unsupervised Learning", "emoji": "🎓", "tutorial_url": "https://www.youtube.com/watch?v=GwIo3gDZCVQ" },
+        { "id": "step6-2", "title": "Ensembles & Neural Networks", "emoji": "🧠", "tutorial_url": "https://www.youtube.com/watch?v=jK3vHNx7qA4" },
+        { "id": "step6-3", "title": "Pattern Recognition & ML (Book, Notes & Code)", "emoji": "📖", "tutorial_url": "https://www.youtube.com/playlist?list=PLD0F06AA0D2E8FFBA" }
+      ]
+    },
+    {
+      "id": "mod7",
+      "title": "Deep Learning",
+      "emoji": "🧠",
+      "description": "Master advanced deep learning techniques and architectures.",
+      "steps": [
+        { "id": "step7-1", "title": "Fully Connected NN, CNN, RNN, LSTM, Transformers, Transfer Learning", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=aircAruvnKk" },
+        { "id": "step7-2", "title": "Deep Learning Book (Ian Goodfellow)", "emoji": "📘", "tutorial_url": "https://www.deeplearningbook.org/" },
+        { "id": "step7-3", "title": "Transformers & Attention: 'Attention Is All You Need'", "emoji": "🎯", "tutorial_url": "https://www.youtube.com/watch?v=8rXD5-xhemo" }
+      ]
+    },
+    {
+      "id": "mod8",
+      "title": "MLOps",
+      "emoji": "⚙️",
+      "description": "Operationalize ML with deployment, automation, and monitoring.",
+      "steps": [
+        { "id": "step8-1", "title": "Deployment Models, CI/CD for ML", "emoji": "🚀", "tutorial_url": "https://www.youtube.com/watch?v=06-AZXmwHjo" },
+        { "id": "step8-2", "title": "MLOps Specialization", "emoji": "🏆", "tutorial_url": "https://www.coursera.org/specializations/mlops" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "Sentiment Analysis",
+      "level": "Beginner",
+      "emoji": "😊",
+      "description": "Classify text into positive or negative sentiment using NLP.",
+      "concepts": ["NLP", "Text classification", "Data preprocessing"],
+      "tutorial_url": "https://www.youtube.com/watch?v=8rXD5-xhemo",
+      "guide_urls": [
+        { "label": "Sentiment Analysis Guide", "url": "https://realpython.com/python-nlp-sentiment-analysis/" }
+      ]
+    },
+    {
+      "id": "proj2",
+      "title": "Chatbot Development",
+      "level": "Beginner",
+      "emoji": "🤖",
+      "description": "Create a simple chatbot using Python and NLP libraries.",
+      "concepts": ["NLP", "Conversational AI", "APIs"],
+      "tutorial_url": "https://www.youtube.com/watch?v=8pDqJVdNa44",
+      "guide_urls": [
+        { "label": "Chatbot Guide", "url": "https://www.geeksforgeeks.org/ml-building-a-chatbot-using-python/" }
+      ]
+    },
+    {
+      "id": "proj3",
+      "title": "Credit Card Fraud Detection",
+      "level": "Beginner",
+      "emoji": "💳",
+      "description": "Detect fraudulent transactions using machine learning.",
+      "concepts": ["Anomaly detection", "Supervised learning", "Data preprocessing"],
+      "tutorial_url": "https://www.youtube.com/watch?v=KkY2Kmpw9nU",
+      "guide_urls": [
+        { "label": "Fraud Detection Guide", "url": "https://www.kaggle.com/code/alejopaullier/credit-card-fraud-detection-with-python" }
+      ]
+    },
+    {
+      "id": "proj4",
+      "title": "Music Recommendation System",
+      "level": "Intermediate",
+      "emoji": "🎵",
+      "description": "Recommend songs to users based on listening patterns.",
+      "concepts": ["Collaborative filtering", "Content-based filtering", "Recommender systems"],
+      "tutorial_url": "https://www.youtube.com/watch?v=9APSRzN0l7k",
+      "guide_urls": [
+        { "label": "Music Rec Guide", "url": "https://realpython.com/build-recommendation-engine-collaborative-filtering/" }
+      ]
+    },
+    {
+      "id": "proj5",
+      "title": "Image Classification",
+      "level": "Intermediate",
+      "emoji": "🖼️",
+      "description": "Classify images using CNNs and transfer learning.",
+      "concepts": ["CNNs", "Deep learning", "Image preprocessing"],
+      "tutorial_url": "https://www.youtube.com/watch?v=5WoItGTWV54",
+      "guide_urls": [
+        { "label": "Image Classification Guide", "url": "https://www.tensorflow.org/tutorials/images/classification" }
+      ]
+    },
+    {
+      "id": "proj6",
+      "title": "Analyzing Stock Prices",
+      "level": "Intermediate",
+      "emoji": "📈",
+      "description": "Analyze and forecast stock prices using time series analysis.",
+      "concepts": ["Time series", "ARIMA", "Visualization"],
+      "tutorial_url": "https://www.youtube.com/watch?v=PuZY9q-aKLw",
+      "guide_urls": [
+        { "label": "Stock Price Guide", "url": "https://towardsdatascience.com/stock-price-prediction-using-python-and-ml-efc1f76ad5e7" }
+      ]
+    },
+    {
+      "id": "proj7",
+      "title": "Movie Recommender System",
+      "level": "Advanced",
+      "emoji": "🎬",
+      "description": "Build a movie recommendation engine using collaborative filtering.",
+      "concepts": ["Collaborative filtering", "Matrix factorization", "Recommender systems"],
+      "tutorial_url": "https://www.youtube.com/watch?v=cKxRvEZd3Mw",
+      "guide_urls": [
+        { "label": "Movie Rec Guide", "url": "https://realpython.com/build-recommendation-engine-collaborative-filtering/" }
+      ]
+    },
+    {
+      "id": "proj8",
+      "title": "Analyzing Complex Datasets",
+      "level": "Advanced",
+      "emoji": "🗃️",
+      "description": "Conduct deep EDA and ML on complex, high-dimensional datasets.",
+      "concepts": ["Dimensionality reduction", "PCA", "Clustering"],
+      "tutorial_url": "https://www.youtube.com/watch?v=LsK-xG1cLYA",
+      "guide_urls": [
+        { "label": "PCA & EDA Guide", "url": "https://scikit-learn.org/stable/modules/decomposition.html#pca" }
+      ]
+    },
+    {
+      "id": "proj9",
+      "title": "Deploying Machine Learning Pipelines",
+      "level": "Advanced",
+      "emoji": "🚀",
+      "description": "Deploy ML pipelines using CI/CD, Docker, and cloud services.",
+      "concepts": ["MLOps", "Model deployment", "CI/CD"],
+      "tutorial_url": "https://www.youtube.com/watch?v=06-AZXmwHjo",
+      "guide_urls": [
+        { "label": "ML Pipelines Guide", "url": "https://www.coursera.org/specializations/mlops" }
+      ]
+    }
+  ]
+}

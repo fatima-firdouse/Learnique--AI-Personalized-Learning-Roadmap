@@ -1,0 +1,244 @@
+{
+  "title": "Technical Writer Roadmap",
+  "description": "A practical learning path for starting and growing as a technical writer.",
+  "modules": [
+    {
+      "id": "mod1",
+      "title": "Introduction",
+      "emoji": "🧭",
+      "description": "Get started and understand the role and growth of a technical writer.",
+      "steps": [
+        { "id": "step1-1", "title": "Who is a Technical Writer?", "emoji": "❓", "tutorial_url": "https://www.youtube.com/watch?v=6Qmnh5C4Pmo" },
+        { "id": "step1-2", "title": "What is Technical Writing?", "emoji": "📄", "tutorial_url": "https://www.youtube.com/watch?v=6Qmnh5C4Pmo" },
+        { "id": "step1-3", "title": "Role of Technical Writers in an Organization", "emoji": "🏢", "tutorial_url": "https://www.youtube.com/watch?v=6Qmnh5C4Pmo" },
+        { "id": "step1-4", "title": "Forms of Technical Writing", "emoji": "📝", "tutorial_url": "https://www.youtube.com/watch?v=6Qmnh5C4Pmo" },
+        { "id": "step1-5", "title": "Growth as a Technical Writer", "emoji": "📈", "tutorial_url": "https://www.youtube.com/watch?v=6Qmnh5C4Pmo" }
+      ]
+    },
+    {
+      "id": "mod2",
+      "title": "Required Skills",
+      "emoji": "🛠️",
+      "description": "Core skills every technical writer should develop.",
+      "steps": [
+        { "id": "step2-1", "title": "Technology Expertise", "emoji": "💻", "tutorial_url": "https://www.youtube.com/watch?v=6Qmnh5C4Pmo" },
+        { "id": "step2-2", "title": "Language Proficiency", "emoji": "🔤", "tutorial_url": "https://www.youtube.com/watch?v=6Qmnh5C4Pmo" },
+        { "id": "step2-3", "title": "Written Communication Proficiency", "emoji": "📝", "tutorial_url": "https://www.youtube.com/watch?v=6Qmnh5C4Pmo" }
+      ]
+    },
+    {
+      "id": "mod3",
+      "title": "Tooling",
+      "emoji": "🔧",
+      "description": "Familiarize yourself with essential writing, publishing, and productivity tools.",
+      "steps": [
+        { "id": "step3-1", "title": "Publishing Tools", "emoji": "📰", "tutorial_url": "https://www.youtube.com/watch?v=lWQ2GD9cN6A" },
+        { "id": "step3-2", "title": "Editing Tools", "emoji": "✏️", "tutorial_url": "https://www.youtube.com/watch?v=lWQ2GD9cN6A" },
+        { "id": "step3-3", "title": "Markdown", "emoji": "🔤", "tutorial_url": "https://www.youtube.com/watch?v=HUBNt18RFbo" },
+        { "id": "step3-4", "title": "Blogging Platforms", "emoji": "📝", "tutorial_url": "https://www.youtube.com/watch?v=jc5v6bZ3H60" },
+        { "id": "step3-5", "title": "Plagiarism Checker", "emoji": "🔎", "tutorial_url": "https://www.youtube.com/watch?v=V6b6tGusf6c" },
+        { "id": "step3-6", "title": "Git / Version Control", "emoji": "🌳", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step3-7", "title": "Research Tools", "emoji": "🔬", "tutorial_url": "https://www.youtube.com/watch?v=6Qmnh5C4Pmo" },
+        { "id": "step3-8", "title": "SEO Tools", "emoji": "🔍", "tutorial_url": "https://www.youtube.com/watch?v=Ue6wIgd86mU" }
+      ]
+    },
+    {
+      "id": "mod4",
+      "title": "Best Practices",
+      "emoji": "✅",
+      "description": "Learn what separates good technical content from great content.",
+      "steps": [
+        { "id": "step4-1", "title": "Storytelling", "emoji": "📖", "tutorial_url": "https://www.youtube.com/watch?v=6Qmnh5C4Pmo" },
+        { "id": "step4-2", "title": "Subtle Selling", "emoji": "💡", "tutorial_url": "https://www.youtube.com/watch?v=6Qmnh5C4Pmo" },
+        { "id": "step4-3", "title": "Content Structure and Headers", "emoji": "📚", "tutorial_url": "https://www.youtube.com/watch?v=6Qmnh5C4Pmo" },
+        { "id": "step4-4", "title": "Call to Actions (CTAs)", "emoji": "📢", "tutorial_url": "https://www.youtube.com/watch?v=6Qmnh5C4Pmo" },
+        { "id": "step4-5", "title": "References", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=6Qmnh5C4Pmo" },
+        { "id": "step4-6", "title": "Crafting Great Titles", "emoji": "🏷️", "tutorial_url": "https://www.youtube.com/watch?v=6Qmnh5C4Pmo" },
+        { "id": "step4-7", "title": "Content Objectives and Intent", "emoji": "🎯", "tutorial_url": "https://www.youtube.com/watch?v=6Qmnh5C4Pmo" },
+        { "id": "step4-8", "title": "User Persona", "emoji": "🧑", "tutorial_url": "https://www.youtube.com/watch?v=6Qmnh5C4Pmo" },
+        { "id": "step4-9", "title": "Writing Style Guides", "emoji": "📝", "tutorial_url": "https://www.youtube.com/watch?v=6Qmnh5C4Pmo" }
+      ]
+    },
+    {
+      "id": "mod5",
+      "title": "Content Research",
+      "emoji": "🔍",
+      "description": "How to find, validate, and use research for technical writing.",
+      "steps": [
+        { "id": "step5-1", "title": "Topic Score", "emoji": "📊", "tutorial_url": "https://www.youtube.com/watch?v=Ue6wIgd86mU" },
+        { "id": "step5-2", "title": "Keyword Volume", "emoji": "🔢", "tutorial_url": "https://www.youtube.com/watch?v=Ue6wIgd86mU" },
+        { "id": "step5-3", "title": "Communities & Forums", "emoji": "🌐", "tutorial_url": "https://www.youtube.com/watch?v=Ue6wIgd86mU" },
+        { "id": "step5-4", "title": "Search Trends", "emoji": "📈", "tutorial_url": "https://www.youtube.com/watch?v=Ue6wIgd86mU" },
+        { "id": "step5-5", "title": "Support Request Evaluation", "emoji": "🆘", "tutorial_url": "https://www.youtube.com/watch?v=Ue6wIgd86mU" }
+      ]
+    },
+    {
+      "id": "mod6",
+      "title": "Types of Technical Content",
+      "emoji": "📄",
+      "description": "Understand the various types of content you may be asked to produce.",
+      "steps": [
+        { "id": "step6-1", "title": "Product Content", "emoji": "📦", "tutorial_url": "https://www.youtube.com/watch?v=6Qmnh5C4Pmo" },
+        { "id": "step6-2", "title": "Developer Documentation", "emoji": "💻", "tutorial_url": "https://www.youtube.com/watch?v=6Qmnh5C4Pmo" },
+        { "id": "step6-3", "title": "API Reference", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=6Qmnh5C4Pmo" },
+        { "id": "step6-4", "title": "General Product Prose", "emoji": "📝", "tutorial_url": "https://www.youtube.com/watch?v=6Qmnh5C4Pmo" },
+        { "id": "step6-5", "title": "How-to Guides", "emoji": "📚", "tutorial_url": "https://www.youtube.com/watch?v=6Qmnh5C4Pmo" },
+        { "id": "step6-6", "title": "User Goals", "emoji": "🎯", "tutorial_url": "https://www.youtube.com/watch?v=6Qmnh5C4Pmo" },
+        { "id": "step6-7", "title": "Developer Journey", "emoji": "🚀", "tutorial_url": "https://www.youtube.com/watch?v=6Qmnh5C4Pmo" }
+      ]
+    },
+    {
+      "id": "mod7",
+      "title": "Documentation Structure",
+      "emoji": "📚",
+      "description": "How to organize content and use documentation tools.",
+      "steps": [
+        { "id": "step7-1", "title": "Document Generation Tools", "emoji": "⚙️", "tutorial_url": "https://www.youtube.com/watch?v=lWQ2GD9cN6A" },
+        { "id": "step7-2", "title": "API Definitions", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=6Qmnh5C4Pmo" }
+      ]
+    },
+    {
+      "id": "mod8",
+      "title": "Help Content",
+      "emoji": "🆘",
+      "description": "Write content to support users and developers.",
+      "steps": [
+        { "id": "step8-1", "title": "Troubleshooting Content", "emoji": "🛠️", "tutorial_url": "https://www.youtube.com/watch?v=6Qmnh5C4Pmo" },
+        { "id": "step8-2", "title": "Developer Support Content", "emoji": "💬", "tutorial_url": "https://www.youtube.com/watch?v=6Qmnh5C4Pmo" },
+        { "id": "step8-3", "title": "Platform Support Manual", "emoji": "📒", "tutorial_url": "https://www.youtube.com/watch?v=6Qmnh5C4Pmo" }
+      ]
+    },
+    {
+      "id": "mod9",
+      "title": "Technical Content Marketing",
+      "emoji": "📢",
+      "description": "Market your technical content and understand your audience.",
+      "steps": [
+        { "id": "step9-1", "title": "ICP (Ideal Customer Profile) and Buyer Persona", "emoji": "🧑‍💼", "tutorial_url": "https://www.youtube.com/watch?v=Ue6wIgd86mU" },
+        { "id": "step9-2", "title": "Buyer Journey and Content Funnel", "emoji": "🔄", "tutorial_url": "https://www.youtube.com/watch?v=Ue6wIgd86mU" }
+      ]
+    },
+    {
+      "id": "mod10",
+      "title": "Content SEO",
+      "emoji": "🔍",
+      "description": "Learn to optimize content for search engines.",
+      "steps": [
+        { "id": "step10-1", "title": "SEO Keywords", "emoji": "🔑", "tutorial_url": "https://www.youtube.com/watch?v=Ue6wIgd86mU" },
+        { "id": "step10-2", "title": "Long-Tail Keywords", "emoji": "🧵", "tutorial_url": "https://www.youtube.com/watch?v=Ue6wIgd86mU" },
+        { "id": "step10-3", "title": "Short-Tail Keywords", "emoji": "💡", "tutorial_url": "https://www.youtube.com/watch?v=Ue6wIgd86mU" },
+        { "id": "step10-4", "title": "Backlinking", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=Ue6wIgd86mU" }
+      ]
+    },
+    {
+      "id": "mod11",
+      "title": "Content Funnel Stages",
+      "emoji": "🪜",
+      "description": "Understand and create content for every stage of the marketing funnel.",
+      "steps": [
+        { "id": "step11-1", "title": "Top-Funnel Content: Pillar Content", "emoji": "📊", "tutorial_url": "https://www.youtube.com/watch?v=Ue6wIgd86mU" },
+        { "id": "step11-2", "title": "Top-Funnel Content: Awareness Blog Posts", "emoji": "📝", "tutorial_url": "https://www.youtube.com/watch?v=Ue6wIgd86mU" },
+        { "id": "step11-3", "title": "Top-Funnel Content: Research Reports", "emoji": "📑", "tutorial_url": "https://www.youtube.com/watch?v=Ue6wIgd86mU" },
+        { "id": "step11-4", "title": "Mid-Funnel Content: Generic Gated Content", "emoji": "🔒", "tutorial_url": "https://www.youtube.com/watch?v=Ue6wIgd86mU" },
+        { "id": "step11-5", "title": "Mid-Funnel Content: Whitepapers", "emoji": "📄", "tutorial_url": "https://www.youtube.com/watch?v=Ue6wIgd86mU" },
+        { "id": "step11-6", "title": "Mid-Funnel Content: E-Books", "emoji": "📚", "tutorial_url": "https://www.youtube.com/watch?v=Ue6wIgd86mU" },
+        { "id": "step11-7", "title": "Bottom-Funnel Content: Comparative Posts", "emoji": "⚖️", "tutorial_url": "https://www.youtube.com/watch?v=Ue6wIgd86mU" },
+        { "id": "step11-8", "title": "Bottom-Funnel Content: Tutorials", "emoji": "🛠️", "tutorial_url": "https://www.youtube.com/watch?v=Ue6wIgd86mU" },
+        { "id": "step11-9", "title": "Bottom-Funnel Content: Release Notes and Product Announcements", "emoji": "📢", "tutorial_url": "https://www.youtube.com/watch?v=Ue6wIgd86mU" },
+        { "id": "step11-10", "title": "Bottom-Funnel Content: Technical Website Copy", "emoji": "🌐", "tutorial_url": "https://www.youtube.com/watch?v=Ue6wIgd86mU" },
+        { "id": "step11-11", "title": "Bottom-Funnel Content: Frequently Asked Questions (FAQs)", "emoji": "❓", "tutorial_url": "https://www.youtube.com/watch?v=Ue6wIgd86mU" },
+        { "id": "step11-12", "title": "Bottom-Funnel Content: Customer Case Studies", "emoji": "👨‍💼", "tutorial_url": "https://www.youtube.com/watch?v=Ue6wIgd86mU" }
+      ]
+    },
+    {
+      "id": "mod12",
+      "title": "Content Optimization",
+      "emoji": "⚡",
+      "description": "Techniques for improving and tracking content performance.",
+      "steps": [
+        { "id": "step12-1", "title": "Content Analysis", "emoji": "🧪", "tutorial_url": "https://www.youtube.com/watch?v=Ue6wIgd86mU" },
+        { "id": "step12-2", "title": "Link Shorteners and Tracking", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=Ue6wIgd86mU" },
+        { "id": "step12-3", "title": "Platform Tracking and Metrics", "emoji": "📊", "tutorial_url": "https://www.youtube.com/watch?v=Ue6wIgd86mU" },
+        { "id": "step12-4", "title": "Conversion Tracking", "emoji": "🔄", "tutorial_url": "https://www.youtube.com/watch?v=Ue6wIgd86mU" },
+        { "id": "step12-5", "title": "Content Aging and Timelines", "emoji": "⏳", "tutorial_url": "https://www.youtube.com/watch?v=Ue6wIgd86mU" }
+      ]
+    },
+    {
+      "id": "mod13",
+      "title": "Content Distribution",
+      "emoji": "🌍",
+      "description": "Distribute and amplify your technical content for maximum reach.",
+      "steps": [
+        { "id": "step13-1", "title": "Canonical Link / OpenGraph Data", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=Ue6wIgd86mU" },
+        { "id": "step13-2", "title": "Content Distribution Channels", "emoji": "📡", "tutorial_url": "https://www.youtube.com/watch?v=Ue6wIgd86mU" },
+        { "id": "step13-3", "title": "Content Distribution Amplification Strategies", "emoji": "📈", "tutorial_url": "https://www.youtube.com/watch?v=Ue6wIgd86mU" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "Technical Documentation Site",
+      "level": "Beginner",
+      "emoji": "🌐",
+      "description": "Build a documentation website using Markdown and a static site generator.",
+      "concepts": [
+        "Markdown",
+        "Static site generators",
+        "Information architecture"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=lWQ2GD9cN6A",
+      "guide_urls": [
+        { "label": "Markdown Guide", "url": "https://www.markdownguide.org/basic-syntax/" }
+      ]
+    },
+    {
+      "id": "proj2",
+      "title": "API Reference Documentation",
+      "level": "Intermediate",
+      "emoji": "🔗",
+      "description": "Create and structure an API reference for a sample API.",
+      "concepts": [
+        "API documentation",
+        "Reference structure",
+        "Swagger/OpenAPI"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=QZVYP3cPcWQ",
+      "guide_urls": [
+        { "label": "OpenAPI Docs", "url": "https://swagger.io/docs/specification/about/" }
+      ]
+    },
+    {
+      "id": "proj3",
+      "title": "SEO-Friendly Technical Blog",
+      "level": "Intermediate",
+      "emoji": "🔍",
+      "description": "Write a technical blog post and optimize it for SEO using keywords and structure.",
+      "concepts": [
+        "SEO",
+        "Blog structure",
+        "Keyword optimization"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=Ue6wIgd86mU",
+      "guide_urls": [
+        { "label": "SEO Guide", "url": "https://moz.com/beginners-guide-to-seo" }
+      ]
+    },
+    {
+      "id": "proj4",
+      "title": "End-to-End User Guide",
+      "level": "Advanced",
+      "emoji": "📝",
+      "description": "Produce a comprehensive user guide for a software product.",
+      "concepts": [
+        "User guides",
+        "Task flows",
+        "Audience analysis"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=6Qmnh5C4Pmo",
+      "guide_urls": [
+        { "label": "User Guide Example", "url": "https://www.twilio.com/docs/usage/tutorials/how-to-write-a-user-guide" }
+      ]
+    }
+  ]
+}

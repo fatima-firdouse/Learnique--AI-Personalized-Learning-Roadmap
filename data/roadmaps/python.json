@@ -1,0 +1,343 @@
+{
+  "title": "Python Developer Roadmap",
+  "description": "A comprehensive path for Python developers.",
+  "modules": [
+    {
+      "id": "mod1",
+      "title": "Learn the Basics",
+      "emoji": "🧭",
+      "description": "Start your Python journey with the basics: syntax, data types, and core language features.",
+      "steps": [
+        { "id": "step1-1", "title": "Basic Syntax", "emoji": "🔤", "tutorial_url": "https://www.youtube.com/watch?v=rfscVS0vtbw" },
+        { "id": "step1-2", "title": "Variables and Data Types", "emoji": "📦", "tutorial_url": "https://www.youtube.com/watch?v=ohCDWZgNIU0" },
+        { "id": "step1-3", "title": "Conditionals", "emoji": "🔀", "tutorial_url": "https://www.youtube.com/watch?v=f4KOjWS_KZs" },
+        { "id": "step1-4", "title": "Loops", "emoji": "🔁", "tutorial_url": "https://www.youtube.com/watch?v=6iF8Xb7Z3wQ" },
+        { "id": "step1-5", "title": "Type Casting", "emoji": "🔄", "tutorial_url": "https://www.youtube.com/watch?v=khKv-8q7YmY" },
+        { "id": "step1-6", "title": "Exceptions", "emoji": "⚠️", "tutorial_url": "https://www.youtube.com/watch?v=NIWwJbo-9_8" },
+        { "id": "step1-7", "title": "Functions, Built-in Functions", "emoji": "🛠️", "tutorial_url": "https://www.youtube.com/watch?v=9Os0o3wzS_I" },
+        { "id": "step1-8", "title": "Lists, Tuples, Sets", "emoji": "📚", "tutorial_url": "https://www.youtube.com/watch?v=W8KRzm-HUcc" },
+        { "id": "step1-9", "title": "Dictionaries", "emoji": "📖", "tutorial_url": "https://www.youtube.com/watch?v=daefaLgNkw0" }
+      ]
+    },
+    {
+      "id": "mod2",
+      "title": "Package Managers",
+      "emoji": "📦",
+      "description": "Manage Python libraries and environments.",
+      "steps": [
+        { "id": "step2-1", "title": "PyPI", "emoji": "🌐", "tutorial_url": "https://realpython.com/pypi-publish-python-package/" },
+        { "id": "step2-2", "title": "Pip", "emoji": "🛒", "tutorial_url": "https://www.youtube.com/watch?v=U2ZN104hIcc" },
+        { "id": "step2-3", "title": "Conda", "emoji": "🐍", "tutorial_url": "https://www.youtube.com/watch?v=YJC6ldI3hWk" },
+        { "id": "step2-4", "title": "uv", "emoji": "⚡", "tutorial_url": "https://github.com/astral-sh/uv" },
+        { "id": "step2-5", "title": "Poetry", "emoji": "🎵", "tutorial_url": "https://www.youtube.com/watch?v=6QjmRHzG9Yc" }
+      ]
+    },
+    {
+      "id": "mod3",
+      "title": "Common Packages",
+      "emoji": "📚",
+      "description": "Configure and manage Python projects.",
+      "steps": [
+        { "id": "step3-1", "title": "pyproject.toml", "emoji": "📝", "tutorial_url": "https://realpython.com/python-poetry/#pyprojecttoml" },
+        { "id": "step3-2", "title": "Configuration", "emoji": "⚙️", "tutorial_url": "https://realpython.com/python-application-layouts/" }
+      ]
+    },
+    {
+      "id": "mod4",
+      "title": "Data Structures & Algorithms",
+      "emoji": "🔢",
+      "description": "Master core data structures and algorithms in Python.",
+      "steps": [
+        { "id": "step4-1", "title": "Arrays and Linked Lists", "emoji": "🧱", "tutorial_url": "https://www.youtube.com/watch?v=R-HLU9Fl5ug" },
+        { "id": "step4-2", "title": "Hash Tables", "emoji": "🔑", "tutorial_url": "https://www.youtube.com/watch?v=9HFbhPscPU0" },
+        { "id": "step4-3", "title": "Heaps, Stacks, and Queues", "emoji": "📚", "tutorial_url": "https://www.youtube.com/watch?v=ZVaRK10HBjo" },
+        { "id": "step4-4", "title": "Binary Search Tree", "emoji": "🌲", "tutorial_url": "https://www.youtube.com/watch?v=6oL-0TdVy28" },
+        { "id": "step4-5", "title": "Recursion", "emoji": "🔄", "tutorial_url": "https://www.youtube.com/watch?v=Qk0zUZW-U_M" },
+        { "id": "step4-6", "title": "Sorting Algorithms", "emoji": "🔀", "tutorial_url": "https://www.youtube.com/watch?v=8mAITcNt710" }
+      ]
+    },
+    {
+      "id": "mod5",
+      "title": "Object Oriented Programming (OOP)",
+      "emoji": "🏛️",
+      "description": "Understand classes, inheritance, and advanced OOP concepts.",
+      "steps": [
+        { "id": "step5-1", "title": "Classes", "emoji": "🏗️", "tutorial_url": "https://www.youtube.com/watch?v=apACNr7DC_s" },
+        { "id": "step5-2", "title": "Inheritance", "emoji": "🧬", "tutorial_url": "https://www.youtube.com/watch?v=RSl87lqOXDE" },
+        { "id": "step5-3", "title": "Methods, Dunder Methods", "emoji": "⚙️", "tutorial_url": "https://realpython.com/python-data-model/" }
+      ]
+    },
+    {
+      "id": "mod6",
+      "title": "Functional Programming",
+      "emoji": "🔗",
+      "description": "Explore functional programming features in Python.",
+      "steps": [
+        { "id": "step6-1", "title": "Modules: Built-in, Custom", "emoji": "📦", "tutorial_url": "https://www.youtube.com/watch?v=CqvZ3vGoGs0" },
+        { "id": "step6-2", "title": "Lambdas", "emoji": "🔢", "tutorial_url": "https://www.youtube.com/watch?v=hYzwCsKGRrg" },
+        { "id": "step6-3", "title": "Decorators", "emoji": "🎀", "tutorial_url": "https://www.youtube.com/watch?v=FsAPt_9Bf3U" },
+        { "id": "step6-4", "title": "Iterators", "emoji": "⏩", "tutorial_url": "https://www.youtube.com/watch?v=UB3DE5Bgfx4" },
+        { "id": "step6-5", "title": "Regular Expressions", "emoji": "🔍", "tutorial_url": "https://www.youtube.com/watch?v=K8L6KVGG-7o" }
+      ]
+    },
+    {
+      "id": "mod7",
+      "title": "List Comprehensions",
+      "emoji": "📃",
+      "description": "Write concise and readable code with list comprehensions.",
+      "steps": [
+        { "id": "step7-1", "title": "List Comprehensions", "emoji": "📝", "tutorial_url": "https://www.youtube.com/watch?v=3dt4OGnU5sM" }
+      ]
+    },
+    {
+      "id": "mod8",
+      "title": "Generator Expressions",
+      "emoji": "⚡",
+      "description": "Write memory-efficient code with generators.",
+      "steps": [
+        { "id": "step8-1", "title": "Generator Expressions", "emoji": "⚙️", "tutorial_url": "https://www.youtube.com/watch?v=bD05uGo_sVI" }
+      ]
+    },
+    {
+      "id": "mod9",
+      "title": "Paradigms",
+      "emoji": "📚",
+      "description": "Explore different programming paradigms in Python.",
+      "steps": [
+        { "id": "step9-1", "title": "Paradigms", "emoji": "🔎", "tutorial_url": "https://realpython.com/python3-object-oriented-programming/" }
+      ]
+    },
+    {
+      "id": "mod10",
+      "title": "Context Manager",
+      "emoji": "🔒",
+      "description": "Manage resources efficiently using context managers.",
+      "steps": [
+        { "id": "step10-1", "title": "Context Manager", "emoji": "⏳", "tutorial_url": "https://www.youtube.com/watch?v=-zI4mrF2Pb4" }
+      ]
+    },
+    {
+      "id": "mod11",
+      "title": "Learn a Framework",
+      "emoji": "🌐",
+      "description": "Build web and async applications using top Python frameworks.",
+      "steps": [
+        { "id": "step11-1", "title": "Flask, Django (Synchronous)", "emoji": "🍶", "tutorial_url": "https://www.youtube.com/watch?v=Z1RJmh_OqeA" },
+        { "id": "step11-2", "title": "FastAPI, Sanic, Tornado, aiohttp, gevent (Asynchronous)", "emoji": "⚡", "tutorial_url": "https://www.youtube.com/watch?v=7t2alSnE2-I" },
+        { "id": "step11-3", "title": "Pyramid, Plotly Dash (Others)", "emoji": "🏛️", "tutorial_url": "https://www.youtube.com/watch?v=aeX3NR2p35Y" }
+      ]
+    },
+    {
+      "id": "mod12",
+      "title": "Concurrency",
+      "emoji": "🔀",
+      "description": "Write concurrent code: multiprocessing, threading, async.",
+      "steps": [
+        { "id": "step12-1", "title": "Multiprocessing, Asynchrony, GIL, Threading", "emoji": "⚙️", "tutorial_url": "https://www.youtube.com/watch?v=IEEhzQoKtQU" }
+      ]
+    },
+    {
+      "id": "mod13",
+      "title": "Environments",
+      "emoji": "🌱",
+      "description": "Isolate and manage Python environments.",
+      "steps": [
+        { "id": "step13-1", "title": "pipenv, virtualenv, pyenv", "emoji": "🧪", "tutorial_url": "https://www.youtube.com/watch?v=Kg1Yvry_Ydk" }
+      ]
+    },
+    {
+      "id": "mod14",
+      "title": "Static Typing",
+      "emoji": "📏",
+      "description": "Add static typing to your Python code.",
+      "steps": [
+        { "id": "step14-1", "title": "typing, mypy, pyright, pyre, Pydantic", "emoji": "🔠", "tutorial_url": "https://www.youtube.com/watch?v=2wDvzy6Hgxg" }
+      ]
+    },
+    {
+      "id": "mod15",
+      "title": "Code Formatting",
+      "emoji": "🎨",
+      "description": "Format and lint your code automatically.",
+      "steps": [
+        { "id": "step15-1", "title": "yapf, black, ruff", "emoji": "🧹", "tutorial_url": "https://www.youtube.com/watch?v=1uFY60CESlM" }
+      ]
+    },
+    {
+      "id": "mod16",
+      "title": "Documentation",
+      "emoji": "📝",
+      "description": "Document your Python code using Sphinx.",
+      "steps": [
+        { "id": "step16-1", "title": "Sphinx", "emoji": "📚", "tutorial_url": "https://www.youtube.com/watch?v=2y6T3lQhZPo" }
+      ]
+    },
+    {
+      "id": "mod17",
+      "title": "Testing",
+      "emoji": "✅",
+      "description": "Write and run tests for your Python code.",
+      "steps": [
+        { "id": "step17-1", "title": "tox, nose, unittest / pyUnit, doctest, pytest", "emoji": "🧪", "tutorial_url": "https://www.youtube.com/watch?v=6tNS--WetLI" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "Number Guessing Game",
+      "level": "Beginner",
+      "emoji": "🎲",
+      "description": "Create a simple number guessing game using Python's random module.",
+      "concepts": ["random", "input", "while loop"],
+      "tutorial_url": "https://www.youtube.com/watch?v=8ext9G7xspg",
+      "guide_urls": [
+        { "label": "Text Tutorial", "url": "https://www.geeksforgeeks.org/python-number-guessing-game/" }
+      ]
+    },
+    {
+      "id": "proj2",
+      "title": "Screen or Voice Recorder",
+      "level": "Beginner",
+      "emoji": "🎤",
+      "description": "Build a screen or voice recorder using Python libraries.",
+      "concepts": ["pyaudio", "sounddevice", "pyautogui"],
+      "tutorial_url": "https://www.youtube.com/watch?v=U9QF-l3ehQo",
+      "guide_urls": [
+        { "label": "Voice Recorder Guide", "url": "https://www.geeksforgeeks.org/voice-recorder-using-python/" }
+      ]
+    },
+    {
+      "id": "proj3",
+      "title": "GIF Creator",
+      "level": "Beginner",
+      "emoji": "🖼️",
+      "description": "Make a GIF from images using Python's Pillow library.",
+      "concepts": ["Pillow", "image processing"],
+      "tutorial_url": "https://www.youtube.com/watch?v=9GykzQWlXJs",
+      "guide_urls": [
+        { "label": "GIF Guide", "url": "https://www.geeksforgeeks.org/create-gif-using-python/" }
+      ]
+    },
+    {
+      "id": "proj4",
+      "title": "Countdown Calculator",
+      "level": "Beginner",
+      "emoji": "⏳",
+      "description": "Create a countdown timer using Python.",
+      "concepts": ["time", "tkinter"],
+      "tutorial_url": "https://www.youtube.com/watch?v=SUQzjGjqS1E",
+      "guide_urls": [
+        { "label": "Countdown Timer Guide", "url": "https://www.geeksforgeeks.org/how-to-create-a-countdown-timer-using-python/" }
+      ]
+    },
+    {
+      "id": "proj5",
+      "title": "Reddit Bot",
+      "level": "Intermediate",
+      "emoji": "🤖",
+      "description": "Automate Reddit tasks using Python and PRAW.",
+      "concepts": ["PRAW", "API", "automation"],
+      "tutorial_url": "https://www.youtube.com/watch?v=NRgfgtzIhBQ",
+      "guide_urls": [
+        { "label": "Reddit Bot Guide", "url": "https://praw.readthedocs.io/en/latest/tutorials/bot.html" }
+      ]
+    },
+    {
+      "id": "proj6",
+      "title": "Dice Rolling Simulator",
+      "level": "Intermediate",
+      "emoji": "🎲",
+      "description": "Simulate rolling dice using Python.",
+      "concepts": ["random", "input", "loops"],
+      "tutorial_url": "https://www.youtube.com/watch?v=JtiK0DOeI4A",
+      "guide_urls": [
+        { "label": "Dice Roller Guide", "url": "https://www.geeksforgeeks.org/python-dice-rolling-simulator/" }
+      ]
+    },
+    {
+      "id": "proj7",
+      "title": "Twitter Sentiment Analysis",
+      "level": "Intermediate",
+      "emoji": "🐦",
+      "description": "Analyze the sentiment of tweets using Python.",
+      "concepts": ["tweepy", "textblob", "API"],
+      "tutorial_url": "https://www.youtube.com/watch?v=o_OZdbCzHUA",
+      "guide_urls": [
+        { "label": "Sentiment Analysis Guide", "url": "https://www.geeksforgeeks.org/twitter-sentiment-analysis-using-python/" }
+      ]
+    },
+    {
+      "id": "proj8",
+      "title": "Password Generator",
+      "level": "Intermediate",
+      "emoji": "🔑",
+      "description": "Generate strong passwords using Python.",
+      "concepts": ["random", "string", "functions"],
+      "tutorial_url": "https://www.youtube.com/watch?v=6emzD1hP5KQ",
+      "guide_urls": [
+        { "label": "Password Generator Guide", "url": "https://www.geeksforgeeks.org/python-program-to-generate-random-passwords/" }
+      ]
+    },
+    {
+      "id": "proj9",
+      "title": "Plagiarism Checker",
+      "level": "Advanced",
+      "emoji": "📄",
+      "description": "Build a simple plagiarism checker in Python.",
+      "concepts": ["text processing", "difflib"],
+      "tutorial_url": "https://www.youtube.com/watch?v=YbXjzA0XQSw",
+      "guide_urls": [
+        { "label": "Plagiarism Checker Guide", "url": "https://www.geeksforgeeks.org/plagiarism-checker-python/" }
+      ]
+    },
+    {
+      "id": "proj10",
+      "title": "Content Aggregator",
+      "level": "Advanced",
+      "emoji": "📰",
+      "description": "Aggregate content from websites using Python.",
+      "concepts": ["requests", "BeautifulSoup"],
+      "tutorial_url": "https://www.youtube.com/watch?v=XQgXKtPSzUI",
+      "guide_urls": [
+        { "label": "Content Aggregator Guide", "url": "https://www.geeksforgeeks.org/content-aggregator-python/" }
+      ]
+    },
+    {
+      "id": "proj11",
+      "title": "Face Mask Detection",
+      "level": "Advanced",
+      "emoji": "😷",
+      "description": "Detect face masks in images using OpenCV and deep learning.",
+      "concepts": ["OpenCV", "TensorFlow", "deep learning"],
+      "tutorial_url": "https://www.youtube.com/watch?v=A5p6HtYxqQk",
+      "guide_urls": [
+        { "label": "Face Mask Detection Guide", "url": "https://www.geeksforgeeks.org/face-mask-detection-using-python/" }
+      ]
+    },
+    {
+      "id": "proj12",
+      "title": "Music Player",
+      "level": "Advanced",
+      "emoji": "🎵",
+      "description": "Create a music player app in Python.",
+      "concepts": ["tkinter", "pygame"],
+      "tutorial_url": "https://www.youtube.com/watch?v=H3ZUQPHQ5p8",
+      "guide_urls": [
+        { "label": "Music Player Guide", "url": "https://www.geeksforgeeks.org/python-music-player/" }
+      ]
+    },
+    {
+      "id": "proj13",
+      "title": "Automating Scrolling",
+      "level": "Advanced",
+      "emoji": "🖱️",
+      "description": "Automate mouse scrolling using Python.",
+      "concepts": ["pyautogui", "automation"],
+      "tutorial_url": "https://www.youtube.com/watch?v=1rQQmQkP4fE",
+      "guide_urls": [
+        { "label": "PyAutoGUI Guide", "url": "https://www.geeksforgeeks.org/automate-mouse-and-keyboard-using-python/" }
+      ]
+    }
+  ]
+}

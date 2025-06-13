@@ -1,0 +1,209 @@
+{
+  "title": "Terraform Learning Roadmap",
+  "description": "A comprehensive, step-by-step learning path for mastering Terraform and Infrastructure as Code.",
+  "modules": [
+    {
+      "id": "mod1",
+      "title": "Introduction to Terraform & Infrastructure as Code",
+      "emoji": "🧭",
+      "description": "Get started with Terraform and IaC concepts.",
+      "steps": [
+        { "id": "step1-1", "title": "What is Terraform?", "emoji": "❓", "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo" },
+        { "id": "step1-2", "title": "Why use Terraform for managing infrastructure?", "emoji": "🚀", "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo" },
+        { "id": "step1-3", "title": "Overview of infrastructure as code (IaC) principles", "emoji": "📚", "tutorial_url": "https://www.youtube.com/watch?v=Ia-UEYYR44s" },
+        { "id": "step1-4", "title": "Supported cloud providers (AWS, GCP, Azure)", "emoji": "☁️", "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo" },
+        { "id": "step1-5", "title": "Installing Terraform on your machine", "emoji": "💻", "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo" },
+        { "id": "step1-6", "title": "Setting up your chosen cloud platform", "emoji": "🔧", "tutorial_url": "https://www.youtube.com/watch?v=ulprqHHWlng" }
+      ]
+    },
+    {
+      "id": "mod2",
+      "title": "Terraform Basics & File Structure",
+      "emoji": "📄",
+      "description": "Understand file structure, basics, and core commands.",
+      "steps": [
+        { "id": "step2-1", "title": "Basic structure of Terraform configuration files (.tf files)", "emoji": "📄", "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo" },
+        { "id": "step2-2", "title": "Understanding providers, resources, and data sources", "emoji": "🔌", "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo" },
+        { "id": "step2-3", "title": "Writing your first Terraform code", "emoji": "✍️", "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo" },
+        { "id": "step2-4", "title": "Using essential Terraform commands: init, plan, apply", "emoji": "⚙️", "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo" }
+      ]
+    },
+    {
+      "id": "mod3",
+      "title": "Variables & State Management",
+      "emoji": "🔢",
+      "description": "Reusable configurations and state management.",
+      "steps": [
+        { "id": "step3-1", "title": "Defining input variables for reusable configurations", "emoji": "🔣", "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo" },
+        { "id": "step3-2", "title": "Using output variables for sharing data between modules", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo" },
+        { "id": "step3-3", "title": "Terraform state: what it is and why it matters", "emoji": "🗂️", "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo" },
+        { "id": "step3-4", "title": "Managing state files locally and remotely", "emoji": "☁️", "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo" }
+      ]
+    },
+    {
+      "id": "mod4",
+      "title": "Modules & Code Organization",
+      "emoji": "📦",
+      "description": "Write modular and maintainable Terraform code.",
+      "steps": [
+        { "id": "step4-1", "title": "Creating and using modules for modular infrastructure", "emoji": "🧩", "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo" },
+        { "id": "step4-2", "title": "Organizing your code for readability and reusability", "emoji": "📚", "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo" },
+        { "id": "step4-3", "title": "Module sources and versioning", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo" }
+      ]
+    },
+    {
+      "id": "mod5",
+      "title": "Provisioning Advanced Resources",
+      "emoji": "⚡",
+      "description": "Provision databases, load balancers, Kubernetes and networking.",
+      "steps": [
+        { "id": "step5-1", "title": "Managing advanced resources: Load balancers", "emoji": "🔀", "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo" },
+        { "id": "step5-2", "title": "Managing advanced resources: Databases", "emoji": "🗄️", "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo" },
+        { "id": "step5-3", "title": "Managing advanced resources: Kubernetes clusters", "emoji": "☸️", "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo" },
+        { "id": "step5-4", "title": "Setting up networking resources (VPCs, subnets, security groups)", "emoji": "🌐", "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo" }
+      ]
+    },
+    {
+      "id": "mod6",
+      "title": "Templates, Loops & Dynamic Blocks",
+      "emoji": "🔁",
+      "description": "Write DRY code with templates, loops, and dynamic blocks.",
+      "steps": [
+        { "id": "step6-1", "title": "Using Terraform templates for reusable configurations", "emoji": "📝", "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo" },
+        { "id": "step6-2", "title": "Loops: count, for_each for dynamic resource creation", "emoji": "🔂", "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo" },
+        { "id": "step6-3", "title": "Dynamic blocks for flexible infrastructure definitions", "emoji": "📦", "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo" }
+      ]
+    },
+    {
+      "id": "mod7",
+      "title": "Conditionals & Functions",
+      "emoji": "🔤",
+      "description": "Write dynamic configurations with conditionals and functions.",
+      "steps": [
+        { "id": "step7-1", "title": "Conditional expressions for dynamic configurations", "emoji": "🔀", "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo" },
+        { "id": "step7-2", "title": "Built-in functions for advanced logic in Terraform", "emoji": "🔧", "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo" }
+      ]
+    },
+    {
+      "id": "mod8",
+      "title": "Testing & Security Validation",
+      "emoji": "🧪",
+      "description": "Test and validate your Terraform code for security and reliability.",
+      "steps": [
+        { "id": "step8-1", "title": "Unit testing frameworks for Terraform configurations", "emoji": "🧪", "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo" },
+        { "id": "step8-2", "title": "Integration testing for infrastructure", "emoji": "🔬", "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo" },
+        { "id": "step8-3", "title": "Tools for security and compliance validation", "emoji": "🛡️", "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo" }
+      ]
+    },
+    {
+      "id": "mod9",
+      "title": "Version Control & Collaboration",
+      "emoji": "🔗",
+      "description": "Work as a team and manage Terraform at scale.",
+      "steps": [
+        { "id": "step9-1", "title": "Integrating Terraform with version control systems (e.g., Git)", "emoji": "🌳", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step9-2", "title": "Best practices for collaboration and code reviews", "emoji": "👥", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step9-3", "title": "Managing remote backends and state locking", "emoji": "🔒", "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo" }
+      ]
+    },
+    {
+      "id": "mod10",
+      "title": "Best Practices & Code Quality",
+      "emoji": "✅",
+      "description": "Keep your infrastructure code clean and production ready.",
+      "steps": [
+        { "id": "step10-1", "title": "Code organization and naming conventions", "emoji": "📝", "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo" },
+        { "id": "step10-2", "title": "Managing multiple environments (dev, staging, production)", "emoji": "🌎", "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo" },
+        { "id": "step10-3", "title": "Keeping your infrastructure secure and compliant", "emoji": "🔒", "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo" }
+      ]
+    },
+    {
+      "id": "mod11",
+      "title": "Deploying a Sample Application Environment",
+      "emoji": "🚀",
+      "description": "Practice by deploying a sample application infrastructure.",
+      "steps": [
+        { "id": "step11-1", "title": "End-to-end project: deploy a sample environment (web server, database, networking)", "emoji": "🛠️", "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo" },
+        { "id": "step11-2", "title": "Putting all concepts into practice", "emoji": "🎯", "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo" }
+      ]
+    },
+    {
+      "id": "mod12",
+      "title": "Real-World Project Ideas",
+      "emoji": "🌍",
+      "description": "Explore real-world applications and project ideas.",
+      "steps": [
+        { "id": "step12-1", "title": "Exploring project ideas for further learning", "emoji": "💡", "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo" },
+        { "id": "step12-2", "title": "Blogs, tutorials, and community posts for inspiration", "emoji": "📰", "tutorial_url": "https://developer.hashicorp.com/terraform/tutorials" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "AWS EC2 & S3 Terraform Project",
+      "level": "Beginner",
+      "emoji": "1️⃣",
+      "description": "Deploy an EC2 instance and S3 bucket on AWS using Terraform.",
+      "concepts": [
+        "AWS provider",
+        "EC2 resource",
+        "S3 resource",
+        "Basic variables"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo",
+      "guide_urls": [
+        { "label": "AWS EC2 & S3 Guide", "url": "https://developer.hashicorp.com/terraform/tutorials/aws-get-started/aws-build" }
+      ]
+    },
+    {
+      "id": "proj2",
+      "title": "Multi-Environment Infrastructure",
+      "level": "Intermediate",
+      "emoji": "2️⃣",
+      "description": "Create separate dev, staging, and prod environments using workspaces and variables.",
+      "concepts": [
+        "Workspaces",
+        "Variable files",
+        "Remote state"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo",
+      "guide_urls": [
+        { "label": "Terraform Workspaces Guide", "url": "https://developer.hashicorp.com/terraform/tutorials/state/workspaces" }
+      ]
+    },
+    {
+      "id": "proj3",
+      "title": "Modular VPC with Terraform",
+      "level": "Intermediate",
+      "emoji": "3️⃣",
+      "description": "Build a reusable VPC module and deploy a VPC with public/private subnets.",
+      "concepts": [
+        "Modules",
+        "VPC",
+        "Subnets",
+        "Security groups"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo",
+      "guide_urls": [
+        { "label": "VPC Module Example", "url": "https://github.com/terraform-aws-modules/terraform-aws-vpc" }
+      ]
+    },
+    {
+      "id": "proj4",
+      "title": "Kubernetes Cluster on AWS/GCP/Azure",
+      "level": "Advanced",
+      "emoji": "4️⃣",
+      "description": "Use Terraform to create a managed Kubernetes cluster (EKS/GKE/AKS) and deploy a sample app.",
+      "concepts": [
+        "Kubernetes provider",
+        "Cluster resource",
+        "Helm provider"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo",
+      "guide_urls": [
+        { "label": "Kubernetes on AWS", "url": "https://developer.hashicorp.com/terraform/tutorials/kubernetes/kubernetes-provider" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "title": "Kubernetes Roadmap",
+  "description": "A practical learning path for Kubernetes and container orchestration.",
+  "modules": [
+    {
+      "id": "mod1",
+      "title": "Introduction",
+      "emoji": "🧭",
+      "description": "Get started with Kubernetes and its core concepts.",
+      "steps": [
+        { "id": "step1-1", "title": "Overview of Kubernetes", "emoji": "❓", "tutorial_url": "https://www.youtube.com/watch?v=X48VuDVv0do" },
+        { "id": "step1-2", "title": "Why use Kubernetes?", "emoji": "🚀", "tutorial_url": "https://www.youtube.com/watch?v=X48VuDVv0do" },
+        { "id": "step1-3", "title": "Key Concepts and Terminologies", "emoji": "🗝️", "tutorial_url": "https://kubernetes.io/docs/concepts/overview/" },
+        { "id": "step1-4", "title": "Kubernetes Alternatives", "emoji": "🔄", "tutorial_url": "https://www.youtube.com/watch?v=s_o8dwzRlu4" }
+      ]
+    },
+    {
+      "id": "mod2",
+      "title": "Containers",
+      "emoji": "📦",
+      "description": "Understand the basic Kubernetes workload resources.",
+      "steps": [
+        { "id": "step2-1", "title": "Pods", "emoji": "🧩", "tutorial_url": "https://kubernetes.io/docs/concepts/workloads/pods/" },
+        { "id": "step2-2", "title": "Deployments", "emoji": "🚀", "tutorial_url": "https://kubernetes.io/docs/concepts/workloads/controllers/deployment/" },
+        { "id": "step2-3", "title": "ReplicaSets", "emoji": "🔁", "tutorial_url": "https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/" },
+        { "id": "step2-4", "title": "StatefulSets", "emoji": "🗃️", "tutorial_url": "https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/" },
+        { "id": "step2-5", "title": "Jobs", "emoji": "📋", "tutorial_url": "https://kubernetes.io/docs/concepts/workloads/controllers/job/" }
+      ]
+    },
+    {
+      "id": "mod3",
+      "title": "Setting up Kubernetes",
+      "emoji": "⚙️",
+      "description": "Install and set up your Kubernetes environment.",
+      "steps": [
+        { "id": "step3-1", "title": "Deploying your First Application", "emoji": "🚀", "tutorial_url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/deploy-app/deploy-intro/" },
+        { "id": "step3-2", "title": "Choosing a Managed Provider", "emoji": "☁️", "tutorial_url": "https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/managed-kubernetes" },
+        { "id": "step3-3", "title": "Installing a Local Cluster", "emoji": "💻", "tutorial_url": "https://minikube.sigs.k8s.io/docs/start/" }
+      ]
+    },
+    {
+      "id": "mod4",
+      "title": "Running Applications",
+      "emoji": "🚦",
+      "description": "Configure and run applications with Kubernetes.",
+      "steps": [
+        { "id": "step4-1", "title": "Injecting Pod Config with ConfigMaps", "emoji": "🗂️", "tutorial_url": "https://kubernetes.io/docs/concepts/configuration/configmap/" },
+        { "id": "step4-2", "title": "Using Secrets for Sensitive Data", "emoji": "🔐", "tutorial_url": "https://kubernetes.io/docs/concepts/configuration/secret/" }
+      ]
+    },
+    {
+      "id": "mod5",
+      "title": "Configuration Management",
+      "emoji": "📝",
+      "description": "Manage and version your Kubernetes configurations.",
+      "steps": [
+        { "id": "step5-1", "title": "Configuration Management", "emoji": "🗂️", "tutorial_url": "https://kubernetes.io/docs/tasks/manage-kubernetes-objects/kustomization/" }
+      ]
+    },
+    {
+      "id": "mod6",
+      "title": "Services and Networking",
+      "emoji": "🌐",
+      "description": "Expose and connect your services.",
+      "steps": [
+        { "id": "step6-1", "title": "External Access to Services", "emoji": "🌍", "tutorial_url": "https://kubernetes.io/docs/concepts/services-networking/service/" },
+        { "id": "step6-2", "title": "Load Balancing", "emoji": "⚖️", "tutorial_url": "https://kubernetes.io/docs/concepts/services-networking/service/#loadbalancer" },
+        { "id": "step6-3", "title": "Networking & Pod-to-Pod Communication", "emoji": "🔗", "tutorial_url": "https://kubernetes.io/docs/concepts/cluster-administration/networking/" }
+      ]
+    },
+    {
+      "id": "mod7",
+      "title": "Security",
+      "emoji": "🔒",
+      "description": "Secure your clusters and applications.",
+      "steps": [
+        { "id": "step7-1", "title": "Role Based Access Control (RBAC)", "emoji": "👮", "tutorial_url": "https://kubernetes.io/docs/reference/access-authn-authz/rbac/" },
+        { "id": "step7-2", "title": "Network Security", "emoji": "🌐", "tutorial_url": "https://kubernetes.io/docs/concepts/security/pod-security-standards/" },
+        { "id": "step7-3", "title": "Container and Pod Security", "emoji": "🛡️", "tutorial_url": "https://kubernetes.io/docs/concepts/security/overview/" }
+      ]
+    },
+    {
+      "id": "mod8",
+      "title": "Resource Management",
+      "emoji": "🧮",
+      "description": "Optimize and manage cluster resources.",
+      "steps": [
+        { "id": "step8-1", "title": "Setting Resource Requests and Limits", "emoji": "📏", "tutorial_url": "https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/" },
+        { "id": "step8-2", "title": "Assigning Quotas to Namespaces", "emoji": "📊", "tutorial_url": "https://kubernetes.io/docs/concepts/policy/resource-quotas/" },
+        { "id": "step8-3", "title": "Monitoring & Optimizing Resource Usage", "emoji": "📈", "tutorial_url": "https://kubernetes.io/docs/tasks/debug/debug-cluster/resource-metrics-pipeline/" }
+      ]
+    },
+    {
+      "id": "mod9",
+      "title": "Monitoring and Logging",
+      "emoji": "📊",
+      "description": "Observe, log, and monitor your clusters.",
+      "steps": [
+        { "id": "step9-1", "title": "Logs", "emoji": "📋", "tutorial_url": "https://kubernetes.io/docs/concepts/cluster-administration/logging/" },
+        { "id": "step9-2", "title": "Metrics", "emoji": "📈", "tutorial_url": "https://kubernetes.io/docs/tasks/debug/debug-cluster/resource-metrics-pipeline/" },
+        { "id": "step9-3", "title": "Traces", "emoji": "🔍", "tutorial_url": "https://opentelemetry.io/docs/collector/getting-started/" },
+        { "id": "step9-4", "title": "Resource Health", "emoji": "🩺", "tutorial_url": "https://kubernetes.io/docs/tasks/debug/debug-cluster/resource-metrics-pipeline/" },
+        { "id": "step9-5", "title": "Observability Engines", "emoji": "🔭", "tutorial_url": "https://prometheus.io/docs/introduction/overview/" }
+      ]
+    },
+    {
+      "id": "mod10",
+      "title": "Storage and Volumes",
+      "emoji": "💾",
+      "description": "Persist and manage storage in Kubernetes.",
+      "steps": [
+        { "id": "step10-1", "title": "CSI Drivers", "emoji": "🔌", "tutorial_url": "https://kubernetes.io/docs/concepts/storage/csi/" },
+        { "id": "step10-2", "title": "Stateful Applications", "emoji": "🗃️", "tutorial_url": "https://kubernetes.io/docs/tasks/run-application/run-stateful-application/" }
+      ]
+    },
+    {
+      "id": "mod11",
+      "title": "Scheduling",
+      "emoji": "🗓️",
+      "description": "Schedule pods and manage workloads.",
+      "steps": [
+        { "id": "step11-1", "title": "Basics", "emoji": "🔢", "tutorial_url": "https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/" },
+        { "id": "step11-2", "title": "Taints and Tolerations", "emoji": "😷", "tutorial_url": "https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/" },
+        { "id": "step11-3", "title": "Topology Spread Constraints", "emoji": "📏", "tutorial_url": "https://kubernetes.io/docs/concepts/scheduling-eviction/topology-spread-constraints/" },
+        { "id": "step11-4", "title": "Pod Priorities", "emoji": "⭐", "tutorial_url": "https://kubernetes.io/docs/concepts/scheduling-eviction/pod-priority-preemption/" },
+        { "id": "step11-5", "title": "Evictions", "emoji": "🚪", "tutorial_url": "https://kubernetes.io/docs/concepts/scheduling-eviction/eviction/" }
+      ]
+    },
+    {
+      "id": "mod12",
+      "title": "Autoscaling",
+      "emoji": "📈",
+      "description": "Scale your workloads automatically.",
+      "steps": [
+        { "id": "step12-1", "title": "Horizontal Pod Autoscaler (HPA)", "emoji": "↔️", "tutorial_url": "https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/" },
+        { "id": "step12-2", "title": "Vertical Pod Autoscaler (VPA)", "emoji": "↕️", "tutorial_url": "https://github.com/kubernetes/autoscaler/tree/master/vertical-pod-autoscaler" },
+        { "id": "step12-3", "title": "Cluster Autoscaling", "emoji": "📊", "tutorial_url": "https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler" }
+      ]
+    },
+    {
+      "id": "mod13",
+      "title": "Deployment Patterns",
+      "emoji": "🚦",
+      "description": "Patterns for deploying, updating, and managing apps.",
+      "steps": [
+        { "id": "step13-1", "title": "CI / CD Integration", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=7bA0gTroJjw" },
+        { "id": "step13-2", "title": "GitOps", "emoji": "🔀", "tutorial_url": "https://www.weave.works/technologies/gitops/" },
+        { "id": "step13-3", "title": "Helm Charts", "emoji": "🎩", "tutorial_url": "https://helm.sh/docs/intro/using_helm/" },
+        { "id": "step13-4", "title": "Canary Deployments", "emoji": "🐤", "tutorial_url": "https://www.weave.works/blog/canary-releases-using-flux-and-kubernetes/" },
+        { "id": "step13-5", "title": "Blue-Green Deployments", "emoji": "🔵🟢", "tutorial_url": "https://www.youtube.com/watch?v=NSMgF1j6OL8" },
+        { "id": "step13-6", "title": "Rolling Updates / Rollbacks", "emoji": "🔄", "tutorial_url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/update/update-intro/" }
+      ]
+    },
+    {
+      "id": "mod14",
+      "title": "Advanced Topics",
+      "emoji": "🧠",
+      "description": "Explore advanced Kubernetes topics.",
+      "steps": [
+        { "id": "step14-1", "title": "Creating Custom Controllers", "emoji": "🛠️", "tutorial_url": "https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/" },
+        { "id": "step14-2", "title": "Custom Schedulers and Extenders", "emoji": "🧩", "tutorial_url": "https://kubernetes.io/docs/concepts/scheduling-eviction/scheduler-perf-tuning/" },
+        { "id": "step14-3", "title": "Custom Resource Definitions (CRDs)", "emoji": "📄", "tutorial_url": "https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/" },
+        { "id": "step14-4", "title": "Kubernetes Extensions and APIs", "emoji": "🔌", "tutorial_url": "https://kubernetes.io/docs/reference/using-api/" },
+        { "id": "step14-5", "title": "Should you manage your own Cluster?", "emoji": "🤔", "tutorial_url": "https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/high-availability/" },
+        { "id": "step14-6", "title": "Installing the Control Plane", "emoji": "🎛️", "tutorial_url": "https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/" },
+        { "id": "step14-7", "title": "Adding and Managing Worker Nodes", "emoji": "👷", "tutorial_url": "https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/" },
+        { "id": "step14-8", "title": "Multi-Cluster Management", "emoji": "🌐", "tutorial_url": "https://kubernetes.io/docs/concepts/cluster-administration/federation/" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "ConfigMaps & Secrets Demo",
+      "level": "Beginner",
+      "emoji": "🔐",
+      "description": "Demo how to use ConfigMaps and Secrets to configure pods.",
+      "concepts": ["ConfigMap", "Secret", "Pod"],
+      "tutorial_url": "https://www.youtube.com/watch?v=rTgkB2J9hDM",
+      "guide_urls": [
+        { "label": "ConfigMaps Guide", "url": "https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/" },
+        { "label": "Secrets Guide", "url": "https://kubernetes.io/docs/tasks/inject-data-application/distribute-credentials-secure/" }
+      ]
+    },
+    {
+      "id": "proj2",
+      "title": "Basic CI/CD with Kubernetes",
+      "level": "Beginner",
+      "emoji": "🔗",
+      "description": "Create a simple CI/CD pipeline for Kubernetes.",
+      "concepts": ["CI/CD", "Pipeline", "Kubernetes"],
+      "tutorial_url": "https://www.youtube.com/watch?v=7bA0gTroJjw",
+      "guide_urls": [
+        { "label": "CI/CD Kubernetes Guide", "url": "https://www.redhat.com/sysadmin/cicd-pipelines-kubernetes" }
+      ]
+    },
+    {
+      "id": "proj3",
+      "title": "Kubernetes Dashboard Setup",
+      "level": "Beginner",
+      "emoji": "📊",
+      "description": "Set up the official Kubernetes dashboard.",
+      "concepts": ["Dashboard", "Monitoring", "Kubernetes"],
+      "tutorial_url": "https://www.youtube.com/watch?v=UWgXbD7JHkc",
+      "guide_urls": [
+        { "label": "Dashboard Setup Guide", "url": "https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/" }
+      ]
+    },
+    {
+      "id": "proj4",
+      "title": "NodePort Service Demo",
+      "level": "Beginner",
+      "emoji": "🌐",
+      "description": "Expose a service using NodePort.",
+      "concepts": ["Service", "NodePort", "Kubernetes"],
+      "tutorial_url": "https://www.youtube.com/watch?v=MwYJf8kv5e0",
+      "guide_urls": [
+        { "label": "NodePort Guide", "url": "https://kubernetes.io/docs/concepts/services-networking/service/#nodeport" }
+      ]
+    },
+    {
+      "id": "proj5",
+      "title": "Volume Mounting with PVCs",
+      "level": "Beginner",
+      "emoji": "💾",
+      "description": "Mount a Persistent Volume using PersistentVolumeClaim.",
+      "concepts": ["PVC", "Volume", "Storage"],
+      "tutorial_url": "https://www.youtube.com/watch?v=0Lt9w-BxKFQ",
+      "guide_urls": [
+        { "label": "PVC Guide", "url": "https://kubernetes.io/docs/tasks/configure-pod-container/configure-persistent-volume-storage/" }
+      ]
+    },
+    {
+      "id": "proj6",
+      "title": "Horizontal Pod Autoscaling",
+      "level": "Intermediate",
+      "emoji": "📈",
+      "description": "Automatically scale pods using the Horizontal Pod Autoscaler.",
+      "concepts": ["HPA", "Autoscaling", "Metrics"],
+      "tutorial_url": "https://www.youtube.com/watch?v=Qrxk6_Nn5Lk",
+      "guide_urls": [
+        { "label": "HPA Guide", "url": "https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/" }
+      ]
+    },
+    {
+      "id": "proj7",
+      "title": "Kubernetes Ingress with TLS",
+      "level": "Intermediate",
+      "emoji": "🔐",
+      "description": "Expose services securely over HTTPS using Ingress and TLS.",
+      "concepts": ["Ingress", "TLS", "HTTPS"],
+      "tutorial_url": "https://www.youtube.com/watch?v=Am2zH1b5m4g",
+      "guide_urls": [
+        { "label": "Ingress TLS Guide", "url": "https://kubernetes.io/docs/concepts/services-networking/ingress/" }
+      ]
+    },
+    {
+      "id": "proj8",
+      "title": "Persistent Storage with StatefulSets",
+      "level": "Intermediate",
+      "emoji": "🗃️",
+      "description": "Deploy stateful applications with persistent storage.",
+      "concepts": ["StatefulSet", "Storage", "Persistence"],
+      "tutorial_url": "https://www.youtube.com/watch?v=0Lt9w-BxKFQ",
+      "guide_urls": [
+        { "label": "StatefulSet Guide", "url": "https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/" }
+      ]
+    },
+    {
+      "id": "proj9",
+      "title": "Monitoring with Prometheus & Grafana",
+      "level": "Intermediate",
+      "emoji": "📊",
+      "description": "Monitor Kubernetes clusters with Prometheus and Grafana.",
+      "concepts": ["Monitoring", "Prometheus", "Grafana"],
+      "tutorial_url": "https://www.youtube.com/watch?v=ZyYF8M2YzuE",
+      "guide_urls": [
+        { "label": "Prometheus Monitoring Guide", "url": "https://prometheus.io/docs/prometheus/latest/getting_started/" }
+      ]
+    },
+    {
+      "id": "proj10",
+      "title": "Custom Resource Definitions (CRDs)",
+      "level": "Intermediate",
+      "emoji": "📄",
+      "description": "Create and use custom resources in Kubernetes.",
+      "concepts": ["CRD", "Custom Controller", "Kubernetes API"],
+      "tutorial_url": "https://www.youtube.com/watch?v=4gUeyNkGE3g",
+      "guide_urls": [
+        { "label": "CRD Guide", "url": "https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/" }
+      ]
+    },
+    {
+      "id": "proj11",
+      "title": "Kubernetes Job & CronJob Scheduler",
+      "level": "Intermediate",
+      "emoji": "⏰",
+      "description": "Automate tasks using Job and CronJob resources.",
+      "concepts": ["Job", "CronJob", "Scheduling"],
+      "tutorial_url": "https://www.youtube.com/watch?v=5AwrJkGJwvE",
+      "guide_urls": [
+        { "label": "Job & CronJob Guide", "url": "https://kubernetes.io/docs/concepts/workloads/controllers/job/" }
+      ]
+    },
+    {
+      "id": "proj12",
+      "title": "Build Your Own Controller",
+      "level": "Advanced",
+      "emoji": "🛠️",
+      "description": "Develop a custom Kubernetes controller.",
+      "concepts": ["Controller", "Operator", "Kubernetes API"],
+      "tutorial_url": "https://www.youtube.com/watch?v=4gUeyNkGE3g",
+      "guide_urls": [
+        { "label": "Controller Guide", "url": "https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/" }
+      ]
+    },
+    {
+      "id": "proj13",
+      "title": "Securing Kubernetes with OPA/Gatekeeper",
+      "level": "Advanced",
+      "emoji": "🔐",
+      "description": "Enforce policies using OPA/Gatekeeper.",
+      "concepts": ["OPA", "Gatekeeper", "Policy"],
+      "tutorial_url": "https://www.youtube.com/watch?v=Qfm6NQ2O2xE",
+      "guide_urls": [
+        { "label": "OPA/Gatekeeper Guide", "url": "https://www.openpolicyagent.org/docs/latest/kubernetes-introduction/" }
+      ]
+    },
+    {
+      "id": "proj14",
+      "title": "Multi-Tenant Cluster Setup",
+      "level": "Advanced",
+      "emoji": "🏢",
+      "description": "Configure Kubernetes for multi-tenant workloads.",
+      "concepts": ["Namespaces", "RBAC", "Security"],
+      "tutorial_url": "https://www.youtube.com/watch?v=2hWq8CjK9Q4",
+      "guide_urls": [
+        { "label": "Multi-Tenancy Guide", "url": "https://kubernetes.io/blog/2020/08/21/multi-tenancy-kubernetes/" }
+      ]
+    },
+    {
+      "id": "proj15",
+      "title": "CI/CD Pipeline with Tekton",
+      "level": "Advanced",
+      "emoji": "🔗",
+      "description": "Build CI/CD pipelines with Tekton on Kubernetes.",
+      "concepts": ["Tekton", "CI/CD", "Pipeline"],
+      "tutorial_url": "https://www.youtube.com/watch?v=BtP6d8yO5Gg",
+      "guide_urls": [
+        { "label": "Tekton Guide", "url": "https://tekton.dev/docs/pipelines/getting-started/" }
+      ]
+    },
+    {
+      "id": "proj16",
+      "title": "Chaos Engineering with Litmus",
+      "level": "Advanced",
+      "emoji": "☢️",
+      "description": "Practice chaos engineering in Kubernetes with Litmus.",
+      "concepts": ["Chaos Engineering", "Litmus", "Testing"],
+      "tutorial_url": "https://www.youtube.com/watch?v=9ZlA0G5Q8qU",
+      "guide_urls": [
+        { "label": "Litmus Guide", "url": "https://docs.litmuschaos.io/docs/getstarted/" }
+      ]
+    },
+    {
+      "id": "proj17",
+      "title": "Kubernetes Federation Demo",
+      "level": "Advanced",
+      "emoji": "🌐",
+      "description": "Set up and demo Kubernetes Federation for multi-cluster.",
+      "concepts": ["Federation", "Multi-cluster", "Kubernetes"],
+      "tutorial_url": "https://www.youtube.com/watch?v=kLk1yCTb4Jg",
+      "guide_urls": [
+        { "label": "Federation Guide", "url": "https://kubernetes.io/docs/tasks/federation/set-up-cluster-federation-kubefed/" }
+      ]
+    }
+  ]
+}

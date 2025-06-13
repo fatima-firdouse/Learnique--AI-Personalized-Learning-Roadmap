@@ -1,0 +1,307 @@
+{
+  "title": "Docker Roadmap",
+  "description": "A step-by-step roadmap for learning Docker and containerization.",
+  "modules": [
+    {
+      "id": "mod1",
+      "title": "Introduction",
+      "emoji": "🧭",
+      "description": "Understand containers and Docker fundamentals.",
+      "steps": [
+        { "id": "step1-1", "title": "What are Containers?", "emoji": "📦", "tutorial_url": "https://www.youtube.com/watch?v=EnJ7qX9fkcU" },
+        { "id": "step1-2", "title": "Why do we need Containers?", "emoji": "❓", "tutorial_url": "https://www.youtube.com/watch?v=EnJ7qX9fkcU" },
+        { "id": "step1-3", "title": "Bare Metal vs VMs vs Containers", "emoji": "⚖️", "tutorial_url": "https://www.youtube.com/watch?v=EnJ7qX9fkcU" },
+        { "id": "step1-4", "title": "Docker and OCI", "emoji": "🐳", "tutorial_url": "https://www.youtube.com/watch?v=EnJ7qX9fkcU" }
+      ]
+    },
+    {
+      "id": "mod2",
+      "title": "Underlying Technologies",
+      "emoji": "🔬",
+      "description": "Core technologies powering containers.",
+      "steps": [
+        { "id": "step2-1", "title": "Namespaces", "emoji": "🌐", "tutorial_url": "https://www.youtube.com/watch?v=8fi7uSYlOdc" },
+        { "id": "step2-2", "title": "cgroups", "emoji": "📊", "tutorial_url": "https://www.youtube.com/watch?v=8fi7uSYlOdc" },
+        { "id": "step2-3", "title": "Union Filesystems", "emoji": "🧩", "tutorial_url": "https://www.youtube.com/watch?v=8fi7uSYlOdc" }
+      ]
+    },
+    {
+      "id": "mod3",
+      "title": "Installation / Setup",
+      "emoji": "🛠️",
+      "description": "Install Docker on your local machine.",
+      "steps": [
+        { "id": "step3-1", "title": "Docker Desktop (Win/Mac/Linux)", "emoji": "💻", "tutorial_url": "https://docs.docker.com/get-docker/" },
+        { "id": "step3-2", "title": "Docker Engine (Linux)", "emoji": "🐧", "tutorial_url": "https://docs.docker.com/engine/install/" }
+      ]
+    },
+    {
+      "id": "mod4",
+      "title": "Basics of Docker",
+      "emoji": "🔤",
+      "description": "Learn Docker basics and the command-line interface.",
+      "steps": [
+        { "id": "step4-1", "title": "Basics of Docker", "emoji": "📚", "tutorial_url": "https://www.youtube.com/watch?v=3c-iBn73dDE" }
+      ]
+    },
+    {
+      "id": "mod5",
+      "title": "Using 3rd Party Container Images",
+      "emoji": "🛒",
+      "description": "Explore using popular container images.",
+      "steps": [
+        { "id": "step5-1", "title": "Databases", "emoji": "🗄️", "tutorial_url": "https://www.youtube.com/watch?v=1xo-0gCVhTU" },
+        { "id": "step5-2", "title": "Interactive Test Environments", "emoji": "🧪", "tutorial_url": "https://www.youtube.com/watch?v=1xo-0gCVhTU" },
+        { "id": "step5-3", "title": "Command Line Utilities", "emoji": "🔧", "tutorial_url": "https://www.youtube.com/watch?v=1xo-0gCVhTU" }
+      ]
+    },
+    {
+      "id": "mod6",
+      "title": "Data Persistence",
+      "emoji": "💾",
+      "description": "Persist data using Docker volumes and mounts.",
+      "steps": [
+        { "id": "step6-1", "title": "Ephemeral Container Filesystem", "emoji": "🗂️", "tutorial_url": "https://docs.docker.com/storage/" },
+        { "id": "step6-2", "title": "Volume Mounts", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=p28piYY_wv8" },
+        { "id": "step6-3", "title": "Bind Mounts", "emoji": "📎", "tutorial_url": "https://www.youtube.com/watch?v=p28piYY_wv8" }
+      ]
+    },
+    {
+      "id": "mod7",
+      "title": "Runtime Configuration Options",
+      "emoji": "⚙️",
+      "description": "Configure runtime behavior for your containers.",
+      "steps": [
+        { "id": "step7-1", "title": "docker compose", "emoji": "🗂️", "tutorial_url": "https://www.youtube.com/watch?v=Qw9zlE3t8Ko" },
+        { "id": "step7-2", "title": "docker run", "emoji": "🏃", "tutorial_url": "https://www.youtube.com/watch?v=3c-iBn73dDE" }
+      ]
+    },
+    {
+      "id": "mod8",
+      "title": "Building Container Images",
+      "emoji": "🏗️",
+      "description": "Build your own container images.",
+      "steps": [
+        { "id": "step8-1", "title": "Dockerfiles", "emoji": "📄", "tutorial_url": "https://docs.docker.com/engine/reference/builder/" },
+        { "id": "step8-2", "title": "Efficient Layer Caching", "emoji": "⚡", "tutorial_url": "https://docs.docker.com/build/cache/" },
+        { "id": "step8-3", "title": "Image Size and Security", "emoji": "🔒", "tutorial_url": "https://www.youtube.com/watch?v=YFl2mCHdv24" }
+      ]
+    },
+    {
+      "id": "mod9",
+      "title": "Container Registries",
+      "emoji": "📦",
+      "description": "Push and pull images from registries.",
+      "steps": [
+        { "id": "step9-1", "title": "Dockerhub", "emoji": "🐳", "tutorial_url": "https://www.youtube.com/watch?v=1xo-0gCVhTU" },
+        { "id": "step9-2", "title": "Others (ghcr, ecr, gcr, acr, etc)", "emoji": "🌍", "tutorial_url": "https://www.youtube.com/watch?v=1xo-0gCVhTU" },
+        { "id": "step9-3", "title": "Image Tagging Best Practices", "emoji": "🏷️", "tutorial_url": "https://www.youtube.com/watch?v=1xo-0gCVhTU" }
+      ]
+    },
+    {
+      "id": "mod10",
+      "title": "Running Containers",
+      "emoji": "🏃",
+      "description": "Run and manage Docker containers.",
+      "steps": [
+        { "id": "step10-1", "title": "Running Containers", "emoji": "🏃", "tutorial_url": "https://www.youtube.com/watch?v=3c-iBn73dDE" }
+      ]
+    },
+    {
+      "id": "mod11",
+      "title": "Container Security",
+      "emoji": "🔒",
+      "description": "Keep containers and images secure.",
+      "steps": [
+        { "id": "step11-1", "title": "Image Security", "emoji": "🛡️", "tutorial_url": "https://www.youtube.com/watch?v=YFl2mCHdv24" },
+        { "id": "step11-2", "title": "Runtime Security", "emoji": "🛡️", "tutorial_url": "https://www.youtube.com/watch?v=YFl2mCHdv24" }
+      ]
+    },
+    {
+      "id": "mod12",
+      "title": "Docker CLI",
+      "emoji": "⌨️",
+      "description": "Master Docker CLI commands.",
+      "steps": [
+        { "id": "step12-1", "title": "Images", "emoji": "🖼️", "tutorial_url": "https://docs.docker.com/engine/reference/commandline/images/" },
+        { "id": "step12-2", "title": "Containers", "emoji": "📦", "tutorial_url": "https://docs.docker.com/engine/reference/commandline/container/" },
+        { "id": "step12-3", "title": "Volumes", "emoji": "💾", "tutorial_url": "https://docs.docker.com/engine/reference/commandline/volume/" },
+        { "id": "step12-4", "title": "Networks", "emoji": "🌐", "tutorial_url": "https://docs.docker.com/engine/reference/commandline/network/" }
+      ]
+    },
+    {
+      "id": "mod13",
+      "title": "Developer Experience",
+      "emoji": "🧑‍💻",
+      "description": "Developer tools and productivity in Docker.",
+      "steps": [
+        { "id": "step13-1", "title": "Hot Reloading", "emoji": "♻️", "tutorial_url": "https://www.youtube.com/watch?v=1xo-0gCVhTU" },
+        { "id": "step13-2", "title": "Debuggers", "emoji": "🐞", "tutorial_url": "https://www.youtube.com/watch?v=1xo-0gCVhTU" },
+        { "id": "step13-3", "title": "Tests", "emoji": "🧪", "tutorial_url": "https://www.youtube.com/watch?v=1xo-0gCVhTU" },
+        { "id": "step13-4", "title": "Continuous Integration", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=1xo-0gCVhTU" }
+      ]
+    },
+    {
+      "id": "mod14",
+      "title": "Deploying Containers",
+      "emoji": "🚀",
+      "description": "Deploy containers to production and orchestration platforms.",
+      "steps": [
+        { "id": "step14-1", "title": "Nomad", "emoji": "🧭", "tutorial_url": "https://www.youtube.com/watch?v=5hPVb0Nlb8k" },
+        { "id": "step14-2", "title": "Docker Swarm", "emoji": "🐳", "tutorial_url": "https://www.youtube.com/watch?v=Gjnup-PuquQ" },
+        { "id": "step14-3", "title": "Kubernetes", "emoji": "☸️", "tutorial_url": "https://www.youtube.com/watch?v=X48VuDVv0do" },
+        { "id": "step14-4", "title": "PaaS Options", "emoji": "☁️", "tutorial_url": "https://www.youtube.com/watch?v=EnJ7qX9fkcU" }
+      ]
+    },
+    {
+      "id": "prereq",
+      "title": "Prerequisites (Sidebar)",
+      "emoji": "📋",
+      "description": "Recommended prerequisites before diving into Docker.",
+      "steps": [
+        { "id": "prereq-1", "title": "Package Managers", "emoji": "📦", "tutorial_url": "https://www.youtube.com/watch?v=8lYkrkHUX1M" },
+        { "id": "prereq-2", "title": "Users / Groups Permissions", "emoji": "👥", "tutorial_url": "https://www.youtube.com/watch?v=2Ge1ggqQnHg" },
+        { "id": "prereq-3", "title": "Shell Commands", "emoji": "💻", "tutorial_url": "https://www.youtube.com/watch?v=oxuRxtrO2Ag" },
+        { "id": "prereq-4", "title": "Shell Scripting", "emoji": "📜", "tutorial_url": "https://www.youtube.com/watch?v=oxuRxtrO2Ag" },
+        { "id": "prereq-5", "title": "Linux Fundamentals", "emoji": "🐧", "tutorial_url": "https://www.youtube.com/watch?v=wBp0Rb-ZJak" },
+        { "id": "prereq-6", "title": "Programming Languages", "emoji": "🔤", "tutorial_url": "https://www.youtube.com/watch?v=8DvywoWv6fI" },
+        { "id": "prereq-7", "title": "Application Architecture", "emoji": "🏛️", "tutorial_url": "https://www.youtube.com/watch?v=frHZ4PqvF1I" },
+        { "id": "prereq-8", "title": "Web Development", "emoji": "🌐", "tutorial_url": "https://www.youtube.com/watch?v=Q33KBiDriJY" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "Simple Web Server",
+      "level": "Beginner",
+      "emoji": "🌐",
+      "description": "Containerize and run a basic web server.",
+      "concepts": ["Dockerfile", "Ports", "Container"],
+      "tutorial_url": "https://www.youtube.com/watch?v=3c-iBn73dDE",
+      "guide_urls": [
+        { "label": "Docker Hello World Guide", "url": "https://docs.docker.com/get-started/02_our_app/" }
+      ]
+    },
+    {
+      "id": "proj2",
+      "title": "Containerized Static Website",
+      "level": "Beginner",
+      "emoji": "🖼️",
+      "description": "Serve a static website from a container.",
+      "concepts": ["NGINX", "Volumes", "Static files"],
+      "tutorial_url": "https://www.youtube.com/watch?v=EnJ7qX9fkcU",
+      "guide_urls": [
+        { "label": "Static Website Guide", "url": "https://docs.docker.com/samples/nginx/" }
+      ]
+    },
+    {
+      "id": "proj3",
+      "title": "Simple Python Flask App",
+      "level": "Beginner",
+      "emoji": "🐍",
+      "description": "Containerize a basic Flask API.",
+      "concepts": ["Flask", "Dockerfile", "Python"],
+      "tutorial_url": "https://www.youtube.com/watch?v=6u5s2nP0y1w",
+      "guide_urls": [
+        { "label": "Flask Docker Guide", "url": "https://docs.docker.com/samples/python/" }
+      ]
+    },
+    {
+      "id": "proj4",
+      "title": "Personal Docker Registry",
+      "level": "Beginner",
+      "emoji": "📦",
+      "description": "Host your own Docker image registry.",
+      "concepts": ["Registry", "Docker Hub", "Images"],
+      "tutorial_url": "https://www.youtube.com/watch?v=PrE_XGvK6cI",
+      "guide_urls": [
+        { "label": "Docker Registry Guide", "url": "https://docs.docker.com/registry/deploying/" }
+      ]
+    },
+    {
+      "id": "proj5",
+      "title": "Develop a Web Application with Frontend and Backend",
+      "level": "Intermediate",
+      "emoji": "🖥️",
+      "description": "Use Docker Compose to develop a full-stack app.",
+      "concepts": ["Docker Compose", "Frontend", "Backend"],
+      "tutorial_url": "https://www.youtube.com/watch?v=Qw9zlE3t8Ko",
+      "guide_urls": [
+        { "label": "Docker Compose Guide", "url": "https://docs.docker.com/compose/gettingstarted/" }
+      ]
+    },
+    {
+      "id": "proj6",
+      "title": "Containerize a Machine Learning Model",
+      "level": "Intermediate",
+      "emoji": "🤖",
+      "description": "Deploy a trained model in a Docker container.",
+      "concepts": ["Machine Learning", "Python", "Docker"],
+      "tutorial_url": "https://www.youtube.com/watch?v=6Qmnh5C4Pmo",
+      "guide_urls": [
+        { "label": "ML Docker Guide", "url": "https://towardsdatascience.com/packaging-machine-learning-models-into-docker-containers-dc7e763fa75e" }
+      ]
+    },
+    {
+      "id": "proj7",
+      "title": "Create a Data Science Environment with Jupyter and Docker",
+      "level": "Intermediate",
+      "emoji": "📊",
+      "description": "Run Jupyter notebooks in Docker.",
+      "concepts": ["Jupyter", "Data Science", "Docker Compose"],
+      "tutorial_url": "https://www.youtube.com/watch?v=Qw9zlE3t8Ko",
+      "guide_urls": [
+        { "label": "Jupyter Docker Guide", "url": "https://jupyter-docker-stacks.readthedocs.io/en/latest/using/quickstart.html" }
+      ]
+    },
+    {
+      "id": "proj8",
+      "title": "Build a Dockerized CI/CD Pipeline",
+      "level": "Intermediate",
+      "emoji": "🔗",
+      "description": "Automate builds and tests using Docker and CI/CD.",
+      "concepts": ["CI/CD", "Testing", "Docker"],
+      "tutorial_url": "https://www.youtube.com/watch?v=1xo-0gCVhTU",
+      "guide_urls": [
+        { "label": "CI/CD Docker Guide", "url": "https://circleci.com/docs/using-docker/" }
+      ]
+    },
+    {
+      "id": "proj9",
+      "title": "Building Microservices with Docker",
+      "level": "Advanced",
+      "emoji": "🧩",
+      "description": "Build and orchestrate microservices with Docker Compose.",
+      "concepts": ["Microservices", "Compose", "Networking"],
+      "tutorial_url": "https://www.youtube.com/watch?v=Qw9zlE3t8Ko",
+      "guide_urls": [
+        { "label": "Microservices Docker Guide", "url": "https://docs.docker.com/compose/gettingstarted/" }
+      ]
+    },
+    {
+      "id": "proj10",
+      "title": "Time Series Modeling",
+      "level": "Advanced",
+      "emoji": "⏳",
+      "description": "Deploy a time series model in a containerized environment.",
+      "concepts": ["Time Series", "ML", "Docker"],
+      "tutorial_url": "https://www.youtube.com/watch?v=6Qmnh5C4Pmo",
+      "guide_urls": [
+        { "label": "Time Series Docker Guide", "url": "https://towardsdatascience.com/packaging-machine-learning-models-into-docker-containers-dc7e763fa75e" }
+      ]
+    },
+    {
+      "id": "proj11",
+      "title": "Building a CI/CD Pipeline",
+      "level": "Advanced",
+      "emoji": "🚀",
+      "description": "Create a production-grade CI/CD pipeline using Docker.",
+      "concepts": ["CI/CD", "Docker", "Production"],
+      "tutorial_url": "https://www.youtube.com/watch?v=1xo-0gCVhTU",
+      "guide_urls": [
+        { "label": "Advanced CI/CD Docker Guide", "url": "https://circleci.com/docs/using-docker/" }
+      ]
+    }
+  ]
+}

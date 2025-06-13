@@ -1,0 +1,400 @@
+{
+  "title": "iOS Developer Roadmap",
+  "description": "A practical learning path for iOS development.",
+  "modules": [
+    {
+      "id": "mod1",
+      "title": "The Fundamentals",
+      "emoji": "🧭",
+      "description": "Start with the basics: languages, tools, and version control.",
+      "steps": [
+        { "id": "step1-1", "title": "Pick a Language: Swift (Recommended)", "emoji": "🦅", "tutorial_url": "https://www.youtube.com/watch?v=comQ1-x2a1Q" },
+        { "id": "step1-2", "title": "Swift Basics & History", "emoji": "📜", "tutorial_url": "https://www.youtube.com/watch?v=Ulp1Kimblg0" },
+        { "id": "step1-3", "title": "Objective-C & Interoperability", "emoji": "🧩", "tutorial_url": "https://www.youtube.com/watch?v=4I9z4eGzKz4" },
+        { "id": "step1-4", "title": "Version Control: Git & GitHub", "emoji": "🌳", "tutorial_url": "https://www.youtube.com/watch?v=RGOj5yH7evk" },
+        { "id": "step1-5", "title": "App Components & Xcode", "emoji": "🛠️", "tutorial_url": "https://www.youtube.com/watch?v=09TeUXjzpKs" }
+      ]
+    },
+    {
+      "id": "mod2",
+      "title": "Setting Up",
+      "emoji": "⚙️",
+      "description": "Get your development environment ready.",
+      "steps": [
+        { "id": "step2-1", "title": "Installing Xcode", "emoji": "💻", "tutorial_url": "https://www.youtube.com/watch?v=09TeUXjzpKs" },
+        { "id": "step2-2", "title": "Preferences & New Project", "emoji": "📂", "tutorial_url": "https://www.youtube.com/watch?v=09TeUXjzpKs" }
+      ]
+    },
+    {
+      "id": "mod3",
+      "title": "Navigating Xcode",
+      "emoji": "🧭",
+      "description": "Learn to use Xcode's interface and tools.",
+      "steps": [
+        { "id": "step3-1", "title": "Interface Overview, Toolbar, Navigators, Editors", "emoji": "🖥️", "tutorial_url": "https://www.youtube.com/watch?v=09TeUXjzpKs" },
+        { "id": "step3-2", "title": "Project Files, Groups", "emoji": "📁", "tutorial_url": "https://www.youtube.com/watch?v=09TeUXjzpKs" },
+        { "id": "step3-3", "title": "Debugger, Breakpoints, Debug Navigator, Stepping", "emoji": "🐞", "tutorial_url": "https://www.youtube.com/watch?v=J8hQhT89m1E" }
+      ]
+    },
+    {
+      "id": "mod4",
+      "title": "Interface Builder",
+      "emoji": "🖌️",
+      "description": "Design your app visually with Interface Builder.",
+      "steps": [
+        { "id": "step4-1", "title": "IBOutlets & IBActions", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=kyWaXA_nwYw" },
+        { "id": "step4-2", "title": "Auto Layout", "emoji": "📏", "tutorial_url": "https://www.youtube.com/watch?v=V4o6LzF7h8w" }
+      ]
+    },
+    {
+      "id": "mod5",
+      "title": "UIKit",
+      "emoji": "🖼️",
+      "description": "Master UIKit for building classic iOS apps.",
+      "steps": [
+        { "id": "step5-1", "title": "Components, Views, View Controllers, User Interactions", "emoji": "🧩", "tutorial_url": "https://www.youtube.com/watch?v=09TeUXjzpKs" },
+        { "id": "step5-2", "title": "Interfaces: Storyboards, Xibs", "emoji": "📄", "tutorial_url": "https://www.youtube.com/watch?v=kyWaXA_nwYw" },
+        { "id": "step5-3", "title": "Navigation, View Transitions", "emoji": "🚀", "tutorial_url": "https://www.youtube.com/watch?v=JbXb8vF7y8A" }
+      ]
+    },
+    {
+      "id": "mod6",
+      "title": "SwiftUI",
+      "emoji": "🌱",
+      "description": "Build modern iOS apps with SwiftUI.",
+      "steps": [
+        { "id": "step6-1", "title": "Basics, Declarative Syntax, Components", "emoji": "📦", "tutorial_url": "https://www.youtube.com/watch?v=ysR0AOk9K7Q" },
+        { "id": "step6-2", "title": "State Management, Data Binding", "emoji": "📊", "tutorial_url": "https://www.youtube.com/watch?v=F2ojC6TNwws" },
+        { "id": "step6-3", "title": "Simple UI Building, Views and Modifiers", "emoji": "🛠️", "tutorial_url": "https://www.youtube.com/watch?v=ysR0AOk9K7Q" },
+        { "id": "step6-4", "title": "Navigation, View Transitions", "emoji": "🗺️", "tutorial_url": "https://www.youtube.com/watch?v=JbXb8vF7y8A" }
+      ]
+    },
+    {
+      "id": "mod7",
+      "title": "Core Programming Concepts",
+      "emoji": "💡",
+      "description": "Understand core programming paradigms and performance.",
+      "steps": [
+        { "id": "step7-1", "title": "Object-Oriented Programming (OOP)", "emoji": "🏛️", "tutorial_url": "https://www.youtube.com/watch?v=Ulp1Kimblg0" },
+        { "id": "step7-2", "title": "Functional Programming", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=Ulp1Kimblg0" },
+        { "id": "step7-3", "title": "Memory Management", "emoji": "🧠", "tutorial_url": "https://www.youtube.com/watch?v=Ulp1Kimblg0" },
+        { "id": "step7-4", "title": "ViewController Lifecycle", "emoji": "🔄", "tutorial_url": "https://www.youtube.com/watch?v=09TeUXjzpKs" },
+        { "id": "step7-5", "title": "Error Handling", "emoji": "🚧", "tutorial_url": "https://www.youtube.com/watch?v=NIWwJbo-9_8" },
+        { "id": "step7-6", "title": "Concurrency (GCD, async/await)", "emoji": "⏱️", "tutorial_url": "https://www.youtube.com/watch?v=3vH5gLwF3jY" }
+      ]
+    },
+    {
+      "id": "mod8",
+      "title": "iOS Architecture",
+      "emoji": "🏗️",
+      "description": "Learn about iOS system architecture and frameworks.",
+      "steps": [
+        { "id": "step8-1", "title": "Core OS, Core Services, Media, Core Graphics, Core Animation, AV Foundation, Core Image, Core Audio", "emoji": "🧱", "tutorial_url": "https://developer.apple.com/documentation/" },
+        { "id": "step8-2", "title": "Cocoa Touch", "emoji": "🍫", "tutorial_url": "https://www.youtube.com/watch?v=09TeUXjzpKs" }
+      ]
+    },
+    {
+      "id": "mod9",
+      "title": "UI Design",
+      "emoji": "🎨",
+      "description": "Follow Apple’s design principles and build beautiful interfaces.",
+      "steps": [
+        { "id": "step9-1", "title": "HIG (Human Interface Guidelines)", "emoji": "📐", "tutorial_url": "https://developer.apple.com/design/human-interface-guidelines/" },
+        { "id": "step9-2", "title": "UIKit: Views, View Controllers, Navigation Controllers, Segues, Navigation Stacks, Pushing/Presenting Views, Modals", "emoji": "🗂️", "tutorial_url": "https://www.youtube.com/watch?v=09TeUXjzpKs" },
+        { "id": "step9-3", "title": "SwiftUI: Navigation Stacks, NavigationView, NavigationLink, Presenting/Dismissing Views", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=JbXb8vF7y8A" }
+      ]
+    },
+    {
+      "id": "mod10",
+      "title": "Core Animation",
+      "emoji": "🎞️",
+      "description": "Add rich animations to your apps.",
+      "steps": [
+        { "id": "step10-1", "title": "Basics / Creating Animations", "emoji": "🎬", "tutorial_url": "https://www.youtube.com/watch?v=YB1kQ50bLq8" },
+        { "id": "step10-2", "title": "Lottie", "emoji": "✨", "tutorial_url": "https://www.youtube.com/watch?v=3m5XxG7r2qQ" }
+      ]
+    },
+    {
+      "id": "mod11",
+      "title": "Design Architecture",
+      "emoji": "🏛️",
+      "description": "Explore architectural patterns for scalable code.",
+      "steps": [
+        { "id": "step11-1", "title": "MVC, MVP", "emoji": "⚖️", "tutorial_url": "https://www.youtube.com/watch?v=Vn5L8b1oQ1k" },
+        { "id": "step11-2", "title": "MVVM, MVVM-C", "emoji": "🧩", "tutorial_url": "https://www.youtube.com/watch?v=Vn5L8b1oQ1k" },
+        { "id": "step11-3", "title": "VIPER, TCA", "emoji": "🕸️", "tutorial_url": "https://www.youtube.com/watch?v=Vn5L8b1oQ1k" }
+      ]
+    },
+    {
+      "id": "mod12",
+      "title": "Reactive Programming",
+      "emoji": "⚡",
+      "description": "Manage asynchronous events reactively.",
+      "steps": [
+        { "id": "step12-1", "title": "Combine: Publishers / Subscribers, Operators & Pipelines, Combine with MVVM", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=1u6L5Qn1tBo" },
+        { "id": "step12-2", "title": "RxSwift: Observables / Observers, Subjects, RxSwift with MVVM, Operators & Schedulers", "emoji": "🔄", "tutorial_url": "https://www.youtube.com/watch?v=fFpw4UHRbT0" }
+      ]
+    },
+    {
+      "id": "mod13",
+      "title": "Patterns and Techniques",
+      "emoji": "🔁",
+      "description": "Learn essential patterns for robust iOS code.",
+      "steps": [
+        { "id": "step13-1", "title": "Delegate Pattern, Implementing Delegates", "emoji": "👑", "tutorial_url": "https://www.youtube.com/watch?v=1QhA4bZQyTo" },
+        { "id": "step13-2", "title": "Callbacks and Closures, Using Closures, Capturing Values & Memory Management, Callback Hell", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=1QhA4bZQyTo" },
+        { "id": "step13-3", "title": "Async/Await, Concurrency", "emoji": "⏳", "tutorial_url": "https://www.youtube.com/watch?v=3vH5gLwF3jY" }
+      ]
+    },
+    {
+      "id": "mod14",
+      "title": "Data Persistence",
+      "emoji": "💾",
+      "description": "Store, retrieve, and secure data locally.",
+      "steps": [
+        { "id": "step14-1", "title": "Core Data", "emoji": "🗃️", "tutorial_url": "https://www.youtube.com/watch?v=Z4o6LzF7h8w" },
+        { "id": "step14-2", "title": "User Defaults, Keychain, File System, SQLite", "emoji": "🔑", "tutorial_url": "https://www.youtube.com/watch?v=8mJ-OhcfpYg" }
+      ]
+    },
+    {
+      "id": "mod15",
+      "title": "Networking",
+      "emoji": "🌐",
+      "description": "Connect your app to the web.",
+      "steps": [
+        { "id": "step15-1", "title": "HTTP / HTTPS, REST, GraphQL", "emoji": "⚡", "tutorial_url": "https://www.youtube.com/watch?v=K3D2B9blC4A" },
+        { "id": "step15-2", "title": "URLSession, Alamofire, Asynchronous Networking", "emoji": "🔌", "tutorial_url": "https://www.youtube.com/watch?v=K3D2B9blC4A" }
+      ]
+    },
+    {
+      "id": "mod16",
+      "title": "Dependency Manager",
+      "emoji": "📦",
+      "description": "Manage and integrate third-party libraries.",
+      "steps": [
+        { "id": "step16-1", "title": "CocoaPods, Carthage, Swift Package Manager", "emoji": "📦", "tutorial_url": "https://www.youtube.com/watch?v=I5l8vXwHRhA" }
+      ]
+    },
+    {
+      "id": "mod17",
+      "title": "Frameworks & Libraries",
+      "emoji": "📚",
+      "description": "Build and use libraries and frameworks.",
+      "steps": [
+        { "id": "step17-1", "title": "XCFramework, Static Library, Dynamic Library", "emoji": "📚", "tutorial_url": "https://www.youtube.com/watch?v=1nO0uS9lH5Y" }
+      ]
+    },
+    {
+      "id": "mod18",
+      "title": "Accessibility",
+      "emoji": "♿",
+      "description": "Build accessible apps for everyone.",
+      "steps": [
+        { "id": "step18-1", "title": "Accessibility Inspector, Voice Over, Dynamic Type", "emoji": "🔍", "tutorial_url": "https://www.youtube.com/watch?v=5JrM9lEKbq8" }
+      ]
+    },
+    {
+      "id": "mod19",
+      "title": "Common Services & Frameworks",
+      "emoji": "🧰",
+      "description": "Integrate powerful iOS frameworks.",
+      "steps": [
+        { "id": "step19-1", "title": "ARKit, HealthKit, GameKit, MapKit, Core ML", "emoji": "🗺️", "tutorial_url": "https://www.youtube.com/watch?v=1QhA4bZQyTo" }
+      ]
+    },
+    {
+      "id": "mod20",
+      "title": "Linting & Code Quality Tools",
+      "emoji": "🧹",
+      "description": "Maintain clean, high-quality code.",
+      "steps": [
+        { "id": "step20-1", "title": "SwiftLint, Tailor, SwiftFormat", "emoji": "🧹", "tutorial_url": "https://www.youtube.com/watch?v=oQx1lZLXAQQ" }
+      ]
+    },
+    {
+      "id": "mod21",
+      "title": "Debugging Techniques",
+      "emoji": "🐞",
+      "description": "Debug and profile your iOS apps.",
+      "steps": [
+        { "id": "step21-1", "title": "Xcode Debugger, Profiling with Instruments", "emoji": "🔎", "tutorial_url": "https://www.youtube.com/watch?v=J8hQhT89m1E" }
+      ]
+    },
+    {
+      "id": "mod22",
+      "title": "Testing",
+      "emoji": "🧪",
+      "description": "Test your code automatically.",
+      "steps": [
+        { "id": "step22-1", "title": "Unit Testing, UI Testing, XCTest, XCUITest, Test Plans & Coverage", "emoji": "🧪", "tutorial_url": "https://www.youtube.com/watch?v=6iF8Xb7Z3wQ" }
+      ]
+    },
+    {
+      "id": "mod23",
+      "title": "App Distribution",
+      "emoji": "📦",
+      "description": "Distribute your app to users.",
+      "steps": [
+        { "id": "step23-1", "title": "App Store Distribution, TestFlight, Fastlane", "emoji": "🚀", "tutorial_url": "https://www.youtube.com/watch?v=WbCYX9E5q6Y" }
+      ]
+    },
+    {
+      "id": "mod24",
+      "title": "CI/CD",
+      "emoji": "🔗",
+      "description": "Automate builds and deployments.",
+      "steps": [
+        { "id": "step24-1", "title": "Jenkins, CircleCI, GitHub Actions, GitLab, Azure", "emoji": "🔄", "tutorial_url": "https://www.youtube.com/watch?v=JH4qHULR9ZI" }
+      ]
+    },
+    {
+      "id": "mod25",
+      "title": "App Store Optimization (ASO)",
+      "emoji": "📈",
+      "description": "Optimize your app's discoverability.",
+      "steps": [
+        { "id": "step25-1", "title": "App Store Optimization Basics", "emoji": "🔍", "tutorial_url": "https://www.youtube.com/watch?v=IV5R5A1nm4s" }
+      ]
+    },
+    {
+      "id": "mod26",
+      "title": "Continuous Learning",
+      "emoji": "📚",
+      "description": "Keep up-to-date with the latest in iOS.",
+      "steps": [
+        { "id": "step26-1", "title": "Stay updated with WWDC, Latest Swift Version, Latest iOS SDK, New Feature Announcements", "emoji": "📰", "tutorial_url": "https://developer.apple.com/wwdc/" }
+      ]
+    },
+    {
+      "id": "mod27",
+      "title": "Related Tracks",
+      "emoji": "🔀",
+      "description": "Explore cross-platform development.",
+      "steps": [
+        { "id": "step27-1", "title": "Android, Flutter, React Native", "emoji": "📱", "tutorial_url": "https://www.youtube.com/watch?v=1gDhl4leEzA" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "Simple To-Do List App",
+      "level": "Beginner",
+      "emoji": "📝",
+      "description": "Build a simple to-do list app with Swift and UIKit.",
+      "concepts": ["Swift", "UIKit", "TableView", "CRUD"],
+      "tutorial_url": "https://www.youtube.com/watch?v=09TeUXjzpKs",
+      "guide_urls": [
+        { "label": "UIKit TableView Guide", "url": "https://developer.apple.com/documentation/uikit/uitableview" }
+      ]
+    },
+    {
+      "id": "proj2",
+      "title": "Weather App (API Integration)",
+      "level": "Beginner",
+      "emoji": "⛅",
+      "description": "Create a weather app that fetches data from a weather API.",
+      "concepts": ["Networking", "JSON", "API", "UI"],
+      "tutorial_url": "https://www.youtube.com/watch?v=K3D2B9blC4A",
+      "guide_urls": [
+        { "label": "Networking Guide", "url": "https://developer.apple.com/documentation/foundation/urlsession" }
+      ]
+    },
+    {
+      "id": "proj3",
+      "title": "Currency Converter (SwiftUI)",
+      "level": "Beginner",
+      "emoji": "💱",
+      "description": "Build a currency converter using SwiftUI and live rates.",
+      "concepts": ["SwiftUI", "API", "Data Binding"],
+      "tutorial_url": "https://www.youtube.com/watch?v=ysR0AOk9K7Q",
+      "guide_urls": [
+        { "label": "SwiftUI Guide", "url": "https://developer.apple.com/tutorials/swiftui" }
+      ]
+    },
+    {
+      "id": "proj4",
+      "title": "Notes App (Core Data)",
+      "level": "Intermediate",
+      "emoji": "🗒️",
+      "description": "Create a notes app with persistent storage using Core Data.",
+      "concepts": ["Core Data", "CRUD", "Persistence"],
+      "tutorial_url": "https://www.youtube.com/watch?v=Z4o6LzF7h8w",
+      "guide_urls": [
+        { "label": "Core Data Guide", "url": "https://developer.apple.com/documentation/coredata" }
+      ]
+    },
+    {
+      "id": "proj5",
+      "title": "Photo Gallery App",
+      "level": "Intermediate",
+      "emoji": "🖼️",
+      "description": "Build a photo gallery app using UIKit and access the photo library.",
+      "concepts": ["UIKit", "Photo Library", "CollectionView"],
+      "tutorial_url": "https://www.youtube.com/watch?v=09TeUXjzpKs",
+      "guide_urls": [
+        { "label": "Photo Library Guide", "url": "https://developer.apple.com/documentation/photokit" }
+      ]
+    },
+    {
+      "id": "proj6",
+      "title": "Chat App (Firebase)",
+      "level": "Intermediate",
+      "emoji": "💬",
+      "description": "Build a chat app using Firebase for authentication and real-time messaging.",
+      "concepts": ["Firebase", "Authentication", "Real-time Database"],
+      "tutorial_url": "https://www.youtube.com/watch?v=RkSyR8D5w4c",
+      "guide_urls": [
+        { "label": "Firebase Guide", "url": "https://firebase.google.com/docs/ios/setup" }
+      ]
+    },
+    {
+      "id": "proj7",
+      "title": "Fitness App (HealthKit)",
+      "level": "Advanced",
+      "emoji": "🏃",
+      "description": "Create a fitness tracker app using the HealthKit framework.",
+      "concepts": ["HealthKit", "Core Motion", "UI"],
+      "tutorial_url": "https://www.youtube.com/watch?v=rfmB6x_Sj3E",
+      "guide_urls": [
+        { "label": "HealthKit Guide", "url": "https://developer.apple.com/documentation/healthkit" }
+      ]
+    },
+    {
+      "id": "proj8",
+      "title": "Augmented Reality Game (ARKit)",
+      "level": "Advanced",
+      "emoji": "🕹️",
+      "description": "Build an AR game using ARKit.",
+      "concepts": ["ARKit", "SceneKit", "3D Graphics"],
+      "tutorial_url": "https://www.youtube.com/watch?v=dv6qVYw5wB8",
+      "guide_urls": [
+        { "label": "ARKit Guide", "url": "https://developer.apple.com/augmented-reality/" }
+      ]
+    },
+    {
+      "id": "proj9",
+      "title": "Face Detection App (Core ML & Vision)",
+      "level": "Advanced",
+      "emoji": "🤳",
+      "description": "Detect faces in photos using Core ML and Vision.",
+      "concepts": ["Core ML", "Vision", "Image Processing"],
+      "tutorial_url": "https://www.youtube.com/watch?v=YlUQTHv5Fro",
+      "guide_urls": [
+        { "label": "Core ML Guide", "url": "https://developer.apple.com/documentation/coreml" }
+      ]
+    },
+    {
+      "id": "proj10",
+      "title": "Maps & Location Tracker",
+      "level": "Advanced",
+      "emoji": "🗺️",
+      "description": "Track and display user location using MapKit.",
+      "concepts": ["MapKit", "Location", "UI"],
+      "tutorial_url": "https://www.youtube.com/watch?v=1QhA4bZQyTo",
+      "guide_urls": [
+        { "label": "MapKit Guide", "url": "https://developer.apple.com/documentation/mapkit" }
+      ]
+    }
+  ]
+}

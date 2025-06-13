@@ -1,0 +1,310 @@
+{
+  "title": "Backend Developer Roadmap",
+  "description": "A practical learning path for Backend development.",
+  "modules": [
+    {
+      "id": "mod1",
+      "title": "Learn Programming Languages",
+      "emoji": "💻",
+      "description": "Master popular backend languages and their key features.",
+      "steps": [
+        { "id": "step1-1", "title": "Java: Scalability, Security, Enterprise Usage", "emoji": "☕", "tutorial_url": "https://www.youtube.com/watch?v=8cm1x4bC610&list=PLqleLpAMfxGDz5pDg1uQRCvPaL3vWjsmA&index=5" },
+        { "id": "step1-2", "title": "JavaScript/Node.js: Fullstack, Async Programming", "emoji": "🟩", "tutorial_url": "https://www.youtube.com/watch?v=Oe421EPjeBE&list=PLqleLpAMfxGDz5pDg1uQRCvPaL3vWjsmA&index=8" },
+        { "id": "step1-3", "title": "C#: .NET Platform, Web Apps", "emoji": "⚙️", "tutorial_url": "https://www.youtube.com/watch?v=GhQdlIFylQ8" },
+        { "id": "step1-4", "title": "PHP: Server-Side Scripting, Community Support", "emoji": "🐘", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step1-5", "title": "Python: Readability, Libraries, Data Science", "emoji": "🐍", "tutorial_url": "https://www.youtube.com/watch?v=rfscVS0vtbw&list=PLqleLpAMfxGDz5pDg1uQRCvPaL3vWjsmA&index=10" },
+        { "id": "step1-6", "title": "Ruby: Developer Experience, Rails Framework", "emoji": "💎", "tutorial_url": "https://www.youtube.com/watch?v=t_ispmWmdjY" }
+      ]
+    },
+    {
+      "id": "mod2",
+      "title": "Version Control (Git)",
+      "emoji": "🔀",
+      "description": "Track and collaborate on code with Git.",
+      "steps": [
+        { "id": "step2-1", "title": "Git Basics: Commit, Push, Pull, Merge", "emoji": "🔧", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE&list=PLqleLpAMfxGDz5pDg1uQRCvPaL3vWjsmA&index=18" },
+        { "id": "step2-2", "title": "Branching & Collaboration", "emoji": "🌿", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE&list=PLqleLpAMfxGDz5pDg1uQRCvPaL3vWjsmA&index=19" }
+      ]
+    },
+    {
+      "id": "mod3",
+      "title": "Repo Hosting Services",
+      "emoji": "☁️",
+      "description": "Host repositories on platforms like GitHub and Bitbucket.",
+      "steps": [
+        { "id": "step3-1", "title": "GitHub: Social Coding, Open Source", "emoji": "🐱", "tutorial_url": "https://www.youtube.com/watch?v=w3jLJU7DT5E&list=PLqleLpAMfxGDz5pDg1uQRCvPaL3vWjsmA&index=20" },
+        { "id": "step3-2", "title": "BitBucket: Team Collaboration, Integrations", "emoji": "🪣", "tutorial_url": "https://www.youtube.com/watch?v=YwN2l7wGZTY" }
+      ]
+    },
+    {
+      "id": "mod4",
+      "title": "Relational Databases",
+      "emoji": "🗄️",
+      "description": "Store and manage structured data efficiently.",
+      "steps": [
+        { "id": "step4-1", "title": "PostgreSQL: Reliable, Advanced Features", "emoji": "🐘", "tutorial_url": "https://www.youtube.com/watch?v=qw--VYLpxG4&list=PLqleLpAMfxGDz5pDg1uQRCvPaL3vWjsmA&index=30" },
+        { "id": "step4-2", "title": "MySQL: Community, Ease of Use", "emoji": "🐬", "tutorial_url": "https://www.youtube.com/watch?v=7S_tz1z_5bA" },
+        { "id": "step4-3", "title": "MS SQL Server/Oracle: Enterprise Solutions", "emoji": "🏢", "tutorial_url": "https://www.youtube.com/watch?v=7GVFYt2zD2A" }
+      ]
+    },
+    {
+      "id": "mod5",
+      "title": "APIs & Authentication",
+      "emoji": "🔐",
+      "description": "Build and secure APIs for your backend.",
+      "steps": [
+        { "id": "step5-1", "title": "REST API Principles", "emoji": "🌐", "tutorial_url": "https://www.youtube.com/watch?v=lsMQRaeKNDk&list=PLqleLpAMfxGDz5pDg1uQRCvPaL3vWjsmA&index=40" },
+        { "id": "step5-2", "title": "JSON API Design", "emoji": "📝", "tutorial_url": "https://www.youtube.com/watch?v=lsMQRaeKNDk&list=PLqleLpAMfxGDz5pDg1uQRCvPaL3vWjsmA&index=41" },
+        { "id": "step5-3", "title": "Authentication: JWT, OAuth, Cookie, Token", "emoji": "🔑", "tutorial_url": "https://www.youtube.com/watch?v=2jqok-WgelI" }
+      ]
+    },
+    {
+      "id": "mod6",
+      "title": "Caching & Performance",
+      "emoji": "⚡",
+      "description": "Improve speed and scalability with caching solutions.",
+      "steps": [
+        { "id": "step6-1", "title": "Content Delivery Networks (CDN)", "emoji": "🌍", "tutorial_url": "https://www.youtube.com/watch?v=73fqD8mB8B8" },
+        { "id": "step6-2", "title": "Client & Server-Side Caching", "emoji": "📦", "tutorial_url": "https://www.youtube.com/watch?v=73fqD8mB8B8" },
+        { "id": "step6-3", "title": "Redis for Caching", "emoji": "🧠", "tutorial_url": "https://www.youtube.com/watch?v=Hbt56gFj998" }
+      ]
+    },
+    {
+      "id": "mod7",
+      "title": "Web Security",
+      "emoji": "🛡️",
+      "description": "Learn security essentials for backend development.",
+      "steps": [
+        { "id": "step7-1", "title": "HTTPS, SSL/TLS", "emoji": "🔒", "tutorial_url": "https://www.youtube.com/watch?v=SJJmoDZ3il8" },
+        { "id": "step7-2", "title": "CORS & CSP", "emoji": "🌐", "tutorial_url": "https://www.youtube.com/watch?v=Ka8vG5miErE" },
+        { "id": "step7-3", "title": "Input Validation & OWASP Top 10", "emoji": "⚠️", "tutorial_url": "https://www.youtube.com/watch?v=EkbLDK3b3A8" }
+      ]
+    },
+    {
+      "id": "mod8",
+      "title": "Testing",
+      "emoji": "✅",
+      "description": "Ensure code quality through testing.",
+      "steps": [
+        { "id": "step8-1", "title": "Unit & Functional Testing", "emoji": "🧪", "tutorial_url": "https://www.youtube.com/watch?v=MLTRHc5dk6s" },
+        { "id": "step8-2", "title": "API & Performance Testing", "emoji": "🚦", "tutorial_url": "https://www.youtube.com/watch?v=MLTRHc5dk6s" }
+      ]
+    },
+    {
+      "id": "mod9",
+      "title": "CI/CD",
+      "emoji": "🔁",
+      "description": "Automate testing and deployment processes.",
+      "steps": [
+        { "id": "step9-1", "title": "Continuous Integration (CI)", "emoji": "🔂", "tutorial_url": "https://www.youtube.com/watch?v=1hHMwLxN6EM" },
+        { "id": "step9-2", "title": "Continuous Delivery (CD)", "emoji": "🚀", "tutorial_url": "https://www.youtube.com/watch?v=1hHMwLxN6EM" }
+      ]
+    },
+    {
+      "id": "mod10",
+      "title": "Scaling Databases",
+      "emoji": "📈",
+      "description": "Handle large scale and high availability.",
+      "steps": [
+        { "id": "step10-1", "title": "Vertical & Horizontal Scaling", "emoji": "↕️↔️", "tutorial_url": "https://www.youtube.com/watch?v=H6ZzKDNFQf0" },
+        { "id": "step10-2", "title": "Database Sharding", "emoji": "🔀", "tutorial_url": "https://www.youtube.com/watch?v=H6ZzKDNFQf0" }
+      ]
+    },
+    {
+      "id": "mod11",
+      "title": "Architectural Patterns",
+      "emoji": "🏗️",
+      "description": "Understand backend system design patterns.",
+      "steps": [
+        { "id": "step11-1", "title": "MVC, MVP Patterns", "emoji": "🧩", "tutorial_url": "https://www.youtube.com/watch?v=DUg2SWWK18I" },
+        { "id": "step11-2", "title": "Microservices Architecture", "emoji": "🧬", "tutorial_url": "https://www.youtube.com/watch?v=1xo-0gCVhTU" },
+        { "id": "step11-3", "title": "REST API Design Patterns", "emoji": "🗺️", "tutorial_url": "https://www.youtube.com/watch?v=lsMQRaeKNDk" }
+      ]
+    },
+    {
+      "id": "mod12",
+      "title": "Message Brokers",
+      "emoji": "📬",
+      "description": "Use messaging systems for decoupled communication.",
+      "steps": [
+        { "id": "step12-1", "title": "RabbitMQ", "emoji": "🐇", "tutorial_url": "https://www.youtube.com/watch?v=deG25y_r6OY" },
+        { "id": "step12-2", "title": "Kafka", "emoji": "🦒", "tutorial_url": "https://www.youtube.com/watch?v=9pG3Q2TOzWM" }
+      ]
+    },
+    {
+      "id": "mod13",
+      "title": "Containerization",
+      "emoji": "📦",
+      "description": "Package and deploy applications using containers.",
+      "steps": [
+        { "id": "step13-1", "title": "Docker Basics", "emoji": "🐳", "tutorial_url": "https://www.youtube.com/watch?v=fqMOX6JJhGo" },
+        { "id": "step13-2", "title": "Kubernetes Basics", "emoji": "☸️", "tutorial_url": "https://www.youtube.com/watch?v=KVBON1lE-yc" }
+      ]
+    },
+    {
+      "id": "mod14",
+      "title": "Web Servers",
+      "emoji": "🌐",
+      "description": "Learn to deploy backend apps with web servers.",
+      "steps": [
+        { "id": "step14-1", "title": "Apache HTTP Server", "emoji": "🅰️", "tutorial_url": "https://www.youtube.com/watch?v=ltbQ3hC5XQo" },
+        { "id": "step14-2", "title": "Nginx", "emoji": "🅽", "tutorial_url": "https://www.youtube.com/watch?v=0gv7OC9L2s8" }
+      ]
+    },
+    {
+      "id": "mod15",
+      "title": "GraphQL",
+      "emoji": "🕸️",
+      "description": "Query APIs efficiently with GraphQL.",
+      "steps": [
+        { "id": "step15-1", "title": "GraphQL Fundamentals", "emoji": "🔎", "tutorial_url": "https://www.youtube.com/watch?v=ed8SzALpx1Q" },
+        { "id": "step15-2", "title": "Apollo/Relay Modern", "emoji": "🚝", "tutorial_url": "https://www.youtube.com/watch?v=ed8SzALpx1Q&t=1822s" }
+      ]
+    },
+    {
+      "id": "mod16",
+      "title": "NoSQL Databases",
+      "emoji": "🗃️",
+      "description": "Explore schema-less databases for various use cases.",
+      "steps": [
+        { "id": "step16-1", "title": "MongoDB", "emoji": "🍃", "tutorial_url": "https://www.youtube.com/watch?v=ofme2o29ngU" },
+        { "id": "step16-2", "title": "InfluxDB", "emoji": "📈", "tutorial_url": "https://www.youtube.com/watch?v=6yp9Qn_yHEw" },
+        { "id": "step16-3", "title": "Firebase", "emoji": "🔥", "tutorial_url": "https://www.youtube.com/watch?v=1hHMwLxN6EM" },
+        { "id": "step16-4", "title": "Cassandra", "emoji": "🌌", "tutorial_url": "https://www.youtube.com/watch?v=J2Hn6ZzG3pA" },
+        { "id": "step16-5", "title": "Redis as a NoSQL DB", "emoji": "🧠", "tutorial_url": "https://www.youtube.com/watch?v=Hbt56gFj998" }
+      ]
+    },
+    {
+      "id": "mod17",
+      "title": "Infrastructure Knowledge",
+      "emoji": "🛠️",
+      "description": "Get hands-on with servers, OS, and cloud.",
+      "steps": [
+        { "id": "step17-1", "title": "Cloud Computing (AWS, Azure, GCP)", "emoji": "☁️", "tutorial_url": "https://www.youtube.com/watch?v=ulprqHHWlng" },
+        { "id": "step17-2", "title": "Linux/Ubuntu OS Basics", "emoji": "🐧", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" },
+        { "id": "step17-3", "title": "Networking Fundamentals", "emoji": "🌐", "tutorial_url": "https://www.youtube.com/watch?v=qiQR5rTSshw" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "RESTful Library System API",
+      "level": "Beginner",
+      "emoji": "📚",
+      "description": "Build a RESTful API to manage books and users using Node.js and Express.",
+      "concepts": [
+        "CRUD operations",
+        "Express.js routing",
+        "MongoDB integration",
+        "JWT authentication"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=pKd0Rpw7O48",
+      "guide_urls": [
+        { "label": "Node.js Express Guide", "url": "https://expressjs.com/en/starter/installing.html" }
+      ]
+    },
+    {
+      "id": "proj2",
+      "title": "User Authentication System",
+      "level": "Beginner",
+      "emoji": "🔐",
+      "description": "Create a user registration and login system with password hashing and JWT.",
+      "concepts": [
+        "Registration & login endpoints",
+        "Password hashing (bcrypt)",
+        "JWT authentication",
+        "Validation"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=2jqok-WgelI",
+      "guide_urls": [
+        { "label": "JWT Auth with Node.js", "url": "https://jasonwatmore.com/post/2020/07/18/nodejs-mongodb-api-jwt-authentication-with-mongoose" }
+      ]
+    },
+    {
+      "id": "proj3",
+      "title": "Blog Platform API",
+      "level": "Intermediate",
+      "emoji": "📝",
+      "description": "Develop a backend API for a blog platform with user authentication and CRUD posts.",
+      "concepts": [
+        "User authentication",
+        "CRUD for posts",
+        "Role-based authorization",
+        "MongoDB or PostgreSQL"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=ENrzD9HAZK4",
+      "guide_urls": [
+        { "label": "Express/Mongoose Blog API", "url": "https://www.freecodecamp.org/news/build-a-restful-api-using-node-express-and-mongodb/" }
+      ]
+    },
+    {
+      "id": "proj4",
+      "title": "E-commerce Backend",
+      "level": "Intermediate",
+      "emoji": "🛒",
+      "description": "Build a simple backend for an e-commerce store with product and order management.",
+      "concepts": [
+        "RESTful APIs",
+        "Product and order CRUD",
+        "Authentication",
+        "Database relationships"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=bxsemcrY4gQ",
+      "guide_urls": [
+        { "label": "Node.js E-commerce API", "url": "https://www.freecodecamp.org/news/build-restful-api-node-express-mongodb/" }
+      ]
+    },
+    {
+      "id": "proj5",
+      "title": "Chat Application Backend",
+      "level": "Intermediate",
+      "emoji": "💬",
+      "description": "Create the backend for a real-time chat app using WebSockets.",
+      "concepts": [
+        "WebSocket integration",
+        "User sessions",
+        "Storing messages",
+        "Authentication"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=jD7FnbI76Hg",
+      "guide_urls": [
+        { "label": "Socket.IO Chat Backend", "url": "https://socket.io/get-started/chat/" }
+      ]
+    },
+    {
+      "id": "proj6",
+      "title": "Microservices with Node.js",
+      "level": "Advanced",
+      "emoji": "🧬",
+      "description": "Break your backend into microservices with API communication.",
+      "concepts": [
+        "Service communication (REST/gRPC)",
+        "API Gateway basics",
+        "Dockerizing services",
+        "Basic orchestration"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=Gv9_4yMHFhI",
+      "guide_urls": [
+        { "label": "Microservices Node.js", "url": "https://www.toptal.com/nodejs/node-js-microservices" }
+      ]
+    },
+    {
+      "id": "proj7",
+      "title": "GraphQL API for Social App",
+      "level": "Advanced",
+      "emoji": "🕸️",
+      "description": "Build a social network backend using GraphQL and Apollo Server.",
+      "concepts": [
+        "GraphQL schema design",
+        "Resolvers",
+        "Authentication",
+        "Relationships"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=FT5lP7ufQPA",
+      "guide_urls": [
+        { "label": "GraphQL Node Tutorial", "url": "https://www.howtographql.com/graphql-js/0-introduction/" }
+      ]
+    }
+  ]
+}

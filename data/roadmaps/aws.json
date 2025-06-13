@@ -1,0 +1,221 @@
+{
+  "title": "AWS Developer Roadmap",
+  "description": "A practical learning path for AWS developers covering key services and real-world projects.",
+  "modules": [
+    {
+      "id": "mod1",
+      "title": "IAM (Identity and Access Management)",
+      "emoji": "🔐",
+      "description": "Manage AWS access and permissions securely.",
+      "steps": [
+        { "id": "step1-1", "title": "Identity-based & Resource-based policies", "emoji": "📜", "tutorial_url": "https://www.youtube.com/watch?v=lJj9HcYgJjs" },
+        { "id": "step1-2", "title": "Instance Profiles & Assuming Roles", "emoji": "🎭", "tutorial_url": "https://www.youtube.com/watch?v=lJj9HcYgJjs" },
+        { "id": "step1-3", "title": "Users, Groups & Roles", "emoji": "👥", "tutorial_url": "https://www.youtube.com/watch?v=lJj9HcYgJjs" }
+      ]
+    },
+    {
+      "id": "mod2",
+      "title": "EC2 (Elastic Compute Cloud)",
+      "emoji": "💻",
+      "description": "Launch and manage virtual servers on AWS.",
+      "steps": [
+        { "id": "step2-1", "title": "User Data Scripts & Purchasing Options", "emoji": "📝", "tutorial_url": "https://www.youtube.com/watch?v=Uu3P_pb8v4c" },
+        { "id": "step2-2", "title": "Security Groups, Internet & NAT Gateway", "emoji": "🌐", "tutorial_url": "https://www.youtube.com/watch?v=Uu3P_pb8v4c" }
+      ]
+    },
+    {
+      "id": "mod3",
+      "title": "SES (Simple Email Service)",
+      "emoji": "✉️",
+      "description": "Send reliable, scalable email from AWS.",
+      "steps": [
+        { "id": "step3-1", "title": "Sandbox, Sending Limits & Identity Verification", "emoji": "🔎", "tutorial_url": "https://www.youtube.com/watch?v=K8Rpp7m4U_0" },
+        { "id": "step3-2", "title": "DKIM Setup, Feedback Handling & Dedicated IP", "emoji": "🔑", "tutorial_url": "https://www.youtube.com/watch?v=K8Rpp7m4U_0" }
+      ]
+    },
+    {
+      "id": "mod4",
+      "title": "Route 53",
+      "emoji": "🗺️",
+      "description": "DNS management and intelligent routing in AWS.",
+      "steps": [
+        { "id": "step4-1", "title": "Hosted Zones, Routing Policies & Health Checks", "emoji": "🔁", "tutorial_url": "https://www.youtube.com/watch?v=JY6tB1gS5Cw" }
+      ]
+    },
+    {
+      "id": "mod5",
+      "title": "CloudWatch",
+      "emoji": "⏱️",
+      "description": "Monitor resources and applications in AWS.",
+      "steps": [
+        { "id": "step5-1", "title": "Metrics, Events & Logs", "emoji": "📊", "tutorial_url": "https://www.youtube.com/watch?v=3v1rhU9bhr4" }
+      ]
+    },
+    {
+      "id": "mod6",
+      "title": "RDS (Relational Database Service)",
+      "emoji": "🗄️",
+      "description": "Managed SQL databases in AWS.",
+      "steps": [
+        { "id": "step6-1", "title": "DB Instances, Storage Types, Backup/Restore", "emoji": "💾", "tutorial_url": "https://www.youtube.com/watch?v=2V4vKzY1n6k" }
+      ]
+    },
+    {
+      "id": "mod7",
+      "title": "DynamoDB",
+      "emoji": "⚡",
+      "description": "NoSQL database for high-performance workloads.",
+      "steps": [
+        { "id": "step7-1", "title": "Tables, Keys, Indexes & Data Modeling", "emoji": "🔢", "tutorial_url": "https://www.youtube.com/watch?v=HaEPXoXVf2k" },
+        { "id": "step7-2", "title": "Streams, Capacity, Limits, Backup/Restore, DynamoDB Local", "emoji": "🔄", "tutorial_url": "https://www.youtube.com/watch?v=HaEPXoXVf2k" }
+      ]
+    },
+    {
+      "id": "mod8",
+      "title": "S3 (Simple Storage Service)",
+      "emoji": "🗂️",
+      "description": "Highly scalable object storage for any data type.",
+      "steps": [
+        { "id": "step8-1", "title": "Buckets, Objects, Lifecycle & Storage Classes", "emoji": "📦", "tutorial_url": "https://www.youtube.com/watch?v=UBUJnD6VbXs" }
+      ]
+    },
+    {
+      "id": "mod9",
+      "title": "Auto-Scaling & Load Balancers",
+      "emoji": "📈",
+      "description": "Scale your infrastructure for reliability and performance.",
+      "steps": [
+        { "id": "step9-1", "title": "AMIs, Launch Templates, Auto-Scaling Groups, Policies, ELB", "emoji": "⚙️", "tutorial_url": "https://www.youtube.com/watch?v=ipDETiC6q6w" }
+      ]
+    },
+    {
+      "id": "mod10",
+      "title": "CloudFront",
+      "emoji": "🌍",
+      "description": "Global content delivery network for AWS.",
+      "steps": [
+        { "id": "step10-1", "title": "Distributions, Policies & Invalidations", "emoji": "🚀", "tutorial_url": "https://www.youtube.com/watch?v=4taDzusSEa8" }
+      ]
+    },
+    {
+      "id": "mod11",
+      "title": "ElastiCache",
+      "emoji": "⚡",
+      "description": "Managed Redis or Memcached for caching.",
+      "steps": [
+        { "id": "step11-1", "title": "Quotas", "emoji": "📏", "tutorial_url": "https://www.youtube.com/watch?v=Hts6xgB8A2A" }
+      ]
+    },
+    {
+      "id": "mod12",
+      "title": "ECR (Elastic Container Registry)",
+      "emoji": "🐳",
+      "description": "Store, manage, and deploy Docker container images.",
+      "steps": [
+        { "id": "step12-1", "title": "Basics of ECR", "emoji": "📦", "tutorial_url": "https://www.youtube.com/watch?v=V9bImjRlWfA" }
+      ]
+    },
+    {
+      "id": "mod13",
+      "title": "Lambda",
+      "emoji": "🔥",
+      "description": "Serverless compute for event-driven applications.",
+      "steps": [
+        { "id": "step13-1", "title": "Creating/Invoking Functions, Layers, Custom Runtimes", "emoji": "🪄", "tutorial_url": "https://www.youtube.com/watch?v=eOBq__h4OJ4" },
+        { "id": "step13-2", "title": "Versioning, EventBridge, API Gateway, Lambda@Edge", "emoji": "🔄", "tutorial_url": "https://www.youtube.com/watch?v=eOBq__h4OJ4" }
+      ]
+    },
+    {
+      "id": "mod14",
+      "title": "EKS (Elastic Kubernetes Service)",
+      "emoji": "☸️",
+      "description": "Managed Kubernetes clusters on AWS.",
+      "steps": [
+        { "id": "step14-1", "title": "EKS Basics", "emoji": "📦", "tutorial_url": "https://www.youtube.com/watch?v=ZzwqO6kl4Xg" }
+      ]
+    },
+    {
+      "id": "mod15",
+      "title": "ECS (Elastic Container Service)",
+      "emoji": "📦",
+      "description": "Run Docker containers at scale with ECS and Fargate.",
+      "steps": [
+        { "id": "step15-1", "title": "Clusters, Tasks, Services, Fargate", "emoji": "🚚", "tutorial_url": "https://www.youtube.com/watch?v=2Gx2SuT6mJM" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "Static Website Hosting with S3 and CloudFront",
+      "level": "Beginner",
+      "emoji": "🌐",
+      "description": "Host a static website on S3 with CloudFront as a CDN.",
+      "concepts": ["S3", "CloudFront", "Bucket Policy", "SSL"],
+      "tutorial_url": "https://www.youtube.com/watch?v=2JUd0HjYyF4",
+      "guide_urls": [
+        { "label": "AWS Docs: Static Hosting", "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html" }
+      ]
+    },
+    {
+      "id": "proj2",
+      "title": "Serverless REST API with Lambda and API Gateway",
+      "level": "Intermediate",
+      "emoji": "⚡",
+      "description": "Build a serverless REST API using Lambda, API Gateway, and DynamoDB.",
+      "concepts": ["Lambda", "API Gateway", "DynamoDB", "IAM"],
+      "tutorial_url": "https://www.youtube.com/watch?v=eOBq__h4OJ4",
+      "guide_urls": [
+        { "label": "AWS Docs: Lambda API", "url": "https://docs.aws.amazon.com/lambda/latest/dg/services-apigateway-tutorial.html" }
+      ]
+    },
+    {
+      "id": "proj3",
+      "title": "Deploy a Dockerized App with ECS and ECR",
+      "level": "Intermediate",
+      "emoji": "🐳",
+      "description": "Deploy a Docker container to ECS using images stored in ECR.",
+      "concepts": ["ECR", "ECS", "Fargate", "Docker"],
+      "tutorial_url": "https://www.youtube.com/watch?v=2Gx2SuT6mJM",
+      "guide_urls": [
+        { "label": "ECR/ECS Deployment Guide", "url": "https://docs.aws.amazon.com/AmazonECR/latest/userguide/docker-push-ecr-image.html" }
+      ]
+    },
+    {
+      "id": "proj4",
+      "title": "Relational Database Backup and Restore with RDS",
+      "level": "Intermediate",
+      "emoji": "🗄️",
+      "description": "Automate backup and restore for an RDS instance.",
+      "concepts": ["RDS", "Backup", "Restore", "Snapshots"],
+      "tutorial_url": "https://www.youtube.com/watch?v=2V4vKzY1n6k",
+      "guide_urls": [
+        { "label": "AWS Docs: RDS Backup", "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_WorkingWithAutomatedBackups.html" }
+      ]
+    },
+    {
+      "id": "proj5",
+      "title": "Highly Available Application with Auto-Scaling and ELB",
+      "level": "Advanced",
+      "emoji": "📈",
+      "description": "Set up an auto-scaling group and ELB to ensure high availability.",
+      "concepts": ["Auto-Scaling", "ELB", "EC2", "Health Checks"],
+      "tutorial_url": "https://www.youtube.com/watch?v=ipDETiC6q6w",
+      "guide_urls": [
+        { "label": "Auto-Scaling Guide", "url": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html" }
+      ]
+    },
+    {
+      "id": "proj6",
+      "title": "Secure Caching with ElastiCache",
+      "level": "Advanced",
+      "emoji": "⚡",
+      "description": "Deploy and secure a Redis/Memcached cluster on ElastiCache.",
+      "concepts": ["ElastiCache", "Redis", "Security Groups"],
+      "tutorial_url": "https://www.youtube.com/watch?v=Hts6xgB8A2A",
+      "guide_urls": [
+        { "label": "ElastiCache Security", "url": "https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/Security.html" }
+      ]
+    }
+  ]
+}

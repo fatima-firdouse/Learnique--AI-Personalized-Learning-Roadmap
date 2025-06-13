@@ -1,0 +1,735 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>roadmap</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <style>
+    :root {
+      /* Neon/Glassmorphism Palette */
+      --lavender: #820ed5c9;
+      --light-purple: #0c8eec;
+      --pinkish-purple: #b878fd;
+      --deep-purple: #6a0dad;
+      --violet: #8a2be2;
+      --neon-blue: #00f5ff;
+      --neon-cyan: #00f5d4;
+      --soft-magenta: #fa48fa;
+      --pastel-blue: #a0e7ff;
+      --pastel-pink: #ffb6e6;
+
+      --glass-bg: rgba(255, 255, 255, 0.15);
+      --glass-border: rgba(255, 255, 255, 0.18);
+      --glass-shadow: 0 8px 32px 0 rgba(130, 14, 213, 0.17);
+      --white: #fff;
+      --dark-gray: #222;
+      --medium-gray: #888;
+    }
+
+    /* General Body */
+    body {
+      font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, var(--lavender) 20%, var(--light-purple) 100%);
+      color: var(--dark-gray);
+      min-height: 100vh;
+      padding: 20px;
+      background-image: url("https://i.pinimg.com/736x/e1/f0/e3/e1f0e3051b829fdaad7d5f71c9009b97.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+    }
+
+
+    /* Containers */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      background: var(--glass-bg);
+      border-radius: 18px;
+      box-shadow: var(--glass-shadow);
+      padding: 30px;
+      border: 1.5px solid var(--glass-border);
+      backdrop-filter: blur(8px);
+    }
+
+    /* Header */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 24px;
+      padding-bottom: 15px;
+      border-bottom: 2px solid var(--pastel-pink);
+    }
+
+    /* Back Button */
+    .back-button {
+      background: linear-gradient(90deg, var(--neon-blue), var(--soft-magenta));
+      color: var(--white);
+      border: none;
+      padding: 10px 20px;
+      border-radius: 30px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: bold;
+      transition: all 0.3s cubic-bezier(.7, .2, .3, 1);
+      box-shadow: 0 4px 14px rgba(106, 13, 173, 0.11);
+    }
+
+    .back-button:hover {
+      background: linear-gradient(90deg, var(--deep-purple), var(--violet));
+      transform: translateY(-2px) scale(1.04);
+    }
+
+    /* Action Buttons */
+    .action-buttons {
+      display: flex;
+      gap: 14px;
+    }
+
+    .action-button {
+      background: linear-gradient(90deg, var(--pinkish-purple), var(--neon-blue));
+      color: var(--white);
+      border: none;
+      padding: 12px 22px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-weight: bold;
+      box-shadow: 0 3px 10px rgba(186, 120, 253, 0.15);
+      transition: background 0.25s, transform 0.18s;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .action-button:hover {
+      background: linear-gradient(90deg, var(--neon-blue), var(--deep-purple));
+      transform: translateY(-2px) scale(1.04);
+    }
+
+    .action-button.secondary {
+      background: rgba(255, 255, 255, 0.2);
+      color: var(--deep-purple);
+      border: 1.5px solid var(--pinkish-purple);
+    }
+
+    .action-button.secondary:hover {
+      background: var(--pinkish-purple);
+      color: var(--white);
+    }
+
+    /* Title & Subtitle */
+    h1 {
+      color: var(--deep-purple);
+      font-size: clamp(28px, 3.5vw, 36px);
+      margin-bottom: 16px;
+      text-align: center;
+      background: linear-gradient(90deg, var(--deep-purple));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      text-shadow: 0 2px 16px var(--pastel-blue);
+    }
+
+    .subtitle {
+      color: var(--violet);
+      font-size: clamp(16px, 2vw, 20px);
+      margin-bottom: 30px;
+      text-align: center;
+      font-weight: 500;
+    }
+
+    /* Progress Tabs */
+    .progress-container {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 32px;
+      gap: 12px;
+      background: rgba(186, 120, 253, 0.11);
+      padding: 14px;
+      border-radius: 14px;
+      border: 1.5px solid var(--pastel-blue);
+    }
+
+    .progress-item {
+      text-align: center;
+      padding: 14px 10px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.3s cubic-bezier(.7, .2, .3, 1);
+      flex: 1;
+      background: rgba(255, 255, 255, 0.18);
+      font-size: clamp(15px, 2vw, 17px);
+      border: 1.2px solid var(--glass-border);
+    }
+
+    .progress-item:hover {
+      background: var(--pastel-blue);
+      color: var(--deep-purple);
+    }
+
+    .progress-item.active {
+      background: linear-gradient(90deg, var(--deep-purple), var(--neon-blue));
+      color: var(--white);
+      font-weight: bold;
+      box-shadow: 0 4px 12px rgba(130, 14, 213, 0.16);
+    }
+
+    /* Streak Badge */
+    .streak-badge {
+      position: absolute;
+      top: 20px;
+      right: 22px;
+      display: flex;
+      align-items: center;
+      background: var(--pastel-pink);
+      border-radius: 999px;
+      padding: 6px 14px;
+      font-weight: bold;
+      color: var(--deep-purple);
+      font-size: 1.1rem;
+      /* border: 2px solid var(--neon-cyan); */
+      gap: 7px;
+      z-index: 100;
+      min-width: 60px;
+      min-height: 32px;
+      box-shadow: 0 2px 8px var(--pastel-blue);
+    }
+
+    .streak-badge .fire {
+      font-size: 1.5em;
+    }
+
+
+
+    /* Modules & Cards */
+    .module,
+    .project-card {
+      background: var(--glass-bg);
+      border-radius: 14px;
+      padding: 25px;
+      margin-bottom: 25px;
+      box-shadow: var(--glass-shadow);
+      transition: background 0.2s, box-shadow 0.2s, transform 0.18s;
+      border: 1.5px solid var(--glass-border);
+      position: relative;
+      overflow: visible;
+    }
+
+    .module:hover,
+    .project-card:hover {
+      background: rgba(255, 255, 255, 0.22);
+      box-shadow: 0 5px 15px paleturquoise;
+      transform: translateY(-4px) scale(1.02);
+    }
+
+    .module-title,
+    .project-title {
+      font-size: clamp(20px, 2.4vw, 24px);
+      font-weight: bold;
+      margin-bottom: 13px;
+      color: var(--deep-purple);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .module-title .emoji,
+    .project-title .emoji {
+      font-size: 24px;
+    }
+
+    .module-desc,
+    .project-desc {
+      color: var(--medium-gray);
+      font-style: italic;
+      margin-bottom: 18px;
+      font-size: clamp(14px, 1.8vw, 16px);
+      padding-left: 36px;
+      line-height: 1.5;
+    }
+
+    .steps,
+    .concepts-list {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .step {
+      gap: 1.5em;
+      padding: 12px 0;
+      display: flex;
+      align-items: center;
+      font-size: clamp(14px, 1.8vw, 16px);
+      border-bottom: 1px solid var(--glass-border);
+    }
+
+    .step:last-child {
+      border-bottom: none;
+    }
+
+    .step .emoji {
+      margin-right: 15px;
+      font-size: 20px;
+    }
+
+    .step input[type="checkbox"] {
+      margin-right: 15px;
+      width: 20px;
+      height: 20px;
+      accent-color: gray;
+      ;
+      cursor: pointer;
+    }
+
+    .step .watch-tutorial {
+      margin-left: auto;
+      /* Pushes the tutorial link to the far right */
+      flex-shrink: 0;
+      /* Prevents it from shrinking */
+    }
+
+    .step.completed {
+      color: gray;
+    }
+
+    .step.completed label {
+      text-decoration: line-through;
+      opacity: 0.85;
+    }
+
+
+
+    .watch-tutorial .play-tutorial-btn {
+      background: linear-gradient(115deg, var(--violet) 0%, skyblue 100%);
+      border: none;
+      border-radius: 50%;
+      width: 38px;
+      height: 38px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 16px 0 rgba(130, 14, 213, 0.22);
+      cursor: pointer;
+      margin-right: 10px;
+      transition: transform 0.2s, box-shadow 0.2s;
+      outline: none;
+      position: relative;
+      top: 1px;
+    }
+
+    .watch-tutorial .play-tutorial-btn:hover {
+      transform: scale(1.08);
+      box-shadow: 0 7px 20px 0 skyblue;
+    }
+
+    .watch-tutorial .play-tutorial-btn svg {
+      width: 22px;
+      height: 22px;
+      fill: #fff;
+      pointer-events: none;
+    }
+
+    .projects-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 28px;
+      margin-top: 30px;
+    }
+
+    .project-card {
+      background: var(--glass-bg);
+      border-radius: 18px;
+      padding: 28px 28px 22px 28px;
+      margin-bottom: 0;
+      box-shadow: var(--glass-shadow);
+      border: 1.5px solid var(--glass-border);
+      position: relative;
+      transition: background 0.2s, box-shadow 0.2s, transform 0.18s;
+      overflow: visible;
+      min-height: 220px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+
+    .project-title {
+      font-size: 1.22rem;
+      font-weight: 900;
+      color: var(--deep-purple);
+      margin-bottom: 10px;
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      position: relative;
+      /* To make room for badge above */
+    }
+
+    .project-level {
+      position: absolute;
+      top: -12px;
+      left: 20px;
+      padding: 4px 16px;
+      border-radius: 17px;
+      font-size: 0.9em;
+      font-weight: bold;
+      text-transform: uppercase;
+      box-shadow: 0 2px 6px var(--glass-border);
+      letter-spacing: 0.03em;
+      z-index: 2;
+      transform: translateY(-50%);
+      display: flex;
+      align-items: center;
+      border: 2px solid white;
+    }
+
+    .beginner {
+      background: linear-gradient(90deg, #a0e7ff, #b878fd);
+      color: #fff;
+    }
+
+    .intermediate {
+      background: linear-gradient(90deg, #ffb6e6, #fa48fa);
+      color: #fff;
+    }
+
+    .advanced {
+      background: linear-gradient(90deg, #6a0dad, #00f5d4);
+      color: #fff;
+    }
+
+    .project-desc {
+      color: var(--medium-gray);
+      font-style: italic;
+      margin-bottom: 14px;
+      font-size: 1.01rem;
+      min-height: 28px;
+    }
+
+
+    .project-concepts {
+      margin-bottom: 14px;
+    }
+
+    .concepts-title {
+      color: var(--deep-purple);
+      font-size: 1em;
+      font-weight: bold;
+      margin-bottom: 6px;
+    }
+
+    .concepts-list {
+      list-style-type: disc;
+      padding-left: 21px;
+      color: var(--dark-gray);
+      font-size: 0.98em;
+      margin-bottom: 0;
+    }
+
+    .project-actions {
+      display: flex;
+      gap: 10px;
+      margin-top: 12px;
+      flex-wrap: wrap;
+    }
+
+    .action-button {
+      background: linear-gradient(90deg, #b878fd, #00f5ff);
+      color: #fff;
+      border: none;
+      padding: 6px 17px;
+      border-radius: 7px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 0.98em;
+      box-shadow: 0 2px 10px rgba(186, 120, 253, 0.12);
+      transition: background 0.18s, transform 0.15s;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      min-width: 0;
+      min-height: 0;
+      height: 31px;
+      line-height: 1.2;
+      margin-bottom: 0 !important;
+    }
+
+    .action-button i {
+      font-size: 1.06em;
+    }
+
+    .action-button:hover {
+      background: linear-gradient(90deg, #00f5ff, #6a0dad);
+      color: #fff;
+      transform: scale(1.07);
+    }
+
+    @media (max-width: 900px) {
+      .projects-container {
+        grid-template-columns: 1fr;
+        gap: 18px;
+      }
+
+      .project-card {
+        padding: 18px 12px 16px 14px;
+      }
+
+      .project-level {
+        left: 10px;
+        top: -12px;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .projects-container {
+        grid-template-columns: 1fr;
+        gap: 14px;
+      }
+
+      .project-card {
+        padding: 14px 8px 14px 8px;
+      }
+
+      .project-level {
+        left: 7px;
+        top: -8px;
+        font-size: 0.90em;
+        padding: 3px 10px;
+      }
+
+      .action-button {
+        font-size: 0.93em;
+        padding: 6px 10px;
+        height: 27px;
+      }
+    }
+
+    /* Misc */
+    ::-webkit-scrollbar-thumb {
+      background: var(--pastel-blue);
+      border-radius: 7px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <button class="back-button" onclick="window.location.href='/interests'"
+      style="margin-bottom: 16px; background: var(--light-teal); color: #fff; border: none; padding: 10px 24px; border-radius: 6px; font-size: 1rem; font-weight: bold; cursor: pointer;">
+      <i class="fas fa-arrow-left" style="margin-right:8px;"></i>
+    </button>
+    <div class="action-buttons">
+      <button class="action-button" id="shareButton">
+        <i class="fas fa-share-alt"></i> Share
+      </button>
+      <button class="action-button" id="downloadButton">
+        <i class="fas fa-download"></i> Download
+      </button>
+    </div>
+  </div>
+  <div class="container">
+    <div class="streak-badge" id="streakBadge">
+      <span class="fire">🔥</span> <span id="streakDays">0</span>
+    </div>
+    <h1>{{ role }} Roadmap</h1>
+    <div id="roadmapDates" style="text-align:center; margin-bottom:18px; color:#008C8F;">
+      {% if start_date and end_date %}
+      <b>Start:</b> {{ start_date }} &nbsp; <b>End:</b> {{ end_date }}
+      {% endif %}
+    </div>
+    <div class="progress-container">
+      <div class="progress-item active" id="roadmapTab">
+        <div class="count">Roadmap</div>
+      </div>
+      <div class="progress-item" id="projectsTab">
+        <div class="count"></div>
+        <div>Projects</div>
+      </div>
+    </div>
+    <!-- Modules (Roadmap) Section -->
+    <div class="roadmap" id="roadmapSection" style="display: block;">
+      {% for module in modules %}
+      {% set module_idx = loop.index0 %}
+      <div class="module">
+        <div class="module-title">
+          {% if module.emoji %}<span class="emoji">{{ module.emoji }}</span>{% endif %}
+          Module {{ loop.index }}: {{ module.title }}
+        </div>
+        {% if module.description %}
+        <div class="module-desc">{{ module.description }}</div>
+        {% endif %}
+        <ul class="steps">
+          {% for step in module.steps %}
+          <li class="step">
+            {% if step.emoji %}<span class="emoji">{{ step.emoji }}</span>{% endif %}
+            <input type="checkbox" id="{{ role|lower|replace(' ', '-') }}-{{ step.id }}">
+            <label for="{{ role|lower|replace(' ', '-') }}-{{ step.id }}">{{ step.title }}</label>
+            {% if step.tutorial_url %}
+            <div class="watch-tutorial">
+              <button class="play-tutorial-btn" onclick="window.open('{{ step.tutorial_url }}','_blank')">
+                <svg viewBox="0 0 48 48">
+                  <circle cx="24" cy="24" r="24" fill="none" />
+                  <polygon points="19,15 36,24 19,33" />
+                </svg>
+              </button>
+            </div>
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </div>
+    <!-- Projects Section -->
+    <div class="projects-section" id="projectsSection" style="display: none;">
+      <div class="projects-container">
+        {% for project in projects %}
+        <div class="project-card">
+          {% if project.level %}
+          <span class="project-level {{ project.level|lower }}">{{ project.level }}</span>
+          {% endif %}
+          <div class="project-title">
+            {% if project.emoji %}<span class="emoji">{{ project.emoji }}</span>{% endif %}
+            {{ project.title }}
+          </div>
+          {% if project.description %}
+          <div class="project-desc">{{ project.description }}</div>
+          {% endif %}
+          {% if project.concepts %}
+          <div class="project-concepts">
+            <div class="concepts-title">Concepts Covered:</div>
+            <ul class="concepts-list">
+              {% for concept in project.concepts %}
+              <li>{{ concept }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endif %}
+          <div class="project-actions">
+            {% if project.tutorial_url %}
+            <a href="{{ project.tutorial_url }}" class="action-button" target="_blank">
+              <i class="fab fa-youtube"></i> Tutorial
+            </a>
+            {% endif %}
+            {% if project.guide_urls %}
+            {% for guide in project.guide_urls %}
+            <a href="{{ guide.url }}" class="action-button" target="_blank">{{ guide.label }}</a>
+            {% endfor %}
+            {% endif %}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <script>
+    // Tab switching
+    const roadmapTab = document.getElementById('roadmapTab');
+    const projectsTab = document.getElementById('projectsTab');
+    const roadmapSection = document.getElementById('roadmapSection');
+    const projectsSection = document.getElementById('projectsSection');
+    roadmapTab.addEventListener('click', function () {
+      roadmapTab.classList.add('active');
+      projectsTab.classList.remove('active');
+      roadmapSection.style.display = 'block';
+      projectsSection.style.display = 'none';
+    });
+    projectsTab.addEventListener('click', function () {
+      projectsTab.classList.add('active');
+      roadmapTab.classList.remove('active');
+      projectsSection.style.display = 'block';
+      roadmapSection.style.display = 'none';
+    });
+    // Share
+    document.getElementById('shareButton').addEventListener('click', function () {
+      if (navigator.share) {
+        navigator.share({
+          title: '{{ role }} Roadmap',
+          text: 'Check out this comprehensive roadmap!',
+          url: window.location.href
+        }).catch(err => {
+          console.log('Error sharing:', err);
+        });
+      } else {
+        alert('Share this URL: ' + window.location.href);
+      }
+    });
+    // Download as PDF
+    document.getElementById('downloadButton').addEventListener('click', function () {
+      const element = document.getElementById('roadmapSection');
+      const opt = {
+        margin: 10,
+        filename: '{{ role|lower }}-roadmap.pdf',
+        image: { type: 'jpeg', quality: 0.98 },
+        html2canvas: { scale: 2 },
+        jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+      };
+      html2pdf().set(opt).from(element).save();
+    });
+    // Dynamic deadlines
+    document.addEventListener('DOMContentLoaded', function () {
+      const params = new URLSearchParams(window.location.search);
+      const startDateStr = params.get('start');
+      const endDateStr = params.get('end');
+      if (!startDateStr || !endDateStr) return;
+      const modules = document.querySelectorAll('.module');
+      const n = modules.length;
+      const startDate = new Date(startDateStr);
+      const endDate = new Date(endDateStr);
+      const totalMs = endDate - startDate;
+      const perModuleMs = Math.floor(totalMs / n);
+      modules.forEach((mod, i) => {
+        const deadline = new Date(startDate.getTime() + perModuleMs * (i + 1));
+        if (i === n - 1) deadline.setTime(endDate.getTime());
+        const deadlineStr = deadline.toISOString().slice(0, 10);
+        const deadlineDiv = document.createElement('div');
+        deadlineDiv.style.cssText = 'margin-top:10px;color:#008C8F;font-weight:bold;font-size:1rem;';
+        deadlineDiv.innerHTML = `<i class="fas fa-calendar-alt"></i> Complete by: <span>${deadlineStr}</span>`;
+        const desc = mod.querySelector('.module-desc');
+        if (desc) desc.after(deadlineDiv);
+      });
+    });
+    // Checkbox progress logic
+    document.querySelectorAll('.step input[type="checkbox"]').forEach(checkbox => {
+      fetch(`/get_progress?item=${checkbox.id}`)
+        .then(response => response.json())
+        .then(data => {
+          if (data.checked) {
+            checkbox.checked = true;
+            checkbox.closest('.step').classList.add('completed');
+          }
+        });
+      checkbox.addEventListener('change', function () {
+        if (this.checked) {
+          this.closest('.step').classList.add('completed');
+        } else {
+          this.closest('.step').classList.remove('completed');
+        }
+        fetch('/save_progress', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ item: this.id, checked: this.checked })
+        }).then(resp => resp.json()).then(data => {
+          if ('streak' in data) {
+            document.getElementById('streakDays').textContent = data.streak;
+          }
+        });
+      });
+    });
+    // Show streak count on load
+    fetch('/api/load-progress').then(res => res.json()).then(data => {
+      document.getElementById('streakDays').textContent = data.streak || 0;
+    });
+  </script>
+</body>
+
+</html>

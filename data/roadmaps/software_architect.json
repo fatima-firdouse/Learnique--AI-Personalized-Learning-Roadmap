@@ -1,0 +1,176 @@
+{
+  "title": "Software Architect Roadmap",
+  "description": "A comprehensive guide to becoming a software architect, including core concepts, skills, and hands-on projects.",
+  "modules": [
+    {
+      "id": "mod1",
+      "title": "Understand the Basics",
+      "emoji": "🧭",
+      "description": "Learn the fundamentals of software architecture and the architect's role.",
+      "steps": [
+        { "id": "step1-1", "title": "What is Software Architecture?", "emoji": "❓", "tutorial_url": "https://www.youtube.com/watch?v=1uFY60CESlM" },
+        { "id": "step1-2", "title": "What is a Software Architect?", "emoji": "👨‍💼", "tutorial_url": "https://www.youtube.com/watch?v=1uFY60CESlM" },
+        { "id": "step1-3", "title": "References", "emoji": "🔖", "tutorial_url": "https://martinfowler.com/architecture/" }
+      ]
+    },
+    {
+      "id": "mod2",
+      "title": "Responsibilities & Skills",
+      "emoji": "🛠️",
+      "description": "Discover the key responsibilities and skills required.",
+      "steps": [
+        { "id": "step2-1", "title": "Responsibilities of a Software Architect", "emoji": "📋", "tutorial_url": "https://www.youtube.com/watch?v=1uFY60CESlM" },
+        { "id": "step2-2", "title": "Important Skills to Learn", "emoji": "🎯", "tutorial_url": "https://www.youtube.com/watch?v=1uFY60CESlM" }
+      ]
+    },
+    {
+      "id": "mod3",
+      "title": "Levels of Architecture",
+      "emoji": "🏢",
+      "description": "Explore different levels of architecture in organizations.",
+      "steps": [
+        { "id": "step3-1", "title": "Application, Solution, and Enterprise Architecture", "emoji": "🏛️", "tutorial_url": "https://www.youtube.com/watch?v=1uFY60CESlM" }
+      ]
+    },
+    {
+      "id": "mod4",
+      "title": "Technical Skills & Tools",
+      "emoji": "🧰",
+      "description": "Develop skills in modern tools and methodologies.",
+      "steps": [
+        { "id": "step4-1", "title": "Cloud & Serverless", "emoji": "☁️", "tutorial_url": "https://www.youtube.com/watch?v=ulprqHHWlng" },
+        { "id": "step4-2", "title": "Certifications (LeSS, SaFE, PMI, ITIL, Prince2, RUP)", "emoji": "🎓", "tutorial_url": "https://www.youtube.com/watch?v=1uFY60CESlM" },
+        { "id": "step4-3", "title": "Atlassian Tools & Git", "emoji": "🔧", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step4-4", "title": "Agile & Scrum Management", "emoji": "🏃", "tutorial_url": "https://www.youtube.com/watch?v=Z9QbYZh1YXY" }
+      ]
+    },
+    {
+      "id": "mod5",
+      "title": "Patterns and Design Principles",
+      "emoji": "📐",
+      "description": "Master software design and architectural patterns.",
+      "steps": [
+        { "id": "step5-1", "title": "MVC, MVP, MVVM, Actor Model", "emoji": "🗂️", "tutorial_url": "https://www.youtube.com/watch?v=1IsL6g2ixak" },
+        { "id": "step5-2", "title": "SOLID, DDD, TDD, OOP", "emoji": "🔤", "tutorial_url": "https://www.youtube.com/watch?v=rtmFCcjEgEw" },
+        { "id": "step5-3", "title": "CQRS, Eventual Consistency, ACID, CAP Theorem", "emoji": "⚖️", "tutorial_url": "https://www.youtube.com/watch?v=ZkP3L1gaIDw" }
+      ]
+    },
+    {
+      "id": "mod6",
+      "title": "Architectures",
+      "emoji": "🏗️",
+      "description": "Study different architecture styles for modern systems.",
+      "steps": [
+        { "id": "step6-1", "title": "Microservices, Client/Server, Layered, Distributed, SOA", "emoji": "🛤️", "tutorial_url": "https://www.youtube.com/watch?v=U5PaQ7GgkZU" }
+      ]
+    },
+    {
+      "id": "mod7",
+      "title": "Databases and Data Engineering",
+      "emoji": "🗄️",
+      "description": "Get familiar with database architectures and data engineering tools.",
+      "steps": [
+        { "id": "step7-1", "title": "SQL & NoSQL Databases, ETL, Hadoop, Spark", "emoji": "💾", "tutorial_url": "https://www.youtube.com/watch?v=HXV3zeQKqGY" }
+      ]
+    },
+    {
+      "id": "mod8",
+      "title": "Programming Languages & Frameworks",
+      "emoji": "💻",
+      "description": "Learn the primary languages, frameworks, and modeling techniques.",
+      "steps": [
+        { "id": "step8-1", "title": "Python, Java, .NET, Go, JavaScript, Scala", "emoji": "🖥️", "tutorial_url": "https://www.youtube.com/watch?v=rfscVS0vtbw" },
+        { "id": "step8-2", "title": "TOGAF, IAF, UML", "emoji": "📊", "tutorial_url": "https://www.youtube.com/watch?v=1uFY60CESlM" }
+      ]
+    },
+    {
+      "id": "mod9",
+      "title": "Security",
+      "emoji": "🔒",
+      "description": "Understand security principles and practices for architects.",
+      "steps": [
+        { "id": "step9-1", "title": "Hashing, PKI, OWASP, Authentication", "emoji": "🚨", "tutorial_url": "https://www.youtube.com/watch?v=6gQ5r5j2QkA" }
+      ]
+    },
+    {
+      "id": "mod10",
+      "title": "Enterprise Software & Operations",
+      "emoji": "🏢",
+      "description": "Review enterprise systems, operations, and cloud foundations.",
+      "steps": [
+        { "id": "step10-1", "title": "Enterprise Systems & Operations (SAP, Salesforce, MS Dynamics, IBM BPM, etc.)", "emoji": "🗃️", "tutorial_url": "https://www.youtube.com/watch?v=1uFY60CESlM" },
+        { "id": "step10-2", "title": "Networks & Cloud Operations (Proxies, Firewalls, OSI, IaaC, Containers, CI/CD)", "emoji": "🌐", "tutorial_url": "https://www.youtube.com/watch?v=ulprqHHWlng" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "Design a Microservices Architecture",
+      "level": "Intermediate",
+      "emoji": "🛤️",
+      "description": "Design a microservices-based architecture for an e-commerce system with authentication, catalog, order, and payment services.",
+      "concepts": [
+        "Microservices",
+        "API Gateway",
+        "Service Discovery",
+        "Load Balancing"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=U5PaQ7GgkZU",
+      "guide_urls": [
+        { "label": "Microservices Guide", "url": "https://martinfowler.com/microservices/" }
+      ]
+    },
+    {
+      "id": "proj2",
+      "title": "Architect a Scalable Data Platform",
+      "level": "Advanced",
+      "emoji": "💾",
+      "description": "Design a scalable data platform using SQL/NoSQL, ETL pipelines, and data warehousing.",
+      "concepts": [
+        "Data modeling",
+        "ETL",
+        "Data warehouse",
+        "NoSQL"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=HXV3zeQKqGY",
+      "guide_urls": [
+        { "label": "Data Platform Guide", "url": "https://www.databricks.com/glossary/data-architecture" }
+      ]
+    },
+    {
+      "id": "proj3",
+      "title": "Secure Authentication System",
+      "level": "Intermediate",
+      "emoji": "🔒",
+      "description": "Build a secure authentication and authorization system using OAuth2/JWT for a web platform.",
+      "concepts": [
+        "Authentication",
+        "JWT",
+        "OAuth2",
+        "PKI"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=6gQ5r5j2QkA",
+      "guide_urls": [
+        { "label": "JWT Auth Guide", "url": "https://jwt.io/introduction" }
+      ]
+    },
+    {
+      "id": "proj4",
+      "title": "Enterprise Integration Patterns",
+      "level": "Advanced",
+      "emoji": "🏢",
+      "description": "Design an integration solution for connecting heterogeneous enterprise systems (ERP, CRM, BPM).",
+      "concepts": [
+        "Enterprise Integration",
+        "SOA",
+        "Messaging",
+        "ESB"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=1uFY60CESlM",
+      "guide_urls": [
+        { "label": "Integration Patterns", "url": "https://www.enterpriseintegrationpatterns.com/" }
+      ]
+    }
+  ]
+}

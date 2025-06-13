@@ -1,0 +1,165 @@
+{
+  "title": "Prompt Engineering Roadmap",
+  "description": "A step-by-step learning path to master prompt engineering for AI, LLMs, and real-world applications.",
+  "modules": [
+    {
+      "id": "mod1",
+      "title": "Introduction to Prompt Engineering",
+      "emoji": "🧭",
+      "description": "Learn about prompt engineering, its importance, and foundational AI concepts.",
+      "steps": [
+        { "id": "step1-1", "title": "Understanding the basics of Prompt Engineering", "emoji": "❓", "tutorial_url": "https://www.youtube.com/watch?v=8pDqJVdNa44" },
+        { "id": "step1-2", "title": "Importance and applications in AI interactions", "emoji": "🚀", "tutorial_url": "https://www.youtube.com/watch?v=8pDqJVdNa44" },
+        { "id": "step1-3", "title": "Overview of Large Language Models (LLMs)", "emoji": "🤖", "tutorial_url": "https://www.youtube.com/watch?v=OSGv2VnC0go" }
+      ]
+    },
+    {
+      "id": "mod2",
+      "title": "Foundations of Prompt Design",
+      "emoji": "🏗️",
+      "description": "Build a strong foundation in prompt design principles.",
+      "steps": [
+        { "id": "step2-1", "title": "Key components of effective prompts", "emoji": "🔑", "tutorial_url": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-eng/" },
+        { "id": "step2-2", "title": "General principles for crafting prompts", "emoji": "📋", "tutorial_url": "https://www.promptingguide.ai/introduction" },
+        { "id": "step2-3", "title": "Best practices in prompt formulation", "emoji": "✅", "tutorial_url": "https://learnprompting.org/docs/guides/best-practices" }
+      ]
+    },
+    {
+      "id": "mod3",
+      "title": "Understanding AI and NLP",
+      "emoji": "🧠",
+      "description": "Understand how LLMs and NLP power prompt engineering.",
+      "steps": [
+        { "id": "step3-1", "title": "Basics of Artificial Intelligence and Natural Language Processing", "emoji": "🧑‍💻", "tutorial_url": "https://www.youtube.com/watch?v=kqSdj63iuMc" },
+        { "id": "step3-2", "title": "How LLMs interpret and generate responses", "emoji": "💬", "tutorial_url": "https://www.youtube.com/watch?v=OSGv2VnC0go" },
+        { "id": "step3-3", "title": "Role of tokenization in AI responses", "emoji": "🔠", "tutorial_url": "https://www.youtube.com/watch?v=FfQ8h0kF8a0" }
+      ]
+    },
+    {
+      "id": "mod4",
+      "title": "Crafting Effective Prompts",
+      "emoji": "✍️",
+      "description": "Develop techniques for clear, specific, and context-rich prompts.",
+      "steps": [
+        { "id": "step4-1", "title": "Techniques for clear and concise prompt writing", "emoji": "🔍", "tutorial_url": "https://learnprompting.org/docs/guides/clarity" },
+        { "id": "step4-2", "title": "Incorporating context and specificity", "emoji": "📄", "tutorial_url": "https://www.promptingguide.ai/techniques/context" },
+        { "id": "step4-3", "title": "Avoiding ambiguity in prompts", "emoji": "🚫", "tutorial_url": "https://www.promptingguide.ai/techniques/ambiguity" }
+      ]
+    },
+    {
+      "id": "mod5",
+      "title": "Advanced Prompting Techniques",
+      "emoji": "🧩",
+      "description": "Master advanced techniques like chain-of-thought and few-shot prompting.",
+      "steps": [
+        { "id": "step5-1", "title": "Chain-of-Thought Prompting", "emoji": "🔗", "tutorial_url": "https://www.promptingguide.ai/techniques/cot" },
+        { "id": "step5-2", "title": "Few-Shot and Zero-Shot Learning", "emoji": "🕵️", "tutorial_url": "https://www.promptingguide.ai/techniques/fewshot" },
+        { "id": "step5-3", "title": "Iterative refinement of prompts", "emoji": "🔄", "tutorial_url": "https://learnprompting.org/docs/guides/iterative" }
+      ]
+    },
+    {
+      "id": "mod6",
+      "title": "Real-World Applications",
+      "emoji": "🌏",
+      "description": "Apply prompting skills to real-world tasks and products.",
+      "steps": [
+        { "id": "step6-1", "title": "Implementing prompts in chatbots and virtual assistants", "emoji": "🤖", "tutorial_url": "https://www.youtube.com/watch?v=ml_MDJvQqME" },
+        { "id": "step6-2", "title": "Using prompts for content generation and summarization", "emoji": "📝", "tutorial_url": "https://learnprompting.org/docs/use-cases/content-gen" },
+        { "id": "step6-3", "title": "Applications in data analysis and decision support", "emoji": "📊", "tutorial_url": "https://learnprompting.org/docs/use-cases/data-analysis" }
+      ]
+    },
+    {
+      "id": "mod7",
+      "title": "Ethical Considerations",
+      "emoji": "⚖️",
+      "description": "Understand and address ethical issues in prompt engineering.",
+      "steps": [
+        { "id": "step7-1", "title": "Understanding biases in AI responses", "emoji": "⚠️", "tutorial_url": "https://www.youtube.com/watch?v=7l1p1A6vFdo" },
+        { "id": "step7-2", "title": "Ensuring fairness and inclusivity in prompt design", "emoji": "🌈", "tutorial_url": "https://www.promptingguide.ai/ethics/fairness" },
+        { "id": "step7-3", "title": "Addressing ethical challenges in AI interactions", "emoji": "🛡️", "tutorial_url": "https://learnprompting.org/docs/guides/ethics" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "Prompt-Based Text Summarizer",
+      "level": "Beginner",
+      "emoji": "📝",
+      "description": "Build a tool that summarizes articles or documents using prompt engineering on an LLM.",
+      "concepts": [
+        "Prompt design",
+        "Summarization",
+        "API integration"
+      ],
+      "tutorial_url": "https://learnprompting.org/projects/text-summarizer",
+      "guide_urls": [
+        { "label": "Prompt Summarization Guide", "url": "https://www.promptingguide.ai/techniques/summarization" }
+      ]
+    },
+    {
+      "id": "proj2",
+      "title": "Prompted Chatbot Assistant",
+      "level": "Beginner",
+      "emoji": "🤖",
+      "description": "Create a chatbot that responds intelligently using crafted prompts.",
+      "concepts": [
+        "Prompt engineering",
+        "Conversational AI",
+        "LLM API"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=ml_MDJvQqME",
+      "guide_urls": [
+        { "label": "Chatbot Prompting Guide", "url": "https://www.promptingguide.ai/techniques/conversation" }
+      ]
+    },
+    {
+      "id": "proj3",
+      "title": "Chain-of-Thought Reasoning Tool",
+      "level": "Intermediate",
+      "emoji": "🔗",
+      "description": "Develop a tool that uses Chain-of-Thought Prompting for step-by-step problem solving.",
+      "concepts": [
+        "Chain-of-thought",
+        "Reasoning",
+        "LLM prompting"
+      ],
+      "tutorial_url": "https://www.promptingguide.ai/techniques/cot",
+      "guide_urls": [
+        { "label": "Chain-of-Thought Guide", "url": "https://learnprompting.org/docs/guides/cot" }
+      ]
+    },
+    {
+      "id": "proj4",
+      "title": "Prompt-Driven Data Analysis Assistant",
+      "level": "Intermediate",
+      "emoji": "📊",
+      "description": "Build a data assistant that analyzes input data and provides insights via LLM prompts.",
+      "concepts": [
+        "Data analysis",
+        "Prompt templates",
+        "Real-world application"
+      ],
+      "tutorial_url": "https://learnprompting.org/projects/data-analysis-assistant",
+      "guide_urls": [
+        { "label": "Data Analysis Prompting", "url": "https://learnprompting.org/docs/use-cases/data-analysis" }
+      ]
+    },
+    {
+      "id": "proj5",
+      "title": "Ethical Prompt Evaluator",
+      "level": "Advanced",
+      "emoji": "⚖️",
+      "description": "Create a tool that evaluates prompts for bias, inclusivity, and ethical considerations.",
+      "concepts": [
+        "Ethics",
+        "Bias detection",
+        "Prompt validation"
+      ],
+      "tutorial_url": "https://learnprompting.org/projects/ethical-prompt-evaluator",
+      "guide_urls": [
+        { "label": "Ethics in Prompting", "url": "https://learnprompting.org/docs/guides/ethics" }
+      ]
+    }
+  ]
+}

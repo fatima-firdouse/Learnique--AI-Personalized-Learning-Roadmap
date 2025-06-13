@@ -1,0 +1,292 @@
+{
+  "title": "TypeScript Roadmap",
+  "description": "A comprehensive learning path for mastering TypeScript.",
+  "modules": [
+    {
+      "id": "mod1",
+      "title": "Introduction to TypeScript",
+      "emoji": "🧭",
+      "description": "Understand what TypeScript is and how it relates to JavaScript.",
+      "steps": [
+        { "id": "step1-1", "title": "TypeScript vs JavaScript", "emoji": "⚖️", "tutorial_url": "https://www.youtube.com/watch?v=BwuLxPH8IDs" },
+        { "id": "step1-2", "title": "TS and JS Interoperability", "emoji": "🔄", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html" },
+        { "id": "step1-3", "title": "Installation and Configuration", "emoji": "💻", "tutorial_url": "https://www.youtube.com/watch?v=BwuLxPH8IDs" },
+        { "id": "step1-4", "title": "tsconfig.json", "emoji": "🗂️", "tutorial_url": "https://www.typescriptlang.org/tsconfig" },
+        { "id": "step1-5", "title": "Compiler Options", "emoji": "🔧", "tutorial_url": "https://www.typescriptlang.org/tsconfig" }
+      ]
+    },
+    {
+      "id": "mod2",
+      "title": "Running TypeScript",
+      "emoji": "🏃",
+      "description": "How to run and experiment with TypeScript code.",
+      "steps": [
+        { "id": "step2-1", "title": "TS Playground", "emoji": "🌐", "tutorial_url": "https://www.typescriptlang.org/play" },
+        { "id": "step2-2", "title": "tsc", "emoji": "🔨", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/compiler-options.html" },
+        { "id": "step2-3", "title": "ts-node", "emoji": "⚡", "tutorial_url": "https://www.youtube.com/watch?v=1ucM1Yk_Xqg" }
+      ]
+    },
+    {
+      "id": "mod3",
+      "title": "TypeScript Types",
+      "emoji": "🔤",
+      "description": "All about the types available in TypeScript.",
+      "steps": [
+        { "id": "step3-1", "title": "Primitive Types", "emoji": "🔢", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html" },
+        { "id": "step3-2", "title": "boolean", "emoji": "✅", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#boolean" },
+        { "id": "step3-3", "title": "number", "emoji": "🔢", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#number" },
+        { "id": "step3-4", "title": "string", "emoji": "🔤", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#string" },
+        { "id": "step3-5", "title": "void", "emoji": "⚪", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/functions.html#void" },
+        { "id": "step3-6", "title": "undefined", "emoji": "💬", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#undefined" },
+        { "id": "step3-7", "title": "null", "emoji": "🚫", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#null" },
+        { "id": "step3-8", "title": "Object Types", "emoji": "📦", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/objects.html" },
+        { "id": "step3-9", "title": "Class", "emoji": "🏫", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/classes.html" },
+        { "id": "step3-10", "title": "Enum", "emoji": "🔢", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/enums.html" },
+        { "id": "step3-11", "title": "Array", "emoji": "📚", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#array" },
+        { "id": "step3-12", "title": "Tuple", "emoji": "👫", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/objects.html#tuple-types" },
+        { "id": "step3-13", "title": "Object", "emoji": "🧱", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/objects.html" },
+        { "id": "step3-14", "title": "Top Types", "emoji": "🔝", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/types-from-types.html" },
+        { "id": "step3-15", "title": "unknown", "emoji": "❓", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/functions.html#unknown" },
+        { "id": "step3-16", "title": "any", "emoji": "🌐", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/functions.html#any" },
+        { "id": "step3-17", "title": "Bottom Types", "emoji": "🔽", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/functions.html#never" },
+        { "id": "step3-18", "title": "never", "emoji": "🚫", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/functions.html#never" },
+        { "id": "step3-19", "title": "Assertions", "emoji": "🔖", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-assertions" },
+        { "id": "step3-20", "title": "as [type]", "emoji": "📣", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-assertions" },
+        { "id": "step3-21", "title": "as any", "emoji": "🌍", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-assertions" },
+        { "id": "step3-22", "title": "as const", "emoji": "🔒", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-types" },
+        { "id": "step3-23", "title": "Non-null Assertion", "emoji": "✔️", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#non-null-assertion-operator-postfix-" },
+        { "id": "step3-24", "title": "satisfies keyword", "emoji": "✅", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/objects.html#the-satisfies-operator" }
+      ]
+    },
+    {
+      "id": "mod4",
+      "title": "Combining Types",
+      "emoji": "🔀",
+      "description": "Combine different types for greater flexibility.",
+      "steps": [
+        { "id": "step4-1", "title": "Union Types", "emoji": "🔗", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types" },
+        { "id": "step4-2", "title": "Intersection Types", "emoji": "🔀", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/objects.html#intersection-types" },
+        { "id": "step4-3", "title": "Type Aliases", "emoji": "🏷️", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-aliases" },
+        { "id": "step4-4", "title": "keyof Operator", "emoji": "🗝️", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/keyof-types.html" }
+      ]
+    },
+    {
+      "id": "mod5",
+      "title": "Type Guards / Narrowing",
+      "emoji": "💡",
+      "description": "Safely narrow types to make code safer.",
+      "steps": [
+        { "id": "step5-1", "title": "instanceof", "emoji": "🏛️", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/narrowing.html#using-typeof-or-instanceof" },
+        { "id": "step5-2", "title": "typeof", "emoji": "🔎", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/narrowing.html#using-typeof-or-instanceof" },
+        { "id": "step5-3", "title": "Equality", "emoji": "=", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/narrowing.html#equality-narrowing" },
+        { "id": "step5-4", "title": "Truthiness", "emoji": "👍", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/narrowing.html#truthiness-narrowing" },
+        { "id": "step5-5", "title": "Type Predicates", "emoji": "🔮", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/narrowing.html#using-type-predicates" }
+      ]
+    },
+    {
+      "id": "mod6",
+      "title": "Type Inference & Compatibility",
+      "emoji": "🎯",
+      "description": "Let TypeScript infer types and check compatibility.",
+      "steps": [
+        { "id": "step6-1", "title": "Type Inference", "emoji": "🤔", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/type-inference.html" },
+        { "id": "step6-2", "title": "Type Compatibility", "emoji": "🔗", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/type-compatibility.html" }
+      ]
+    },
+    {
+      "id": "mod7",
+      "title": "TypeScript Functions",
+      "emoji": "🔢",
+      "description": "TypeScript function syntax and overloads.",
+      "steps": [
+        { "id": "step7-1", "title": "Typing Functions", "emoji": "✍️", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/functions.html" },
+        { "id": "step7-2", "title": "Function Overloading", "emoji": "🔄", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/functions.html#function-overloads" }
+      ]
+    },
+    {
+      "id": "mod8",
+      "title": "TypeScript Interfaces",
+      "emoji": "📑",
+      "description": "Interfaces for contracts in your code.",
+      "steps": [
+        { "id": "step8-1", "title": "Types vs Interfaces", "emoji": "⚔️", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/objects.html#interfaces-vs-type-aliases" },
+        { "id": "step8-2", "title": "Extending Interfaces", "emoji": "➕", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/objects.html#extending-types" },
+        { "id": "step8-3", "title": "Interface Declaration", "emoji": "📜", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/objects.html#interfaces" },
+        { "id": "step8-4", "title": "Hybrid Types", "emoji": "🔀", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/interfaces.html#hybrid-types" }
+      ]
+    },
+    {
+      "id": "mod9",
+      "title": "Classes",
+      "emoji": "🏫",
+      "description": "Object-oriented programming in TypeScript.",
+      "steps": [
+        { "id": "step9-1", "title": "Constructor Params", "emoji": "🔧", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#parameter-properties" },
+        { "id": "step9-2", "title": "Access Modifiers", "emoji": "🔒", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#member-visibility" },
+        { "id": "step9-3", "title": "Abstract Classes", "emoji": "🧩", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#abstract-classes-and-members" },
+        { "id": "step9-4", "title": "Inheritance vs Polymorphism", "emoji": "🧬", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#inheritance" },
+        { "id": "step9-5", "title": "Method Overriding", "emoji": "🔄", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#overriding-methods" },
+        { "id": "step9-6", "title": "Constructor Overloading", "emoji": "➕", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#constructors" }
+      ]
+    },
+    {
+      "id": "mod10",
+      "title": "Generics",
+      "emoji": "🔣",
+      "description": "Flexible code with generics.",
+      "steps": [
+        { "id": "step10-1", "title": "Generic Types", "emoji": "🔤", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/generics.html" },
+        { "id": "step10-2", "title": "Generic Constraints", "emoji": "📏", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/generics.html#generic-constraints" }
+      ]
+    },
+    {
+      "id": "mod11",
+      "title": "Utility Types",
+      "emoji": "🛠️",
+      "description": "Use built-in types for powerful code reuse.",
+      "steps": [
+        { "id": "step11-1", "title": "Partial", "emoji": "🧩", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/utility-types.html#partialtype" },
+        { "id": "step11-2", "title": "Pick", "emoji": "🗂️", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/utility-types.html#picktype-keys" },
+        { "id": "step11-3", "title": "Omit", "emoji": "🚫", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/utility-types.html#omittype-keys" },
+        { "id": "step11-4", "title": "Readonly", "emoji": "🔒", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/utility-types.html#readonlytype" },
+        { "id": "step11-5", "title": "Record", "emoji": "📓", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/utility-types.html#recordkeys-type" },
+        { "id": "step11-6", "title": "Exclude", "emoji": "🚫", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/utility-types.html#excludeuniontype-excludedmembers" },
+        { "id": "step11-7", "title": "Extract", "emoji": "📤", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/utility-types.html#extracttype-union" },
+        { "id": "step11-8", "title": "Awaited", "emoji": "⏳", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/utility-types.html#awaitedtype" },
+        { "id": "step11-9", "title": "Parameters", "emoji": "🔢", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/utility-types.html#parameterstype" },
+        { "id": "step11-10", "title": "NonNullable", "emoji": "❌", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/utility-types.html#nonnullabletype" },
+        { "id": "step11-11", "title": "ReturnType", "emoji": "↩️", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/utility-types.html#returntypetype" },
+        { "id": "step11-12", "title": "InstanceType", "emoji": "🏷️", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/utility-types.html#instancetypetype" }
+      ]
+    },
+    {
+      "id": "mod12",
+      "title": "Advanced Types",
+      "emoji": "🧠",
+      "description": "Explore advanced type features.",
+      "steps": [
+        { "id": "step12-1", "title": "Mapped Types", "emoji": "🗺️", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/mapped-types.html" },
+        { "id": "step12-2", "title": "Conditional Types", "emoji": "⚡", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/conditional-types.html" },
+        { "id": "step12-3", "title": "Literal Types", "emoji": "🔤", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-types" },
+        { "id": "step12-4", "title": "Template Literal Types", "emoji": "📝", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/template-literal-types.html" },
+        { "id": "step12-5", "title": "Recursive Types", "emoji": "🔄", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/2/objects.html#recursive-types" }
+      ]
+    },
+    {
+      "id": "mod13",
+      "title": "Decorators",
+      "emoji": "🎀",
+      "description": "Enhance classes and members with experimental decorators.",
+      "steps": [
+        { "id": "step13-1", "title": "Decorators", "emoji": "🎁", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/decorators.html" }
+      ]
+    },
+    {
+      "id": "mod14",
+      "title": "TypeScript Modules",
+      "emoji": "📦",
+      "description": "Modularize your code with TypeScript modules.",
+      "steps": [
+        { "id": "step14-1", "title": "Namespaces", "emoji": "🏷️", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/namespaces.html" },
+        { "id": "step14-2", "title": "Ambient Modules", "emoji": "🌍", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/modules.html#ambient-modules" },
+        { "id": "step14-3", "title": "External Modules", "emoji": "🌐", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/modules.html" },
+        { "id": "step14-4", "title": "Namespace Augmentation", "emoji": "➕", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/declaration-merging.html#module-augmentation" },
+        { "id": "step14-5", "title": "Global Augmentation", "emoji": "🌎", "tutorial_url": "https://www.typescriptlang.org/docs/handbook/declaration-merging.html#global-augmentation" }
+      ]
+    },
+    {
+      "id": "mod15",
+      "title": "Ecosystem",
+      "emoji": "🌱",
+      "description": "Integrate with tools to improve your TypeScript workflow.",
+      "steps": [
+        { "id": "step15-1", "title": "Formatting", "emoji": "🖊️", "tutorial_url": "https://prettier.io/docs/en/index.html" },
+        { "id": "step15-2", "title": "Linting", "emoji": "🧹", "tutorial_url": "https://eslint.org/docs/latest/user-guide/getting-started" },
+        { "id": "step15-3", "title": "Useful Packages", "emoji": "📦", "tutorial_url": "https://www.npmjs.com/search?q=keywords:typescript" },
+        { "id": "step15-4", "title": "Build Tools", "emoji": "🔨", "tutorial_url": "https://webpack.js.org/guides/typescript/" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "Simple Calculator CLI",
+      "level": "Beginner",
+      "emoji": "🧮",
+      "description": "Create a command-line calculator app using TypeScript.",
+      "concepts": [
+        "Basic types",
+        "Functions",
+        "CLI apps"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=BwuLxPH8IDs",
+      "guide_urls": [
+        { "label": "Node.js CLI Guide", "url": "https://developer.okta.com/blog/2019/06/18/command-line-app-with-nodejs" }
+      ]
+    },
+    {
+      "id": "proj2",
+      "title": "TypeScript To-Do App",
+      "level": "Beginner",
+      "emoji": "📝",
+      "description": "Build a simple To-Do app using TypeScript with DOM manipulation.",
+      "concepts": [
+        "DOM",
+        "Types",
+        "Interfaces"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=zQnBQ4tB3ZA",
+      "guide_urls": [
+        { "label": "TypeScript To-Do Guide", "url": "https://ibaslogic.com/typescript-tutorial-for-beginners/" }
+      ]
+    },
+    {
+      "id": "proj3",
+      "title": "REST API with Express and TypeScript",
+      "level": "Intermediate",
+      "emoji": "⚡",
+      "description": "Create a RESTful API using Express and TypeScript.",
+      "concepts": [
+        "Express",
+        "Types",
+        "API design"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=2V1UUhBJ62Y",
+      "guide_urls": [
+        { "label": "Express TS Guide", "url": "https://wanago.io/2020/12/14/typescript-express-tutorial-routing-controllers-middleware/" }
+      ]
+    },
+    {
+      "id": "proj4",
+      "title": "React TypeScript App",
+      "level": "Intermediate",
+      "emoji": "⚛️",
+      "description": "Build a React app fully typed with TypeScript.",
+      "concepts": [
+        "React",
+        "Props and State",
+        "Type safety"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=Z5iWr6Srsj8",
+      "guide_urls": [
+        { "label": "React TS Guide", "url": "https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/context" }
+      ]
+    },
+    {
+      "id": "proj5",
+      "title": "TypeScript Node.js API with Prisma",
+      "level": "Advanced",
+      "emoji": "🗄️",
+      "description": "Build a Node.js REST API using TypeScript and Prisma ORM.",
+      "concepts": [
+        "Type safety",
+        "ORM",
+        "API"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=RebA5J-rlwg",
+      "guide_urls": [
+        { "label": "Prisma TypeScript Guide", "url": "https://www.prisma.io/docs/getting-started/quickstart" }
+      ]
+    }
+  ]
+}

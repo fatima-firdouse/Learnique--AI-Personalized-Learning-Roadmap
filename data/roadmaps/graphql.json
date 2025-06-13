@@ -1,0 +1,273 @@
+{
+  "title": "GraphQL Roadmap",
+  "description": "A practical learning path for GraphQL development.",
+  "modules": [
+    {
+      "id": "mod1",
+      "title": "Introduction to GraphQL",
+      "emoji": "🧭",
+      "description": "Get started with the core concepts of GraphQL.",
+      "steps": [
+        { "id": "step1-1", "title": "What is GraphQL?", "emoji": "❓", "tutorial_url": "https://www.howtographql.com/basics/1-graphql-is-the-better-rest/" },
+        { "id": "step1-2", "title": "Problems GraphQL Solves", "emoji": "🚀", "tutorial_url": "https://www.apollographql.com/docs/intro/benefits/" },
+        { "id": "step1-3", "title": "Thinking in Graphs", "emoji": "🕸️", "tutorial_url": "https://www.howtographql.com/basics/2-core-concepts/" }
+      ]
+    },
+    {
+      "id": "mod2",
+      "title": "GraphQL Queries",
+      "emoji": "🔍",
+      "description": "Learn to write and structure GraphQL queries.",
+      "steps": [
+        { "id": "step2-1", "title": "What are Queries, Fields, Aliases, Arguments, Directives", "emoji": "📄", "tutorial_url": "https://www.howtographql.com/basics/3-big-picture/" },
+        { "id": "step2-2", "title": "Variables, Definitions, Defaults, Variables in Fragments", "emoji": "🔢", "tutorial_url": "https://www.apollographql.com/docs/apollo-server/v3/data/queries/#variables" },
+        { "id": "step2-3", "title": "Fragments, Inline Fragments / Meta Fields", "emoji": "🧩", "tutorial_url": "https://www.apollographql.com/docs/apollo-server/v3/data/fragments/" }
+      ]
+    },
+    {
+      "id": "mod3",
+      "title": "Mutations",
+      "emoji": "✏️",
+      "description": "Learn to modify data with GraphQL mutations.",
+      "steps": [
+        { "id": "step3-1", "title": "What are Mutations?", "emoji": "🔄", "tutorial_url": "https://www.howtographql.com/graphql-js/3-mutations/" },
+        { "id": "step3-2", "title": "Multiple Fields in Mutations", "emoji": "📋", "tutorial_url": "https://www.apollographql.com/docs/apollo-server/v3/data/mutations/" },
+        { "id": "step3-3", "title": "Operation Name", "emoji": "🏷️", "tutorial_url": "https://www.apollographql.com/docs/apollo-server/v3/requests/#operation-name" }
+      ]
+    },
+    {
+      "id": "mod4",
+      "title": "Subscriptions",
+      "emoji": "📡",
+      "description": "Implement real-time updates using GraphQL subscriptions.",
+      "steps": [
+        { "id": "step4-1", "title": "What are Subscriptions?", "emoji": "🔔", "tutorial_url": "https://www.howtographql.com/graphql-js/6-subscriptions/" },
+        { "id": "step4-2", "title": "Event-Based Subscriptions", "emoji": "⚡", "tutorial_url": "https://www.apollographql.com/docs/apollo-server/v3/data/subscriptions/" },
+        { "id": "step4-3", "title": "Live Queries, @defer and @stream directives", "emoji": "🕒", "tutorial_url": "https://www.apollographql.com/docs/apollo-server/v3/data/subscriptions/#live-queries" }
+      ]
+    },
+    {
+      "id": "mod5",
+      "title": "Schema",
+      "emoji": "🧬",
+      "description": "Define and structure GraphQL schemas.",
+      "steps": [
+        { "id": "step5-1", "title": "Type System, Fields, Scalars (Int, Float, String, Boolean, ID)", "emoji": "🔢", "tutorial_url": "https://graphql.org/learn/schema/" },
+        { "id": "step5-2", "title": "Enums, Objects, Interfaces, Unions", "emoji": "🔀", "tutorial_url": "https://graphql.org/learn/schema/#type-language" },
+        { "id": "step5-3", "title": "Input Types, Arguments", "emoji": "📝", "tutorial_url": "https://www.apollographql.com/docs/apollo-server/v3/schema/schema/" }
+      ]
+    },
+    {
+      "id": "mod6",
+      "title": "Execution",
+      "emoji": "⚙️",
+      "description": "Learn how GraphQL executes queries and resolves data.",
+      "steps": [
+        { "id": "step6-1", "title": "Resolvers (Synchronous/Asynchronous), Scalar Coercion, Lists, Root Fields", "emoji": "🔗", "tutorial_url": "https://www.apollographql.com/docs/apollo-server/v3/data/resolvers/" },
+        { "id": "step6-2", "title": "Validation, Producing the Result", "emoji": "✅", "tutorial_url": "https://graphql.org/learn/execution/" }
+      ]
+    },
+    {
+      "id": "mod7",
+      "title": "Validation",
+      "emoji": "🔒",
+      "description": "Validate queries and manage authorization.",
+      "steps": [
+        { "id": "step7-1", "title": "Real-time, Authorization", "emoji": "🛡️", "tutorial_url": "https://www.apollographql.com/docs/apollo-server/v3/security/authentication/" }
+      ]
+    },
+    {
+      "id": "mod8",
+      "title": "Serving Over Internet",
+      "emoji": "🌍",
+      "description": "Expose GraphQL APIs using HTTP and WebSocket.",
+      "steps": [
+        { "id": "step8-1", "title": "Over HTTP: Caching, Batching, Authorization", "emoji": "🌐", "tutorial_url": "https://www.apollographql.com/docs/apollo-server/v3/performance/caching/" },
+        { "id": "step8-2", "title": "Over WebSockets, Over SSE, Authorization", "emoji": "🔌", "tutorial_url": "https://www.howtographql.com/graphql-js/6-subscriptions/" }
+      ]
+    },
+    {
+      "id": "mod9",
+      "title": "Pagination",
+      "emoji": "⏭️",
+      "description": "Implement pagination in GraphQL APIs.",
+      "steps": [
+        { "id": "step9-1", "title": "Pagination", "emoji": "⏬", "tutorial_url": "https://www.apollographql.com/docs/react/pagination/core/" }
+      ]
+    },
+    {
+      "id": "mod10",
+      "title": "Frontend Implementations",
+      "emoji": "🎨",
+      "description": "Connect GraphQL APIs from frontend frameworks.",
+      "steps": [
+        { "id": "step10-1", "title": "JavaScript, Relay, Apollo Client, Urql", "emoji": "🟦", "tutorial_url": "https://www.howtographql.com/react-apollo/0-introduction/" }
+      ]
+    },
+    {
+      "id": "mod11",
+      "title": "Backend Implementations",
+      "emoji": "🖥️",
+      "description": "Build GraphQL backends in JavaScript and other languages.",
+      "steps": [
+        { "id": "step11-1", "title": "JavaScript, graphql-http, GraphQL Yoga, Apollo Server, Mercurius", "emoji": "🟩", "tutorial_url": "https://www.apollographql.com/docs/apollo-server/v3/" }
+      ]
+    },
+    {
+      "id": "mod12",
+      "title": "GraphQL on the Frontend & Backend",
+      "emoji": "🔁",
+      "description": "Integrate GraphQL in both frontend and backend.",
+      "steps": [
+        { "id": "step12-1", "title": "GraphQL on the Frontend", "emoji": "🟦", "tutorial_url": "https://www.howtographql.com/react-apollo/0-introduction/" },
+        { "id": "step12-2", "title": "GraphQL on the Backend", "emoji": "🟩", "tutorial_url": "https://www.howtographql.com/graphql-js/0-introduction/" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "Personal Portfolio with Blog",
+      "level": "Beginner",
+      "emoji": "📝",
+      "description": "Build a personal portfolio site with a blog using GraphQL as the backend.",
+      "concepts": ["Queries", "Mutations", "Pagination", "Frontend Integration"],
+      "tutorial_url": "https://www.apollographql.com/blog/graphql/full-stack-graphql/building-a-graphql-powered-blog-with-apollo-server-and-vue/",
+      "guide_urls": [
+        { "label": "GraphQL Blog Guide", "url": "https://www.apollographql.com/blog/graphql/full-stack-graphql/building-a-graphql-powered-blog-with-apollo-server-and-vue/" }
+      ]
+    },
+    {
+      "id": "proj2",
+      "title": "Weather Dashboard",
+      "level": "Beginner",
+      "emoji": "🌦️",
+      "description": "Create a weather dashboard that fetches weather info via GraphQL.",
+      "concepts": ["Queries", "APIs", "Frontend Integration"],
+      "tutorial_url": "https://www.youtube.com/watch?v=2z6bU2ytl44",
+      "guide_urls": [
+        { "label": "Weather GraphQL Guide", "url": "https://blog.logrocket.com/using-graphql-weather-api/" }
+      ]
+    },
+    {
+      "id": "proj3",
+      "title": "Habit Tracker with Progress Analytics",
+      "level": "Beginner",
+      "emoji": "📈",
+      "description": "Track habits and show analytics using GraphQL backend.",
+      "concepts": ["Mutations", "Analytics", "Frontend Integration"],
+      "tutorial_url": "https://www.youtube.com/watch?v=9P2tGkVt6j8",
+      "guide_urls": [
+        { "label": "Habit Tracker GraphQL", "url": "https://www.youtube.com/watch?v=9P2tGkVt6j8" }
+      ]
+    },
+    {
+      "id": "proj4",
+      "title": "To-Do List with Reminders",
+      "level": "Beginner",
+      "emoji": "✅",
+      "description": "Build a to-do app with reminders using GraphQL.",
+      "concepts": ["Mutations", "Subscriptions", "Frontend Integration"],
+      "tutorial_url": "https://www.howtographql.com/graphql-js/4-adding-a-database/",
+      "guide_urls": [
+        { "label": "GraphQL ToDo Example", "url": "https://www.howtographql.com/graphql-js/4-adding-a-database/" }
+      ]
+    },
+    {
+      "id": "proj5",
+      "title": "E-commerce Platform",
+      "level": "Intermediate",
+      "emoji": "🛒",
+      "description": "Develop a basic e-commerce platform with products, cart, and orders.",
+      "concepts": ["Queries", "Mutations", "Pagination", "Authentication"],
+      "tutorial_url": "https://www.youtube.com/watch?v=I6ypD7qv3Z8",
+      "guide_urls": [
+        { "label": "GraphQL E-Commerce Guide", "url": "https://www.youtube.com/watch?v=I6ypD7qv3Z8" }
+      ]
+    },
+    {
+      "id": "proj6",
+      "title": "Real-time Chat Application",
+      "level": "Intermediate",
+      "emoji": "💬",
+      "description": "Implement a chat app with real-time subscriptions.",
+      "concepts": ["Subscriptions", "Mutations", "Frontend/Backend"],
+      "tutorial_url": "https://www.howtographql.com/graphql-js/6-subscriptions/",
+      "guide_urls": [
+        { "label": "GraphQL Chat Example", "url": "https://www.howtographql.com/graphql-js/6-subscriptions/" }
+      ]
+    },
+    {
+      "id": "proj7",
+      "title": "Recipe Sharing App",
+      "level": "Intermediate",
+      "emoji": "🍲",
+      "description": "Create an app to share and search recipes.",
+      "concepts": ["Queries", "Mutations", "Filtering", "Pagination"],
+      "tutorial_url": "https://www.youtube.com/watch?v=fgTGADljAeg",
+      "guide_urls": [
+        { "label": "GraphQL Recipe App", "url": "https://www.youtube.com/watch?v=fgTGADljAeg" }
+      ]
+    },
+    {
+      "id": "proj8",
+      "title": "Expense Tracker with Budget Analysis",
+      "level": "Intermediate",
+      "emoji": "💸",
+      "description": "Track expenses and analyze budget with GraphQL.",
+      "concepts": ["Mutations", "Analytics", "Frontend/Backend Integration"],
+      "tutorial_url": "https://www.youtube.com/watch?v=4p3AqJkY9CA",
+      "guide_urls": [
+        { "label": "Expense Tracker Guide", "url": "https://www.youtube.com/watch?v=4p3AqJkY9CA" }
+      ]
+    },
+    {
+      "id": "proj9",
+      "title": "Full-Stack Social Media Platform",
+      "level": "Advanced",
+      "emoji": "🌐",
+      "description": "Build a scalable social media platform with feeds, posts, and notifications.",
+      "concepts": ["Queries", "Mutations", "Subscriptions", "Authentication", "Pagination"],
+      "tutorial_url": "https://www.youtube.com/watch?v=I6ypD7qv3Z8",
+      "guide_urls": [
+        { "label": "Social Media GraphQL", "url": "https://www.youtube.com/watch?v=I6ypD7qv3Z8" }
+      ]
+    },
+    {
+      "id": "proj10",
+      "title": "Job Application Tracker",
+      "level": "Advanced",
+      "emoji": "💼",
+      "description": "Manage and track job applications using GraphQL.",
+      "concepts": ["Queries", "Mutations", "Filtering", "Analytics"],
+      "tutorial_url": "https://www.youtube.com/watch?v=fgTGADljAeg",
+      "guide_urls": [
+        { "label": "Job Tracker GraphQL", "url": "https://www.youtube.com/watch?v=fgTGADljAeg" }
+      ]
+    },
+    {
+      "id": "proj11",
+      "title": "Video Conference Platform with Screen Sharing",
+      "level": "Advanced",
+      "emoji": "🎥",
+      "description": "Create a video conference platform with real-time communication.",
+      "concepts": ["Subscriptions", "Media/RTC", "Auth"],
+      "tutorial_url": "https://www.youtube.com/watch?v=oo3Xcjq8h1U",
+      "guide_urls": [
+        { "label": "Video Conf GraphQL", "url": "https://www.youtube.com/watch?v=oo3Xcjq8h1U" }
+      ]
+    },
+    {
+      "id": "proj12",
+      "title": "Peer-to-Peer File Sharing App",
+      "level": "Advanced",
+      "emoji": "🔗",
+      "description": "Build a p2p file sharing app using GraphQL signaling.",
+      "concepts": ["Subscriptions", "WebRTC", "GraphQL"],
+      "tutorial_url": "https://www.youtube.com/watch?v=oo3Xcjq8h1U",
+      "guide_urls": [
+        { "label": "P2P File Share Guide", "url": "https://www.youtube.com/watch?v=oo3Xcjq8h1U" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "title": "Frontend Developer Roadmap",
+  "description": "A practical learning path for frontend development.",
+  "modules": [
+    {
+      "id": "mod1",
+      "title": "HTML & CSS Fundamentals",
+      "emoji": "🧭",
+      "description": "Master the core building blocks of the web.",
+      "steps": [
+        { "id": "step1-1", "title": "HTML5 Semantic Elements", "emoji": "📄", "tutorial_url": "https://www.youtube.com/watch?v=UB1O30fR-EE" },
+        { "id": "step1-2", "title": "CSS Box Model & Flexbox", "emoji": "📦", "tutorial_url": "https://www.youtube.com/watch?v=fYq5PXgSsbE" },
+        { "id": "step1-3", "title": "CSS Grid Layout", "emoji": "🔲", "tutorial_url": "https://www.youtube.com/watch?v=0xMQfnTU6oo" },
+        { "id": "step1-4", "title": "Responsive Design Principles", "emoji": "📱", "tutorial_url": "https://www.youtube.com/watch?v=srvUrASNj0s" }
+      ]
+    },
+    {
+      "id": "mod2",
+      "title": "JavaScript Essentials",
+      "emoji": "📜",
+      "description": "Learn the language of the web.",
+      "steps": [
+        { "id": "step2-1", "title": "Variables, Data Types & Operators", "emoji": "🔣", "tutorial_url": "https://www.youtube.com/watch?v=W6NZfCO5SIk" },
+        { "id": "step2-2", "title": "Functions & Scope", "emoji": "🔄", "tutorial_url": "https://www.youtube.com/watch?v=W6NZfCO5SIk" },
+        { "id": "step2-3", "title": "DOM Manipulation", "emoji": "🖥️", "tutorial_url": "https://www.youtube.com/watch?v=0ik6X4DJKCc" },
+        { "id": "step2-4", "title": "ES6+ Features", "emoji": "✨", "tutorial_url": "https://www.youtube.com/watch?v=NCwa_xi0Uuc" }
+      ]
+    },
+    {
+      "id": "mod3",
+      "title": "React Fundamentals",
+      "emoji": "⚛️",
+      "description": "Build modern user interfaces with React.",
+      "steps": [
+        { "id": "step3-1", "title": "JSX Syntax & Components", "emoji": "🔤", "tutorial_url": "https://www.youtube.com/watch?v=bMknfKXIFA8" },
+        { "id": "step3-2", "title": "State & Props", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=bMknfKXIFA8" },
+        { "id": "step3-3", "title": "Hooks", "emoji": "🪝", "tutorial_url": "https://www.youtube.com/watch?v=bMknfKXIFA8" },
+        { "id": "step3-4", "title": "React Router", "emoji": "🧭", "tutorial_url": "https://www.youtube.com/watch?v=Law7wfdg_ls" }
+      ]
+    },
+    {
+      "id": "mod4",
+      "title": "Build Tools",
+      "emoji": "🛠️",
+      "description": "Set up modern frontend tooling and workflows.",
+      "steps": [
+        { "id": "step4-1", "title": "NPM/Yarn/Pnpm", "emoji": "📦", "tutorial_url": "https://www.youtube.com/watch?v=jHDhaSSKmB0" },
+        { "id": "step4-2", "title": "Webpack Configuration", "emoji": "🕸️", "tutorial_url": "https://www.youtube.com/watch?v=IZGNcSuwBZs" },
+        { "id": "step4-3", "title": "Babel & Transpilation", "emoji": "🔤", "tutorial_url": "https://www.youtube.com/watch?v=7vR9cSsp1vA" },
+        { "id": "step4-4", "title": "Vite & Modern Tooling", "emoji": "⚡", "tutorial_url": "https://www.youtube.com/watch?v=ex4RTlIep4o" }
+      ]
+    },
+    {
+      "id": "mod5",
+      "title": "Advanced CSS",
+      "emoji": "🎨",
+      "description": "Level up your CSS skills for large projects.",
+      "steps": [
+        { "id": "step5-1", "title": "CSS-in-JS", "emoji": "💅", "tutorial_url": "https://www.youtube.com/watch?v=02zO0hZmwnw" },
+        { "id": "step5-2", "title": "CSS Modules", "emoji": "📦", "tutorial_url": "https://www.youtube.com/watch?v=IfjG2gVj6kI" },
+        { "id": "step5-3", "title": "SASS/SCSS", "emoji": "💄", "tutorial_url": "https://www.youtube.com/watch?v=nu5mdN2JIwM" },
+        { "id": "step5-4", "title": "Animation Libraries", "emoji": "🎬", "tutorial_url": "https://www.youtube.com/watch?v=1tavDv5hXpo" }
+      ]
+    },
+    {
+      "id": "mod6",
+      "title": "State Management",
+      "emoji": "🗂️",
+      "description": "Manage complex app state with popular libraries.",
+      "steps": [
+        { "id": "step6-1", "title": "Redux Toolkit", "emoji": "🧰", "tutorial_url": "https://www.youtube.com/watch?v=9zySeP5vH9c" },
+        { "id": "step6-2", "title": "Zustand/Jotai", "emoji": "🐻", "tutorial_url": "https://www.youtube.com/watch?v=p9ly-5R4Z9A" },
+        { "id": "step6-3", "title": "React Query", "emoji": "🔄", "tutorial_url": "https://www.youtube.com/watch?v=TkDra6gP6uY" }
+      ]
+    },
+    {
+      "id": "mod7",
+      "title": "API Integration",
+      "emoji": "🔗",
+      "description": "Connect your frontend to backend services and real-time data.",
+      "steps": [
+        { "id": "step7-1", "title": "REST API Consumption", "emoji": "🌐", "tutorial_url": "https://www.youtube.com/watch?v=8Dd7KRpKeaE" },
+        { "id": "step7-2", "title": "GraphQL & Apollo Client", "emoji": "🕸️", "tutorial_url": "https://www.youtube.com/watch?v=ed8SzALpx1Q" },
+        { "id": "step7-3", "title": "WebSockets", "emoji": "📡", "tutorial_url": "https://www.youtube.com/watch?v=ZKEqqIO7n-k" }
+      ]
+    },
+    {
+      "id": "mod8",
+      "title": "Testing",
+      "emoji": "🧪",
+      "description": "Test your applications for quality and reliability.",
+      "steps": [
+        { "id": "step8-1", "title": "Jest Testing Framework", "emoji": "🃏", "tutorial_url": "https://www.youtube.com/watch?v=FgnxcUQ5vho" },
+        { "id": "step8-2", "title": "React Testing Library", "emoji": "🔬", "tutorial_url": "https://www.youtube.com/watch?v=MLTRHc5dk6s" },
+        { "id": "step8-3", "title": "Cypress for E2E Testing", "emoji": "🌲", "tutorial_url": "https://www.youtube.com/watch?v=7N3trLZle6o" }
+      ]
+    },
+    {
+      "id": "mod9",
+      "title": "Performance",
+      "emoji": "⚡",
+      "description": "Make your apps fast and efficient.",
+      "steps": [
+        { "id": "step9-1", "title": "Code Splitting & Lazy Loading", "emoji": "✂️", "tutorial_url": "https://www.youtube.com/watch?v=V1Ly-2kS7S8" },
+        { "id": "step9-2", "title": "Memoization", "emoji": "🧠", "tutorial_url": "https://www.youtube.com/watch?v=THL1OPn72vo" },
+        { "id": "step9-3", "title": "Bundle Analysis", "emoji": "📦", "tutorial_url": "https://www.youtube.com/watch?v=NtjyeojAOBs" }
+      ]
+    },
+    {
+      "id": "mod10",
+      "title": "Security",
+      "emoji": "🔒",
+      "description": "Protect your apps and users.",
+      "steps": [
+        { "id": "step10-1", "title": "XSS Prevention", "emoji": "🛡️", "tutorial_url": "https://www.youtube.com/watch?v=EkbLDK3b3A8" },
+        { "id": "step10-2", "title": "CSRF Protection", "emoji": "🛑", "tutorial_url": "https://www.youtube.com/watch?v=EkbLDK3b3A8" },
+        { "id": "step10-3", "title": "Content Security Policy", "emoji": "📜", "tutorial_url": "https://www.youtube.com/watch?v=EkbLDK3b3A8" }
+      ]
+    },
+    {
+      "id": "mod11",
+      "title": "Deployment",
+      "emoji": "🚀",
+      "description": "Ship your applications to users.",
+      "steps": [
+        { "id": "step11-1", "title": "Static Site Hosting", "emoji": "🌐", "tutorial_url": "https://www.youtube.com/watch?v=Y4-QCj3XbWI" },
+        { "id": "step11-2", "title": "Dockerizing Apps", "emoji": "🐳", "tutorial_url": "https://www.youtube.com/watch?v=Qw9zlE3t8Ko" },
+        { "id": "step11-3", "title": "CI/CD Pipelines", "emoji": "🔁", "tutorial_url": "https://www.youtube.com/watch?v=R8_veQiYBjI" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "Responsive Portfolio Website",
+      "level": "Beginner",
+      "emoji": "🌐",
+      "description": "Build a personal portfolio using HTML5, CSS3, and responsive layouts.",
+      "concepts": [
+        "HTML5",
+        "CSS3",
+        "Responsive design"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=UB1O30fR-EE",
+      "guide_urls": [
+        { "label": "Responsive Design Guide", "url": "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design" }
+      ]
+    },
+    {
+      "id": "proj2",
+      "title": "Todo List App (React)",
+      "level": "Beginner",
+      "emoji": "✅",
+      "description": "Develop a simple Todo List using React and basic state management.",
+      "concepts": [
+        "React",
+        "JSX",
+        "State management"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=E1E08i2UJGI",
+      "guide_urls": [
+        { "label": "React Docs", "url": "https://react.dev/learn" }
+      ]
+    },
+    {
+      "id": "proj3",
+      "title": "REST API Integration App",
+      "level": "Intermediate",
+      "emoji": "🔗",
+      "description": "Create a React app that fetches and displays data from a public REST API.",
+      "concepts": [
+        "React",
+        "REST API",
+        "useEffect"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=8Dd7KRpKeaE",
+      "guide_urls": [
+        { "label": "Fetching Data in React", "url": "https://react.dev/reference/react/useEffect" }
+      ]
+    },
+    {
+      "id": "proj4",
+      "title": "Styled Blog with SASS/SCSS",
+      "level": "Intermediate",
+      "emoji": "📝",
+      "description": "Style a blog application using SCSS and CSS modules.",
+      "concepts": [
+        "SCSS",
+        "CSS Modules",
+        "Component styling"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=nu5mdN2JIwM",
+      "guide_urls": [
+        { "label": "Sass Docs", "url": "https://sass-lang.com/guide" }
+      ]
+    },
+    {
+      "id": "proj5",
+      "title": "E-commerce Product Page with Animation",
+      "level": "Intermediate",
+      "emoji": "🛒",
+      "description": "Build a product page with advanced CSS and animation libraries.",
+      "concepts": [
+        "Animation libraries",
+        "React",
+        "Styled-components"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=1tavDv5hXpo",
+      "guide_urls": [
+        { "label": "Styled-components Docs", "url": "https://styled-components.com/docs/basics#getting-started" }
+      ]
+    },
+    {
+      "id": "proj6",
+      "title": "Chat App with WebSockets",
+      "level": "Advanced",
+      "emoji": "💬",
+      "description": "Create a real-time chat application using React and WebSockets.",
+      "concepts": [
+        "WebSockets",
+        "React",
+        "Real-time updates"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=ZKEqqIO7n-k",
+      "guide_urls": [
+        { "label": "WebSocket API", "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API" }
+      ]
+    }
+  ]
+}

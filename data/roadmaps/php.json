@@ -1,0 +1,287 @@
+{
+  "title": "PHP Learning Roadmap",
+  "description": "A step-by-step learning path to becoming proficient in PHP for web development.",
+  "modules": [
+    {
+      "id": "mod1",
+      "title": "Introduction to PHP",
+      "emoji": "🧭",
+      "description": "Get started with PHP and understand its role in web development.",
+      "steps": [
+        { "id": "step1-1", "title": "What is PHP?", "emoji": "❓", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step1-2", "title": "History and evolution of PHP", "emoji": "📜", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step1-3", "title": "Features and benefits of using PHP", "emoji": "✨", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step1-4", "title": "How PHP works in web development", "emoji": "🌐", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" }
+      ]
+    },
+    {
+      "id": "mod2",
+      "title": "Setting Up the Environment",
+      "emoji": "💻",
+      "description": "Install PHP and configure your development environment.",
+      "steps": [
+        { "id": "step2-1", "title": "Installing PHP on your system", "emoji": "⬇️", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step2-2", "title": "Configuring a web server (e.g., Apache)", "emoji": "⚙️", "tutorial_url": "https://www.youtube.com/watch?v=K6JTFnD8GvE" },
+        { "id": "step2-3", "title": "Setting up a development environment", "emoji": "🖥️", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step2-4", "title": "Running your first PHP script", "emoji": "🚀", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" }
+      ]
+    },
+    {
+      "id": "mod3",
+      "title": "PHP Basics",
+      "emoji": "📚",
+      "description": "Learn the basics of PHP syntax and programming.",
+      "steps": [
+        { "id": "step3-1", "title": "Syntax and structure of PHP", "emoji": "🔣", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step3-2", "title": "Writing your first PHP program", "emoji": "✍️", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step3-3", "title": "Adding comments in PHP code", "emoji": "💬", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step3-4", "title": "Understanding variables and constants", "emoji": "🔢", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step3-5", "title": "Using echo and print statements", "emoji": "📢", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step3-6", "title": "Data types and type casting", "emoji": "🔤", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step3-7", "title": "Operators in PHP (arithmetic, comparison, logical, etc.)", "emoji": "➕", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" }
+      ]
+    },
+    {
+      "id": "mod4",
+      "title": "Control Structures",
+      "emoji": "🔀",
+      "description": "Control the flow of your code with conditions and loops.",
+      "steps": [
+        { "id": "step4-1", "title": "Conditional statements (if, else, elseif, switch)", "emoji": "🔁", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step4-2", "title": "Looping constructs (for, while, do-while, foreach)", "emoji": "🔄", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step4-3", "title": "Control statements (break, continue)", "emoji": "⏭️", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" }
+      ]
+    },
+    {
+      "id": "mod5",
+      "title": "Functions",
+      "emoji": "🔧",
+      "description": "Write reusable blocks of PHP code.",
+      "steps": [
+        { "id": "step5-1", "title": "Defining and calling functions", "emoji": "📞", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step5-2", "title": "Function arguments and return values", "emoji": "🔙", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step5-3", "title": "Variable scope and static variables", "emoji": "🔒", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step5-4", "title": "Recursive functions", "emoji": "🔁", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step5-5", "title": "Built-in PHP functions", "emoji": "🗂️", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" }
+      ]
+    },
+    {
+      "id": "mod6",
+      "title": "Arrays",
+      "emoji": "🗃️",
+      "description": "Store and manipulate data collections with arrays.",
+      "steps": [
+        { "id": "step6-1", "title": "Indexed arrays", "emoji": "🔢", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step6-2", "title": "Associative arrays", "emoji": "🔠", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step6-3", "title": "Multidimensional arrays", "emoji": "🔳", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step6-4", "title": "Array functions and operations", "emoji": "🛠️", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" }
+      ]
+    },
+    {
+      "id": "mod7",
+      "title": "Strings",
+      "emoji": "🔤",
+      "description": "Work with text and string manipulation.",
+      "steps": [
+        { "id": "step7-1", "title": "String creation and manipulation", "emoji": "✏️", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step7-2", "title": "String functions (strlen, strpos, substr, etc.)", "emoji": "📏", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step7-3", "title": "String interpolation and concatenation", "emoji": "➕", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" }
+      ]
+    },
+    {
+      "id": "mod8",
+      "title": "File Handling",
+      "emoji": "📁",
+      "description": "Read, write, and manage files.",
+      "steps": [
+        { "id": "step8-1", "title": "Opening and closing files", "emoji": "📂", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step8-2", "title": "Reading and writing to files", "emoji": "✍️", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step8-3", "title": "File permissions and error handling", "emoji": "🔐", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" }
+      ]
+    },
+    {
+      "id": "mod9",
+      "title": "Forms and User Input",
+      "emoji": "📝",
+      "description": "Create forms and handle user input securely.",
+      "steps": [
+        { "id": "step9-1", "title": "Creating HTML forms", "emoji": "📄", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step9-2", "title": "Handling form data with GET and POST methods", "emoji": "🔄", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step9-3", "title": "Validating and sanitizing user input", "emoji": "🧹", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" }
+      ]
+    },
+    {
+      "id": "mod10",
+      "title": "Sessions and Cookies",
+      "emoji": "🍪",
+      "description": "Maintain user state with sessions and cookies.",
+      "steps": [
+        { "id": "step10-1", "title": "Understanding sessions and cookies", "emoji": "💡", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step10-2", "title": "Setting and retrieving cookie values", "emoji": "🔑", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step10-3", "title": "Starting and managing sessions", "emoji": "🔐", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" }
+      ]
+    },
+    {
+      "id": "mod11",
+      "title": "Working with Databases",
+      "emoji": "🗄️",
+      "description": "Connect PHP to databases and execute queries.",
+      "steps": [
+        { "id": "step11-1", "title": "Connecting to a MySQL database", "emoji": "🔌", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step11-2", "title": "Executing SQL queries from PHP", "emoji": "⚡", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step11-3", "title": "Fetching data and displaying results", "emoji": "📊", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step11-4", "title": "Preventing SQL injection attacks", "emoji": "🛡️", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" }
+      ]
+    },
+    {
+      "id": "mod12",
+      "title": "Object-Oriented Programming (OOP) in PHP",
+      "emoji": "🏗️",
+      "description": "Write modular and maintainable code with OOP.",
+      "steps": [
+        { "id": "step12-1", "title": "Classes and objects", "emoji": "🏛️", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step12-2", "title": "Properties and methods", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step12-3", "title": "Inheritance and polymorphism", "emoji": "🧬", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step12-4", "title": "Interfaces and traits", "emoji": "🕸️", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step12-5", "title": "Namespaces and autoloading", "emoji": "📦", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" }
+      ]
+    },
+    {
+      "id": "mod13",
+      "title": "Error Handling",
+      "emoji": "⚠️",
+      "description": "Handle errors and exceptions in PHP.",
+      "steps": [
+        { "id": "step13-1", "title": "Types of errors in PHP", "emoji": "❗", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step13-2", "title": "Using try-catch blocks", "emoji": "🧲", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step13-3", "title": "Custom error handling functions", "emoji": "🛠️", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" }
+      ]
+    },
+    {
+      "id": "mod14",
+      "title": "Advanced Topics",
+      "emoji": "🚀",
+      "description": "Work with APIs, emails, uploads, and more.",
+      "steps": [
+        { "id": "step14-1", "title": "Regular expressions", "emoji": "🔍", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step14-2", "title": "Working with JSON and XML", "emoji": "🗂️", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step14-3", "title": "Using cURL for API requests", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step14-4", "title": "Sending emails with PHP", "emoji": "✉️", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step14-5", "title": "File uploads and downloads", "emoji": "⬆️", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" }
+      ]
+    },
+    {
+      "id": "mod15",
+      "title": "Security in PHP",
+      "emoji": "🔒",
+      "description": "Keep your PHP apps secure.",
+      "steps": [
+        { "id": "step15-1", "title": "Data validation and sanitization", "emoji": "🧹", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step15-2", "title": "Preventing cross-site scripting (XSS)", "emoji": "🛡️", "tutorial_url": "https://www.youtube.com/watch?v=EkbLDK3b3A8" },
+        { "id": "step15-3", "title": "Preventing cross-site request forgery (CSRF)", "emoji": "⛔", "tutorial_url": "https://www.youtube.com/watch?v=EkbLDK3b3A8" },
+        { "id": "step15-4", "title": "Secure password hashing and storage", "emoji": "🔑", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" }
+      ]
+    },
+    {
+      "id": "mod16",
+      "title": "PHP Frameworks and CMS",
+      "emoji": "🏛️",
+      "description": "Go beyond core PHP with frameworks and content management systems.",
+      "steps": [
+        { "id": "step16-1", "title": "Introduction to Laravel, Symfony, and CodeIgniter", "emoji": "📦", "tutorial_url": "https://www.youtube.com/watch?v=ImtZ5yENzgE" },
+        { "id": "step16-2", "title": "Working with WordPress and other CMS platforms", "emoji": "📰", "tutorial_url": "https://www.youtube.com/watch?v=sd0grLQ4voU" },
+        { "id": "step16-3", "title": "Understanding MVC architecture", "emoji": "🏗️", "tutorial_url": "https://www.youtube.com/watch?v=ImtZ5yENzgE" }
+      ]
+    },
+    {
+      "id": "mod17",
+      "title": "Deployment and Best Practices",
+      "emoji": "🚀",
+      "description": "Deploy and optimize your PHP applications.",
+      "steps": [
+        { "id": "step17-1", "title": "Deploying PHP applications to a web server", "emoji": "🌎", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step17-2", "title": "Version control with Git", "emoji": "🔀", "tutorial_url": "https://www.youtube.com/watch?v=8JJ101D3knE" },
+        { "id": "step17-3", "title": "Writing clean and maintainable code", "emoji": "🧹", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" },
+        { "id": "step17-4", "title": "Performance optimization techniques", "emoji": "⚡", "tutorial_url": "https://www.youtube.com/watch?v=OK_JCtrrv-c" }
+      ]
+    },
+    {
+      "id": "mod18",
+      "title": "Real-World Projects",
+      "emoji": "🛠️",
+      "description": "Build practical, real-world PHP projects.",
+      "steps": [
+        { "id": "step18-1", "title": "Building a simple calculator", "emoji": "🧮", "tutorial_url": "https://www.youtube.com/watch?v=Hn6c4tY3l4M" },
+        { "id": "step18-2", "title": "Creating a login and registration system", "emoji": "🔑", "tutorial_url": "https://www.youtube.com/watch?v=xb8aad4MRx8" },
+        { "id": "step18-3", "title": "Developing a to-do list application", "emoji": "✅", "tutorial_url": "https://www.youtube.com/watch?v=K9y8J3h1R1k" },
+        { "id": "step18-4", "title": "Implementing a content management system (CMS)", "emoji": "📰", "tutorial_url": "https://www.youtube.com/watch?v=sd0grLQ4voU" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "PHP Calculator App",
+      "level": "Beginner",
+      "emoji": "🧮",
+      "description": "Build a basic calculator web app with PHP forms and arithmetic.",
+      "concepts": [
+        "PHP basics",
+        "HTML forms",
+        "Arithmetic operations"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=Hn6c4tY3l4M",
+      "guide_urls": [
+        { "label": "PHP Calculator Guide", "url": "https://www.geeksforgeeks.org/how-to-create-simple-calculator-using-php/" }
+      ]
+    },
+    {
+      "id": "proj2",
+      "title": "Login and Registration System",
+      "level": "Beginner",
+      "emoji": "🔑",
+      "description": "Develop a login and registration system with PHP and MySQL.",
+      "concepts": [
+        "Sessions",
+        "MySQL",
+        "Password hashing"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=xb8aad4MRx8",
+      "guide_urls": [
+        { "label": "PHP Login Tutorial", "url": "https://www.tutorialrepublic.com/php-tutorial/php-mysql-login-system.php" }
+      ]
+    },
+    {
+      "id": "proj3",
+      "title": "PHP To-Do List Application",
+      "level": "Intermediate",
+      "emoji": "✅",
+      "description": "Create a CRUD to-do list app with PHP and MySQL.",
+      "concepts": [
+        "CRUD operations",
+        "MySQL",
+        "PHP forms"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=K9y8J3h1R1k",
+      "guide_urls": [
+        { "label": "PHP To-Do List Guide", "url": "https://www.sourcecodester.com/php/15268/php-and-mysql-simple-todo-list-app.html" }
+      ]
+    },
+    {
+      "id": "proj4",
+      "title": "Basic PHP CMS",
+      "level": "Intermediate",
+      "emoji": "📰",
+      "description": "Implement a simple content management system using PHP and MySQL.",
+      "concepts": [
+        "CMS concepts",
+        "MySQL",
+        "User authentication"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=sd0grLQ4voU",
+      "guide_urls": [
+        { "label": "PHP CMS Tutorial", "url": "https://www.tutorialrepublic.com/php-tutorial/php-content-management-system.php" }
+      ]
+    }
+  ]
+}

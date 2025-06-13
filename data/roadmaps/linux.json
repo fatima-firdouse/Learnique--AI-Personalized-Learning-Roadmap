@@ -1,0 +1,282 @@
+{
+  "title": "Linux Administration Roadmap",
+  "description": "A practical, step-by-step learning path for mastering Linux administration from fundamentals to advanced topics.",
+  "modules": [
+    {
+      "id": "mod1",
+      "title": "Basics of Linux",
+      "emoji": "🧭",
+      "description": "Linux architecture, shells, and basic command-line usage.",
+      "steps": [
+        { "id": "step1-1", "title": "Understand Linux architecture and components (Kernel, Shell, etc.)", "emoji": "🧩", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" },
+        { "id": "step1-2", "title": "Basic commands (ls, cd, mkdir, rm, cp, mv, cat, nano, etc.)", "emoji": "⌨️", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" },
+        { "id": "step1-3", "title": "File system hierarchy (/bin, /etc, /home, /var, etc.)", "emoji": "🗂️", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" },
+        { "id": "step1-4", "title": "User permissions (chmod, chown, chgrp)", "emoji": "🔒", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" }
+      ]
+    },
+    {
+      "id": "mod2",
+      "title": "User & Group Management",
+      "emoji": "👤",
+      "description": "Manage users and groups on Linux systems.",
+      "steps": [
+        { "id": "step2-1", "title": "Create, modify, and delete users (useradd, usermod, userdel)", "emoji": "➕", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" },
+        { "id": "step2-2", "title": "Group management (groupadd, groupmod, groupdel)", "emoji": "👥", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" },
+        { "id": "step2-3", "title": "Password policies (passwd, /etc/shadow)", "emoji": "🔑", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" }
+      ]
+    },
+    {
+      "id": "mod3",
+      "title": "File Permissions & Ownership",
+      "emoji": "🔏",
+      "description": "Set and manage file permissions and ownership.",
+      "steps": [
+        { "id": "step3-1", "title": "Understanding chmod (numeric & symbolic modes)", "emoji": "🔢", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" },
+        { "id": "step3-2", "title": "Changing ownership (chown, chgrp)", "emoji": "🔄", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" },
+        { "id": "step3-3", "title": "Special permissions (SUID, SGID, Sticky Bit)", "emoji": "⚙️", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" }
+      ]
+    },
+    {
+      "id": "mod4",
+      "title": "Package Management",
+      "emoji": "📦",
+      "description": "Install, update, and manage software packages.",
+      "steps": [
+        { "id": "step4-1", "title": "Debian-based (apt, dpkg)", "emoji": "🟢", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" },
+        { "id": "step4-2", "title": "Red Hat-based (yum, dnf, rpm)", "emoji": "🔴", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" },
+        { "id": "step4-3", "title": "Adding/removing repositories", "emoji": "➕", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" },
+        { "id": "step4-4", "title": "Installing/upgrading packages", "emoji": "⬆️", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" }
+      ]
+    },
+    {
+      "id": "mod5",
+      "title": "Process Management",
+      "emoji": "🖥️",
+      "description": "Control and monitor running processes.",
+      "steps": [
+        { "id": "step5-1", "title": "View running processes (ps, top, htop)", "emoji": "👀", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" },
+        { "id": "step5-2", "title": "Kill processes (kill, pkill, killall)", "emoji": "💀", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" },
+        { "id": "step5-3", "title": "Process priority (nice, renice)", "emoji": "⚡", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" }
+      ]
+    },
+    {
+      "id": "mod6",
+      "title": "Networking",
+      "emoji": "🌐",
+      "description": "Network configuration and troubleshooting.",
+      "steps": [
+        { "id": "step6-1", "title": "Basic networking commands (ifconfig, ip, ping, netstat, ss)", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=qiQR5rTSshw" },
+        { "id": "step6-2", "title": "Configuring static IP", "emoji": "🛠️", "tutorial_url": "https://www.youtube.com/watch?v=qiQR5rTSshw" },
+        { "id": "step6-3", "title": "Troubleshooting (traceroute, dig, nslookup)", "emoji": "🔍", "tutorial_url": "https://www.youtube.com/watch?v=qiQR5rTSshw" },
+        { "id": "step6-4", "title": "Firewall basics (iptables, ufw, firewalld)", "emoji": "🔥", "tutorial_url": "https://www.youtube.com/watch?v=qiQR5rTSshw" }
+      ]
+    },
+    {
+      "id": "mod7",
+      "title": "Security",
+      "emoji": "🛡️",
+      "description": "Secure your systems and manage access.",
+      "steps": [
+        { "id": "step7-1", "title": "SSH configuration (/etc/ssh/sshd_config)", "emoji": "🔑", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" },
+        { "id": "step7-2", "title": "Key-based authentication", "emoji": "🔐", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" },
+        { "id": "step7-3", "title": "Firewall rules (iptables, firewalld)", "emoji": "🔥", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" },
+        { "id": "step7-4", "title": "File integrity monitoring (AIDE, tripwire)", "emoji": "🕵️", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" }
+      ]
+    },
+    {
+      "id": "mod8",
+      "title": "System Monitoring & Logs",
+      "emoji": "📊",
+      "description": "Monitor health and analyze logs.",
+      "steps": [
+        { "id": "step8-1", "title": "Monitoring tools (top, vmstat, iostat)", "emoji": "📈", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" },
+        { "id": "step8-2", "title": "Log management (/var/log/, journalctl, logrotate)", "emoji": "🗃️", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" },
+        { "id": "step8-3", "title": "Analyzing logs (grep, awk, sed)", "emoji": "🔎", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" }
+      ]
+    },
+    {
+      "id": "mod9",
+      "title": "Backup & Restore",
+      "emoji": "💾",
+      "description": "Protect your data with backups and recovery.",
+      "steps": [
+        { "id": "step9-1", "title": "Using tar, gzip, rsync", "emoji": "📦", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" },
+        { "id": "step9-2", "title": "Automating backups (cron)", "emoji": "⏰", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" },
+        { "id": "step9-3", "title": "Disk cloning (dd)", "emoji": "🖨️", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" }
+      ]
+    },
+    {
+      "id": "mod10",
+      "title": "Shell Scripting & Automation",
+      "emoji": "⚙️",
+      "description": "Automate tasks using shell scripts and cron.",
+      "steps": [
+        { "id": "step10-1", "title": "Basics of Bash scripting", "emoji": "💻", "tutorial_url": "https://www.youtube.com/watch?v=SPwyp2NG-bU" },
+        { "id": "step10-2", "title": "Automating repetitive tasks", "emoji": "🔁", "tutorial_url": "https://www.youtube.com/watch?v=SPwyp2NG-bU" },
+        { "id": "step10-3", "title": "Cron jobs for scheduling", "emoji": "⏲️", "tutorial_url": "https://www.youtube.com/watch?v=SPwyp2NG-bU" }
+      ]
+    },
+    {
+      "id": "mod11",
+      "title": "Storage Management (LVM & RAID)",
+      "emoji": "🗄️",
+      "description": "Manage disks, partitions, LVM, and RAID.",
+      "steps": [
+        { "id": "step11-1", "title": "Logical Volume Manager (LVM) basics", "emoji": "📦", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" },
+        { "id": "step11-2", "title": "Creating/resizing partitions", "emoji": "📏", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" },
+        { "id": "step11-3", "title": "RAID concepts (RAID 0, 1, 5, 10)", "emoji": "🔁", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" }
+      ]
+    },
+    {
+      "id": "mod12",
+      "title": "Virtualization & Containers",
+      "emoji": "📦",
+      "description": "Run virtual machines and containers.",
+      "steps": [
+        { "id": "step12-1", "title": "KVM-based virtualization", "emoji": "🖥️", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" },
+        { "id": "step12-2", "title": "Docker basics (containers vs. VMs)", "emoji": "🐳", "tutorial_url": "https://www.youtube.com/watch?v=fqMOX6JJhGo" },
+        { "id": "step12-3", "title": "Podman (alternative to Docker)", "emoji": "📦", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" }
+      ]
+    },
+    {
+      "id": "mod13",
+      "title": "High Availability & Load Balancing",
+      "emoji": "🛡️",
+      "description": "Ensure uptime and balance load.",
+      "steps": [
+        { "id": "step13-1", "title": "Concepts of HA (Pacemaker, Corosync)", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" },
+        { "id": "step13-2", "title": "Load balancing with Nginx/HAProxy", "emoji": "⚖️", "tutorial_url": "https://www.youtube.com/watch?v=ltbQ3hC5XQo" }
+      ]
+    },
+    {
+      "id": "mod14",
+      "title": "Cloud Basics",
+      "emoji": "☁️",
+      "description": "Introduction to cloud services and management.",
+      "steps": [
+        { "id": "step14-1", "title": "AWS/GCP/Azure fundamentals", "emoji": "🌩️", "tutorial_url": "https://www.youtube.com/watch?v=ulprqHHWlng" },
+        { "id": "step14-2", "title": "Managing instances, storage, networking", "emoji": "🗃️", "tutorial_url": "https://www.youtube.com/watch?v=ulprqHHWlng" }
+      ]
+    },
+    {
+      "id": "mod15",
+      "title": "Infrastructure as Code (IaC)",
+      "emoji": "📝",
+      "description": "Automate infrastructure management.",
+      "steps": [
+        { "id": "step15-1", "title": "Basics of Terraform", "emoji": "🌍", "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo" },
+        { "id": "step15-2", "title": "Automating deployments", "emoji": "🤖", "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo" }
+      ]
+    },
+    {
+      "id": "mod16",
+      "title": "Troubleshooting & Diagnostics",
+      "emoji": "🩺",
+      "description": "Diagnose and resolve system problems.",
+      "steps": [
+        { "id": "step16-1", "title": "Analyzing system crashes", "emoji": "💥", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" },
+        { "id": "step16-2", "title": "Rescue mode booting", "emoji": "🚑", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" },
+        { "id": "step16-3", "title": "Diagnostic tools (strace, dmesg)", "emoji": "🔬", "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "Linux User and Permission Manager Script",
+      "level": "Beginner",
+      "emoji": "👤",
+      "description": "Build a Bash script to automate user creation and permission assignment.",
+      "concepts": [
+        "Bash scripting",
+        "useradd, chown, chmod",
+        "Shell automation"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=SPwyp2NG-bU",
+      "guide_urls": [
+        { "label": "User Management Guide", "url": "https://www.geeksforgeeks.org/user-management-in-linux/" }
+      ]
+    },
+    {
+      "id": "proj2",
+      "title": "Automated Backup Script",
+      "level": "Beginner",
+      "emoji": "💾",
+      "description": "Write a script to back up directories using tar and cron.",
+      "concepts": [
+        "tar",
+        "cron",
+        "Bash scripting"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=SPwyp2NG-bU",
+      "guide_urls": [
+        { "label": "Linux Backup Guide", "url": "https://www.tecmint.com/linux-system-backup-tools/" }
+      ]
+    },
+    {
+      "id": "proj3",
+      "title": "Network Diagnostic Toolkit",
+      "level": "Intermediate",
+      "emoji": "🌐",
+      "description": "Build a toolkit script to automate network troubleshooting commands.",
+      "concepts": [
+        "ping",
+        "traceroute",
+        "ifconfig/ip",
+        "Automating diagnostics"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=qiQR5rTSshw",
+      "guide_urls": [
+        { "label": "Linux Networking Commands", "url": "https://www.geeksforgeeks.org/basic-network-commands-in-linux/" }
+      ]
+    },
+    {
+      "id": "proj4",
+      "title": "Dockerized Web Server",
+      "level": "Intermediate",
+      "emoji": "🐳",
+      "description": "Deploy an Nginx or Apache server in a Docker container.",
+      "concepts": [
+        "Docker",
+        "Nginx/Apache",
+        "Containerization"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=fqMOX6JJhGo",
+      "guide_urls": [
+        { "label": "Docker Nginx Guide", "url": "https://www.digitalocean.com/community/tutorials/how-to-run-nginx-in-a-docker-container-on-ubuntu-22-04" }
+      ]
+    },
+    {
+      "id": "proj5",
+      "title": "LVM Disk Expansion Script",
+      "level": "Advanced",
+      "emoji": "🗄️",
+      "description": "Write a script to automate logical volume expansion with LVM.",
+      "concepts": [
+        "LVM",
+        "lvextend",
+        "Shell automation"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=IVquJh3DXUA",
+      "guide_urls": [
+        { "label": "LVM Guide", "url": "https://www.tecmint.com/extend-and-reduce-lvms-in-linux/" }
+      ]
+    },
+    {
+      "id": "proj6",
+      "title": "Infrastructure as Code with Terraform",
+      "level": "Advanced",
+      "emoji": "🌍",
+      "description": "Automate cloud VM provisioning with Terraform.",
+      "concepts": [
+        "Terraform",
+        "Cloud automation",
+        "IaC"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=SLB_c_ayRMo",
+      "guide_urls": [
+        { "label": "Terraform Docs", "url": "https://developer.hashicorp.com/terraform/docs" }
+      ]
+    }
+  ]
+}

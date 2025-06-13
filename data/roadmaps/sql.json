@@ -1,0 +1,310 @@
+{
+  "title": "SQL Developer Roadmap",
+  "description": "A practical learning path for SQL and database development.",
+  "modules": [
+    {
+      "id": "mod1",
+      "title": "Introduction & Setup",
+      "emoji": "🧭",
+      "description": "Get started with SQL, learn about databases, and set up your local environment.",
+      "steps": [
+        { "id": "step1-1", "title": "What is SQL?", "emoji": "❓", "tutorial_url": "https://www.youtube.com/watch?v=qz9tKL1n1OQ&list=PL0vfts4VzfNi5K4iN7tBbQ8D4pK5f0UuR&index=1" },
+        { "id": "step1-2", "title": "Why learn SQL?", "emoji": "🚀", "tutorial_url": "https://www.youtube.com/watch?v=qz9tKL1n1OQ&list=PL0vfts4VzfNi5K4iN7tBbQ8D4pK5f0UuR&index=1" },
+        { "id": "step1-3", "title": "What are databases?", "emoji": "💾", "tutorial_url": "https://www.youtube.com/watch?v=qz9tKL1n1OQ&list=PL0vfts4VzfNi5K4iN7tBbQ8D4pK5f0UuR&index=1" },
+        { "id": "step1-4", "title": "Types of databases (Relational vs NoSQL)", "emoji": "🗃️", "tutorial_url": "https://www.youtube.com/watch?v=mW6kY6r6H1A" },
+        { "id": "step1-5", "title": "Install software (MySQL, PostgreSQL, SQLite) & set up local environment", "emoji": "💻", "tutorial_url": "https://www.youtube.com/watch?v=lsQLzL87NwA" }
+      ]
+    },
+    {
+      "id": "mod2",
+      "title": "Basic SQL Queries",
+      "emoji": "📄",
+      "description": "Learn to retrieve data using SELECT, FROM, and WHERE in SQL.",
+      "steps": [
+        { "id": "step2-1", "title": "SELECT, FROM, WHERE", "emoji": "🔍", "tutorial_url": "https://www.youtube.com/watch?v=FkKPsB7A9bY" },
+        { "id": "step2-2", "title": "Retrieving data from tables", "emoji": "📊", "tutorial_url": "https://www.youtube.com/watch?v=FkKPsB7A9bY" }
+      ]
+    },
+    {
+      "id": "mod3",
+      "title": "Database Structure (DDL)",
+      "emoji": "🏗️",
+      "description": "Define and modify the structure of your database using DDL statements.",
+      "steps": [
+        { "id": "step3-1", "title": "Create tables (CREATE TABLE)", "emoji": "🆕", "tutorial_url": "https://www.youtube.com/watch?v=5o5Dj9wF5Po" },
+        { "id": "step3-2", "title": "Modify tables (ALTER TABLE)", "emoji": "✏️", "tutorial_url": "https://www.youtube.com/watch?v=5o5Dj9wF5Po" },
+        { "id": "step3-3", "title": "Drop tables (DROP TABLE)", "emoji": "🗑️", "tutorial_url": "https://www.youtube.com/watch?v=5o5Dj9wF5Po" }
+      ]
+    },
+    {
+      "id": "mod4",
+      "title": "Data Manipulation (DML)",
+      "emoji": "✍️",
+      "description": "Insert, update, and delete data in your tables using DML statements.",
+      "steps": [
+        { "id": "step4-1", "title": "Insert data (INSERT INTO)", "emoji": "➕", "tutorial_url": "https://www.youtube.com/watch?v=5o5Dj9wF5Po" },
+        { "id": "step4-2", "title": "Update data (UPDATE)", "emoji": "🔄", "tutorial_url": "https://www.youtube.com/watch?v=5o5Dj9wF5Po" },
+        { "id": "step4-3", "title": "Delete data (DELETE)", "emoji": "❌", "tutorial_url": "https://www.youtube.com/watch?v=5o5Dj9wF5Po" }
+      ]
+    },
+    {
+      "id": "mod5",
+      "title": "Intermediate SQL",
+      "emoji": "🧩",
+      "description": "Filter and combine data with operators, pattern matching, joins, and set operators.",
+      "steps": [
+        { "id": "step5-1", "title": "Comparison operators (=, >, <, <>, etc.)", "emoji": "⚖️", "tutorial_url": "https://www.youtube.com/watch?v=FkKPsB7A9bY" },
+        { "id": "step5-2", "title": "Logical operators (AND, OR, NOT)", "emoji": "🔗", "tutorial_url": "https://www.youtube.com/watch?v=FkKPsB7A9bY" },
+        { "id": "step5-3", "title": "Pattern matching (LIKE, IN, BETWEEN)", "emoji": "🔍", "tutorial_url": "https://www.youtube.com/watch?v=FkKPsB7A9bY" },
+        { "id": "step5-4", "title": "Joins: INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN", "emoji": "🤝", "tutorial_url": "https://www.youtube.com/watch?v=FkKPsB7A9bY" },
+        { "id": "step5-5", "title": "Set operators: UNION, UNION ALL, INTERSECT, EXCEPT", "emoji": "🔀", "tutorial_url": "https://www.youtube.com/watch?v=FkKPsB7A9bY" }
+      ]
+    },
+    {
+      "id": "mod6",
+      "title": "Data Transformation & Preparation",
+      "emoji": "🔧",
+      "description": "Transform and prepare your data with functions, aggregates, and analytical features.",
+      "steps": [
+        { "id": "step6-1", "title": "String functions (CONCAT, UPPER, LOWER)", "emoji": "🔤", "tutorial_url": "https://www.youtube.com/watch?v=y5L5z2vTgXk" },
+        { "id": "step6-2", "title": "Numeric functions (ROUND, CEIL, FLOOR)", "emoji": "🔢", "tutorial_url": "https://www.youtube.com/watch?v=y5L5z2vTgXk" },
+        { "id": "step6-3", "title": "Date/time functions (NOW(), DATE_ADD)", "emoji": "⏰", "tutorial_url": "https://www.youtube.com/watch?v=y5L5z2vTgXk" },
+        { "id": "step6-4", "title": "Handling NULLs", "emoji": "🚫", "tutorial_url": "https://www.youtube.com/watch?v=y5L5z2vTgXk" },
+        { "id": "step6-5", "title": "CASE statements", "emoji": "🧮", "tutorial_url": "https://www.youtube.com/watch?v=y5L5z2vTgXk" },
+        { "id": "step6-6", "title": "Aggregates: SUM, COUNT, AVG, MIN, MAX", "emoji": "📊", "tutorial_url": "https://www.youtube.com/watch?v=y5L5z2vTgXk" },
+        { "id": "step6-7", "title": "Window (analytical) functions: ROW_NUMBER, RANK, LEAD, LAG", "emoji": "🏅", "tutorial_url": "https://www.youtube.com/watch?v=y5L5z2vTgXk" }
+      ]
+    },
+    {
+      "id": "mod7",
+      "title": "Advanced SQL Techniques",
+      "emoji": "🧠",
+      "description": "Master subqueries, CTEs, views, temp tables, procedures, and triggers.",
+      "steps": [
+        { "id": "step7-1", "title": "Subqueries: Queries within queries", "emoji": "🔎", "tutorial_url": "https://www.youtube.com/watch?v=yl-ep1tK4jE" },
+        { "id": "step7-2", "title": "CTEs (Common Table Expressions): WITH clause", "emoji": "📝", "tutorial_url": "https://www.youtube.com/watch?v=yl-ep1tK4jE" },
+        { "id": "step7-3", "title": "Views: Virtual tables (CREATE VIEW)", "emoji": "👓", "tutorial_url": "https://www.youtube.com/watch?v=yl-ep1tK4jE" },
+        { "id": "step7-4", "title": "Temporary Tables", "emoji": "🧊", "tutorial_url": "https://www.youtube.com/watch?v=yl-ep1tK4jE" },
+        { "id": "step7-5", "title": "Stored Procedures", "emoji": "📜", "tutorial_url": "https://www.youtube.com/watch?v=yl-ep1tK4jE" },
+        { "id": "step7-6", "title": "Triggers", "emoji": "⚡", "tutorial_url": "https://www.youtube.com/watch?v=yl-ep1tK4jE" }
+      ]
+    },
+    {
+      "id": "mod8",
+      "title": "Performance Optimization & Best Practices",
+      "emoji": "⚡",
+      "description": "Optimize your SQL queries and follow best practices for real-world performance.",
+      "steps": [
+        { "id": "step8-1", "title": "Indexing (CREATE INDEX)", "emoji": "🏷️", "tutorial_url": "https://www.youtube.com/watch?v=6tNS--WetLI" },
+        { "id": "step8-2", "title": "Partitioning tables for large datasets", "emoji": "🗂️", "tutorial_url": "https://www.youtube.com/watch?v=6tNS--WetLI" },
+        { "id": "step8-3", "title": "Query optimization tips", "emoji": "🔍", "tutorial_url": "https://www.youtube.com/watch?v=6tNS--WetLI" },
+        { "id": "step8-4", "title": "Top 10 best practices for real-world performance", "emoji": "✅", "tutorial_url": "https://www.youtube.com/watch?v=6tNS--WetLI" }
+      ]
+    },
+    {
+      "id": "mod9",
+      "title": "Leveraging AI in SQL",
+      "emoji": "🤖",
+      "description": "Use AI tools like ChatGPT or Copilot to improve, debug, and generate SQL queries.",
+      "steps": [
+        { "id": "step9-1", "title": "Write efficient queries with AI", "emoji": "✍️", "tutorial_url": "https://www.youtube.com/watch?v=3pQGxP1yH3U" },
+        { "id": "step9-2", "title": "Debug SQL syntax errors with AI", "emoji": "🐞", "tutorial_url": "https://www.youtube.com/watch?v=3pQGxP1yH3U" },
+        { "id": "step9-3", "title": "Generate complex queries with AI", "emoji": "🧩", "tutorial_url": "https://www.youtube.com/watch?v=3pQGxP1yH3U" }
+      ]
+    },
+    {
+      "id": "mod10",
+      "title": "SQL Projects & Real-World Applications",
+      "emoji": "🛠️",
+      "description": "Apply your skills to real-world projects: warehousing, analytics, and business insights.",
+      "steps": [
+        { "id": "step10-1", "title": "Data Warehousing Project: ETL processes, data modeling for warehouses", "emoji": "🏢", "tutorial_url": "https://www.youtube.com/watch?v=1Vbq0KzRSlA" },
+        { "id": "step10-2", "title": "Data Exploration Project: Business insights and reporting", "emoji": "📈", "tutorial_url": "https://www.youtube.com/watch?v=1Vbq0KzRSlA" },
+        { "id": "step10-3", "title": "Advanced Analytics Project: Use window functions, advanced joins, etc.", "emoji": "📊", "tutorial_url": "https://www.youtube.com/watch?v=1Vbq0KzRSlA" },
+        { "id": "step10-4", "title": "Visualize data insights", "emoji": "📉", "tutorial_url": "https://www.youtube.com/watch?v=1Vbq0KzRSlA" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "Simple Library Database",
+      "level": "Beginner",
+      "emoji": "1️⃣",
+      "description": "Design a library database to track books, authors, and borrowers.",
+      "concepts": [
+        "CREATE TABLE, FOREIGN KEY",
+        "SELECT, WHERE",
+        "INNER JOIN",
+        "INSERT and UPDATE"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=ZT9Dv3hUbcY",
+      "guide_urls": [
+        {
+          "label": "Foreign Key Guide",
+          "url": "https://www.sqltutorial.org/sql-foreign-key/"
+        }
+      ]
+    },
+    {
+      "id": "proj2",
+      "title": "Student Records System",
+      "level": "Beginner",
+      "emoji": "2️⃣",
+      "description": "Create a database to store student grades, courses, and attendance.",
+      "concepts": [
+        "INSERT, UPDATE, DELETE",
+        "WHERE, BETWEEN, LIKE",
+        "ORDER BY",
+        "GROUP BY"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=4_tjS3pTfs8",
+      "guide_urls": [
+        {
+          "label": "GROUP BY Guide",
+          "url": "https://www.sqltutorial.org/sql-group-by/"
+        }
+      ]
+    },
+    {
+      "id": "proj3",
+      "title": "Movie Database",
+      "level": "Beginner",
+      "emoji": "3️⃣",
+      "description": "Build a database to track movies, genres, and user ratings.",
+      "concepts": [
+        "JOIN with multiple tables",
+        "COUNT, AVG",
+        "Handling NULL values",
+        "Using DISTINCT"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=U6L-YNQvFVk",
+      "guide_urls": [
+        {
+          "label": "COUNT() Guide",
+          "url": "https://www.sqltutorial.org/sql-count/"
+        }
+      ]
+    },
+    {
+      "id": "proj4",
+      "title": "E-commerce Order Management System",
+      "level": "Intermediate",
+      "emoji": "1️⃣",
+      "description": "Model an e-commerce database with products, orders, and customers.",
+      "concepts": [
+        "Multiple JOINs in one query",
+        "SUM, MAX, MIN",
+        "CASE statements",
+        "Filtering with AND, OR, IN"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=1Vbq0KzRSlA",
+      "guide_urls": [
+        {
+          "label": "CASE Guide",
+          "url": "https://www.sqltutorial.org/sql-case/"
+        }
+      ]
+    },
+    {
+      "id": "proj5",
+      "title": "Sales Data Analysis",
+      "level": "Intermediate",
+      "emoji": "2️⃣",
+      "description": "Analyze a sales dataset to identify best-selling products, trends, and regional performance.",
+      "concepts": [
+        "ROW_NUMBER, RANK",
+        "Moving averages, cumulative sums",
+        "Advanced filtering and grouping",
+        "CREATE VIEW"
+      ],
+      "tutorial_url": "https://www.sqltutorial.org/sql-window-functions/",
+      "guide_urls": [
+        {
+          "label": "CREATE VIEW",
+          "url": "https://www.sqltutorial.org/sql-create-view/"
+        }
+      ]
+    },
+    {
+      "id": "proj6",
+      "title": "HR Database System",
+      "level": "Intermediate",
+      "emoji": "3️⃣",
+      "description": "Build an HR database to store employee details, departments, and salaries.",
+      "concepts": [
+        "Subqueries (SELECT within SELECT)",
+        "UNION and EXCEPT",
+        "CHECK, NOT NULL constraints",
+        "Indexing basics"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=4_tjS3pTfs8",
+      "guide_urls": [
+        {
+          "label": "UNION Guide",
+          "url": "https://www.sqltutorial.org/sql-union/"
+        }
+      ]
+    },
+    {
+      "id": "proj7",
+      "title": "Data Warehouse Design for Retail",
+      "level": "Advanced",
+      "emoji": "1️⃣",
+      "description": "Design a data warehouse schema to support business intelligence for a retail company.",
+      "concepts": [
+        "Data modeling (star/snowflake schema)",
+        "Fact and dimension tables",
+        "ETL basics",
+        "PARTITION BY for large datasets"
+      ],
+      "tutorial_url": "https://www.youtube.com/watch?v=1Vbq0KzRSlA",
+      "guide_urls": [
+        {
+          "label": "Star vs Snowflake",
+          "url": "https://www.sqlshack.com/star-schema-vs-snowflake-schema/"
+        }
+      ]
+    },
+    {
+      "id": "proj8",
+      "title": "Bank Transactions Analytics",
+      "level": "Advanced",
+      "emoji": "2️⃣",
+      "description": "Analyze customer transactions to detect patterns, fraud, and segment customers.",
+      "concepts": [
+        "Advanced window functions (LAG, LEAD, NTILE)",
+        "Recursive CTEs (WITH RECURSIVE)",
+        "Query optimization, indexing, partitioning",
+        "Triggers for real-time updates"
+      ],
+      "tutorial_url": "https://www.sqltutorial.org/sql-window-functions/",
+      "guide_urls": [
+        {
+          "label": "Recursive CTE Guide",
+          "url": "https://mode.com/sql-tutorial/sql-recursive-cte/"
+        }
+      ]
+    },
+    {
+      "id": "proj9",
+      "title": "Social Media Engagement Analysis",
+      "level": "Advanced",
+      "emoji": "3️⃣",
+      "description": "Analyze a social media dataset to find top posts, user engagement, and activity patterns.",
+      "concepts": [
+        "Stored procedures (CREATE PROCEDURE)",
+        "Triggers for automatic updates",
+        "Temporary tables and table-valued functions",
+        "Complex queries and performance tuning"
+      ],
+      "tutorial_url": "https://www.sqlservercentral.com/articles/table-valued-functions-in-sql-server",
+      "guide_urls": [
+        {
+          "label": "Triggers Guide",
+          "url": "https://www.sqltutorial.org/sql-trigger/"
+        }
+      ]
+    }
+  ]
+}
