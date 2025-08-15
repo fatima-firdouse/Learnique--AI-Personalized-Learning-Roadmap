@@ -13,7 +13,6 @@
 - 🎨 **Modern UI:** Built with glassmorphism and neon-inspired gradients for a sleek experience.
 - 📦 **Easy Deployment:** Designed to run on free platforms like Render, Railway, or Replit.
 
-## 🖼️ Screenshots
 
 
 ## 🛠️ Tech Stack
@@ -69,6 +68,7 @@ learique/
 - **Add/Modify Roadmaps:** Edit or add JSON files in `/data/roadmaps/`
 - **UI Tweaks:** Edit HTML/CSS in `/templates/` and `/static/`
 - **Database:** Uses SQLite by default; can be swapped for PostgreSQL or MySQL
+
 
 
 
